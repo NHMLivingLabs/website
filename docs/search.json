@@ -2,16 +2,23 @@
   {
     "objectID": "trees/63.html",
     "href": "trees/63.html",
-    "title": "Tree 63",
+    "title": "Tree 63 - European ash",
     "section": "",
-    "text": "Tree 63 - European ash in the Nature Discovery Garden\n\n\n\n\nCommon names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
+    "text": "Tree 63 - European ash in the Nature Discovery Garden (28/09/2025)"
   },
   {
     "objectID": "trees/63.html#species-information",
     "href": "trees/63.html#species-information",
-    "title": "Tree 63",
-    "section": "",
-    "text": "Common names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
+    "title": "Tree 63 - European ash",
+    "section": "Species Information",
+    "text": "Species Information\nCommon names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
+  },
+  {
+    "objectID": "trees/63.html#tree-data",
+    "href": "trees/63.html#tree-data",
+    "title": "Tree 63 - European ash",
+    "section": "Tree data",
+    "text": "Tree data\nPlanted: Wildlife Garden (1994?)\nDiameter at breast height (DBH): 45 cm"
   },
   {
     "objectID": "publications.html",
@@ -432,6 +439,20 @@
     "title": "Bird Transect",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "assets/tree-species-info/european-ash.html",
+    "href": "assets/tree-species-info/european-ash.html",
+    "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
+    "section": "",
+    "text": "Common names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
+  },
+  {
+    "objectID": "assets/tree-species-info/european-ash.html#species-information",
+    "href": "assets/tree-species-info/european-ash.html#species-information",
+    "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
+    "section": "",
+    "text": "Common names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
   },
   {
     "objectID": "case-studies/butterfly-transect.html",

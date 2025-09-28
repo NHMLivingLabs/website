@@ -1,4 +1,7 @@
-# Tree 63
+---
+title: "Tree 63 - European ash"
+toc: false
+---
 
 ![Tree 63 - European ash in the Nature Discovery Garden (28/09/2025)](/assets/images/trees/tree63.jpg)
 
