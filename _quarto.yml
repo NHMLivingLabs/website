@@ -16,7 +16,8 @@ website:
         menu:
           - href: publications.qmd
             text: Articles
-          - implementation-reports.qmd
+          - href: reports.qmd
+            text: Urban Research Station Reports
       - team.qmd
 
 format:
