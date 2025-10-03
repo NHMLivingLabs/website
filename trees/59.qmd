@@ -1,0 +1,16 @@
+---
+title: "Tree 59 - Hornbeam"
+toc: false
+---
+
+{{< include _tree-search.qmd >}}
+
+![Tree 59 - Hornbeam in the Nature Discovery Garden](/assets/images/trees/tree59.jpg)
+
+{{< include /assets/tree-species-info/hornbeam.md >}}
+
+## Tree data
+
+**Planted:** Wildlife Garden (1994?)
+
+**Diameter at breast height (1.2m):** 15.75cm (03/10/2025)

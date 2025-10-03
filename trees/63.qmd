@@ -3,6 +3,8 @@ title: "Tree 63 - European ash"
 toc: false
 ---
 
+{{< include _tree-search.qmd >}}
+
 ![Tree 63 - European ash in the Nature Discovery Garden (28/09/2025)](/assets/images/trees/tree63.jpg)
 
 {{< include /assets/tree-species-info/european-ash.md >}}
