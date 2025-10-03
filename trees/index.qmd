@@ -2,8 +2,6 @@
 title: "Tree Database"
 ---
 
-# Nature Discovery Garden Trees
-
 Enter a tree number to view detailed information about that specific tree in our collection.
 
 ::: {style="max-width: 400px; margin: 2rem 0;"}
@@ -18,4 +16,4 @@ View Tree
 
 ---
 
-*The tree database contains detailed information about individual trees in the Nature Discovery Garden, including species identification, planting history, and measurement data.*
+*The tree database contains detailed information about individual trees in the Nature Discovery Garden (south Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.*
