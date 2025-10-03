@@ -4,11 +4,17 @@ format:
   html:
     include-in-header: |
       <script>
-      function redirectToTree(event) {
-        event.preventDefault();
+      function redirectToTree() {
         const treeNumber = document.getElementById('treeNumber').value;
         if (treeNumber) {
           window.location.href = `/trees/${treeNumber}.html`;
+        }
+      }
+      
+      function handleEnterKey(event) {
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          redirectToTree();
         }
       }
       </script>
@@ -19,15 +25,13 @@ format:
 Enter a tree number to view detailed information about that specific tree in our collection.
 
 ::: {style="max-width: 400px; margin: 2rem 0;"}
-<form id="treeForm" onsubmit="redirectToTree(event)">
 <div style="margin-bottom: 1rem;">
 <label for="treeNumber" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Tree Number:</label>
-<input type="number" id="treeNumber" name="treeNumber" min="1" required style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem;">
+<input type="number" id="treeNumber" name="treeNumber" min="1" required onkeypress="handleEnterKey(event)" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem;">
 </div>
-<button type="submit" style="background-color: #007bff; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem;">
+<button type="button" onclick="redirectToTree()" style="background-color: #007bff; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem;">
 View Tree
 </button>
-</form>
 :::
 
 ---
