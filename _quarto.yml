@@ -8,7 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - case-studies.qmd
+      - text: Studies
+        menu:
+          - href: case-studies.qmd
+          - href: trees/index.qmd
       - text: Publications
         menu:
           - href: publications.qmd
