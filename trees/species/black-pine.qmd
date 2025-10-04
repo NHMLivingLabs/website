@@ -10,7 +10,3 @@ toc: true
 
 # Black Pine (*Pinus nigra*)
 
-
-[Back to Tree Database](../index.html)
-
-

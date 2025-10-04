@@ -472,12 +472,7 @@ for slug, data in species_map.items():
             tree_rows.append((ttitle, tlink, planted_val))
         if tree_rows:
             lines.extend(_format_tree_table(tree_rows))
-    lines.append('')
-    lines.append(f"[Back to Tree Database](../index.html)")
-    lines.append('')
-    for ttitle, tlink, _ in data['trees']:
-        lines.append(f"- [{ttitle}]({tlink})")
-    lines.append('')
+    # removed trailing Back link and per-tree bullet list (no longer needed)
     _write_page(page_file, lines)
     # keep previous message for backwards-compatibility
     print(f"Wrote species page: {page_file}")
