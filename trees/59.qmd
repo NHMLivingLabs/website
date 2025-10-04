@@ -7,7 +7,7 @@ toc: false
 
 ![Tree 59 - Hornbeam in the Nature Discovery Garden](/assets/images/trees/tree59.jpg)
 
-{{< include /assets/tree-species-info/hornbeam.md >}}
+{{< include /trees/_tree-species-info/_hornbeam.md >}}
 
 ## Tree data
 

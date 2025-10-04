@@ -78,11 +78,12 @@ for p in items:
 
     lines.append(f"- [{title}]({link})")
 
-    # try to detect species from an include to assets/tree-species-info/*.md
+    # try to detect species from an include to trees/_tree-species-info/_*.md (or the old assets path)
     species_slug = None
     try:
         text = p.read_text(encoding='utf-8')
-        m = re.search(r"tree-species-info/([\w\-]+)\.md", text)
+        # match either /assets/tree-species-info/name.md or /trees/_tree-species-info/_name.md
+        m = re.search(r"(?:tree-species-info/|_tree-species-info/_)(?:_?)([\w\-]+)\.md", text)
         if m:
             species_slug = m.group(1)
         else:
@@ -96,11 +97,12 @@ for p in items:
         species_slug = None
 
     if species_slug:
-        # read species display name from assets file if present
-        spec_file = ROOT / 'assets' / 'tree-species-info' / f"{species_slug}.md"
+        # read species display name from trees/_tree-species-info (underscore-prefixed files) if present
+        spec_file = ROOT / 'trees' / '_tree-species-info' / f"_{species_slug}.md"
         display = None
         scientific = None
         family = None
+        genus = None
         if spec_file.exists():
             try:
                 stext = spec_file.read_text(encoding='utf-8')
@@ -118,7 +120,6 @@ for p in items:
                     family = strip_markup(mfa.group(1).strip())
                 # try to parse Genus line (handles italic or linked text)
                 mgen = re.search(r"\*\*Genus:\*\*\s*(?:\*([^\*\n]+)\*|\[([^\]]+)\]\([^\)]+\)|([^\n]+))", stext)
-                genus = None
                 if mgen:
                     genus = strip_markup((mgen.group(1) or mgen.group(2) or mgen.group(3) or '').strip())
                 # Do NOT modify the include files in-place. We only parse their content.
