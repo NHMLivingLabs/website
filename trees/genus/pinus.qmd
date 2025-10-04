@@ -3,7 +3,6 @@ title: "Pinus"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Species in the genus *Pinus* (Pines)
 

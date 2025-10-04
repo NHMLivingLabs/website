@@ -3,7 +3,6 @@ title: "Tree families"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Tree families
 

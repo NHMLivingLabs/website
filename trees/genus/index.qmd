@@ -3,7 +3,6 @@ title: "Species index — A–Z (by common name)"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 [View A–Z by scientific name](/trees/genus/index2.html)
 

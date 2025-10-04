@@ -3,7 +3,6 @@ title: "Olea"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Species in the genus *Olea* (Olives)
 

@@ -216,7 +216,7 @@ def _page_header(title_text: str, subtitle: str = None, toc: bool = True, extra_
         lines.append('toc: true')
     lines.append('---')
     lines.append('')
-    lines.append("{{< include ../_tree-search.qmd >}}")
+    # include of _tree-search.qmd removed: search box will only be present on trees/index.html
     lines.append('')
     if extra_lines:
         for l in extra_lines:

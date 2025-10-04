@@ -3,7 +3,6 @@ title: "Pinaceae (Pine family)"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Species in Pinaceae (Pine family)
 

@@ -191,7 +191,7 @@ def write_tree_page(tree_id, cols, species_raw, photo_path, force=False):
     lines.append(f'title: "Tree {tree_id} - {display_name}"')
     lines.append('toc: false')
     lines.append('---\n')
-    lines.append('{{< include _tree-search.qmd >}}')
+    # _tree-search include intentionally omitted here; search UI is only on /trees/index.html
     lines.append('')
     # attempt to find a species info include from trees/_tree-species-info
     inc_rel = None

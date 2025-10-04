@@ -3,7 +3,6 @@ title: "Hornbeam (Carpinus betulus)"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 **Family:** [Betulaceae](/trees/family/betulaceae.html)
 **Genus:** [*Carpinus*](/trees/genus/carpinus.html)

@@ -3,7 +3,6 @@ title: "Ash (Fraxinus excelsior)"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 **Family:** [Oleaceae](/trees/family/oleaceae.html)
 **Genus:** [*Fraxinus*](/trees/genus/fraxinus.html)

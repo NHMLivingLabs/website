@@ -3,7 +3,6 @@ title: "Tree 63 - Ash"
 toc: false
 ---
 
-{{< include _tree-search.qmd >}}
 
 ![Tree 63 - Ash](/assets/images/trees/tree63.jpg)
 

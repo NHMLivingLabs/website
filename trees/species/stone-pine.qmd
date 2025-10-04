@@ -3,7 +3,6 @@ title: "Stone Pine (Pinus pinea)"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 **Family:** [Pinaceae](/trees/family/pinaceae.html)
 **Genus:** [*Pinus*](/trees/genus/pinus.html)

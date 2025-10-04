@@ -3,7 +3,6 @@ title: "Betulaceae (Birch family)"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Species in Betulaceae (Birch family)
 

@@ -3,7 +3,6 @@ title: "Carpinus"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Species in the genus *Carpinus* (Hornbeams)
 

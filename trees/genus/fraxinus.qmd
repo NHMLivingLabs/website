@@ -3,7 +3,6 @@ title: "Fraxinus"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Species in the genus *Fraxinus* (Ashes)
 

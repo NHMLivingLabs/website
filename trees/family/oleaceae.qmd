@@ -3,7 +3,6 @@ title: "Oleaceae (Olive family)"
 toc: true
 ---
 
-{{< include ../_tree-search.qmd >}}
 
 # Species in Oleaceae (Olive family)
 
