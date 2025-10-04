@@ -15,7 +15,11 @@ website:
       - text: Studies
         menu:
           - href: case-studies.qmd
-          - href: trees/index.qmd
+      - text: Trees
+        menu:
+            - href: trees/index.qmd
+            - href: trees/family/index.qmd
+            - href: trees/genus/index.qmd
       - text: Publications
         menu:
           - href: articles.qmd

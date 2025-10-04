@@ -1,5 +1,5 @@
 ---
-title: "Betulaceae (Birch family) — Tree families"
+title: "Betulaceae (Birch family)"
 toc: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Olive (Olea europaea) — Trees"
+title: "Olive (Olea europaea)"
 toc: true
 ---
 

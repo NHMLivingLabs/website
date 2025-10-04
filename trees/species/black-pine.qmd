@@ -1,5 +1,5 @@
 ---
-title: "Black Pine (Pinus nigra) — Trees"
+title: "Black Pine (Pinus nigra)"
 toc: true
 ---
 

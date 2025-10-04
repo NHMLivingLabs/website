@@ -1,5 +1,5 @@
 ---
-title: "Pinaceae (Pine family) — Tree families"
+title: "Pinaceae (Pine family)"
 toc: true
 ---
 

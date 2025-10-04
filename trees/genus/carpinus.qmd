@@ -1,5 +1,5 @@
 ---
-title: "Carpinus — Tree genera"
+title: "Carpinus"
 toc: true
 ---
 

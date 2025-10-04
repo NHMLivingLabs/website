@@ -1,5 +1,5 @@
 ---
-title: "Ash (Fraxinus excelsior) — Trees"
+title: "Ash (Fraxinus excelsior)"
 toc: true
 ---
 

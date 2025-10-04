@@ -1,5 +1,5 @@
 ---
-title: "Fraxinus — Tree genera"
+title: "Fraxinus"
 toc: true
 ---
 

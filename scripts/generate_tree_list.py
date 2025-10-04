@@ -149,6 +149,110 @@ def _render_species_summary_lines(species_summary):
     out.append('')
     return out
 
+
+def _dedupe_species_list(species_list):
+    """Return a de-duplicated list of (slug, name) sorted by name, preserving first occurrence."""
+    seen = set()
+    out = []
+    for species_slug, species_name in sorted(species_list or [], key=lambda x: x[1]):
+        if species_slug in seen:
+            continue
+        seen.add(species_slug)
+        out.append((species_slug, species_name))
+    return out
+
+
+def _get_family_common(name):
+    """Return the common name for a family display name, or None."""
+    if not name:
+        return None
+    fam_key = re.sub(r"[^0-9a-zA-Z-]+", "-", name.lower()).strip('-')
+    return family_common_map.get(fam_key) or family_common_map.get(name.lower())
+
+
+def _get_genus_common(name):
+    """Return the common name for a genus display name, or None."""
+    if not name:
+        return None
+    g_key = re.sub(r"[^0-9a-zA-Z-]+", "-", str(name).lower()).strip('-')
+    return genus_common_map.get(g_key) or genus_common_map.get(str(name).lower())
+
+
+def _write_page(path: Path, lines: list):
+    """Write a page given a Path and list of lines; ensure trailing newline and print a message."""
+    path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    print(f"Wrote {path}")
+
+
+def _aggregate_planted_counts_for_genus(deduped):
+    """Aggregate planted location counts across a list of (species_slug, name).
+
+    Returns a dict mapping location -> count.
+    """
+    planted_counts = {}
+    for species_slug, _ in (deduped or []):
+        for _ttitle, _tlink, base in species_map.get(species_slug, {}).get('trees', []):
+            pv = _get_planted_from_tree(base)
+            if pv:
+                planted_counts[pv] = planted_counts.get(pv, 0) + 1
+    return planted_counts
+
+
+def _page_header(title_text: str, subtitle: str = None, toc: bool = True, extra_lines=None):
+    """Return a list of lines for a standard page header (YAML front-matter + include).
+
+    - title_text: main title string (will be used in title field)
+    - subtitle: optional subtitle to include in the title field
+    - toc: whether to include toc: true
+    - extra_lines: iterable of extra lines to append after include
+    """
+    lines = []
+    lines.append('---')
+    if subtitle:
+        lines.append(f'title: "{title_text} ({subtitle})"')
+    else:
+        lines.append(f'title: "{title_text}"')
+    if toc:
+        lines.append('toc: true')
+    lines.append('---')
+    lines.append('')
+    lines.append("{{< include ../_tree-search.qmd >}}")
+    lines.append('')
+    if extra_lines:
+        for l in extra_lines:
+            lines.append(l)
+    return lines
+
+
+def _parse_species_include(spec_file: Path):
+    """Parse a species include file and return (display, scientific, family, genus).
+
+    This centralises the regexes used in two places in the script. Values may be None.
+    """
+    display = None
+    scientific = None
+    family = None
+    genus = None
+    try:
+        stext = spec_file.read_text(encoding='utf-8')
+        mname = re.search(r"\*\*Common names:\*\*\s*(.+)", stext)
+        if mname:
+            raw = strip_markup(mname.group(1).strip())
+            first = raw.split(',')[0].strip()
+            display = first.title() if first else raw.title()
+        msc = re.search(r"\*\*Scientific name:\*\*\s*\*?([^\*\n]+)\*?", stext)
+        if msc:
+            scientific = strip_markup(msc.group(1).strip())
+        mfa = re.search(r"\*\*Family:\*\*\s*(.+)", stext)
+        if mfa:
+            family = strip_markup(mfa.group(1).strip())
+        mgen = re.search(r"\*\*Genus:\*\*\s*(?:\*([^\*\n]+)\*|\[([^\]]+)\]\([^\)]+\)|([^\n]+))", stext)
+        if mgen:
+            genus = strip_markup((mgen.group(1) or mgen.group(2) or mgen.group(3) or '').strip())
+    except Exception:
+        pass
+    return display, scientific, family, genus
+
 for p in items:
     name = p.name
     ext = p.suffix.lower()
@@ -232,27 +336,7 @@ for p in items:
                 spec_file = found
 
         if spec_file.exists():
-            try:
-                stext = spec_file.read_text(encoding='utf-8')
-                mname = re.search(r"\*\*Common names:\*\*\s*(.+)", stext)
-                if mname:
-                    raw = strip_markup(mname.group(1).strip())
-                    # prefer the first common name (before commas) and title-case it
-                    first = raw.split(',')[0].strip()
-                    display = first.title() if first else raw.title()
-                msc = re.search(r"\*\*Scientific name:\*\*\s*\*?([^\*\n]+)\*?", stext)
-                if msc:
-                    scientific = strip_markup(msc.group(1).strip())
-                mfa = re.search(r"\*\*Family:\*\*\s*(.+)", stext)
-                if mfa:
-                    family = strip_markup(mfa.group(1).strip())
-                # try to parse Genus line (handles italic or linked text)
-                mgen = re.search(r"\*\*Genus:\*\*\s*(?:\*([^\*\n]+)\*|\[([^\]]+)\]\([^\)]+\)|([^\n]+))", stext)
-                if mgen:
-                    genus = strip_markup((mgen.group(1) or mgen.group(2) or mgen.group(3) or '').strip())
-                # Do NOT modify the include files in-place. We only parse their content.
-            except Exception:
-                display = None
+            display, scientific, family, genus = _parse_species_include(spec_file)
         if not display:
             display = strip_markup(species_slug.replace('-', ' ').title())
 
@@ -298,8 +382,7 @@ for p in items:
             except Exception:
                 pass
 
-OUT_FILE.write_text('\n'.join(lines) + '\n', encoding='utf-8')
-print(f"Wrote {OUT_FILE}")
+_write_page(OUT_FILE, lines)
 
 # Ensure species_map contains entries for any include files under trees/_tree-species-info
 inc_dir = ROOT / 'trees' / '_tree-species-info'
@@ -312,31 +395,7 @@ if inc_dir.exists():
         if slug in species_map:
             continue
         # parse file for metadata (common name, scientific, family, genus)
-        try:
-            stext = f.read_text(encoding='utf-8')
-            display = None
-            scientific = None
-            family = None
-            genus = None
-            mname = re.search(r"\*\*Common names:\*\*\s*(.+)", stext)
-            if mname:
-                raw = strip_markup(mname.group(1).strip())
-                first = raw.split(',')[0].strip()
-                display = first.title() if first else raw.title()
-            msc = re.search(r"\*\*Scientific name:\*\*\s*\*?([^\*\n]+)\*?", stext)
-            if msc:
-                scientific = strip_markup(msc.group(1).strip())
-            mfa = re.search(r"\*\*Family:\*\*\s*(.+)", stext)
-            if mfa:
-                family = strip_markup(mfa.group(1).strip())
-            mgen = re.search(r"\*\*Genus:\*\*\s*(?:\*([^\*\n]+)\*|\[([^\]]+)\]\([^\)]+\)|([^\n]+))", stext)
-            if mgen:
-                genus = strip_markup((mgen.group(1) or mgen.group(2) or mgen.group(3) or '').strip())
-        except Exception:
-            display = None
-            scientific = None
-            family = None
-            genus = None
+        display, scientific, family, genus = _parse_species_include(f)
         if not display:
             display = strip_markup(slug.replace('-', ' ').title())
         species_map.setdefault(slug, {"name": display, "scientific": scientific, "family": family, "genus": genus, "trees": []})
@@ -368,18 +427,11 @@ for slug, data in species_map.items():
     page_file = SPECIES_DIR / f"{slug}.qmd"
     title = data.get('name')
     scientific = data.get('scientific')
-    lines = []
-    lines.append('---')
-    if scientific:
-        # put plain text scientific name in the HTML title
-        lines.append(f'title: "{title} ({scientific}) — Trees"')
-    else:
-        lines.append(f'title: "{title} — Trees"')
-    lines.append('toc: true')
-    lines.append('---')
-    lines.append('')
-    lines.append("{{< include ../_tree-search.qmd >}}")
-    lines.append('')
+    # header: title (with optional scientific), toc and search include
+    # Do not append a literal ' — Trees' to the HTML title field (remove highlighted text)
+    header_title = title
+    header_sub = scientific
+    lines = _page_header(header_title, subtitle=header_sub, toc=True)
     # add family and genus links (computed from parsed metadata) so every species page has them
     fam_text = data.get('family')
     if fam_text:
@@ -406,16 +458,7 @@ for slug, data in species_map.items():
         # per-tree planted table: list each recorded tree and its Planted value
         tree_rows = []
         for ttitle, tlink, base in data.get('trees', []):
-            planted_val = ''
-            try:
-                tfile = ROOT / 'trees' / f"{base}.qmd"
-                if tfile.exists():
-                    ttxt = tfile.read_text(encoding='utf-8')
-                    mplt = re.search(r"\*\*Planted:\*\*\s*(.+)", ttxt)
-                    if mplt:
-                        planted_val = strip_markup(mplt.group(1).strip())
-            except Exception:
-                planted_val = ''
+            planted_val = _get_planted_from_tree(base) or ''
             tree_rows.append((ttitle, tlink, planted_val))
         if tree_rows:
             lines.extend(_format_tree_table(tree_rows))
@@ -425,16 +468,7 @@ for slug, data in species_map.items():
         # per-tree planted table for species without a scientific name
         tree_rows = []
         for ttitle, tlink, base in data.get('trees', []):
-            planted_val = ''
-            try:
-                tfile = ROOT / 'trees' / f"{base}.qmd"
-                if tfile.exists():
-                    ttxt = tfile.read_text(encoding='utf-8')
-                    mplt = re.search(r"\*\*Planted:\*\*\s*(.+)", ttxt)
-                    if mplt:
-                        planted_val = strip_markup(mplt.group(1).strip())
-            except Exception:
-                planted_val = ''
+            planted_val = _get_planted_from_tree(base) or ''
             tree_rows.append((ttitle, tlink, planted_val))
         if tree_rows:
             lines.extend(_format_tree_table(tree_rows))
@@ -444,7 +478,8 @@ for slug, data in species_map.items():
     for ttitle, tlink, _ in data['trees']:
         lines.append(f"- [{ttitle}]({tlink})")
     lines.append('')
-    page_file.write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    _write_page(page_file, lines)
+    # keep previous message for backwards-compatibility
     print(f"Wrote species page: {page_file}")
 
 # write per-family pages
@@ -456,57 +491,35 @@ for fam_slug, fdata in family_map.items():
     fpage = FAMILY_DIR / f"{fam_slug}.qmd"
     fname = strip_markup(fdata.get('name'))
     # append common name (from data/plant-family-names.json) in brackets when available
-    fam_key = re.sub(r"[^0-9a-zA-Z-]+", "-", fname.lower()).strip('-')
-    fam_common = family_common_map.get(fam_key) or family_common_map.get(fname.lower())
+    fam_common = _get_family_common(fname)
     if fam_common:
         fname_display = f"{fname} ({fam_common})"
     else:
         fname_display = fname
-    flines = []
-    flines.append('---')
-    flines.append(f'title: "{fname_display} — Tree families"')
-    flines.append('toc: true')
-    flines.append('---')
-    flines.append('')
-    flines.append("{{< include ../_tree-search.qmd >}}")
-    flines.append('')
+    flines = _page_header(f"{fname_display}")
     flines.append(f"# Species in {fname_display}")
     flines.append('')
     flines.append(f"[Back to Tree Database](../index.html)")
     flines.append('')
     # de-duplicate species list while preserving order
-    seen_sp = set()
-    deduped_sp = []
-    for species_slug, species_name in sorted(fdata.get('species', []), key=lambda x: x[1]):
-        if species_slug in seen_sp:
-            continue
-        seen_sp.add(species_slug)
-        deduped_sp.append((species_slug, species_name))
+    deduped_sp = _dedupe_species_list(fdata.get('species', []))
 
     # species summary: one row per species with tree count and unique planted locations
     species_summary = _compute_species_summary(deduped_sp)
     if species_summary:
         flines.extend(_render_species_summary_lines(species_summary))
     # (removed per-species bullet list; species are shown in the summary table above)
-    fpage.write_text('\n'.join(flines) + '\n', encoding='utf-8')
+    _write_page(fpage, flines)
     print(f"Wrote family page: {fpage}")
 
 # write the family folder index (trees/family/index.qmd) listing all families with species counts
-flines = []
-flines.append('---')
-flines.append('title: "Tree families — Index"')
-flines.append('toc: true')
-flines.append('---')
-flines.append('')
-flines.append("{{< include ../_tree-search.qmd >}}")
-flines.append('')
+flines = _page_header('Tree families')
 flines.append('# Tree families')
 flines.append('')
 if family_map:
     for fam_slug, fdata in sorted(family_map.items(), key=lambda x: x[1].get('name', '')):
         fname = strip_markup(fdata.get('name'))
-        fam_key = re.sub(r"[^0-9a-zA-Z-]+", "-", fname.lower()).strip('-')
-        fam_common = family_common_map.get(fam_key) or family_common_map.get(fname.lower())
+        fam_common = _get_family_common(fname)
         if fam_common:
             fname_display = f"{fname} ({fam_common})"
         else:
@@ -517,8 +530,7 @@ else:
     flines.append('No families found.')
 flines.append('')
 FAMILY_INDEX = FAMILY_DIR / 'index.qmd'
-FAMILY_INDEX.write_text('\n'.join(flines) + '\n', encoding='utf-8')
-print(f"Wrote family folder index: {FAMILY_INDEX}")
+_write_page(FAMILY_INDEX, flines)
 
 # write per-genus pages
 GENUS_DIR = TREES_DIR / 'genus'
@@ -528,17 +540,9 @@ if not GENUS_DIR.exists():
 for g_slug, gdata in genus_map.items():
     gpage = GENUS_DIR / f"{g_slug}.qmd"
     gname = gdata.get('name')
-    glines = []
-    glines.append('---')
-    glines.append(f'title: "{gname} — Tree genera"')
-    glines.append('toc: true')
-    glines.append('---')
-    glines.append('')
-    glines.append("{{< include ../_tree-search.qmd >}}")
-    glines.append('')
+    glines = _page_header(f"{gname}")
     # italicise genus name and append common name if available
-    g_slug_simple = re.sub(r"[^0-9a-zA-Z-]+", "-", str(gname).lower()).strip('-')
-    g_common = genus_common_map.get(g_slug_simple) or genus_common_map.get(str(gname).lower())
+    g_common = _get_genus_common(gname)
     if g_common:
         g_heading = f"# Species in the genus *{gname}* ({g_common})"
     else:
@@ -548,13 +552,7 @@ for g_slug, gdata in genus_map.items():
     glines.append(f"[Back to Tree Database](../index.html)")
     glines.append('')
     # de-duplicate species list while preserving order
-    seen = set()
-    deduped = []
-    for species_slug, species_name in sorted(gdata.get('species', []), key=lambda x: x[1]):
-        if species_slug in seen:
-            continue
-        seen.add(species_slug)
-        deduped.append((species_slug, species_name))
+    deduped = _dedupe_species_list(gdata.get('species', []))
     # species summary for this genus: one row per species with tree count and planted locations
     species_summary = _compute_species_summary(deduped)
     if species_summary:
@@ -570,12 +568,7 @@ for g_slug, gdata in genus_map.items():
         glines.append(f"- [{label}](/trees/species/{species_slug}.html) — {sp_count} tree{'s' if sp_count != 1 else ''}")
     glines.append('')
     # aggregate planted locations across all species in this genus (use deduped list)
-    planted_counts = {}
-    for species_slug, _ in deduped:
-        for _ttitle, _tlink, base in species_map.get(species_slug, {}).get('trees', []):
-            pv = _get_planted_from_tree(base)
-            if pv:
-                planted_counts[pv] = planted_counts.get(pv, 0) + 1
+    planted_counts = _aggregate_planted_counts_for_genus(deduped)
     if planted_counts:
         glines.append('## Planted locations')
         glines.append('')
@@ -584,7 +577,7 @@ for g_slug, gdata in genus_map.items():
         for loc, cnt in sorted(planted_counts.items(), key=lambda x: (-x[1], x[0])):
             glines.append(f'| {loc} | {cnt} |')
         glines.append('')
-    gpage.write_text('\n'.join(glines) + '\n', encoding='utf-8')
+    _write_page(gpage, glines)
     print(f"Wrote genus page: {gpage}")
 
 # write genus index: alphabetical list of species with genus and family links
@@ -613,14 +606,7 @@ for s_slug, name in all_species:
     first = (name[0].upper() if name and name[0].isalpha() else '#')
     alpha_groups.setdefault(first, []).append((s_slug, name))
 
-glines = []
-glines.append('---')
-glines.append('title: "Species index — A–Z (by common name)"')
-glines.append('toc: true')
-glines.append('---')
-glines.append('')
-glines.append("{{< include ../_tree-search.qmd >}}")
-glines.append('')
+glines = _page_header('Species index — A–Z (by common name)')
 glines.append('[View A–Z by scientific name](/trees/genus/index2.html)')
 glines.append('')
 glines.append('# Species index (A–Z)')
@@ -655,8 +641,7 @@ for letter, entries in alpha_groups.items():
             glines.append(f'- [{label}]({sp_link})')
     glines.append('')
 
-GENUS_INDEX.write_text('\n'.join(glines) + '\n', encoding='utf-8')
-print(f'Wrote genus index: {GENUS_INDEX}')
+_write_page(GENUS_INDEX, glines)
 
 # write alternative genus index sorted by scientific name (A–Z)
 GENUS_INDEX2 = GENUS_DIR / 'index2.qmd'
@@ -675,14 +660,7 @@ for s_slug, key, scientific, common in sc_list:
     first = (key[0].upper() if key and key[0].isalpha() else '#')
     sc_groups.setdefault(first, []).append((s_slug, scientific, common))
 
-slines = []
-slines.append('---')
-slines.append('title: "Species index — A–Z (by scientific name)"')
-slines.append('toc: true')
-slines.append('---')
-slines.append('')
-slines.append("{{< include ../_tree-search.qmd >}}")
-slines.append('')
+slines = _page_header('Species index — A–Z (by scientific name)')
 slines.append('[View A–Z by common name](/trees/genus/index.html)')
 slines.append('')
 slines.append('# Species index (A–Z by scientific name)')
@@ -721,5 +699,5 @@ for letter, entries in sc_groups.items():
             slines.append(f'- [{label}]({sp_link})')
     slines.append('')
 
-GENUS_INDEX2.write_text('\n'.join(slines) + '\n', encoding='utf-8')
+_write_page(GENUS_INDEX2, slines)
 print(f'Wrote genus index (scientific): {GENUS_INDEX2}')

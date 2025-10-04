@@ -1,5 +1,5 @@
 ---
-title: "Hornbeam (Carpinus betulus) — Trees"
+title: "Hornbeam (Carpinus betulus)"
 toc: true
 ---
 

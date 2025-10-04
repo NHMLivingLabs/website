@@ -1,5 +1,5 @@
 ---
-title: "Tree families — Index"
+title: "Tree families"
 toc: true
 ---
 
