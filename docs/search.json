@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "trees/species/hornbeam.html",
+    "href": "trees/species/hornbeam.html",
+    "title": "Hornbeam (Carpinus betulus) — Trees",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nHornbeam (Carpinus betulus)\nBack to Tree Database\n\nTree 59 - Hornbeam"
+  },
+  {
     "objectID": "trees/index.html",
     "href": "trees/index.html",
     "title": "Tree Database",
     "section": "",
     "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\n\nTree 59 - Hornbeam\nTree 63 - European ash"
+  },
+  {
+    "objectID": "trees/genus/carpinus.html",
+    "href": "trees/genus/carpinus.html",
+    "title": "Carpinus — Tree genera",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nSpecies in the genus Carpinus\nBack to Tree Database\n\nHornbeam"
+  },
+  {
+    "objectID": "trees/family/betulaceae.html",
+    "href": "trees/family/betulaceae.html",
+    "title": "Betulaceae — Tree families",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nSpecies in Betulaceae\nBack to Tree Database\n\nHornbeam"
   },
   {
     "objectID": "trees/59.html",
@@ -18,7 +39,7 @@
     "href": "trees/59.html#species-information",
     "title": "Tree 59 - Hornbeam",
     "section": "Species Information",
-    "text": "Species Information\nCommon names: hornbeam, European hornbeam, common hornbeam\nScientific name: Carpinus betulus\nFamily: Betulaceae\nOrigin: native"
+    "text": "Species Information\nScientific name: Carpinus betulus Genus: Carpinus Origin: native\nCommon names: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
     "objectID": "trees/59.html#tree-data",
@@ -361,28 +382,28 @@
     "href": "assets/tree-species-info/european-ash.html",
     "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
     "section": "",
-    "text": "Common names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
+    "text": "Common names: European ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
     "objectID": "assets/tree-species-info/european-ash.html#species-information",
     "href": "assets/tree-species-info/european-ash.html#species-information",
     "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
     "section": "",
-    "text": "Common names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
+    "text": "Common names: European ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
     "objectID": "assets/tree-species-info/hornbeam.html",
     "href": "assets/tree-species-info/hornbeam.html",
     "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
     "section": "",
-    "text": "Common names: hornbeam, European hornbeam, common hornbeam\nScientific name: Carpinus betulus\nFamily: Betulaceae\nOrigin: native"
+    "text": "Scientific name: Carpinus betulus Genus: Carpinus Origin: native\nCommon names: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
     "objectID": "assets/tree-species-info/hornbeam.html#species-information",
     "href": "assets/tree-species-info/hornbeam.html#species-information",
     "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
     "section": "",
-    "text": "Common names: hornbeam, European hornbeam, common hornbeam\nScientific name: Carpinus betulus\nFamily: Betulaceae\nOrigin: native"
+    "text": "Scientific name: Carpinus betulus Genus: Carpinus Origin: native\nCommon names: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
     "objectID": "case-studies/butterfly-transect.html",
@@ -781,7 +802,7 @@
     "href": "trees/63.html#species-information",
     "title": "Tree 63 - European ash",
     "section": "Species Information",
-    "text": "Species Information\nCommon names: European ash\nScientific name: Fraxinus excelsior\nFamily: Oleaceae\nOrigin: native"
+    "text": "Species Information\nCommon names: European ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
     "objectID": "trees/63.html#tree-data",
@@ -789,5 +810,26 @@
     "title": "Tree 63 - European ash",
     "section": "Tree data",
     "text": "Tree data\nPlanted: Wildlife Garden (1994?)\nDiameter at breast height (1.2m): 21.9 cm (28/09/2025)"
+  },
+  {
+    "objectID": "trees/family/oleaceae.html",
+    "href": "trees/family/oleaceae.html",
+    "title": "Oleaceae — Tree families",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nSpecies in Oleaceae\nBack to Tree Database\n\nEuropean Ash"
+  },
+  {
+    "objectID": "trees/genus/fraxinus.html",
+    "href": "trees/genus/fraxinus.html",
+    "title": "Fraxinus — Tree genera",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nSpecies in the genus Fraxinus\nBack to Tree Database\n\nEuropean Ash"
+  },
+  {
+    "objectID": "trees/species/european-ash.html",
+    "href": "trees/species/european-ash.html",
+    "title": "European Ash (Fraxinus excelsior) — Trees",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nEuropean Ash (Fraxinus excelsior)\nBack to Tree Database\n\nTree 63 - European ash"
   }
 ]

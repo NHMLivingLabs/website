@@ -1,0 +1,13 @@
+---
+title: "Fraxinus — Tree genera"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+# Species in the genus Fraxinus
+
+[Back to Tree Database](../index.html)
+
+- [European Ash](/trees/species/european-ash.html)
+

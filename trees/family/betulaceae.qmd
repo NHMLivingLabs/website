@@ -1,0 +1,13 @@
+---
+title: "Betulaceae — Tree families"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+# Species in Betulaceae
+
+[Back to Tree Database](../index.html)
+
+- [Hornbeam](/trees/species/hornbeam.html)
+

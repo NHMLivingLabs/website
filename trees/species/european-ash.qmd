@@ -1,0 +1,13 @@
+---
+title: "European Ash (Fraxinus excelsior) — Trees"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+# European Ash (*Fraxinus excelsior*)
+
+[Back to Tree Database](../index.html)
+
+- [Tree 63 - European ash](../63.html)
+

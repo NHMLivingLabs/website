@@ -1,0 +1,13 @@
+---
+title: "Hornbeam (Carpinus betulus) — Trees"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+# Hornbeam (*Carpinus betulus*)
+
+[Back to Tree Database](../index.html)
+
+- [Tree 59 - Hornbeam](../59.html)
+
