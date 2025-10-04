@@ -1,0 +1,12 @@
+---
+title: "Tree families — Index"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+# Tree families
+
+- [Betulaceae](/trees/family/betulaceae.html) — 1 species
+- [Oleaceae](/trees/family/oleaceae.html) — 1 species
+

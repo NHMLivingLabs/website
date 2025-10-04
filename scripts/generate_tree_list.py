@@ -233,6 +233,29 @@ for fam_slug, fdata in family_map.items():
     fpage.write_text('\n'.join(flines) + '\n', encoding='utf-8')
     print(f"Wrote family page: {fpage}")
 
+# write the family folder index (trees/family/index.qmd) listing all families with species counts
+flines = []
+flines.append('---')
+flines.append('title: "Tree families — Index"')
+flines.append('toc: true')
+flines.append('---')
+flines.append('')
+flines.append("{{< include ../_tree-search.qmd >}}")
+flines.append('')
+flines.append('# Tree families')
+flines.append('')
+if family_map:
+    for fam_slug, fdata in sorted(family_map.items(), key=lambda x: x[1].get('name', '')):
+        fname = strip_markup(fdata.get('name'))
+        count = len(fdata.get('species', []))
+        flines.append(f"- [{fname}](/trees/family/{fam_slug}.html) — {count} species")
+else:
+    flines.append('No families found.')
+flines.append('')
+FAMILY_INDEX = FAMILY_DIR / 'index.qmd'
+FAMILY_INDEX.write_text('\n'.join(flines) + '\n', encoding='utf-8')
+print(f"Wrote family folder index: {FAMILY_INDEX}")
+
 # write per-genus pages
 GENUS_DIR = TREES_DIR / 'genus'
 if not GENUS_DIR.exists():
