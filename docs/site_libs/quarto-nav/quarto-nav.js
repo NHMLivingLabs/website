@@ -1,4 +1,4 @@
-const headroomChanged = new CustomEvent("quarto-hrChanged", {
+﻿const headroomChanged = new CustomEvent("quarto-hrChanged", {
   detail: {},
   bubbles: true,
   cancelable: false,

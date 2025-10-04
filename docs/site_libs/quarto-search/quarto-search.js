@@ -1,4 +1,4 @@
-const kQueryArg = "q";
+﻿const kQueryArg = "q";
 const kResultsArg = "show-results";
 
 // If items don't provide a URL, then both the navigator and the onSelect
