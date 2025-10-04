@@ -16,4 +16,5 @@ View Tree
 
 ---
 
-*The tree database contains detailed information about individual trees in the Nature Discovery Garden (south Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.*
+*The tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.*
+
