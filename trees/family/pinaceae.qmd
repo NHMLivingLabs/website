@@ -7,11 +7,10 @@ toc: true
 
 # Species in Pinaceae (Pine family)
 
-[Back to Tree Database](../index.html)
-
 ## Species summary
 
 | Species | Trees | Planted locations |
 |---|---:|---|
 | [Black Pine](/trees/species/black-pine.html) | 0 | — |
+| [Stone Pine](/trees/species/stone-pine.html) | 0 | — |
 

@@ -7,7 +7,7 @@ toc: true
 
 # Tree families
 
-- [Betulaceae (Birch family)](/trees/family/betulaceae.html) — 3 species
-- [Oleaceae (Olive family)](/trees/family/oleaceae.html) — 3 species
-- [Pinaceae (Pine family)](/trees/family/pinaceae.html) — 1 species
+- [Betulaceae (Birch family)](/trees/family/betulaceae.html) — 1 species
+- [Oleaceae (Olive family)](/trees/family/oleaceae.html) — 2 species
+- [Pinaceae (Pine family)](/trees/family/pinaceae.html) — 2 species
 

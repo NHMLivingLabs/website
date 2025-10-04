@@ -7,19 +7,9 @@ toc: true
 
 # Species in the genus *Fraxinus* (Ashes)
 
-[Back to Tree Database](../index.html)
-
 ## Species summary
 
 | Species | Trees | Planted locations |
 |---|---:|---|
 | [Ash](/trees/species/ash.html) | 2 | SK: Nature Discovery Garden |
-
-- [*Fraxinus excelsior* Ash](/trees/species/ash.html) — 2 trees
-
-## Planted locations
-
-| Location | Trees |
-|---|---:|
-| SK: Nature Discovery Garden | 2 |
 

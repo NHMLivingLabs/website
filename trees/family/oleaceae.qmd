@@ -7,8 +7,6 @@ toc: true
 
 # Species in Oleaceae (Olive family)
 
-[Back to Tree Database](../index.html)
-
 ## Species summary
 
 | Species | Trees | Planted locations |

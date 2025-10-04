@@ -494,8 +494,6 @@ for fam_slug, fdata in family_map.items():
     flines = _page_header(f"{fname_display}")
     flines.append(f"# Species in {fname_display}")
     flines.append('')
-    flines.append(f"[Back to Tree Database](../index.html)")
-    flines.append('')
     # de-duplicate species list while preserving order
     deduped_sp = _dedupe_species_list(fdata.get('species', []))
 
@@ -519,7 +517,10 @@ if family_map:
             fname_display = f"{fname} ({fam_common})"
         else:
             fname_display = fname
-        count = len(fdata.get('species', []))
+        # count unique species (avoid counting per-tree duplicates)
+        species_entries = fdata.get('species', []) or []
+        unique_species = set(s for s, _ in species_entries)
+        count = len(unique_species)
         flines.append(f"- [{fname_display}](/trees/family/{fam_slug}.html) — {count} species")
 else:
     flines.append('No families found.')
@@ -544,34 +545,15 @@ for g_slug, gdata in genus_map.items():
         g_heading = f"# Species in the genus *{gname}*"
     glines.append(g_heading)
     glines.append('')
-    glines.append(f"[Back to Tree Database](../index.html)")
-    glines.append('')
     # de-duplicate species list while preserving order
     deduped = _dedupe_species_list(gdata.get('species', []))
     # species summary for this genus: one row per species with tree count and planted locations
     species_summary = _compute_species_summary(deduped)
     if species_summary:
         glines.extend(_render_species_summary_lines(species_summary))
-    for species_slug, species_name in deduped:
-        sp_count = len(species_map.get(species_slug, {}).get('trees', []))
-        # include scientific name (italic) before the common name when available
-        scientific = species_map.get(species_slug, {}).get('scientific')
-        if scientific:
-            label = f"*{scientific}* {species_name}"
-        else:
-            label = species_name
-        glines.append(f"- [{label}](/trees/species/{species_slug}.html) — {sp_count} tree{'s' if sp_count != 1 else ''}")
-    glines.append('')
+    # removed per-species bullet list (species are already shown in the Species summary table)
     # aggregate planted locations across all species in this genus (use deduped list)
-    planted_counts = _aggregate_planted_counts_for_genus(deduped)
-    if planted_counts:
-        glines.append('## Planted locations')
-        glines.append('')
-        glines.append('| Location | Trees |')
-        glines.append('|---|---:|')
-        for loc, cnt in sorted(planted_counts.items(), key=lambda x: (-x[1], x[0])):
-            glines.append(f'| {loc} | {cnt} |')
-        glines.append('')
+    # (removed per-genus 'Planted locations' section)
     _write_page(gpage, glines)
     print(f"Wrote genus page: {gpage}")
 

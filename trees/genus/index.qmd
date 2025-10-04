@@ -25,3 +25,7 @@ toc: true
 
 - [Olive (*Olea europaea*)](/trees/species/olive.html) — Genus: [Olea](/trees/genus/olea.html) — Family: [Oleaceae](/trees/family/oleaceae.html)
 
+## S
+
+- [Stone Pine (*Pinus pinea*)](/trees/species/stone-pine.html) — Genus: [Pinus](/trees/genus/pinus.html) — Family: [Pinaceae](/trees/family/pinaceae.html)
+

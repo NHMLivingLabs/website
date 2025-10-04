@@ -1,547 +1,498 @@
 [
   {
-    "objectID": "trees/species/olive.html",
-    "href": "trees/species/olive.html",
-    "title": "Olive (Olea europaea)",
+    "objectID": "trees/species/stone-pine.html",
+    "href": "trees/species/stone-pine.html",
+    "title": "Stone Pine (Pinus pinea)",
     "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Oleaceae Genus: Olea\n\nOlive (Olea europaea)\nBack to Tree Database"
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Pinaceae Genus: Pinus\n\nStone Pine (Pinus pinea)"
   },
   {
-    "objectID": "trees/species/black-pine.html",
-    "href": "trees/species/black-pine.html",
-    "title": "Black Pine (Pinus nigra)",
+    "objectID": "trees/species/hornbeam.html",
+    "href": "trees/species/hornbeam.html",
+    "title": "Hornbeam (Carpinus betulus)",
     "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Pinaceae Genus: Pinus\n\nBlack Pine (Pinus nigra)\nBack to Tree Database"
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Betulaceae Genus: Carpinus\n\nHornbeam (Carpinus betulus)\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/index.html",
-    "href": "trees/index.html",
-    "title": "Tree Database",
+    "objectID": "trees/species/ash.html",
+    "href": "trees/species/ash.html",
+    "title": "Ash (Fraxinus excelsior)",
     "section": "",
-    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\n\nTree 59 - Hornbeam\nTree 60 - Hornbeam\nTree 61 - Hornbeam\nTree 62 - Ash\nTree 63 - Ash"
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Oleaceae Genus: Fraxinus\n\nAsh (Fraxinus excelsior)\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/genus/olea.html",
-    "href": "trees/genus/olea.html",
-    "title": "Olea",
+    "objectID": "trees/genus/pinus.html",
+    "href": "trees/genus/pinus.html",
+    "title": "Pinus",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/genus/olea.html#species-summary",
-    "href": "trees/genus/olea.html#species-summary",
-    "title": "Olea",
+    "objectID": "trees/genus/pinus.html#species-summary",
+    "href": "trees/genus/pinus.html#species-summary",
+    "title": "Pinus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—\n\n\n\n\nOlea europaea Olive — 0 trees"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
   },
   {
-    "objectID": "trees/genus/index.html",
-    "href": "trees/genus/index.html",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html",
+    "href": "trees/genus/index2.html",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\nView A–Z by scientific name"
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\nView A–Z by common name"
   },
   {
-    "objectID": "trees/genus/index.html#a",
-    "href": "trees/genus/index.html#a",
-    "title": "Species index — A–Z (by common name)",
-    "section": "A",
-    "text": "A\n\nAsh (Fraxinus excelsior) — Genus: Fraxinus — Family: Oleaceae"
+    "objectID": "trees/genus/index2.html#c",
+    "href": "trees/genus/index2.html#c",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "C",
+    "text": "C\n\nCarpinus betulus Hornbeam — Genus: Carpinus — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index.html#b",
-    "href": "trees/genus/index.html#b",
-    "title": "Species index — A–Z (by common name)",
-    "section": "B",
-    "text": "B\n\nBlack Pine (Pinus nigra) — Genus: Pinus — Family: Pinaceae"
+    "objectID": "trees/genus/index2.html#f",
+    "href": "trees/genus/index2.html#f",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "F",
+    "text": "F\n\nFraxinus excelsior Ash — Genus: Fraxinus — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/index.html#h",
-    "href": "trees/genus/index.html#h",
-    "title": "Species index — A–Z (by common name)",
-    "section": "H",
-    "text": "H\n\nHornbeam (Carpinus betulus) — Genus: Carpinus — Family: Betulaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#o",
-    "href": "trees/genus/index.html#o",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#o",
+    "href": "trees/genus/index2.html#o",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "O",
-    "text": "O\n\nOlive (Olea europaea) — Genus: Olea — Family: Oleaceae"
+    "text": "O\n\nOlea europaea Olive — Genus: Olea — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/carpinus.html",
-    "href": "trees/genus/carpinus.html",
-    "title": "Carpinus",
+    "objectID": "trees/genus/index2.html#p",
+    "href": "trees/genus/index2.html#p",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "P",
+    "text": "P\n\nPinus nigra Black Pine — Genus: Pinus — Family: Pinaceae\nPinus pinea Stone Pine — Genus: Pinus — Family: Pinaceae"
+  },
+  {
+    "objectID": "trees/genus/fraxinus.html",
+    "href": "trees/genus/fraxinus.html",
+    "title": "Fraxinus",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/genus/carpinus.html#species-summary",
-    "href": "trees/genus/carpinus.html#species-summary",
-    "title": "Carpinus",
+    "objectID": "trees/genus/fraxinus.html#species-summary",
+    "href": "trees/genus/fraxinus.html#species-summary",
+    "title": "Fraxinus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden\n\n\n\n\nCarpinus betulus Hornbeam — 3 trees"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/genus/carpinus.html#planted-locations",
-    "href": "trees/genus/carpinus.html#planted-locations",
-    "title": "Carpinus",
-    "section": "Planted locations",
-    "text": "Planted locations\n\n\n\nLocation\nTrees\n\n\n\n\nSK: Nature Discovery Garden\n3"
-  },
-  {
-    "objectID": "trees/family/oleaceae.html",
-    "href": "trees/family/oleaceae.html",
-    "title": "Oleaceae (Olive family)",
+    "objectID": "trees/family/pinaceae.html",
+    "href": "trees/family/pinaceae.html",
+    "title": "Pinaceae (Pine family)",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/family/oleaceae.html#species-summary",
-    "href": "trees/family/oleaceae.html#species-summary",
-    "title": "Oleaceae (Olive family)",
+    "objectID": "trees/family/pinaceae.html#species-summary",
+    "href": "trees/family/pinaceae.html#species-summary",
+    "title": "Pinaceae (Pine family)",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden\n\n\nOlive\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
   },
   {
-    "objectID": "trees/family/betulaceae.html",
-    "href": "trees/family/betulaceae.html",
-    "title": "Betulaceae (Birch family)",
+    "objectID": "trees/family/index.html",
+    "href": "trees/family/index.html",
+    "title": "Tree families",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nTree families\n\nBetulaceae (Birch family) — 1 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species"
+  },
+  {
+    "objectID": "trees/63.html",
+    "href": "trees/63.html",
+    "title": "Tree 63 - Ash",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/family/betulaceae.html#species-summary",
-    "href": "trees/family/betulaceae.html#species-summary",
-    "title": "Betulaceae (Birch family)",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
-  },
-  {
-    "objectID": "trees/62.html",
-    "href": "trees/62.html",
-    "title": "Tree 62 - Ash",
-    "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
-  },
-  {
-    "objectID": "trees/62.html#species-information",
-    "href": "trees/62.html#species-information",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html#species-information",
+    "href": "trees/63.html#species-information",
+    "title": "Tree 63 - Ash",
     "section": "Species Information",
     "text": "Species Information\nCommon name European ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/62.html#tree-data",
-    "href": "trees/62.html#tree-data",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html#tree-data",
+    "href": "trees/63.html#tree-data",
+    "title": "Tree 63 - Ash",
     "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 21.9cm (28/09/2025)"
   },
   {
-    "objectID": "trees/60.html",
-    "href": "trees/60.html",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/61.html",
+    "href": "trees/61.html",
+    "title": "Tree 61 - Hornbeam",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/60.html#species-information",
-    "href": "trees/60.html#species-information",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/61.html#species-information",
+    "href": "trees/61.html#species-information",
+    "title": "Tree 61 - Hornbeam",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/60.html#tree-data",
-    "href": "trees/60.html#tree-data",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/61.html#tree-data",
+    "href": "trees/61.html#tree-data",
+    "title": "Tree 61 - Hornbeam",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Team",
+    "objectID": "trees/59.html",
+    "href": "trees/59.html",
+    "title": "Tree 59 - Hornbeam",
     "section": "",
-    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "team.html#urban-research-station",
-    "href": "team.html#urban-research-station",
-    "title": "Team",
+    "objectID": "trees/59.html#species-information",
+    "href": "trees/59.html#species-information",
+    "title": "Tree 59 - Hornbeam",
+    "section": "Species Information",
+    "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
+  },
+  {
+    "objectID": "trees/59.html#tree-data",
+    "href": "trees/59.html#tree-data",
+    "title": "Tree 59 - Hornbeam",
+    "section": "Tree data",
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 15.75cm (03/10/2025)"
+  },
+  {
+    "objectID": "reports.html",
+    "href": "reports.html",
+    "title": "Urban Research Station Reports",
     "section": "",
-    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
+    "text": "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes."
   },
   {
-    "objectID": "team.html#gardens-team",
-    "href": "team.html#gardens-team",
-    "title": "Team",
-    "section": "Gardens Team",
-    "text": "Gardens Team"
+    "objectID": "reports.html#section",
+    "href": "reports.html#section",
+    "title": "Urban Research Station Reports",
+    "section": "2025",
+    "text": "2025\nNo reports yet for 2025"
   },
   {
-    "objectID": "team.html#nhm-staff",
-    "href": "team.html#nhm-staff",
-    "title": "Team",
-    "section": "NHM Staff",
-    "text": "NHM Staff"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
     "section": "",
-    "text": "Catalysts for change: Museum gardens in a planetary emergency Baker E, Kenrick P, Knapp S, McCarter T, Tweddle J Plants, People, Planet"
+    "text": "By 20250, nearly 70% of people will live in cities\nWe study how we can make cities better places for people and for nature.\nOur vision is of a future where both people and planet thrive.\n\n\n30 years of research\nIn 2025 we will have been studying the Museum’s gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one one of the most intensively studied urban sites worldwide.\n\n\n\n\n\n\n\n\nA living laboratory\nOur gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiveristy and create resilient ecosystems.\nOur gardens and research infrastructres are open to Museum staff and external collaborators for research and teaching.\n\n\nTraining the next generation\nSome text.\n\n\n\n\n\n\n\n\nIntegrating diverse datasets\nData ecosystem\n\n\nLeading change\nSKENZEN\nSomething on policy."
   },
   {
-    "objectID": "publications.html#section",
-    "href": "publications.html#section",
-    "title": "Publications",
+    "objectID": "case-studies/sensor-network.html",
+    "href": "case-studies/sensor-network.html",
+    "title": "Sensor Network",
     "section": "",
-    "text": "Catalysts for change: Museum gardens in a planetary emergency Baker E, Kenrick P, Knapp S, McCarter T, Tweddle J Plants, People, Planet"
+    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
   },
   {
-    "objectID": "publications.html#section-1",
-    "href": "publications.html#section-1",
-    "title": "Publications",
-    "section": "2022",
-    "text": "2022\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2021-2022 – Twenty-seven years of species recording McCarter T, Lees D, Ware C, Ellis L, Thomas S, Barclay MVL, Geiser MF, Matsumoto K The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-2",
-    "href": "publications.html#section-2",
-    "title": "Publications",
-    "section": "2021",
-    "text": "2021\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2020-2021 – Twenty-six years of species recording McCarter T, Myers S, Ware C, Ellis L, Barclay MVL, Thomas S, Sivell D, Broad G The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-3",
-    "href": "publications.html#section-3",
-    "title": "Publications",
-    "section": "2020",
-    "text": "2020\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2019-2020 – Twenty-five years of species recording Sivell D, McCarter T, Myers S, Thomas S, Thomas TJ The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-4",
-    "href": "publications.html#section-4",
-    "title": "Publications",
-    "section": "2019",
-    "text": "2019\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2018-2019 – Twenty-four years of species recording Sivell D, Beale J, Reilly N, Lowe M, Barclay MVL, Ellis L, Geiser M, Lees D, Notton DG, Potts K, Ware C The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-5",
-    "href": "publications.html#section-5",
-    "title": "Publications",
-    "section": "2018",
-    "text": "2018\nThe spider wasp, Agenioideus apicalis (Hymenoptera: Pompilidae) new to Britain, and a second British record of Agenioideus sericeus Notton DG British Journal of Entomology & Natural History\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2017-2018 – Twenty three years of species recording Ware C, Lowe M, Sivell D, Barclay MVL, Beale J, Ellis L, Feneru F, Honey M, Lees D, Notton D, Reilly N, Sterling MJ, Thomas TJ The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-6",
-    "href": "publications.html#section-6",
-    "title": "Publications",
-    "section": "2017",
-    "text": "2017\nEstimating the potential biodiversity impact of redeveloping small urban spaces: the Natural History Museum’s grounds Phillips HRP, Knapp S, Purvis A PeerJ\nNatural History Museum Wildlife Garden Anabat monitoring 2017 Summary of results Philip Briggs REPORT\nFurther developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Part 2 – Twenty one years of species recording Ware C, Lowe M, Sivell D, Cooper L, Greaves P, Root T, Shaw P, Shubert E, Spooner B, Strekopytov S The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-7",
-    "href": "publications.html#section-7",
-    "title": "Publications",
-    "section": "2016",
-    "text": "2016\nWildlife Reports: Spiders Neilson, A British Wildlife\nFurther developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Twenty years of species recording Ware C, Lowe M, Sivell D, Baker A, Bantock T, Barclay M, Carr G, Cooper L, Ellis L, Hall MJR, Hollowday E, Honey M, John DM, Martin J, Notton D, Osborne D, Rundle A, Sherlock E, Tabor B, Thomas TJ, Thüs H, Tovey J, Wolseley P The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-8",
-    "href": "publications.html#section-8",
-    "title": "Publications",
-    "section": "2015",
-    "text": "2015\nCelebrating 20 years of the Wildlife Garden Brooks SJ Evolve"
-  },
-  {
-    "objectID": "publications.html#section-9",
-    "href": "publications.html#section-9",
-    "title": "Publications",
-    "section": "2010",
-    "text": "2010\nUse of Calluna vulgaris to detect signals of nitrogen deposition across an urban-rural gradient Power SA, Collins CM Atmospheric Environment"
-  },
-  {
-    "objectID": "publications.html#section-10",
-    "href": "publications.html#section-10",
-    "title": "Publications",
-    "section": "2003",
-    "text": "2003\nThe development of the flora, fauna and environment of the Wildlife Garden at the Natural History Museum, London Leigh C, Ware C The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-11",
-    "href": "publications.html#section-11",
-    "title": "Publications",
-    "section": "1999",
-    "text": "1999\nA survey of vascular plants in the Wildlife Garden of the Natural History Museum Ware C The London Naturalist"
-  },
-  {
-    "objectID": "publications.html#section-12",
-    "href": "publications.html#section-12",
-    "title": "Publications",
-    "section": "1998",
-    "text": "1998\nThe flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London Honey MR, Leigh C, Brooks SJ The London Naturalist"
-  },
-  {
-    "objectID": "case-studies.html",
-    "href": "case-studies.html",
-    "title": "Case Studies",
+    "objectID": "case-studies/sensor-network.html#overview",
+    "href": "case-studies/sensor-network.html#overview",
+    "title": "Sensor Network",
     "section": "",
-    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
+    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
   },
   {
-    "objectID": "case-studies.html#nhm-projects",
-    "href": "case-studies.html#nhm-projects",
-    "title": "Case Studies",
-    "section": "",
-    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
-  },
-  {
-    "objectID": "case-studies.html#external-collaborators",
-    "href": "case-studies.html#external-collaborators",
-    "title": "Case Studies",
-    "section": "External Collaborators",
-    "text": "External Collaborators\n\n\n\n\n\n\n\n\nMAARU\nAutonomous spatial audio recorders for monitoring soundscapes and wildlife acoustic activity.\n\n\n\n\n\n\n\n\n\nMore than Human Community Toolkit\nDeveloping tools and methods for engaging communities in more-than-human research. Collaboration with Goldsmiths.\n\n\n\n\n\n\n\n\n\nCreativity in Design\nCity St George"
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html",
-    "href": "case-studies/moth-trapping.html",
-    "title": "Moth Trapping",
-    "section": "",
-    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html#overview",
-    "href": "case-studies/moth-trapping.html#overview",
-    "title": "Moth Trapping",
-    "section": "",
-    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html#objectives",
-    "href": "case-studies/moth-trapping.html#objectives",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#objectives",
+    "href": "case-studies/sensor-network.html#objectives",
+    "title": "Sensor Network",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor moth species diversity and abundance\nTrack seasonal and annual population changes\nIdentify rare or notable species\nContribute to citizen science and public engagement"
+    "text": "Objectives\n\nMonitor environmental conditions continuously\nCollect data on temperature, humidity, air quality, and other parameters\nProvide data for research and public engagement\nSupport evidence-based garden management decisions"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#methods",
-    "href": "case-studies/moth-trapping.html#methods",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#methods",
+    "href": "case-studies/sensor-network.html#methods",
+    "title": "Sensor Network",
     "section": "Methods",
-    "text": "Methods\n[Description of trap types, survey protocols, identification methods]"
+    "text": "Methods\n[Description of sensor types, deployment locations, data collection protocols]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#results",
-    "href": "case-studies/moth-trapping.html#results",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#results",
+    "href": "case-studies/sensor-network.html#results",
+    "title": "Sensor Network",
     "section": "Results",
-    "text": "Results\n[Current findings on moth species recorded]"
+    "text": "Results\n[Current findings and data visualizations]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#future-work",
-    "href": "case-studies/moth-trapping.html#future-work",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#future-work",
+    "href": "case-studies/sensor-network.html#future-work",
+    "title": "Sensor Network",
     "section": "Future Work",
-    "text": "Future Work\n[Planned survey expansions and analysis]"
+    "text": "Future Work\n[Planned expansions and improvements to the sensor network]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#team",
-    "href": "case-studies/moth-trapping.html#team",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#team",
+    "href": "case-studies/sensor-network.html#team",
+    "title": "Sensor Network",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#publications",
-    "href": "case-studies/moth-trapping.html#publications",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#publications",
+    "href": "case-studies/sensor-network.html#publications",
+    "title": "Sensor Network",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/maaru.html",
-    "href": "case-studies/maaru.html",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html",
+    "href": "case-studies/more-than-human-toolkit.html",
+    "title": "More than Human Community Toolkit",
     "section": "",
-    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
   },
   {
-    "objectID": "case-studies/maaru.html#overview",
-    "href": "case-studies/maaru.html#overview",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#overview",
+    "href": "case-studies/more-than-human-toolkit.html#overview",
+    "title": "More than Human Community Toolkit",
     "section": "",
-    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
   },
   {
-    "objectID": "case-studies/maaru.html#objectives",
-    "href": "case-studies/maaru.html#objectives",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#objectives",
+    "href": "case-studies/more-than-human-toolkit.html#objectives",
+    "title": "More than Human Community Toolkit",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor acoustic environments and soundscapes\nDetect and identify wildlife through acoustic signatures\nStudy the impact of urban noise on garden ecosystems\nDevelop automated species identification algorithms"
+    "text": "Objectives\n\nDevelop participatory research methods\nCreate tools for community engagement with nature\nFoster interdisciplinary collaboration between arts, science, and communities\nExplore new ways of understanding human-nature relationships"
   },
   {
-    "objectID": "case-studies/maaru.html#technology",
-    "href": "case-studies/maaru.html#technology",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Technology",
-    "text": "Technology\n[Description of the MAARU recording devices, deployment methods, data processing]"
+    "objectID": "case-studies/more-than-human-toolkit.html#approach",
+    "href": "case-studies/more-than-human-toolkit.html#approach",
+    "title": "More than Human Community Toolkit",
+    "section": "Approach",
+    "text": "Approach\n[Description of toolkit development, community engagement methods]"
   },
   {
-    "objectID": "case-studies/maaru.html#methods",
-    "href": "case-studies/maaru.html#methods",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#methods",
+    "href": "case-studies/more-than-human-toolkit.html#methods",
+    "title": "More than Human Community Toolkit",
     "section": "Methods",
-    "text": "Methods\n[Description of recording protocols, data analysis workflows]"
+    "text": "Methods\n[Description of research methodologies, workshop formats, evaluation methods]"
   },
   {
-    "objectID": "case-studies/maaru.html#results",
-    "href": "case-studies/maaru.html#results",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#results",
+    "href": "case-studies/more-than-human-toolkit.html#results",
+    "title": "More than Human Community Toolkit",
     "section": "Results",
-    "text": "Results\n[Current findings from acoustic monitoring]"
+    "text": "Results\n[Current outcomes and community feedback]"
   },
   {
-    "objectID": "case-studies/maaru.html#collaboration",
-    "href": "case-studies/maaru.html#collaboration",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#collaboration",
+    "href": "case-studies/more-than-human-toolkit.html#collaboration",
+    "title": "More than Human Community Toolkit",
     "section": "Collaboration",
-    "text": "Collaboration\n[Details about partners and collaboration structure]"
+    "text": "Collaboration\nGoldsmiths, University of London"
   },
   {
-    "objectID": "case-studies/maaru.html#future-work",
-    "href": "case-studies/maaru.html#future-work",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#future-work",
+    "href": "case-studies/more-than-human-toolkit.html#future-work",
+    "title": "More than Human Community Toolkit",
     "section": "Future Work",
-    "text": "Future Work\n[Planned developments and expansions]"
+    "text": "Future Work\n[Planned toolkit developments and community programs]"
   },
   {
-    "objectID": "case-studies/maaru.html#team",
-    "href": "case-studies/maaru.html#team",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#team",
+    "href": "case-studies/more-than-human-toolkit.html#team",
+    "title": "More than Human Community Toolkit",
     "section": "Team",
     "text": "Team\n[List of team members and collaborators]"
   },
   {
-    "objectID": "case-studies/maaru.html#publications",
-    "href": "case-studies/maaru.html#publications",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#publications",
+    "href": "case-studies/more-than-human-toolkit.html#publications",
+    "title": "More than Human Community Toolkit",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html",
-    "href": "case-studies/dragonfly-survey.html",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html",
+    "href": "case-studies/environmental-dna.html",
+    "title": "Environmental DNA",
     "section": "",
-    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#overview",
-    "href": "case-studies/dragonfly-survey.html#overview",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#overview",
+    "href": "case-studies/environmental-dna.html#overview",
+    "title": "Environmental DNA",
     "section": "",
-    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#objectives",
-    "href": "case-studies/dragonfly-survey.html#objectives",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#objectives",
+    "href": "case-studies/environmental-dna.html#objectives",
+    "title": "Environmental DNA",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor dragonfly and damselfly species diversity\nAssess pond ecosystem health\nDocument breeding activity and larval development\nTrack the success of pond habitat creation"
+    "text": "Objectives\n\nDetect species presence through DNA analysis of soil and water samples\nMonitor biodiversity changes over time\nIdentify cryptic species that may be missed by traditional survey methods\nComplement traditional ecological survey techniques"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#methods",
-    "href": "case-studies/dragonfly-survey.html#methods",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#methods",
+    "href": "case-studies/environmental-dna.html#methods",
+    "title": "Environmental DNA",
     "section": "Methods",
-    "text": "Methods\n[Description of survey protocols, identification methods, recording systems]"
+    "text": "Methods\n[Description of sampling protocols, DNA extraction methods, sequencing approaches]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#results",
-    "href": "case-studies/dragonfly-survey.html#results",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#results",
+    "href": "case-studies/environmental-dna.html#results",
+    "title": "Environmental DNA",
     "section": "Results",
-    "text": "Results\n[Current findings on dragonfly species recorded]"
+    "text": "Results\n[Current findings on species detected through eDNA]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#future-work",
-    "href": "case-studies/dragonfly-survey.html#future-work",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#future-work",
+    "href": "case-studies/environmental-dna.html#future-work",
+    "title": "Environmental DNA",
     "section": "Future Work",
-    "text": "Future Work\n[Planned habitat improvements and survey expansions]"
+    "text": "Future Work\n[Planned sampling campaigns and method improvements]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#team",
-    "href": "case-studies/dragonfly-survey.html#team",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#team",
+    "href": "case-studies/environmental-dna.html#team",
+    "title": "Environmental DNA",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#publications",
-    "href": "case-studies/dragonfly-survey.html#publications",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#publications",
+    "href": "case-studies/environmental-dna.html#publications",
+    "title": "Environmental DNA",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html",
-    "href": "case-studies/butterfly-transect.html",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html",
+    "href": "case-studies/creativity-in-design.html",
+    "title": "Creativity in Design",
     "section": "",
-    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#overview",
-    "href": "case-studies/butterfly-transect.html#overview",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#overview",
+    "href": "case-studies/creativity-in-design.html#overview",
+    "title": "Creativity in Design",
     "section": "",
-    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#objectives",
-    "href": "case-studies/butterfly-transect.html#objectives",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#objectives",
+    "href": "case-studies/creativity-in-design.html#objectives",
+    "title": "Creativity in Design",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor butterfly species diversity and abundance\nTrack population trends over time\nAssess the effectiveness of habitat management\nContribute to national butterfly monitoring efforts"
+    "text": "Objectives\n\nIntegrate design thinking with ecological research\nDevelop creative solutions for urban biodiversity challenges\nFoster interdisciplinary collaboration between design and ecology\nCreate innovative approaches to public engagement with nature"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#methods",
-    "href": "case-studies/butterfly-transect.html#methods",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#approach",
+    "href": "case-studies/creativity-in-design.html#approach",
+    "title": "Creativity in Design",
+    "section": "Approach",
+    "text": "Approach\n[Description of design methodologies, collaborative processes]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#methods",
+    "href": "case-studies/creativity-in-design.html#methods",
+    "title": "Creativity in Design",
     "section": "Methods",
-    "text": "Methods\n[Description of transect routes, survey protocols, weather requirements]"
+    "text": "Methods\n[Description of research and design methods, prototyping approaches]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#results",
-    "href": "case-studies/butterfly-transect.html#results",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#results",
+    "href": "case-studies/creativity-in-design.html#results",
+    "title": "Creativity in Design",
     "section": "Results",
-    "text": "Results\n[Current findings on butterfly species recorded]"
+    "text": "Results\n[Current design outcomes and innovations]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#future-work",
-    "href": "case-studies/butterfly-transect.html#future-work",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#collaboration",
+    "href": "case-studies/creativity-in-design.html#collaboration",
+    "title": "Creativity in Design",
+    "section": "Collaboration",
+    "text": "Collaboration\nCity St George"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#future-work",
+    "href": "case-studies/creativity-in-design.html#future-work",
+    "title": "Creativity in Design",
     "section": "Future Work",
-    "text": "Future Work\n[Planned survey expansions and habitat improvements]"
+    "text": "Future Work\n[Planned design developments and implementations]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#team",
-    "href": "case-studies/butterfly-transect.html#team",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#team",
+    "href": "case-studies/creativity-in-design.html#team",
+    "title": "Creativity in Design",
+    "section": "Team",
+    "text": "Team\n[List of team members and collaborators]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#publications",
+    "href": "case-studies/creativity-in-design.html#publications",
+    "title": "Creativity in Design",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html",
+    "href": "case-studies/bird-transect.html",
+    "title": "Bird Transect",
+    "section": "",
+    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#overview",
+    "href": "case-studies/bird-transect.html#overview",
+    "title": "Bird Transect",
+    "section": "",
+    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#objectives",
+    "href": "case-studies/bird-transect.html#objectives",
+    "title": "Bird Transect",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor bird species diversity and abundance\nTrack seasonal migration patterns\nDocument breeding activity\nAssess habitat use by different species"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#methods",
+    "href": "case-studies/bird-transect.html#methods",
+    "title": "Bird Transect",
+    "section": "Methods",
+    "text": "Methods\n[Description of transect routes, survey protocols, recording methods]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#results",
+    "href": "case-studies/bird-transect.html#results",
+    "title": "Bird Transect",
+    "section": "Results",
+    "text": "Results\n[Current findings on bird species recorded]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#future-work",
+    "href": "case-studies/bird-transect.html#future-work",
+    "title": "Bird Transect",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned survey expansions and analysis]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#team",
+    "href": "case-studies/bird-transect.html#team",
+    "title": "Bird Transect",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#publications",
-    "href": "case-studies/butterfly-transect.html#publications",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/bird-transect.html#publications",
+    "href": "case-studies/bird-transect.html#publications",
+    "title": "Bird Transect",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
@@ -644,500 +595,549 @@
     "text": "1998\nThe flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London Honey, M.R., Leigh, C, Brooks, S.J. The London Naturalist"
   },
   {
-    "objectID": "case-studies/bird-transect.html",
-    "href": "case-studies/bird-transect.html",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html",
+    "href": "case-studies/butterfly-transect.html",
+    "title": "Butterfly Transect",
     "section": "",
-    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
   },
   {
-    "objectID": "case-studies/bird-transect.html#overview",
-    "href": "case-studies/bird-transect.html#overview",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#overview",
+    "href": "case-studies/butterfly-transect.html#overview",
+    "title": "Butterfly Transect",
     "section": "",
-    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
   },
   {
-    "objectID": "case-studies/bird-transect.html#objectives",
-    "href": "case-studies/bird-transect.html#objectives",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#objectives",
+    "href": "case-studies/butterfly-transect.html#objectives",
+    "title": "Butterfly Transect",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor bird species diversity and abundance\nTrack seasonal migration patterns\nDocument breeding activity\nAssess habitat use by different species"
+    "text": "Objectives\n\nMonitor butterfly species diversity and abundance\nTrack population trends over time\nAssess the effectiveness of habitat management\nContribute to national butterfly monitoring efforts"
   },
   {
-    "objectID": "case-studies/bird-transect.html#methods",
-    "href": "case-studies/bird-transect.html#methods",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#methods",
+    "href": "case-studies/butterfly-transect.html#methods",
+    "title": "Butterfly Transect",
     "section": "Methods",
-    "text": "Methods\n[Description of transect routes, survey protocols, recording methods]"
+    "text": "Methods\n[Description of transect routes, survey protocols, weather requirements]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#results",
-    "href": "case-studies/bird-transect.html#results",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#results",
+    "href": "case-studies/butterfly-transect.html#results",
+    "title": "Butterfly Transect",
     "section": "Results",
-    "text": "Results\n[Current findings on bird species recorded]"
+    "text": "Results\n[Current findings on butterfly species recorded]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#future-work",
-    "href": "case-studies/bird-transect.html#future-work",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#future-work",
+    "href": "case-studies/butterfly-transect.html#future-work",
+    "title": "Butterfly Transect",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned survey expansions and habitat improvements]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#team",
+    "href": "case-studies/butterfly-transect.html#team",
+    "title": "Butterfly Transect",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#publications",
+    "href": "case-studies/butterfly-transect.html#publications",
+    "title": "Butterfly Transect",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html",
+    "href": "case-studies/dragonfly-survey.html",
+    "title": "Dragonfly Survey",
+    "section": "",
+    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#overview",
+    "href": "case-studies/dragonfly-survey.html#overview",
+    "title": "Dragonfly Survey",
+    "section": "",
+    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#objectives",
+    "href": "case-studies/dragonfly-survey.html#objectives",
+    "title": "Dragonfly Survey",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor dragonfly and damselfly species diversity\nAssess pond ecosystem health\nDocument breeding activity and larval development\nTrack the success of pond habitat creation"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#methods",
+    "href": "case-studies/dragonfly-survey.html#methods",
+    "title": "Dragonfly Survey",
+    "section": "Methods",
+    "text": "Methods\n[Description of survey protocols, identification methods, recording systems]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#results",
+    "href": "case-studies/dragonfly-survey.html#results",
+    "title": "Dragonfly Survey",
+    "section": "Results",
+    "text": "Results\n[Current findings on dragonfly species recorded]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#future-work",
+    "href": "case-studies/dragonfly-survey.html#future-work",
+    "title": "Dragonfly Survey",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned habitat improvements and survey expansions]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#team",
+    "href": "case-studies/dragonfly-survey.html#team",
+    "title": "Dragonfly Survey",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#publications",
+    "href": "case-studies/dragonfly-survey.html#publications",
+    "title": "Dragonfly Survey",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/maaru.html",
+    "href": "case-studies/maaru.html",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "",
+    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/maaru.html#overview",
+    "href": "case-studies/maaru.html#overview",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "",
+    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/maaru.html#objectives",
+    "href": "case-studies/maaru.html#objectives",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor acoustic environments and soundscapes\nDetect and identify wildlife through acoustic signatures\nStudy the impact of urban noise on garden ecosystems\nDevelop automated species identification algorithms"
+  },
+  {
+    "objectID": "case-studies/maaru.html#technology",
+    "href": "case-studies/maaru.html#technology",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Technology",
+    "text": "Technology\n[Description of the MAARU recording devices, deployment methods, data processing]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#methods",
+    "href": "case-studies/maaru.html#methods",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Methods",
+    "text": "Methods\n[Description of recording protocols, data analysis workflows]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#results",
+    "href": "case-studies/maaru.html#results",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Results",
+    "text": "Results\n[Current findings from acoustic monitoring]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#collaboration",
+    "href": "case-studies/maaru.html#collaboration",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Collaboration",
+    "text": "Collaboration\n[Details about partners and collaboration structure]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#future-work",
+    "href": "case-studies/maaru.html#future-work",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned developments and expansions]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#team",
+    "href": "case-studies/maaru.html#team",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Team",
+    "text": "Team\n[List of team members and collaborators]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#publications",
+    "href": "case-studies/maaru.html#publications",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html",
+    "href": "case-studies/moth-trapping.html",
+    "title": "Moth Trapping",
+    "section": "",
+    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#overview",
+    "href": "case-studies/moth-trapping.html#overview",
+    "title": "Moth Trapping",
+    "section": "",
+    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#objectives",
+    "href": "case-studies/moth-trapping.html#objectives",
+    "title": "Moth Trapping",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor moth species diversity and abundance\nTrack seasonal and annual population changes\nIdentify rare or notable species\nContribute to citizen science and public engagement"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#methods",
+    "href": "case-studies/moth-trapping.html#methods",
+    "title": "Moth Trapping",
+    "section": "Methods",
+    "text": "Methods\n[Description of trap types, survey protocols, identification methods]"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#results",
+    "href": "case-studies/moth-trapping.html#results",
+    "title": "Moth Trapping",
+    "section": "Results",
+    "text": "Results\n[Current findings on moth species recorded]"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#future-work",
+    "href": "case-studies/moth-trapping.html#future-work",
+    "title": "Moth Trapping",
     "section": "Future Work",
     "text": "Future Work\n[Planned survey expansions and analysis]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#team",
-    "href": "case-studies/bird-transect.html#team",
-    "title": "Bird Transect",
+    "objectID": "case-studies/moth-trapping.html#team",
+    "href": "case-studies/moth-trapping.html#team",
+    "title": "Moth Trapping",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#publications",
-    "href": "case-studies/bird-transect.html#publications",
-    "title": "Bird Transect",
+    "objectID": "case-studies/moth-trapping.html#publications",
+    "href": "case-studies/moth-trapping.html#publications",
+    "title": "Moth Trapping",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html",
-    "href": "case-studies/creativity-in-design.html",
-    "title": "Creativity in Design",
+    "objectID": "case-studies.html",
+    "href": "case-studies.html",
+    "title": "Case Studies",
     "section": "",
-    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
+    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html#overview",
-    "href": "case-studies/creativity-in-design.html#overview",
-    "title": "Creativity in Design",
+    "objectID": "case-studies.html#nhm-projects",
+    "href": "case-studies.html#nhm-projects",
+    "title": "Case Studies",
     "section": "",
-    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
+    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html#objectives",
-    "href": "case-studies/creativity-in-design.html#objectives",
-    "title": "Creativity in Design",
-    "section": "Objectives",
-    "text": "Objectives\n\nIntegrate design thinking with ecological research\nDevelop creative solutions for urban biodiversity challenges\nFoster interdisciplinary collaboration between design and ecology\nCreate innovative approaches to public engagement with nature"
+    "objectID": "case-studies.html#external-collaborators",
+    "href": "case-studies.html#external-collaborators",
+    "title": "Case Studies",
+    "section": "External Collaborators",
+    "text": "External Collaborators\n\n\n\n\n\n\n\n\nMAARU\nAutonomous spatial audio recorders for monitoring soundscapes and wildlife acoustic activity.\n\n\n\n\n\n\n\n\n\nMore than Human Community Toolkit\nDeveloping tools and methods for engaging communities in more-than-human research. Collaboration with Goldsmiths.\n\n\n\n\n\n\n\n\n\nCreativity in Design\nCity St George"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html#approach",
-    "href": "case-studies/creativity-in-design.html#approach",
-    "title": "Creativity in Design",
-    "section": "Approach",
-    "text": "Approach\n[Description of design methodologies, collaborative processes]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#methods",
-    "href": "case-studies/creativity-in-design.html#methods",
-    "title": "Creativity in Design",
-    "section": "Methods",
-    "text": "Methods\n[Description of research and design methods, prototyping approaches]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#results",
-    "href": "case-studies/creativity-in-design.html#results",
-    "title": "Creativity in Design",
-    "section": "Results",
-    "text": "Results\n[Current design outcomes and innovations]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#collaboration",
-    "href": "case-studies/creativity-in-design.html#collaboration",
-    "title": "Creativity in Design",
-    "section": "Collaboration",
-    "text": "Collaboration\nCity St George"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#future-work",
-    "href": "case-studies/creativity-in-design.html#future-work",
-    "title": "Creativity in Design",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned design developments and implementations]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#team",
-    "href": "case-studies/creativity-in-design.html#team",
-    "title": "Creativity in Design",
-    "section": "Team",
-    "text": "Team\n[List of team members and collaborators]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#publications",
-    "href": "case-studies/creativity-in-design.html#publications",
-    "title": "Creativity in Design",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html",
-    "href": "case-studies/environmental-dna.html",
-    "title": "Environmental DNA",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
+    "text": "Catalysts for change: Museum gardens in a planetary emergency Baker E, Kenrick P, Knapp S, McCarter T, Tweddle J Plants, People, Planet"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#overview",
-    "href": "case-studies/environmental-dna.html#overview",
-    "title": "Environmental DNA",
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
     "section": "",
-    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
+    "text": "Catalysts for change: Museum gardens in a planetary emergency Baker E, Kenrick P, Knapp S, McCarter T, Tweddle J Plants, People, Planet"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#objectives",
-    "href": "case-studies/environmental-dna.html#objectives",
-    "title": "Environmental DNA",
-    "section": "Objectives",
-    "text": "Objectives\n\nDetect species presence through DNA analysis of soil and water samples\nMonitor biodiversity changes over time\nIdentify cryptic species that may be missed by traditional survey methods\nComplement traditional ecological survey techniques"
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2021-2022 – Twenty-seven years of species recording McCarter T, Lees D, Ware C, Ellis L, Thomas S, Barclay MVL, Geiser MF, Matsumoto K The London Naturalist"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#methods",
-    "href": "case-studies/environmental-dna.html#methods",
-    "title": "Environmental DNA",
-    "section": "Methods",
-    "text": "Methods\n[Description of sampling protocols, DNA extraction methods, sequencing approaches]"
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2020-2021 – Twenty-six years of species recording McCarter T, Myers S, Ware C, Ellis L, Barclay MVL, Thomas S, Sivell D, Broad G The London Naturalist"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#results",
-    "href": "case-studies/environmental-dna.html#results",
-    "title": "Environmental DNA",
-    "section": "Results",
-    "text": "Results\n[Current findings on species detected through eDNA]"
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2019-2020 – Twenty-five years of species recording Sivell D, McCarter T, Myers S, Thomas S, Thomas TJ The London Naturalist"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#future-work",
-    "href": "case-studies/environmental-dna.html#future-work",
-    "title": "Environmental DNA",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned sampling campaigns and method improvements]"
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2019",
+    "text": "2019\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2018-2019 – Twenty-four years of species recording Sivell D, Beale J, Reilly N, Lowe M, Barclay MVL, Ellis L, Geiser M, Lees D, Notton DG, Potts K, Ware C The London Naturalist"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#team",
-    "href": "case-studies/environmental-dna.html#team",
-    "title": "Environmental DNA",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
+    "objectID": "publications.html#section-5",
+    "href": "publications.html#section-5",
+    "title": "Publications",
+    "section": "2018",
+    "text": "2018\nThe spider wasp, Agenioideus apicalis (Hymenoptera: Pompilidae) new to Britain, and a second British record of Agenioideus sericeus Notton DG British Journal of Entomology & Natural History\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2017-2018 – Twenty three years of species recording Ware C, Lowe M, Sivell D, Barclay MVL, Beale J, Ellis L, Feneru F, Honey M, Lees D, Notton D, Reilly N, Sterling MJ, Thomas TJ The London Naturalist"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#publications",
-    "href": "case-studies/environmental-dna.html#publications",
-    "title": "Environmental DNA",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
+    "objectID": "publications.html#section-6",
+    "href": "publications.html#section-6",
+    "title": "Publications",
+    "section": "2017",
+    "text": "2017\nEstimating the potential biodiversity impact of redeveloping small urban spaces: the Natural History Museum’s grounds Phillips HRP, Knapp S, Purvis A PeerJ\nNatural History Museum Wildlife Garden Anabat monitoring 2017 Summary of results Philip Briggs REPORT\nFurther developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Part 2 – Twenty one years of species recording Ware C, Lowe M, Sivell D, Cooper L, Greaves P, Root T, Shaw P, Shubert E, Spooner B, Strekopytov S The London Naturalist"
   },
   {
-    "objectID": "case-studies/more-than-human-toolkit.html",
-    "href": "case-studies/more-than-human-toolkit.html",
-    "title": "More than Human Community Toolkit",
+    "objectID": "publications.html#section-7",
+    "href": "publications.html#section-7",
+    "title": "Publications",
+    "section": "2016",
+    "text": "2016\nWildlife Reports: Spiders Neilson, A British Wildlife\nFurther developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Twenty years of species recording Ware C, Lowe M, Sivell D, Baker A, Bantock T, Barclay M, Carr G, Cooper L, Ellis L, Hall MJR, Hollowday E, Honey M, John DM, Martin J, Notton D, Osborne D, Rundle A, Sherlock E, Tabor B, Thomas TJ, Thüs H, Tovey J, Wolseley P The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-8",
+    "href": "publications.html#section-8",
+    "title": "Publications",
+    "section": "2015",
+    "text": "2015\nCelebrating 20 years of the Wildlife Garden Brooks SJ Evolve"
+  },
+  {
+    "objectID": "publications.html#section-9",
+    "href": "publications.html#section-9",
+    "title": "Publications",
+    "section": "2010",
+    "text": "2010\nUse of Calluna vulgaris to detect signals of nitrogen deposition across an urban-rural gradient Power SA, Collins CM Atmospheric Environment"
+  },
+  {
+    "objectID": "publications.html#section-10",
+    "href": "publications.html#section-10",
+    "title": "Publications",
+    "section": "2003",
+    "text": "2003\nThe development of the flora, fauna and environment of the Wildlife Garden at the Natural History Museum, London Leigh C, Ware C The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-11",
+    "href": "publications.html#section-11",
+    "title": "Publications",
+    "section": "1999",
+    "text": "1999\nA survey of vascular plants in the Wildlife Garden of the Natural History Museum Ware C The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-12",
+    "href": "publications.html#section-12",
+    "title": "Publications",
+    "section": "1998",
+    "text": "1998\nThe flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London Honey MR, Leigh C, Brooks SJ The London Naturalist"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
     "section": "",
-    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
+    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
   },
   {
-    "objectID": "case-studies/more-than-human-toolkit.html#overview",
-    "href": "case-studies/more-than-human-toolkit.html#overview",
-    "title": "More than Human Community Toolkit",
+    "objectID": "team.html#urban-research-station",
+    "href": "team.html#urban-research-station",
+    "title": "Team",
     "section": "",
-    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
+    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
   },
   {
-    "objectID": "case-studies/more-than-human-toolkit.html#objectives",
-    "href": "case-studies/more-than-human-toolkit.html#objectives",
-    "title": "More than Human Community Toolkit",
-    "section": "Objectives",
-    "text": "Objectives\n\nDevelop participatory research methods\nCreate tools for community engagement with nature\nFoster interdisciplinary collaboration between arts, science, and communities\nExplore new ways of understanding human-nature relationships"
+    "objectID": "team.html#gardens-team",
+    "href": "team.html#gardens-team",
+    "title": "Team",
+    "section": "Gardens Team",
+    "text": "Gardens Team"
   },
   {
-    "objectID": "case-studies/more-than-human-toolkit.html#approach",
-    "href": "case-studies/more-than-human-toolkit.html#approach",
-    "title": "More than Human Community Toolkit",
-    "section": "Approach",
-    "text": "Approach\n[Description of toolkit development, community engagement methods]"
+    "objectID": "team.html#nhm-staff",
+    "href": "team.html#nhm-staff",
+    "title": "Team",
+    "section": "NHM Staff",
+    "text": "NHM Staff"
   },
   {
-    "objectID": "case-studies/more-than-human-toolkit.html#methods",
-    "href": "case-studies/more-than-human-toolkit.html#methods",
-    "title": "More than Human Community Toolkit",
-    "section": "Methods",
-    "text": "Methods\n[Description of research methodologies, workshop formats, evaluation methods]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#results",
-    "href": "case-studies/more-than-human-toolkit.html#results",
-    "title": "More than Human Community Toolkit",
-    "section": "Results",
-    "text": "Results\n[Current outcomes and community feedback]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#collaboration",
-    "href": "case-studies/more-than-human-toolkit.html#collaboration",
-    "title": "More than Human Community Toolkit",
-    "section": "Collaboration",
-    "text": "Collaboration\nGoldsmiths, University of London"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#future-work",
-    "href": "case-studies/more-than-human-toolkit.html#future-work",
-    "title": "More than Human Community Toolkit",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned toolkit developments and community programs]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#team",
-    "href": "case-studies/more-than-human-toolkit.html#team",
-    "title": "More than Human Community Toolkit",
-    "section": "Team",
-    "text": "Team\n[List of team members and collaborators]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#publications",
-    "href": "case-studies/more-than-human-toolkit.html#publications",
-    "title": "More than Human Community Toolkit",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html",
-    "href": "case-studies/sensor-network.html",
-    "title": "Sensor Network",
-    "section": "",
-    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#overview",
-    "href": "case-studies/sensor-network.html#overview",
-    "title": "Sensor Network",
-    "section": "",
-    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#objectives",
-    "href": "case-studies/sensor-network.html#objectives",
-    "title": "Sensor Network",
-    "section": "Objectives",
-    "text": "Objectives\n\nMonitor environmental conditions continuously\nCollect data on temperature, humidity, air quality, and other parameters\nProvide data for research and public engagement\nSupport evidence-based garden management decisions"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#methods",
-    "href": "case-studies/sensor-network.html#methods",
-    "title": "Sensor Network",
-    "section": "Methods",
-    "text": "Methods\n[Description of sensor types, deployment locations, data collection protocols]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#results",
-    "href": "case-studies/sensor-network.html#results",
-    "title": "Sensor Network",
-    "section": "Results",
-    "text": "Results\n[Current findings and data visualizations]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#future-work",
-    "href": "case-studies/sensor-network.html#future-work",
-    "title": "Sensor Network",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned expansions and improvements to the sensor network]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#team",
-    "href": "case-studies/sensor-network.html#team",
-    "title": "Sensor Network",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#publications",
-    "href": "case-studies/sensor-network.html#publications",
-    "title": "Sensor Network",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
-    "section": "",
-    "text": "By 20250, nearly 70% of people will live in cities\nWe study how we can make cities better places for people and for nature.\nOur vision is of a future where both people and planet thrive.\n\n\n30 years of research\nIn 2025 we will have been studying the Museum’s gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one one of the most intensively studied urban sites worldwide.\n\n\n\n\n\n\n\n\nA living laboratory\nOur gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiveristy and create resilient ecosystems.\nOur gardens and research infrastructres are open to Museum staff and external collaborators for research and teaching.\n\n\nTraining the next generation\nSome text.\n\n\n\n\n\n\n\n\nIntegrating diverse datasets\nData ecosystem\n\n\nLeading change\nSKENZEN\nSomething on policy."
-  },
-  {
-    "objectID": "reports.html",
-    "href": "reports.html",
-    "title": "Urban Research Station Reports",
-    "section": "",
-    "text": "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes."
-  },
-  {
-    "objectID": "reports.html#section",
-    "href": "reports.html#section",
-    "title": "Urban Research Station Reports",
-    "section": "2025",
-    "text": "2025\nNo reports yet for 2025"
-  },
-  {
-    "objectID": "trees/59.html",
-    "href": "trees/59.html",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html",
+    "href": "trees/60.html",
+    "title": "Tree 60 - Hornbeam",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/59.html#species-information",
-    "href": "trees/59.html#species-information",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html#species-information",
+    "href": "trees/60.html#species-information",
+    "title": "Tree 60 - Hornbeam",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/59.html#tree-data",
-    "href": "trees/59.html#tree-data",
-    "title": "Tree 59 - Hornbeam",
-    "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 15.75cm (03/10/2025)"
-  },
-  {
-    "objectID": "trees/61.html",
-    "href": "trees/61.html",
-    "title": "Tree 61 - Hornbeam",
-    "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
-  },
-  {
-    "objectID": "trees/61.html#species-information",
-    "href": "trees/61.html#species-information",
-    "title": "Tree 61 - Hornbeam",
-    "section": "Species Information",
-    "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
-  },
-  {
-    "objectID": "trees/61.html#tree-data",
-    "href": "trees/61.html#tree-data",
-    "title": "Tree 61 - Hornbeam",
+    "objectID": "trees/60.html#tree-data",
+    "href": "trees/60.html#tree-data",
+    "title": "Tree 60 - Hornbeam",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/63.html",
-    "href": "trees/63.html",
-    "title": "Tree 63 - Ash",
+    "objectID": "trees/62.html",
+    "href": "trees/62.html",
+    "title": "Tree 62 - Ash",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/63.html#species-information",
-    "href": "trees/63.html#species-information",
-    "title": "Tree 63 - Ash",
+    "objectID": "trees/62.html#species-information",
+    "href": "trees/62.html#species-information",
+    "title": "Tree 62 - Ash",
     "section": "Species Information",
     "text": "Species Information\nCommon name European ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/63.html#tree-data",
-    "href": "trees/63.html#tree-data",
-    "title": "Tree 63 - Ash",
+    "objectID": "trees/62.html#tree-data",
+    "href": "trees/62.html#tree-data",
+    "title": "Tree 62 - Ash",
     "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 21.9cm (28/09/2025)"
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/family/index.html",
-    "href": "trees/family/index.html",
-    "title": "Tree families",
-    "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\n\nTree families\n\nBetulaceae (Birch family) — 3 species\nOleaceae (Olive family) — 3 species\nPinaceae (Pine family) — 1 species"
-  },
-  {
-    "objectID": "trees/family/pinaceae.html",
-    "href": "trees/family/pinaceae.html",
-    "title": "Pinaceae (Pine family)",
+    "objectID": "trees/family/betulaceae.html",
+    "href": "trees/family/betulaceae.html",
+    "title": "Betulaceae (Birch family)",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/family/pinaceae.html#species-summary",
-    "href": "trees/family/pinaceae.html#species-summary",
-    "title": "Pinaceae (Pine family)",
+    "objectID": "trees/family/betulaceae.html#species-summary",
+    "href": "trees/family/betulaceae.html#species-summary",
+    "title": "Betulaceae (Birch family)",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/genus/fraxinus.html",
-    "href": "trees/genus/fraxinus.html",
-    "title": "Fraxinus",
+    "objectID": "trees/family/oleaceae.html",
+    "href": "trees/family/oleaceae.html",
+    "title": "Oleaceae (Olive family)",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/genus/fraxinus.html#species-summary",
-    "href": "trees/genus/fraxinus.html#species-summary",
-    "title": "Fraxinus",
+    "objectID": "trees/family/oleaceae.html#species-summary",
+    "href": "trees/family/oleaceae.html#species-summary",
+    "title": "Oleaceae (Olive family)",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden\n\n\n\n\nFraxinus excelsior Ash — 2 trees"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden\n\n\nOlive\n0\n—"
   },
   {
-    "objectID": "trees/genus/fraxinus.html#planted-locations",
-    "href": "trees/genus/fraxinus.html#planted-locations",
-    "title": "Fraxinus",
-    "section": "Planted locations",
-    "text": "Planted locations\n\n\n\nLocation\nTrees\n\n\n\n\nSK: Nature Discovery Garden\n2"
-  },
-  {
-    "objectID": "trees/genus/index2.html",
-    "href": "trees/genus/index2.html",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/carpinus.html",
+    "href": "trees/genus/carpinus.html",
+    "title": "Carpinus",
     "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\nView A–Z by common name"
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/genus/index2.html#c",
-    "href": "trees/genus/index2.html#c",
-    "title": "Species index — A–Z (by scientific name)",
-    "section": "C",
-    "text": "C\n\nCarpinus betulus Hornbeam — Genus: Carpinus — Family: Betulaceae"
+    "objectID": "trees/genus/carpinus.html#species-summary",
+    "href": "trees/genus/carpinus.html#species-summary",
+    "title": "Carpinus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/genus/index2.html#f",
-    "href": "trees/genus/index2.html#f",
-    "title": "Species index — A–Z (by scientific name)",
-    "section": "F",
-    "text": "F\n\nFraxinus excelsior Ash — Genus: Fraxinus — Family: Oleaceae"
+    "objectID": "trees/genus/index.html",
+    "href": "trees/genus/index.html",
+    "title": "Species index — A–Z (by common name)",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\nView A–Z by scientific name"
   },
   {
-    "objectID": "trees/genus/index2.html#o",
-    "href": "trees/genus/index2.html#o",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#a",
+    "href": "trees/genus/index.html#a",
+    "title": "Species index — A–Z (by common name)",
+    "section": "A",
+    "text": "A\n\nAsh (Fraxinus excelsior) — Genus: Fraxinus — Family: Oleaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#b",
+    "href": "trees/genus/index.html#b",
+    "title": "Species index — A–Z (by common name)",
+    "section": "B",
+    "text": "B\n\nBlack Pine (Pinus nigra) — Genus: Pinus — Family: Pinaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#h",
+    "href": "trees/genus/index.html#h",
+    "title": "Species index — A–Z (by common name)",
+    "section": "H",
+    "text": "H\n\nHornbeam (Carpinus betulus) — Genus: Carpinus — Family: Betulaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#o",
+    "href": "trees/genus/index.html#o",
+    "title": "Species index — A–Z (by common name)",
     "section": "O",
-    "text": "O\n\nOlea europaea Olive — Genus: Olea — Family: Oleaceae"
+    "text": "O\n\nOlive (Olea europaea) — Genus: Olea — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#p",
-    "href": "trees/genus/index2.html#p",
-    "title": "Species index — A–Z (by scientific name)",
-    "section": "P",
-    "text": "P\n\nPinus nigra Black Pine — Genus: Pinus — Family: Pinaceae"
+    "objectID": "trees/genus/index.html#s",
+    "href": "trees/genus/index.html#s",
+    "title": "Species index — A–Z (by common name)",
+    "section": "S",
+    "text": "S\n\nStone Pine (Pinus pinea) — Genus: Pinus — Family: Pinaceae"
   },
   {
-    "objectID": "trees/genus/pinus.html",
-    "href": "trees/genus/pinus.html",
-    "title": "Pinus",
+    "objectID": "trees/genus/olea.html",
+    "href": "trees/genus/olea.html",
+    "title": "Olea",
     "section": "",
     "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database"
   },
   {
-    "objectID": "trees/genus/pinus.html#species-summary",
-    "href": "trees/genus/pinus.html#species-summary",
-    "title": "Pinus",
+    "objectID": "trees/genus/olea.html#species-summary",
+    "href": "trees/genus/olea.html#species-summary",
+    "title": "Olea",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\n\n\nPinus nigra Black Pine — 0 trees"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
   },
   {
-    "objectID": "trees/species/ash.html",
-    "href": "trees/species/ash.html",
-    "title": "Ash (Fraxinus excelsior)",
+    "objectID": "trees/index.html",
+    "href": "trees/index.html",
+    "title": "Tree Database",
     "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Oleaceae Genus: Fraxinus\n\nAsh (Fraxinus excelsior)\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden\n\n\n\nBack to Tree Database\n\nTree 62 - Ash\nTree 63 - Ash"
+    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\n\nTree 59 - Hornbeam\nTree 60 - Hornbeam\nTree 61 - Hornbeam\nTree 62 - Ash\nTree 63 - Ash"
   },
   {
-    "objectID": "trees/species/hornbeam.html",
-    "href": "trees/species/hornbeam.html",
-    "title": "Hornbeam (Carpinus betulus)",
+    "objectID": "trees/species/black-pine.html",
+    "href": "trees/species/black-pine.html",
+    "title": "Black Pine (Pinus nigra)",
     "section": "",
-    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Betulaceae Genus: Carpinus\n\nHornbeam (Carpinus betulus)\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden\n\n\n\nBack to Tree Database\n\nTree 59 - Hornbeam\nTree 60 - Hornbeam\nTree 61 - Hornbeam"
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Pinaceae Genus: Pinus\n\nBlack Pine (Pinus nigra)"
+  },
+  {
+    "objectID": "trees/species/olive.html",
+    "href": "trees/species/olive.html",
+    "title": "Olive (Olea europaea)",
+    "section": "",
+    "text": "Navigate to another tree:\n\n  Go \n\n← Back to Tree Database\n\nFamily: Oleaceae Genus: Olea\n\nOlive (Olea europaea)"
   }
 ]
