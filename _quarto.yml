@@ -20,6 +20,10 @@ website:
             text: Urban Research Station Reports
       - team.qmd
 
+render:
+  before:
+    - python ./scripts/generate_tree_list.py
+
 format:
   html:
     theme:
@@ -27,6 +31,7 @@ format:
       - brand
     css: styles.css
     toc: true
+
 
 
 
