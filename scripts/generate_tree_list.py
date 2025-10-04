@@ -285,7 +285,13 @@ for g_slug, gdata in genus_map.items():
     glines.append('')
     for species_slug, species_name in sorted(gdata.get('species', []), key=lambda x: x[1]):
         sp_count = len(species_map.get(species_slug, {}).get('trees', []))
-        glines.append(f"- [{species_name}](/trees/species/{species_slug}.html) — {sp_count} tree{'s' if sp_count != 1 else ''}")
+        # include scientific name (italic) before the common name when available
+        scientific = species_map.get(species_slug, {}).get('scientific')
+        if scientific:
+            label = f"*{scientific}* {species_name}"
+        else:
+            label = species_name
+        glines.append(f"- [{label}](/trees/species/{species_slug}.html) — {sp_count} tree{'s' if sp_count != 1 else ''}")
     glines.append('')
     gpage.write_text('\n'.join(glines) + '\n', encoding='utf-8')
     print(f"Wrote genus page: {gpage}")
