@@ -7,6 +7,8 @@ toc: true
 
 # Hornbeam (*Carpinus betulus*)
 
+**Recorded trees:** 1
+
 [Back to Tree Database](../index.html)
 
 - [Tree 59 - Hornbeam](../59.html)

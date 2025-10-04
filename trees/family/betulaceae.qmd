@@ -9,5 +9,5 @@ toc: true
 
 [Back to Tree Database](../index.html)
 
-- [Hornbeam](/trees/species/hornbeam.html)
+- [Hornbeam](/trees/species/hornbeam.html) — 1 tree
 

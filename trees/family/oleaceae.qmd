@@ -9,5 +9,5 @@ toc: true
 
 [Back to Tree Database](../index.html)
 
-- [European Ash](/trees/species/european-ash.html)
+- [European Ash](/trees/species/european-ash.html) — 1 tree
 

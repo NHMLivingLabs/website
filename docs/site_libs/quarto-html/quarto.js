@@ -1,4 +1,4 @@
-﻿const sectionChanged = new CustomEvent("quarto-sectionChanged", {
+const sectionChanged = new CustomEvent("quarto-sectionChanged", {
   detail: {},
   bubbles: true,
   cancelable: false,

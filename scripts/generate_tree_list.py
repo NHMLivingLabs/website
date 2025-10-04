@@ -196,8 +196,13 @@ for slug, data in species_map.items():
     if scientific:
         # italicise scientific name in the H1 using Markdown
         lines.append(f"# {title} (*{scientific}*)")
+        # recorded trees count
+        lines.append('')
+        lines.append(f"**Recorded trees:** {len(data.get('trees', []))}")
     else:
         lines.append(f"# Trees of {title}")
+        lines.append('')
+        lines.append(f"**Recorded trees:** {len(data.get('trees', []))}")
     lines.append('')
     lines.append(f"[Back to Tree Database](../index.html)")
     lines.append('')
@@ -228,7 +233,9 @@ for fam_slug, fdata in family_map.items():
     flines.append(f"[Back to Tree Database](../index.html)")
     flines.append('')
     for species_slug, species_name in sorted(fdata.get('species', []), key=lambda x: x[1]):
-        flines.append(f"- [{species_name}](/trees/species/{species_slug}.html)")
+        # include count of recorded trees for this species
+        sp_count = len(species_map.get(species_slug, {}).get('trees', []))
+        flines.append(f"- [{species_name}](/trees/species/{species_slug}.html) — {sp_count} tree{'s' if sp_count != 1 else ''}")
     flines.append('')
     fpage.write_text('\n'.join(flines) + '\n', encoding='utf-8')
     print(f"Wrote family page: {fpage}")
@@ -277,7 +284,8 @@ for g_slug, gdata in genus_map.items():
     glines.append(f"[Back to Tree Database](../index.html)")
     glines.append('')
     for species_slug, species_name in sorted(gdata.get('species', []), key=lambda x: x[1]):
-        glines.append(f"- [{species_name}](/trees/species/{species_slug}.html)")
+        sp_count = len(species_map.get(species_slug, {}).get('trees', []))
+        glines.append(f"- [{species_name}](/trees/species/{species_slug}.html) — {sp_count} tree{'s' if sp_count != 1 else ''}")
     glines.append('')
     gpage.write_text('\n'.join(glines) + '\n', encoding='utf-8')
     print(f"Wrote genus page: {gpage}")
