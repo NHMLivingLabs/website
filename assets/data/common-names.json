@@ -1,0 +1,10 @@
+[
+    { "family": "Betulaceae", "common_name": "Birch family" },
+    { "family": "Oleaceae", "common_name": "Olive family" },
+    { "family": "Pinaceae", "common_name": "Pine family" },
+
+    { "genus": "Olea", "common_name": "Olives" },
+    { "genus": "Pinus", "common_name": "Pines" },
+    { "genus": "Fraxinus", "common_name": "Ashes" },
+    { "genus": "Carpinus", "common_name": "Hornbeams" }
+]

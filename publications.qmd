@@ -12,7 +12,7 @@ toc-depth: 2
 
 # Wildlife Gardens Publications
 
-Papers below this point relate to reseach done in the NHM Wildlife Garden before the transition to the Nature Dicovery Garden.
+Papers below this point relate to research done in the NHM Wildlife Garden before the transition to the Nature Discovery Garden.
 
 
 ## 2022
@@ -87,7 +87,7 @@ an urban-rural gradient](/assets/publications/Power_&_Collins_2010_N_deposition_
 
 ## 2003
 
-The development of the flora, fauna and environment of the WIldlife Garden at the Natural History Museum, London
+The development of the flora, fauna and environment of the Wildlife Garden at the Natural History Museum, London
 <br>Leigh C, Ware C
 <br>*The London Naturalist*
 
@@ -99,6 +99,6 @@ The development of the flora, fauna and environment of the WIldlife Garden at th
 
 ## 1998
 
-The flora and faunal of the newly created Wildlife Garden in the gorunds of the Natural Histroy Museum, London
+The flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London
 <br>Honey MR, Leigh C, Brooks SJ
 <br>*The London Naturalist*

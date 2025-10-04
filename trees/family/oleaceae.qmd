@@ -1,13 +1,18 @@
 ---
-title: "Oleaceae — Tree families"
+title: "Oleaceae (Olive family) — Tree families"
 toc: true
 ---
 
 {{< include ../_tree-search.qmd >}}
 
-# Species in Oleaceae
+# Species in Oleaceae (Olive family)
 
 [Back to Tree Database](../index.html)
 
-- [European Ash](/trees/species/european-ash.html) — 1 tree
+## Species summary
+
+| Species | Trees | Planted locations |
+|---|---:|---|
+| [Ash](/trees/species/ash.html) | 2 | SK: Nature Discovery Garden |
+| [Olive](/trees/species/olive.html) | 0 | — |
 

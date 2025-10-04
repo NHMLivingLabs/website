@@ -5,12 +5,12 @@ toc: false
 
 {{< include _tree-search.qmd >}}
 
-![Tree 59 - Hornbeam in the Nature Discovery Garden](/assets/images/trees/tree59.jpg)
+![Tree 59 - Hornbeam](/assets/images/trees/tree59.jpg)
 
-{{< include /trees/_tree-species-info/_hornbeam.md >}}
+{{< include _tree-species-info/_hornbeam.md >}}
 
 ## Tree data
 
-**Planted:** Wildlife Garden (1994?)
+**Planted:** SK: Nature Discovery Garden
 
 **Diameter at breast height (1.2m):** 15.75cm (03/10/2025)

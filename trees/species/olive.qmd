@@ -1,0 +1,16 @@
+---
+title: "Olive (Olea europaea) — Trees"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+**Family:** [Oleaceae](/trees/family/oleaceae.html)
+**Genus:** [*Olea*](/trees/genus/olea.html)
+
+# Olive (*Olea europaea*)
+
+
+[Back to Tree Database](../index.html)
+
+

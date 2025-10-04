@@ -1,0 +1,27 @@
+---
+title: "Species index — A–Z (by scientific name)"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+[View A–Z by common name](/trees/genus/index.html)
+
+# Species index (A–Z by scientific name)
+
+## C
+
+- [*Carpinus betulus* Hornbeam](/trees/species/hornbeam.html) — Genus: [Carpinus](/trees/genus/carpinus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
+
+## F
+
+- [*Fraxinus excelsior* Ash](/trees/species/ash.html) — Genus: [Fraxinus](/trees/genus/fraxinus.html) — Family: [Oleaceae](/trees/family/oleaceae.html)
+
+## O
+
+- [*Olea europaea* Olive](/trees/species/olive.html) — Genus: [Olea](/trees/genus/olea.html) — Family: [Oleaceae](/trees/family/oleaceae.html)
+
+## P
+
+- [*Pinus nigra* Black Pine](/trees/species/black-pine.html) — Genus: [Pinus](/trees/genus/pinus.html) — Family: [Pinaceae](/trees/family/pinaceae.html)
+

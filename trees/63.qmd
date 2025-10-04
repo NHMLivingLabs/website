@@ -1,16 +1,16 @@
 ---
-title: "Tree 63 - European ash"
+title: "Tree 63 - Ash"
 toc: false
 ---
 
 {{< include _tree-search.qmd >}}
 
-![Tree 63 - European ash in the Nature Discovery Garden (28/09/2025)](/assets/images/trees/tree63.jpg)
+![Tree 63 - Ash](/assets/images/trees/tree63.jpg)
 
-{{< include /trees/_tree-species-info/_european-ash.md >}}
+{{< include _tree-species-info/_ash.md >}}
 
 ## Tree data
 
-**Planted:** Wildlife Garden (1994?)
+**Planted:** SK: Nature Discovery Garden
 
-**Diameter at breast height (1.2m):** 21.9 cm (28/09/2025)
+**Diameter at breast height (1.2m):** 21.9cm (28/09/2025)

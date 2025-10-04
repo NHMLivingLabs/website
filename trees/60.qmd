@@ -1,0 +1,14 @@
+---
+title: "Tree 60 - Hornbeam"
+toc: false
+---
+
+{{< include _tree-search.qmd >}}
+
+![Tree 60 - Hornbeam](/assets/images/trees/tree60.jpg)
+
+{{< include _tree-species-info/_hornbeam.md >}}
+
+## Tree data
+
+**Planted:** SK: Nature Discovery Garden

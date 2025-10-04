@@ -1,0 +1,23 @@
+---
+title: "Ash (Fraxinus excelsior) — Trees"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+**Family:** [Oleaceae](/trees/family/oleaceae.html)
+**Genus:** [*Fraxinus*](/trees/genus/fraxinus.html)
+
+# Ash (*Fraxinus excelsior*)
+
+| Tree | Planted |
+| --- | --- |
+| [Tree 62 - Ash](../62.html) | SK: Nature Discovery Garden |
+| [Tree 63 - Ash](../63.html) | SK: Nature Discovery Garden |
+
+
+[Back to Tree Database](../index.html)
+
+- [Tree 62 - Ash](../62.html)
+- [Tree 63 - Ash](../63.html)
+

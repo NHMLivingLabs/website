@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "total": 5,
+    "per_page": 50,
+    "current_page": 1,
+    "last_page": 1,
+    "from": 1,
+    "to": 1,
+    "newest": "2025-10-04T11:25:48.000Z",
+    "oldest": "2025-10-03T08:05:04.000Z"
+  },
+  "data": {
+    "id": "nhm-urs-tree-dbh",
+    "type": "entries",
+    "entries": [
+      {
+        "ec5_uuid": "7db7efc5-7246-42ae-85e3-840de78bd47d",
+        "created_at": "2025-10-04T11:25:48.000Z",
+        "uploaded_at": "2025-10-04T11:31:07.000Z",
+        "created_by": "edwbaker@gmail.com",
+        "title": "SK: Nature Discovery Garden 62 04/10/2025",
+        "1_Site": [
+          "SK: Nature Discovery Garden"
+        ],
+        "2_Tree_Number": 62,
+        "3_Species": [
+          "Ash (Fraxinus excelsior)"
+        ],
+        "4_Location": {
+          "latitude": 51.496246,
+          "longitude": -0.178069,
+          "accuracy": 5,
+          "UTM_Northing": 5708787,
+          "UTM_Easting": 695876,
+          "UTM_Zone": "30U"
+        },
+        "5_Date": "04/10/2025",
+        "6_Diameter_at_12m_fr": "",
+        "7_Photo": "7db7efc5-7246-42ae-85e3-840de78bd47d_1759577144.jpg"
+      },
+      {
+        "ec5_uuid": "bf46a9c1-b7af-4e1a-ba50-10d98ca34dae",
+        "created_at": "2025-10-04T11:24:32.000Z",
+        "uploaded_at": "2025-10-04T11:30:55.000Z",
+        "created_by": "edwbaker@gmail.com",
+        "title": "SK: Nature Discovery Garden 61 04/10/2025",
+        "1_Site": [
+          "SK: Nature Discovery Garden"
+        ],
+        "2_Tree_Number": 61,
+        "3_Species": [
+          "Hornbeam (Carpinus betulus)"
+        ],
+        "4_Location": {
+          "latitude": 51.496167,
+          "longitude": -0.178369,
+          "accuracy": 4,
+          "UTM_Northing": 5708778,
+          "UTM_Easting": 695855,
+          "UTM_Zone": "30U"
+        },
+        "5_Date": "04/10/2025",
+        "6_Diameter_at_12m_fr": "",
+        "7_Photo": "bf46a9c1-b7af-4e1a-ba50-10d98ca34dae_1759577058.jpg"
+      },
+      {
+        "ec5_uuid": "ad86bd3b-f1cb-433e-8835-7933153c2f14",
+        "created_at": "2025-10-04T11:19:40.000Z",
+        "uploaded_at": "2025-10-04T11:30:44.000Z",
+        "created_by": "edwbaker@gmail.com",
+        "title": "SK: Nature Discovery Garden 60 04/10/2025",
+        "1_Site": [
+          "SK: Nature Discovery Garden"
+        ],
+        "2_Tree_Number": 60,
+        "3_Species": [
+          "Hornbeam (Carpinus betulus)"
+        ],
+        "4_Location": {
+          "latitude": 51.496154,
+          "longitude": -0.178284,
+          "accuracy": 4,
+          "UTM_Northing": 5708777,
+          "UTM_Easting": 695861,
+          "UTM_Zone": "30U"
+        },
+        "5_Date": "04/10/2025",
+        "6_Diameter_at_12m_fr": 0,
+        "7_Photo": "ad86bd3b-f1cb-433e-8835-7933153c2f14_1759576777.jpg"
+      },
+      {
+        "ec5_uuid": "0d2e104f-b0a0-4fe4-937e-f9a13ca35f02",
+        "created_at": "2025-10-03T08:08:02.000Z",
+        "uploaded_at": "2025-10-04T11:30:34.000Z",
+        "created_by": "edwbaker@gmail.com",
+        "title": "SK: Nature Discovery Garden 59 03/10/2025",
+        "1_Site": [
+          "SK: Nature Discovery Garden"
+        ],
+        "2_Tree_Number": 59,
+        "3_Species": [
+          "Hornbeam (Carpinus betulus)"
+        ],
+        "4_Location": {
+          "latitude": 51.496149,
+          "longitude": -0.178175,
+          "accuracy": 10,
+          "UTM_Northing": 5708776,
+          "UTM_Easting": 695869,
+          "UTM_Zone": "30U"
+        },
+        "5_Date": "03/10/2025",
+        "6_Diameter_at_12m_fr": 15.75,
+        "7_Photo": "0d2e104f-b0a0-4fe4-937e-f9a13ca35f02_1759481635.jpg"
+      },
+      {
+        "ec5_uuid": "3827d161-0cd1-47dd-aac6-779b3476d8cb",
+        "created_at": "2025-10-03T08:05:04.000Z",
+        "uploaded_at": "2025-10-04T11:29:56.000Z",
+        "created_by": "edwbaker@gmail.com",
+        "title": "SK: Nature Discovery Garden 63 28/09/2025",
+        "1_Site": [
+          "SK: Nature Discovery Garden"
+        ],
+        "2_Tree_Number": 63,
+        "3_Species": [
+          "Ash (Fraxinus excelsior)"
+        ],
+        "4_Location": {
+          "latitude": 51.496152,
+          "longitude": -0.178148,
+          "accuracy": 4,
+          "UTM_Northing": 5708777,
+          "UTM_Easting": 695871,
+          "UTM_Zone": "30U"
+        },
+        "5_Date": "28/09/2025",
+        "6_Diameter_at_12m_fr": 21.9,
+        "7_Photo": "3827d161-0cd1-47dd-aac6-779b3476d8cb_1759481456.jpg"
+      }
+    ],
+    "mapping": {
+      "map_name": "EC5_AUTO",
+      "map_index": 0
+    }
+  },
+  "links": {
+    "self": "https://five.epicollect.net/api/export/entries/nhm-urs-tree-dbh?form_ref=cfdf37225027464f8102e8a1ff29637a_68df814906e40&parent_form_ref=&branch=&branch_ref=&branch_owner_uuid=&parent_uuid=&uuid=&input_ref=&per_page=50&sort_by=created_at&sort_order=DESC&map_index=0&filter_by=&filter_from=&filter_to=&format=json&headers=true&title=&page=1",
+    "first": "https://five.epicollect.net/api/export/entries/nhm-urs-tree-dbh?form_ref=cfdf37225027464f8102e8a1ff29637a_68df814906e40&parent_form_ref=&branch=&branch_ref=&branch_owner_uuid=&parent_uuid=&uuid=&input_ref=&per_page=50&sort_by=created_at&sort_order=DESC&map_index=0&filter_by=&filter_from=&filter_to=&format=json&headers=true&title=&page=1",
+    "prev": null,
+    "next": null,
+    "last": "https://five.epicollect.net/api/export/entries/nhm-urs-tree-dbh?form_ref=cfdf37225027464f8102e8a1ff29637a_68df814906e40&parent_form_ref=&branch=&branch_ref=&branch_owner_uuid=&parent_uuid=&uuid=&input_ref=&per_page=50&sort_by=created_at&sort_order=DESC&map_index=0&filter_by=&filter_from=&filter_to=&format=json&headers=true&title=&page=1"
+  }
+}

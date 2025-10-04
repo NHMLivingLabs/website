@@ -1,0 +1,19 @@
+---
+title: "Pinus — Tree genera"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+# Species in the genus *Pinus* (Pines)
+
+[Back to Tree Database](../index.html)
+
+## Species summary
+
+| Species | Trees | Planted locations |
+|---|---:|---|
+| [Black Pine](/trees/species/black-pine.html) | 0 | — |
+
+- [*Pinus nigra* Black Pine](/trees/species/black-pine.html) — 0 trees
+

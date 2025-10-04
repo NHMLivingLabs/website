@@ -1,7 +1,11 @@
 ﻿project:
   type: website
   output-dir: docs
-
+  pre-render:
+    - python ./scripts/generate_trees_from_epicollect.py
+    - python ./scripts/generate_tree_list.py
+    - python ./scripts/generate_articles_from_bib.py
+    
 website:
   title: "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>"
   navbar:
@@ -14,15 +18,11 @@ website:
           - href: trees/index.qmd
       - text: Publications
         menu:
-          - href: publications.qmd
+          - href: articles.qmd
             text: Articles
           - href: reports.qmd
             text: Urban Research Station Reports
       - team.qmd
-
-render:
-  before:
-    - python ./scripts/generate_tree_list.py
 
 format:
   html:

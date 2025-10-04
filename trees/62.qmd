@@ -1,0 +1,14 @@
+---
+title: "Tree 62 - Ash"
+toc: false
+---
+
+{{< include _tree-search.qmd >}}
+
+![Tree 62 - Ash](/assets/images/trees/tree62.jpg)
+
+{{< include _tree-species-info/_ash.md >}}
+
+## Tree data
+
+**Planted:** SK: Nature Discovery Garden

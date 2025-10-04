@@ -1,13 +1,17 @@
 ---
-title: "Betulaceae — Tree families"
+title: "Betulaceae (Birch family) — Tree families"
 toc: true
 ---
 
 {{< include ../_tree-search.qmd >}}
 
-# Species in Betulaceae
+# Species in Betulaceae (Birch family)
 
 [Back to Tree Database](../index.html)
 
-- [Hornbeam](/trees/species/hornbeam.html) — 1 tree
+## Species summary
+
+| Species | Trees | Planted locations |
+|---|---:|---|
+| [Hornbeam](/trees/species/hornbeam.html) | 3 | SK: Nature Discovery Garden |
 

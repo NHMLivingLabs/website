@@ -1,0 +1,19 @@
+---
+title: "Olea — Tree genera"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+# Species in the genus *Olea* (Olives)
+
+[Back to Tree Database](../index.html)
+
+## Species summary
+
+| Species | Trees | Planted locations |
+|---|---:|---|
+| [Olive](/trees/species/olive.html) | 0 | — |
+
+- [*Olea europaea* Olive](/trees/species/olive.html) — 0 trees
+

@@ -5,11 +5,21 @@ toc: true
 
 {{< include ../_tree-search.qmd >}}
 
+**Family:** [Betulaceae](/trees/family/betulaceae.html)
+**Genus:** [*Carpinus*](/trees/genus/carpinus.html)
+
 # Hornbeam (*Carpinus betulus*)
 
-**Recorded trees:** 1
+| Tree | Planted |
+| --- | --- |
+| [Tree 59 - Hornbeam](../59.html) | SK: Nature Discovery Garden |
+| [Tree 60 - Hornbeam](../60.html) | SK: Nature Discovery Garden |
+| [Tree 61 - Hornbeam](../61.html) | SK: Nature Discovery Garden |
+
 
 [Back to Tree Database](../index.html)
 
 - [Tree 59 - Hornbeam](../59.html)
+- [Tree 60 - Hornbeam](../60.html)
+- [Tree 61 - Hornbeam](../61.html)
 

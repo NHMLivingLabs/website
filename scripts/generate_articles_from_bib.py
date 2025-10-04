@@ -1,0 +1,198 @@
+"""Generate articles.qmd from assets/data/publications.bib
+
+This script parses the BibTeX file and emits a Quarto .qmd file that matches the
+format of the existing `publications.qmd` (year headings, title as a link when
+url/file available, authors on the next line, journal/venue in italics).
+
+Usage:
+    python scripts/generate_articles_from_bib.py
+
+The script prefers the `bibtexparser` package but includes a minimal fallback
+if not installed (basic parsing of @ entries).
+"""
+from pathlib import Path
+import re
+
+ROOT = Path(__file__).resolve().parents[1]
+BIB = ROOT / 'assets' / 'data' / 'publications.bib'
+OUT = ROOT / 'articles.qmd'
+PUB_SRC = ROOT / 'publications.qmd'
+
+try:
+    import bibtexparser
+    from bibtexparser.bparser import BibTexParser
+    HAVE_BIBTEXPARSER = True
+except Exception:
+    HAVE_BIBTEXPARSER = False
+
+
+def parse_bib_fallback(text):
+    entries = []
+    # Very small BibTeX fallback parser (works for simple well-formed input)
+    pattern = re.compile(r"@(?P<type>\w+)\{(?P<key>[^,]+),(?P<body>.*?)\n\}\s*",
+                         re.S)
+    field_re = re.compile(r"(?P<name>\w+)\s*=\s*\{(?P<value>.*?)\}\s*,?",
+                          re.S)
+    for m in pattern.finditer(text):
+        t = m.group('type').strip()
+        key = m.group('key').strip()
+        body = m.group('body')
+        fields = {}
+        for fm in field_re.finditer(body):
+            name = fm.group('name').lower()
+            val = fm.group('value').strip()
+            fields[name] = val
+        entries.append({'ENTRYTYPE': t.lower(), 'ID': key, **fields})
+    return entries
+
+
+def load_bib(path):
+    text = path.read_text(encoding='utf8')
+    if HAVE_BIBTEXPARSER:
+        parser = BibTexParser(common_strings=True)
+        db = bibtexparser.loads(text, parser=parser)
+        return db.entries
+    else:
+        return parse_bib_fallback(text)
+
+
+def format_authors(author_field):
+    if not author_field:
+        return ''
+    # authors in BibTeX often use ' and ' or ' and, ' or commas; here authors use 'and' separated
+    authors = [a.strip() for a in re.split(r"\s+and\s+|,\s*(?=[A-Z]\.?)", author_field) if a.strip()]
+    return ', '.join(authors)
+
+
+def title_link(entry):
+    title = entry.get('title', '').strip()
+    url = entry.get('url') or entry.get('doi')
+    file = entry.get('file')
+    if file:
+        # make a local link
+        return f"[{title}]({file})"
+    if url:
+        return f"[{title}]({url})"
+    return title
+
+
+def venue_line(entry):
+    journal = entry.get('journal') or entry.get('howpublished') or entry.get('type') or ''
+    if journal:
+        return f"*{journal}*"
+    return ''
+
+
+def generate_qmd(entries):
+    # group by year descending
+    by_year = {}
+    for e in entries:
+        year = e.get('year', 'n.d.')
+        by_year.setdefault(year, []).append(e)
+
+    years = sorted(by_year.keys(), reverse=True)
+
+    # Read interstitial sections from publications.qmd so we can preserve
+    # headings or explanatory paragraphs that appear between year blocks.
+    # We'll group all years earlier than 2025 under the Wildlife Gardens
+    # Publications heading. Extract the explainer paragraph from
+    # `publications.qmd` if it exists (the small paragraph immediately after
+    # the H1) so we can include it once.
+    interstitial = {}
+    wildlife_block = None
+    wildlife_years = []
+    if PUB_SRC.exists():
+        pub_text = PUB_SRC.read_text(encoding='utf8')
+        # find the Wildlife Gardens Publications H1 and capture the paragraph
+        # that follows it (up to the next blank line or next heading)
+        wh = re.search(r"^#\s+Wildlife Gardens Publications\s*$", pub_text, re.M)
+        if wh:
+            # start after the H1 line
+            start = wh.end()
+            rest = pub_text[start:]
+            # split into lines and skip leading blank lines
+            lines_after = rest.splitlines()
+            i = 0
+            # skip leading blank lines
+            while i < len(lines_after) and lines_after[i].strip() == '':
+                i += 1
+            # collect lines until we hit a new heading (## ) or EOF
+            collected = []
+            while i < len(lines_after):
+                line = lines_after[i]
+                if re.match(r"^##\s+\d{4}", line):
+                    break
+                if re.match(r"^#\s+", line):
+                    break
+                collected.append(line)
+                i += 1
+            para = '\n'.join(collected).strip()
+            if para:
+                wildlife_block = '# Wildlife Gardens Publications\n\n' + para
+
+    # determine wildlife_years as years < 2025 present in our entries
+    for y in years:
+        try:
+            if int(y) < 2025:
+                wildlife_years.append(y)
+        except Exception:
+            pass
+
+    lines = []
+    lines.append('---')
+    lines.append('title: "Articles"')
+    lines.append('toc: true')
+    lines.append('toc-depth: 2')
+    lines.append('---\n')
+
+    # Split years into recent (>=2025) and wildlife (<2025)
+    recent_years = [y for y in years if (y.isdigit() and int(y) >= 2025)]
+    wildlife_years = [y for y in years if (y.isdigit() and int(y) < 2025)]
+
+    # Emit recent years first
+    for y in recent_years:
+        lines.append(f'## {y}\n')
+        for e in by_year[y]:
+            title = title_link(e)
+            authors = format_authors(e.get('author', ''))
+            venue = venue_line(e)
+            if title:
+                lines.append(title)
+            if authors:
+                lines.append('<br>' + authors)
+            if venue:
+                lines.append('<br>' + venue)
+            lines.append('')
+
+    # Emit Wildlife Gardens Publications block and then all wildlife years
+    if wildlife_years:
+        if wildlife_block:
+            lines.append(wildlife_block)
+            lines.append('')
+        else:
+            lines.append('# Wildlife Gardens Publications\n')
+        for y in sorted(wildlife_years, reverse=True):
+            lines.append(f'## {y}\n')
+            for e in by_year[y]:
+                title = title_link(e)
+                authors = format_authors(e.get('author', ''))
+                venue = venue_line(e)
+                if title:
+                    lines.append(title)
+                if authors:
+                    lines.append('<br>' + authors)
+                if venue:
+                    lines.append('<br>' + venue)
+                lines.append('')
+
+    return '\n'.join(lines)
+
+
+if __name__ == '__main__':
+    if not BIB.exists():
+        print('BibTeX file not found:', BIB)
+        raise SystemExit(1)
+    entries = load_bib(BIB)
+    qmd = generate_qmd(entries)
+    OUT.write_text(qmd, encoding='utf8')
+    print('Wrote', OUT)

@@ -1,3 +1,4 @@
 /.quarto/
 
-/.luarc.json
+# Local environment secrets
+.env

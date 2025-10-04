@@ -5,9 +5,21 @@ toc: true
 
 {{< include ../_tree-search.qmd >}}
 
-# Species in the genus Carpinus
+# Species in the genus *Carpinus* (Hornbeams)
 
 [Back to Tree Database](../index.html)
 
-- [*Carpinus betulus* Hornbeam](/trees/species/hornbeam.html) — 1 tree
+## Species summary
+
+| Species | Trees | Planted locations |
+|---|---:|---|
+| [Hornbeam](/trees/species/hornbeam.html) | 3 | SK: Nature Discovery Garden |
+
+- [*Carpinus betulus* Hornbeam](/trees/species/hornbeam.html) — 3 trees
+
+## Planted locations
+
+| Location | Trees |
+|---|---:|
+| SK: Nature Discovery Garden | 3 |
 

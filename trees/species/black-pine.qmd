@@ -1,0 +1,16 @@
+---
+title: "Black Pine (Pinus nigra) — Trees"
+toc: true
+---
+
+{{< include ../_tree-search.qmd >}}
+
+**Family:** [Pinaceae](/trees/family/pinaceae.html)
+**Genus:** [*Pinus*](/trees/genus/pinus.html)
+
+# Black Pine (*Pinus nigra*)
+
+
+[Back to Tree Database](../index.html)
+
+
