@@ -7,7 +7,7 @@
     - python ./scripts/generate_articles_from_bib.py
     
 website:
-  title: "Urban Research Station<br><span style='font-size: x-small;'>at the Natural History Museum</span>"
+  title: "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>"
   navbar:
     left:
       - href: index.qmd
