@@ -4,35 +4,35 @@
     "href": "trees/species/stone-pine.html",
     "title": "Stone Pine (Pinus pinea)",
     "section": "",
-    "text": "Family: Pinaceae Genus: Pinus\n\nStone Pine (Pinus pinea)"
+    "text": "Family: Pinaceae\nGenus: Pinus"
   },
   {
     "objectID": "trees/species/hornbeam.html",
     "href": "trees/species/hornbeam.html",
     "title": "Hornbeam (Carpinus betulus)",
     "section": "",
-    "text": "Family: Betulaceae Genus: Carpinus\n\nHornbeam (Carpinus betulus)\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
+    "text": "Family: Betulaceae\nGenus: Carpinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
   },
   {
     "objectID": "trees/species/ash.html",
     "href": "trees/species/ash.html",
     "title": "Ash (Fraxinus excelsior)",
     "section": "",
-    "text": "Family: Oleaceae Genus: Fraxinus\n\nAsh (Fraxinus excelsior)\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden"
+    "text": "Family: Oleaceae\nGenus: Fraxinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden"
   },
   {
     "objectID": "trees/genus/pinus.html",
     "href": "trees/genus/pinus.html",
     "title": "Pinus",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
+    "text": "Family: Pinaceae"
   },
   {
     "objectID": "trees/genus/pinus.html#species-summary",
     "href": "trees/genus/pinus.html#species-summary",
     "title": "Pinus",
-    "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
   },
   {
     "objectID": "trees/genus/index2.html",
@@ -74,14 +74,14 @@
     "href": "trees/genus/fraxinus.html",
     "title": "Fraxinus",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
+    "text": "Family: Oleaceae"
   },
   {
     "objectID": "trees/genus/fraxinus.html#species-summary",
     "href": "trees/genus/fraxinus.html#species-summary",
     "title": "Fraxinus",
-    "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
   },
   {
     "objectID": "trees/family/pinaceae.html",
@@ -102,7 +102,7 @@
     "href": "trees/family/index.html",
     "title": "Tree families",
     "section": "",
-    "text": "Tree families\n\nBetulaceae (Birch family) — 1 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species"
+    "text": "Betulaceae (Birch family) — 1 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species"
   },
   {
     "objectID": "trees/63.html",
@@ -1054,14 +1054,14 @@
     "href": "trees/genus/carpinus.html",
     "title": "Carpinus",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
+    "text": "Family: Betulaceae"
   },
   {
     "objectID": "trees/genus/carpinus.html#species-summary",
     "href": "trees/genus/carpinus.html#species-summary",
     "title": "Carpinus",
-    "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
   },
   {
     "objectID": "trees/genus/index.html",
@@ -1110,14 +1110,14 @@
     "href": "trees/genus/olea.html",
     "title": "Olea",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
+    "text": "Family: Oleaceae"
   },
   {
     "objectID": "trees/genus/olea.html#species-summary",
     "href": "trees/genus/olea.html#species-summary",
     "title": "Olea",
-    "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
   },
   {
     "objectID": "trees/index.html",
@@ -1131,13 +1131,13 @@
     "href": "trees/species/black-pine.html",
     "title": "Black Pine (Pinus nigra)",
     "section": "",
-    "text": "Family: Pinaceae Genus: Pinus\n\nBlack Pine (Pinus nigra)"
+    "text": "Family: Pinaceae\nGenus: Pinus"
   },
   {
     "objectID": "trees/species/olive.html",
     "href": "trees/species/olive.html",
     "title": "Olive (Olea europaea)",
     "section": "",
-    "text": "Family: Oleaceae Genus: Olea\n\nOlive (Olea europaea)"
+    "text": "Family: Oleaceae\nGenus: Olea"
   }
 ]
