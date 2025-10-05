@@ -1,6 +1,6 @@
 ## Species Information
 
-**Common name** [European ash](/trees/species/european-ash.html)
+**Common name** [Ash](/trees/species/ash.html)
 
 **Scientific name:** *Fraxinus excelsior*
 
