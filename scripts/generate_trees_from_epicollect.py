@@ -110,7 +110,8 @@ def fetch_entries(project_slug, form_ref, token=None):
         print('Fetching entries from', url)
         raw = http_get_bytes(url, headers=headers)
         j = json.loads(raw.decode('utf8'))
-        meta_dir = ROOT / 'scripts' / 'epicollect-meta'
+        # cache Epicollect exports under the repo-level cache directory (ignored by git)
+        meta_dir = ROOT / 'cache' / 'epicollect-meta'
         meta_dir.mkdir(parents=True, exist_ok=True)
         outp = meta_dir / f'entries_{project_slug}.json'
         outp.write_text(json.dumps(j, indent=2), encoding='utf8')

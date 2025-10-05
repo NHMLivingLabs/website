@@ -13,4 +13,5 @@ toc: true
 | Species | Trees | Planted locations |
 |---|---:|---|
 | [Fig](/trees/species/fig.html) | 0 | — |
+| [Fruitless Mulberry](/trees/species/fruitless-mulberry.html) | 0 | — |
 

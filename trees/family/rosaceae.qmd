@@ -12,7 +12,9 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
+| [Apple Evereste](/trees/species/apple-evereste.html) | 0 | — |
 | [Bird Cherry](/trees/species/bird-cherry.html) | 0 | — |
 | [Common Hawthorn](/trees/species/common-hawthorn.html) | 0 | — |
+| [Crab Apple](/trees/species/crab-apple.html) | 0 | — |
 | [Quince](/trees/species/quince.html) | 0 | — |
 

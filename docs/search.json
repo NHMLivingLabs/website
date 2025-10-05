@@ -21,18 +21,25 @@
     "text": "Family: Ebenaceae\nGenus: Diospyros"
   },
   {
-    "objectID": "trees/species/hornbeam.html",
-    "href": "trees/species/hornbeam.html",
-    "title": "Hornbeam (Carpinus betulus)",
+    "objectID": "trees/species/london-plane.html",
+    "href": "trees/species/london-plane.html",
+    "title": "London Plane (Platanus × hispanica)",
     "section": "",
-    "text": "Family: Betulaceae\nGenus: Carpinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
+    "text": "Family: Platanaceae\nGenus: Platanus"
   },
   {
-    "objectID": "trees/species/grey-alder.html",
-    "href": "trees/species/grey-alder.html",
-    "title": "Grey Alder (Alnus incana)",
+    "objectID": "trees/species/holm-oak.html",
+    "href": "trees/species/holm-oak.html",
+    "title": "Holm Oak (Quercus ilex)",
     "section": "",
-    "text": "Family: Betulaceae\nGenus: Alnus"
+    "text": "Family: Fagaceae\nGenus: Quercus"
+  },
+  {
+    "objectID": "trees/species/goat-willow.html",
+    "href": "trees/species/goat-willow.html",
+    "title": "Goat Willow (Salix caprea)",
+    "section": "",
+    "text": "Family: Salicaceae\nGenus: Salix"
   },
   {
     "objectID": "trees/species/fig.html",
@@ -49,11 +56,18 @@
     "text": "Family: Juglandaceae\nGenus: Juglans"
   },
   {
-    "objectID": "trees/species/cork-oak.html",
-    "href": "trees/species/cork-oak.html",
-    "title": "Cork Oak (Quercus suber)",
+    "objectID": "trees/species/crab-apple.html",
+    "href": "trees/species/crab-apple.html",
+    "title": "Crab Apple (Malus sylvestris)",
     "section": "",
-    "text": "Family: Fagaceae\nGenus: Quercus"
+    "text": "Family: Rosaceae\nGenus: Malus"
+  },
+  {
+    "objectID": "trees/species/common-hawthorn.html",
+    "href": "trees/species/common-hawthorn.html",
+    "title": "Common Hawthorn (Crataegus monogyna)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Crataegus"
   },
   {
     "objectID": "trees/species/black-pine.html",
@@ -77,221 +91,277 @@
     "text": "Family: Oleaceae\nGenus: Fraxinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/genus/salix.html",
-    "href": "trees/genus/salix.html",
-    "title": "Salix",
+    "objectID": "trees/index.html",
+    "href": "trees/index.html",
+    "title": "Tree Database",
+    "section": "",
+    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\n\nTree 59 - Hornbeam\nTree 60 - Hornbeam\nTree 61 - Hornbeam\nTree 62 - Ash\nTree 63 - Ash"
+  },
+  {
+    "objectID": "trees/genus/quercus.html",
+    "href": "trees/genus/quercus.html",
+    "title": "Quercus",
+    "section": "",
+    "text": "Family: Fagaceae"
+  },
+  {
+    "objectID": "trees/genus/quercus.html#species-summary",
+    "href": "trees/genus/quercus.html#species-summary",
+    "title": "Quercus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCork Oak\n0\n—\n\n\nHolm Oak\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/populus.html",
+    "href": "trees/genus/populus.html",
+    "title": "Populus",
     "section": "",
     "text": "Family: Salicaceae"
   },
   {
-    "objectID": "trees/genus/salix.html#species-summary",
-    "href": "trees/genus/salix.html#species-summary",
-    "title": "Salix",
+    "objectID": "trees/genus/populus.html#species-summary",
+    "href": "trees/genus/populus.html#species-summary",
+    "title": "Populus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nGoat Willow\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Poplar\n0\n—"
   },
   {
-    "objectID": "trees/genus/prunus.html",
-    "href": "trees/genus/prunus.html",
-    "title": "Prunus",
+    "objectID": "trees/genus/pinus.html",
+    "href": "trees/genus/pinus.html",
+    "title": "Pinus",
     "section": "",
-    "text": "Family: Rosaceae"
+    "text": "Family: Pinaceae"
   },
   {
-    "objectID": "trees/genus/prunus.html#species-summary",
-    "href": "trees/genus/prunus.html#species-summary",
-    "title": "Prunus",
+    "objectID": "trees/genus/pinus.html#species-summary",
+    "href": "trees/genus/pinus.html#species-summary",
+    "title": "Pinus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBird Cherry\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
   },
   {
-    "objectID": "trees/genus/olea.html",
-    "href": "trees/genus/olea.html",
-    "title": "Olea",
+    "objectID": "trees/genus/morus.html",
+    "href": "trees/genus/morus.html",
+    "title": "Morus",
     "section": "",
-    "text": "Family: Oleaceae"
+    "text": "Family: Moraceae"
   },
   {
-    "objectID": "trees/genus/olea.html#species-summary",
-    "href": "trees/genus/olea.html#species-summary",
-    "title": "Olea",
+    "objectID": "trees/genus/morus.html#species-summary",
+    "href": "trees/genus/morus.html#species-summary",
+    "title": "Morus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nFruitless Mulberry\n0\n—"
   },
   {
-    "objectID": "trees/genus/index2.html",
-    "href": "trees/genus/index2.html",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/juglans.html",
+    "href": "trees/genus/juglans.html",
+    "title": "Juglans",
     "section": "",
-    "text": "View A–Z by common name"
+    "text": "Family: Juglandaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#a",
-    "href": "trees/genus/index2.html#a",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/juglans.html#species-summary",
+    "href": "trees/genus/juglans.html#species-summary",
+    "title": "Juglans",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/index.html",
+    "href": "trees/genus/index.html",
+    "title": "Species index — A–Z (by common name)",
+    "section": "",
+    "text": "View A–Z by scientific name"
+  },
+  {
+    "objectID": "trees/genus/index.html#a",
+    "href": "trees/genus/index.html#a",
+    "title": "Species index — A–Z (by common name)",
     "section": "A",
-    "text": "A\n\nAcer campestre Field Maple — Genus: Acer — Family: Sapindaceae\nAcer pseudoplatanus Sycamore Maple — Genus: Acer — Family: Sapindaceae\nAlnus glutinosa Black Alder — Genus: Alnus — Family: Betulaceae\nAlnus incana Grey Alder — Genus: Alnus — Family: Betulaceae"
+    "text": "A\n\nApple Evereste (Malus) — Genus: Malus — Family: Rosaceae\nAsh (Fraxinus excelsior) — Genus: Fraxinus — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#b",
-    "href": "trees/genus/index2.html#b",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#b",
+    "href": "trees/genus/index.html#b",
+    "title": "Species index — A–Z (by common name)",
     "section": "B",
-    "text": "B\n\nBetula pubescens Downy Birch — Genus: Betula — Family: Betulaceae"
+    "text": "B\n\nBeech (Fagus sylvatica) — Genus: Fagus — Family: Fagaceae\nBird Cherry (Prunus padus) — Genus: Prunus — Family: Rosaceae\nBlack Alder (Alnus glutinosa) — Genus: Alnus — Family: Betulaceae\nBlack Pine (Pinus nigra) — Genus: Pinus — Family: Pinaceae\nBlack Poplar (Populus nigra betulifolia) — Genus: Populus — Family: Salicaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#c",
-    "href": "trees/genus/index2.html#c",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#c",
+    "href": "trees/genus/index.html#c",
+    "title": "Species index — A–Z (by common name)",
     "section": "C",
-    "text": "C\n\nCarpinus betulus Hornbeam — Genus: Carpinus — Family: Betulaceae\nCastanea sativa Sweet Chestnut — Genus: Castanea — Family: Fagaceae\nCrataegus monogyna Common Hawthorn — Genus: Crataegus — Family: Rosaceae\nCydonia oblonga Quince — Genus: Cydonia — Family: Rosaceae"
+    "text": "C\n\nCommon Hawthorn (Crataegus monogyna) — Genus: Crataegus — Family: Rosaceae\nCork Oak (Quercus suber) — Genus: Quercus — Family: Fagaceae\nCrab Apple (Malus sylvestris) — Genus: Malus — Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#d",
-    "href": "trees/genus/index2.html#d",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#d",
+    "href": "trees/genus/index.html#d",
+    "title": "Species index — A–Z (by common name)",
     "section": "D",
-    "text": "D\n\nDiospyros kaki Persimmon — Genus: Diospyros — Family: Ebenaceae"
+    "text": "D\n\nDowny Birch (Betula pubescens) — Genus: Betula — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#f",
-    "href": "trees/genus/index2.html#f",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#e",
+    "href": "trees/genus/index.html#e",
+    "title": "Species index — A–Z (by common name)",
+    "section": "E",
+    "text": "E\n\nEnglish Walnut (Juglans regia) — Genus: Juglans — Family: Juglandaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#f",
+    "href": "trees/genus/index.html#f",
+    "title": "Species index — A–Z (by common name)",
     "section": "F",
-    "text": "F\n\nFagus sylvatica Beech — Genus: Fagus — Family: Fagaceae\nFicus carica Fig — Genus: Ficus — Family: Moraceae\nFraxinus excelsior Ash — Genus: Fraxinus — Family: Oleaceae"
+    "text": "F\n\nField Maple (Acer campestre) — Genus: Acer — Family: Sapindaceae\nFig (Ficus carica) — Genus: Ficus — Family: Moraceae\nFruitless Mulberry (Morus alba) — Genus: Morus — Family: Moraceae"
   },
   {
-    "objectID": "trees/genus/index2.html#j",
-    "href": "trees/genus/index2.html#j",
-    "title": "Species index — A–Z (by scientific name)",
-    "section": "J",
-    "text": "J\n\nJuglans regia English Walnut — Genus: Juglans — Family: Juglandaceae"
+    "objectID": "trees/genus/index.html#g",
+    "href": "trees/genus/index.html#g",
+    "title": "Species index — A–Z (by common name)",
+    "section": "G",
+    "text": "G\n\nGoat Willow (Salix caprea) — Genus: Salix — Family: Salicaceae\nGrey Alder (Alnus incana) — Genus: Alnus — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#o",
-    "href": "trees/genus/index2.html#o",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#h",
+    "href": "trees/genus/index.html#h",
+    "title": "Species index — A–Z (by common name)",
+    "section": "H",
+    "text": "H\n\nHolm Oak (Quercus ilex) — Genus: Quercus — Family: Fagaceae\nHornbeam (Carpinus betulus) — Genus: Carpinus — Family: Betulaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#l",
+    "href": "trees/genus/index.html#l",
+    "title": "Species index — A–Z (by common name)",
+    "section": "L",
+    "text": "L\n\nLondon Plane (Platanus × hispanica) — Genus: Platanus — Family: Platanaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#o",
+    "href": "trees/genus/index.html#o",
+    "title": "Species index — A–Z (by common name)",
     "section": "O",
-    "text": "O\n\nOlea europaea Olive — Genus: Olea — Family: Oleaceae"
+    "text": "O\n\nOlive (Olea europaea) — Genus: Olea — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#p",
-    "href": "trees/genus/index2.html#p",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#p",
+    "href": "trees/genus/index.html#p",
+    "title": "Species index — A–Z (by common name)",
     "section": "P",
-    "text": "P\n\nPinus nigra Black Pine — Genus: Pinus — Family: Pinaceae\nPinus pinea Stone Pine — Genus: Pinus — Family: Pinaceae\nPrunus padus Bird Cherry — Genus: Prunus — Family: Rosaceae"
+    "text": "P\n\nPersimmon (Diospyros kaki) — Genus: Diospyros — Family: Ebenaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#q",
-    "href": "trees/genus/index2.html#q",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#q",
+    "href": "trees/genus/index.html#q",
+    "title": "Species index — A–Z (by common name)",
     "section": "Q",
-    "text": "Q\n\nQuercus ilex Holm Oak — Genus: Quercus — Family: Fagaceae\nQuercus suber Cork Oak — Genus: Quercus — Family: Fagaceae"
+    "text": "Q\n\nQuince (Cydonia oblonga) — Genus: Cydonia — Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#s",
-    "href": "trees/genus/index2.html#s",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#s",
+    "href": "trees/genus/index.html#s",
+    "title": "Species index — A–Z (by common name)",
     "section": "S",
-    "text": "S\n\nSalix caprea Goat Willow — Genus: Salix — Family: Salicaceae"
+    "text": "S\n\nStone Pine (Pinus pinea) — Genus: Pinus — Family: Pinaceae\nSweet Chestnut (Castanea sativa) — Genus: Castanea — Family: Fagaceae\nSycamore Maple (Acer pseudoplatanus) — Genus: Acer — Family: Sapindaceae"
   },
   {
-    "objectID": "trees/genus/fraxinus.html",
-    "href": "trees/genus/fraxinus.html",
-    "title": "Fraxinus",
+    "objectID": "trees/genus/ficus.html",
+    "href": "trees/genus/ficus.html",
+    "title": "Ficus",
     "section": "",
-    "text": "Family: Oleaceae"
+    "text": "Family: Moraceae"
   },
   {
-    "objectID": "trees/genus/fraxinus.html#species-summary",
-    "href": "trees/genus/fraxinus.html#species-summary",
-    "title": "Fraxinus",
+    "objectID": "trees/genus/ficus.html#species-summary",
+    "href": "trees/genus/ficus.html#species-summary",
+    "title": "Ficus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—"
   },
   {
-    "objectID": "trees/genus/fagus.html",
-    "href": "trees/genus/fagus.html",
-    "title": "Fagus",
+    "objectID": "trees/genus/diospyros.html",
+    "href": "trees/genus/diospyros.html",
+    "title": "Diospyros",
     "section": "",
-    "text": "Family: Fagaceae"
+    "text": "Family: Ebenaceae"
   },
   {
-    "objectID": "trees/genus/fagus.html#species-summary",
-    "href": "trees/genus/fagus.html#species-summary",
-    "title": "Fagus",
+    "objectID": "trees/genus/diospyros.html#species-summary",
+    "href": "trees/genus/diospyros.html#species-summary",
+    "title": "Diospyros",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
   },
   {
-    "objectID": "trees/genus/cydonia.html",
-    "href": "trees/genus/cydonia.html",
-    "title": "Cydonia",
+    "objectID": "trees/genus/crataegus.html",
+    "href": "trees/genus/crataegus.html",
+    "title": "Crataegus",
     "section": "",
     "text": "Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/cydonia.html#species-summary",
-    "href": "trees/genus/cydonia.html#species-summary",
-    "title": "Cydonia",
+    "objectID": "trees/genus/crataegus.html#species-summary",
+    "href": "trees/genus/crataegus.html#species-summary",
+    "title": "Crataegus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nQuince\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCommon Hawthorn\n0\n—"
   },
   {
-    "objectID": "trees/genus/castanea.html",
-    "href": "trees/genus/castanea.html",
-    "title": "Castanea",
-    "section": "",
-    "text": "Family: Fagaceae"
-  },
-  {
-    "objectID": "trees/genus/castanea.html#species-summary",
-    "href": "trees/genus/castanea.html#species-summary",
-    "title": "Castanea",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nSweet Chestnut\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/betula.html",
-    "href": "trees/genus/betula.html",
-    "title": "Betula",
+    "objectID": "trees/genus/carpinus.html",
+    "href": "trees/genus/carpinus.html",
+    "title": "Carpinus",
     "section": "",
     "text": "Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/betula.html#species-summary",
-    "href": "trees/genus/betula.html#species-summary",
-    "title": "Betula",
+    "objectID": "trees/genus/carpinus.html#species-summary",
+    "href": "trees/genus/carpinus.html#species-summary",
+    "title": "Carpinus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nDowny Birch\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/genus/acer.html",
-    "href": "trees/genus/acer.html",
-    "title": "Acer",
+    "objectID": "trees/genus/alnus.html",
+    "href": "trees/genus/alnus.html",
+    "title": "Alnus",
     "section": "",
-    "text": "Family: Sapindaceae"
+    "text": "Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/acer.html#species-summary",
-    "href": "trees/genus/acer.html#species-summary",
-    "title": "Acer",
+    "objectID": "trees/genus/alnus.html#species-summary",
+    "href": "trees/genus/alnus.html#species-summary",
+    "title": "Alnus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nField Maple\n0\n—\n\n\nSycamore Maple\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nGrey Alder\n0\n—"
   },
   {
-    "objectID": "trees/family/salicaceae.html",
-    "href": "trees/family/salicaceae.html",
-    "title": "Salicaceae (Willow family)",
+    "objectID": "trees/family/sapindaceae.html",
+    "href": "trees/family/sapindaceae.html",
+    "title": "Sapindaceae (Maple family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nGoat Willow\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nField Maple\n0\n—\n\n\nSycamore Maple\n0\n—"
   },
   {
-    "objectID": "trees/family/salicaceae.html#species-summary",
-    "href": "trees/family/salicaceae.html#species-summary",
-    "title": "Salicaceae (Willow family)",
+    "objectID": "trees/family/sapindaceae.html#species-summary",
+    "href": "trees/family/sapindaceae.html#species-summary",
+    "title": "Sapindaceae (Maple family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nGoat Willow\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nField Maple\n0\n—\n\n\nSycamore Maple\n0\n—"
+  },
+  {
+    "objectID": "trees/family/rosaceae.html",
+    "href": "trees/family/rosaceae.html",
+    "title": "Rosaceae (Rose family)",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nApple Evereste\n0\n—\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nCrab Apple\n0\n—\n\n\nQuince\n0\n—"
+  },
+  {
+    "objectID": "trees/family/rosaceae.html#species-summary",
+    "href": "trees/family/rosaceae.html#species-summary",
+    "title": "Rosaceae (Rose family)",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nApple Evereste\n0\n—\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nCrab Apple\n0\n—\n\n\nQuince\n0\n—"
   },
   {
     "objectID": "trees/family/pinaceae.html",
@@ -312,21 +382,21 @@
     "href": "trees/family/moraceae.html",
     "title": "Moraceae (Fig family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—\n\n\nFruitless Mulberry\n0\n—"
   },
   {
     "objectID": "trees/family/moraceae.html#species-summary",
     "href": "trees/family/moraceae.html#species-summary",
     "title": "Moraceae (Fig family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—\n\n\nFruitless Mulberry\n0\n—"
   },
   {
     "objectID": "trees/family/index.html",
     "href": "trees/family/index.html",
     "title": "Tree families",
     "section": "",
-    "text": "Betulaceae (Birch family) — 4 species\nEbenaceae (Persimmon family) — 1 species\nFagaceae (Oak & Beech family) — 4 species\nJuglandaceae (Walnut family) — 1 species\nMoraceae (Fig family) — 1 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species\nRosaceae (Rose family) — 3 species\nSalicaceae (Willow family) — 1 species\nSapindaceae (Maple family) — 2 species"
+    "text": "Betulaceae (Birch family) — 4 species\nEbenaceae (Persimmon family) — 1 species\nFagaceae (Oak & Beech family) — 4 species\nJuglandaceae (Walnut family) — 1 species\nMoraceae (Fig family) — 2 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species\nPlatanaceae — 1 species\nRosaceae (Rose family) — 5 species\nSalicaceae (Willow family) — 2 species\nSapindaceae (Maple family) — 2 species"
   },
   {
     "objectID": "trees/family/ebenaceae.html",
@@ -1218,242 +1288,277 @@
     "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden\n\n\nOlive\n0\n—"
   },
   {
-    "objectID": "trees/family/rosaceae.html",
-    "href": "trees/family/rosaceae.html",
-    "title": "Rosaceae (Rose family)",
+    "objectID": "trees/family/platanaceae.html",
+    "href": "trees/family/platanaceae.html",
+    "title": "Platanaceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nQuince\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nLondon Plane\n0\n—"
   },
   {
-    "objectID": "trees/family/rosaceae.html#species-summary",
-    "href": "trees/family/rosaceae.html#species-summary",
-    "title": "Rosaceae (Rose family)",
+    "objectID": "trees/family/platanaceae.html#species-summary",
+    "href": "trees/family/platanaceae.html#species-summary",
+    "title": "Platanaceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nQuince\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nLondon Plane\n0\n—"
   },
   {
-    "objectID": "trees/family/sapindaceae.html",
-    "href": "trees/family/sapindaceae.html",
-    "title": "Sapindaceae (Maple family)",
+    "objectID": "trees/family/salicaceae.html",
+    "href": "trees/family/salicaceae.html",
+    "title": "Salicaceae (Willow family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nField Maple\n0\n—\n\n\nSycamore Maple\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Poplar\n0\n—\n\n\nGoat Willow\n0\n—"
   },
   {
-    "objectID": "trees/family/sapindaceae.html#species-summary",
-    "href": "trees/family/sapindaceae.html#species-summary",
-    "title": "Sapindaceae (Maple family)",
+    "objectID": "trees/family/salicaceae.html#species-summary",
+    "href": "trees/family/salicaceae.html#species-summary",
+    "title": "Salicaceae (Willow family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nField Maple\n0\n—\n\n\nSycamore Maple\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Poplar\n0\n—\n\n\nGoat Willow\n0\n—"
   },
   {
-    "objectID": "trees/genus/alnus.html",
-    "href": "trees/genus/alnus.html",
-    "title": "Alnus",
+    "objectID": "trees/genus/acer.html",
+    "href": "trees/genus/acer.html",
+    "title": "Acer",
+    "section": "",
+    "text": "Family: Sapindaceae"
+  },
+  {
+    "objectID": "trees/genus/acer.html#species-summary",
+    "href": "trees/genus/acer.html#species-summary",
+    "title": "Acer",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nField Maple\n0\n—\n\n\nSycamore Maple\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/betula.html",
+    "href": "trees/genus/betula.html",
+    "title": "Betula",
     "section": "",
     "text": "Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/alnus.html#species-summary",
-    "href": "trees/genus/alnus.html#species-summary",
-    "title": "Alnus",
+    "objectID": "trees/genus/betula.html#species-summary",
+    "href": "trees/genus/betula.html#species-summary",
+    "title": "Betula",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nGrey Alder\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nDowny Birch\n0\n—"
   },
   {
-    "objectID": "trees/genus/carpinus.html",
-    "href": "trees/genus/carpinus.html",
-    "title": "Carpinus",
-    "section": "",
-    "text": "Family: Betulaceae"
-  },
-  {
-    "objectID": "trees/genus/carpinus.html#species-summary",
-    "href": "trees/genus/carpinus.html#species-summary",
-    "title": "Carpinus",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
-  },
-  {
-    "objectID": "trees/genus/crataegus.html",
-    "href": "trees/genus/crataegus.html",
-    "title": "Crataegus",
-    "section": "",
-    "text": "Family: Rosaceae"
-  },
-  {
-    "objectID": "trees/genus/crataegus.html#species-summary",
-    "href": "trees/genus/crataegus.html#species-summary",
-    "title": "Crataegus",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCommon Hawthorn\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/diospyros.html",
-    "href": "trees/genus/diospyros.html",
-    "title": "Diospyros",
-    "section": "",
-    "text": "Family: Ebenaceae"
-  },
-  {
-    "objectID": "trees/genus/diospyros.html#species-summary",
-    "href": "trees/genus/diospyros.html#species-summary",
-    "title": "Diospyros",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/ficus.html",
-    "href": "trees/genus/ficus.html",
-    "title": "Ficus",
-    "section": "",
-    "text": "Family: Moraceae"
-  },
-  {
-    "objectID": "trees/genus/ficus.html#species-summary",
-    "href": "trees/genus/ficus.html#species-summary",
-    "title": "Ficus",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/index.html",
-    "href": "trees/genus/index.html",
-    "title": "Species index — A–Z (by common name)",
-    "section": "",
-    "text": "View A–Z by scientific name"
-  },
-  {
-    "objectID": "trees/genus/index.html#a",
-    "href": "trees/genus/index.html#a",
-    "title": "Species index — A–Z (by common name)",
-    "section": "A",
-    "text": "A\n\nAsh (Fraxinus excelsior) — Genus: Fraxinus — Family: Oleaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#b",
-    "href": "trees/genus/index.html#b",
-    "title": "Species index — A–Z (by common name)",
-    "section": "B",
-    "text": "B\n\nBeech (Fagus sylvatica) — Genus: Fagus — Family: Fagaceae\nBird Cherry (Prunus padus) — Genus: Prunus — Family: Rosaceae\nBlack Alder (Alnus glutinosa) — Genus: Alnus — Family: Betulaceae\nBlack Pine (Pinus nigra) — Genus: Pinus — Family: Pinaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#c",
-    "href": "trees/genus/index.html#c",
-    "title": "Species index — A–Z (by common name)",
-    "section": "C",
-    "text": "C\n\nCommon Hawthorn (Crataegus monogyna) — Genus: Crataegus — Family: Rosaceae\nCork Oak (Quercus suber) — Genus: Quercus — Family: Fagaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#d",
-    "href": "trees/genus/index.html#d",
-    "title": "Species index — A–Z (by common name)",
-    "section": "D",
-    "text": "D\n\nDowny Birch (Betula pubescens) — Genus: Betula — Family: Betulaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#e",
-    "href": "trees/genus/index.html#e",
-    "title": "Species index — A–Z (by common name)",
-    "section": "E",
-    "text": "E\n\nEnglish Walnut (Juglans regia) — Genus: Juglans — Family: Juglandaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#f",
-    "href": "trees/genus/index.html#f",
-    "title": "Species index — A–Z (by common name)",
-    "section": "F",
-    "text": "F\n\nField Maple (Acer campestre) — Genus: Acer — Family: Sapindaceae\nFig (Ficus carica) — Genus: Ficus — Family: Moraceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#g",
-    "href": "trees/genus/index.html#g",
-    "title": "Species index — A–Z (by common name)",
-    "section": "G",
-    "text": "G\n\nGoat Willow (Salix caprea) — Genus: Salix — Family: Salicaceae\nGrey Alder (Alnus incana) — Genus: Alnus — Family: Betulaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#h",
-    "href": "trees/genus/index.html#h",
-    "title": "Species index — A–Z (by common name)",
-    "section": "H",
-    "text": "H\n\nHolm Oak (Quercus ilex) — Genus: Quercus — Family: Fagaceae\nHornbeam (Carpinus betulus) — Genus: Carpinus — Family: Betulaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#o",
-    "href": "trees/genus/index.html#o",
-    "title": "Species index — A–Z (by common name)",
-    "section": "O",
-    "text": "O\n\nOlive (Olea europaea) — Genus: Olea — Family: Oleaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#p",
-    "href": "trees/genus/index.html#p",
-    "title": "Species index — A–Z (by common name)",
-    "section": "P",
-    "text": "P\n\nPersimmon (Diospyros kaki) — Genus: Diospyros — Family: Ebenaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#q",
-    "href": "trees/genus/index.html#q",
-    "title": "Species index — A–Z (by common name)",
-    "section": "Q",
-    "text": "Q\n\nQuince (Cydonia oblonga) — Genus: Cydonia — Family: Rosaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#s",
-    "href": "trees/genus/index.html#s",
-    "title": "Species index — A–Z (by common name)",
-    "section": "S",
-    "text": "S\n\nStone Pine (Pinus pinea) — Genus: Pinus — Family: Pinaceae\nSweet Chestnut (Castanea sativa) — Genus: Castanea — Family: Fagaceae\nSycamore Maple (Acer pseudoplatanus) — Genus: Acer — Family: Sapindaceae"
-  },
-  {
-    "objectID": "trees/genus/juglans.html",
-    "href": "trees/genus/juglans.html",
-    "title": "Juglans",
-    "section": "",
-    "text": "Family: Juglandaceae"
-  },
-  {
-    "objectID": "trees/genus/juglans.html#species-summary",
-    "href": "trees/genus/juglans.html#species-summary",
-    "title": "Juglans",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/pinus.html",
-    "href": "trees/genus/pinus.html",
-    "title": "Pinus",
-    "section": "",
-    "text": "Family: Pinaceae"
-  },
-  {
-    "objectID": "trees/genus/pinus.html#species-summary",
-    "href": "trees/genus/pinus.html#species-summary",
-    "title": "Pinus",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/quercus.html",
-    "href": "trees/genus/quercus.html",
-    "title": "Quercus",
+    "objectID": "trees/genus/castanea.html",
+    "href": "trees/genus/castanea.html",
+    "title": "Castanea",
     "section": "",
     "text": "Family: Fagaceae"
   },
   {
-    "objectID": "trees/genus/quercus.html#species-summary",
-    "href": "trees/genus/quercus.html#species-summary",
-    "title": "Quercus",
+    "objectID": "trees/genus/castanea.html#species-summary",
+    "href": "trees/genus/castanea.html#species-summary",
+    "title": "Castanea",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCork Oak\n0\n—\n\n\nHolm Oak\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nSweet Chestnut\n0\n—"
   },
   {
-    "objectID": "trees/index.html",
-    "href": "trees/index.html",
-    "title": "Tree Database",
+    "objectID": "trees/genus/cydonia.html",
+    "href": "trees/genus/cydonia.html",
+    "title": "Cydonia",
     "section": "",
-    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\n\nTree 59 - Hornbeam\nTree 60 - Hornbeam\nTree 61 - Hornbeam\nTree 62 - Ash\nTree 63 - Ash"
+    "text": "Family: Rosaceae"
+  },
+  {
+    "objectID": "trees/genus/cydonia.html#species-summary",
+    "href": "trees/genus/cydonia.html#species-summary",
+    "title": "Cydonia",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nQuince\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/fagus.html",
+    "href": "trees/genus/fagus.html",
+    "title": "Fagus",
+    "section": "",
+    "text": "Family: Fagaceae"
+  },
+  {
+    "objectID": "trees/genus/fagus.html#species-summary",
+    "href": "trees/genus/fagus.html#species-summary",
+    "title": "Fagus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/fraxinus.html",
+    "href": "trees/genus/fraxinus.html",
+    "title": "Fraxinus",
+    "section": "",
+    "text": "Family: Oleaceae"
+  },
+  {
+    "objectID": "trees/genus/fraxinus.html#species-summary",
+    "href": "trees/genus/fraxinus.html#species-summary",
+    "title": "Fraxinus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/genus/index2.html",
+    "href": "trees/genus/index2.html",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "",
+    "text": "View A–Z by common name"
+  },
+  {
+    "objectID": "trees/genus/index2.html#a",
+    "href": "trees/genus/index2.html#a",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "A",
+    "text": "A\n\nAcer campestre Field Maple — Genus: Acer — Family: Sapindaceae\nAcer pseudoplatanus Sycamore Maple — Genus: Acer — Family: Sapindaceae\nAlnus glutinosa Black Alder — Genus: Alnus — Family: Betulaceae\nAlnus incana Grey Alder — Genus: Alnus — Family: Betulaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#b",
+    "href": "trees/genus/index2.html#b",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "B",
+    "text": "B\n\nBetula pubescens Downy Birch — Genus: Betula — Family: Betulaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#c",
+    "href": "trees/genus/index2.html#c",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "C",
+    "text": "C\n\nCarpinus betulus Hornbeam — Genus: Carpinus — Family: Betulaceae\nCastanea sativa Sweet Chestnut — Genus: Castanea — Family: Fagaceae\nCrataegus monogyna Common Hawthorn — Genus: Crataegus — Family: Rosaceae\nCydonia oblonga Quince — Genus: Cydonia — Family: Rosaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#d",
+    "href": "trees/genus/index2.html#d",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "D",
+    "text": "D\n\nDiospyros kaki Persimmon — Genus: Diospyros — Family: Ebenaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#f",
+    "href": "trees/genus/index2.html#f",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "F",
+    "text": "F\n\nFagus sylvatica Beech — Genus: Fagus — Family: Fagaceae\nFicus carica Fig — Genus: Ficus — Family: Moraceae\nFraxinus excelsior Ash — Genus: Fraxinus — Family: Oleaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#j",
+    "href": "trees/genus/index2.html#j",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "J",
+    "text": "J\n\nJuglans regia English Walnut — Genus: Juglans — Family: Juglandaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#m",
+    "href": "trees/genus/index2.html#m",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "M",
+    "text": "M\n\nMalus Apple Evereste — Genus: Malus — Family: Rosaceae\nMalus sylvestris Crab Apple — Genus: Malus — Family: Rosaceae\nMorus alba Fruitless Mulberry — Genus: Morus — Family: Moraceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#o",
+    "href": "trees/genus/index2.html#o",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "O",
+    "text": "O\n\nOlea europaea Olive — Genus: Olea — Family: Oleaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#p",
+    "href": "trees/genus/index2.html#p",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "P",
+    "text": "P\n\nPinus nigra Black Pine — Genus: Pinus — Family: Pinaceae\nPinus pinea Stone Pine — Genus: Pinus — Family: Pinaceae\nPlatanus × hispanica London Plane — Genus: Platanus — Family: Platanaceae\nPopulus nigra betulifolia Black Poplar — Genus: Populus — Family: Salicaceae\nPrunus padus Bird Cherry — Genus: Prunus — Family: Rosaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#q",
+    "href": "trees/genus/index2.html#q",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "Q",
+    "text": "Q\n\nQuercus ilex Holm Oak — Genus: Quercus — Family: Fagaceae\nQuercus suber Cork Oak — Genus: Quercus — Family: Fagaceae"
+  },
+  {
+    "objectID": "trees/genus/index2.html#s",
+    "href": "trees/genus/index2.html#s",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "S",
+    "text": "S\n\nSalix caprea Goat Willow — Genus: Salix — Family: Salicaceae"
+  },
+  {
+    "objectID": "trees/genus/malus.html",
+    "href": "trees/genus/malus.html",
+    "title": "Malus",
+    "section": "",
+    "text": "Family: Rosaceae"
+  },
+  {
+    "objectID": "trees/genus/malus.html#species-summary",
+    "href": "trees/genus/malus.html#species-summary",
+    "title": "Malus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nApple Evereste\n0\n—\n\n\nCrab Apple\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/olea.html",
+    "href": "trees/genus/olea.html",
+    "title": "Olea",
+    "section": "",
+    "text": "Family: Oleaceae"
+  },
+  {
+    "objectID": "trees/genus/olea.html#species-summary",
+    "href": "trees/genus/olea.html#species-summary",
+    "title": "Olea",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/platanus.html",
+    "href": "trees/genus/platanus.html",
+    "title": "Platanus",
+    "section": "",
+    "text": "Family: Platanaceae"
+  },
+  {
+    "objectID": "trees/genus/platanus.html#species-summary",
+    "href": "trees/genus/platanus.html#species-summary",
+    "title": "Platanus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nLondon Plane\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/prunus.html",
+    "href": "trees/genus/prunus.html",
+    "title": "Prunus",
+    "section": "",
+    "text": "Family: Rosaceae"
+  },
+  {
+    "objectID": "trees/genus/prunus.html#species-summary",
+    "href": "trees/genus/prunus.html#species-summary",
+    "title": "Prunus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBird Cherry\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/salix.html",
+    "href": "trees/genus/salix.html",
+    "title": "Salix",
+    "section": "",
+    "text": "Family: Salicaceae"
+  },
+  {
+    "objectID": "trees/genus/salix.html#species-summary",
+    "href": "trees/genus/salix.html#species-summary",
+    "title": "Salix",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nGoat Willow\n0\n—"
+  },
+  {
+    "objectID": "trees/species/apple-evereste.html",
+    "href": "trees/species/apple-evereste.html",
+    "title": "Apple Evereste (Malus)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Malus"
   },
   {
     "objectID": "trees/species/beech.html",
@@ -1470,11 +1575,18 @@
     "text": "Family: Betulaceae\nGenus: Alnus"
   },
   {
-    "objectID": "trees/species/common-hawthorn.html",
-    "href": "trees/species/common-hawthorn.html",
-    "title": "Common Hawthorn (Crataegus monogyna)",
+    "objectID": "trees/species/black-poplar.html",
+    "href": "trees/species/black-poplar.html",
+    "title": "Black Poplar (Populus nigra betulifolia)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Crataegus"
+    "text": "Family: Salicaceae\nGenus: Populus"
+  },
+  {
+    "objectID": "trees/species/cork-oak.html",
+    "href": "trees/species/cork-oak.html",
+    "title": "Cork Oak (Quercus suber)",
+    "section": "",
+    "text": "Family: Fagaceae\nGenus: Quercus"
   },
   {
     "objectID": "trees/species/downy-birch.html",
@@ -1491,18 +1603,25 @@
     "text": "Family: Sapindaceae\nGenus: Acer"
   },
   {
-    "objectID": "trees/species/goat-willow.html",
-    "href": "trees/species/goat-willow.html",
-    "title": "Goat Willow (Salix caprea)",
+    "objectID": "trees/species/fruitless-mulberry.html",
+    "href": "trees/species/fruitless-mulberry.html",
+    "title": "Fruitless Mulberry (Morus alba)",
     "section": "",
-    "text": "Family: Salicaceae\nGenus: Salix"
+    "text": "Family: Moraceae\nGenus: Morus"
   },
   {
-    "objectID": "trees/species/holm-oak.html",
-    "href": "trees/species/holm-oak.html",
-    "title": "Holm Oak (Quercus ilex)",
+    "objectID": "trees/species/grey-alder.html",
+    "href": "trees/species/grey-alder.html",
+    "title": "Grey Alder (Alnus incana)",
     "section": "",
-    "text": "Family: Fagaceae\nGenus: Quercus"
+    "text": "Family: Betulaceae\nGenus: Alnus"
+  },
+  {
+    "objectID": "trees/species/hornbeam.html",
+    "href": "trees/species/hornbeam.html",
+    "title": "Hornbeam (Carpinus betulus)",
+    "section": "",
+    "text": "Family: Betulaceae\nGenus: Carpinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
   },
   {
     "objectID": "trees/species/olive.html",

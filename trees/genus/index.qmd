@@ -12,6 +12,7 @@ toc: true
 
 ## A
 
+- [Apple Evereste (*Malus*)](/trees/species/apple-evereste.html) — Genus: [Malus](/trees/genus/malus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [Ash (*Fraxinus excelsior*)](/trees/species/ash.html) — Genus: [Fraxinus](/trees/genus/fraxinus.html) — Family: [Oleaceae](/trees/family/oleaceae.html)
 
 ## B
@@ -20,11 +21,13 @@ toc: true
 - [Bird Cherry (*Prunus padus*)](/trees/species/bird-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [Black Alder (*Alnus glutinosa*)](/trees/species/black-alder.html) — Genus: [Alnus](/trees/genus/alnus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 - [Black Pine (*Pinus nigra*)](/trees/species/black-pine.html) — Genus: [Pinus](/trees/genus/pinus.html) — Family: [Pinaceae](/trees/family/pinaceae.html)
+- [Black Poplar (*Populus nigra betulifolia*)](/trees/species/black-poplar.html) — Genus: [Populus](/trees/genus/populus.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
 
 ## C
 
 - [Common Hawthorn (*Crataegus monogyna*)](/trees/species/common-hawthorn.html) — Genus: [Crataegus](/trees/genus/crataegus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [Cork Oak (*Quercus suber*)](/trees/species/cork-oak.html) — Genus: [Quercus](/trees/genus/quercus.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
+- [Crab Apple (*Malus sylvestris*)](/trees/species/crab-apple.html) — Genus: [Malus](/trees/genus/malus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 
 ## D
 
@@ -38,6 +41,7 @@ toc: true
 
 - [Field Maple (*Acer campestre*)](/trees/species/field-maple.html) — Genus: [Acer](/trees/genus/acer.html) — Family: [Sapindaceae](/trees/family/sapindaceae.html)
 - [Fig (*Ficus carica*)](/trees/species/fig.html) — Genus: [Ficus](/trees/genus/ficus.html) — Family: [Moraceae](/trees/family/moraceae.html)
+- [Fruitless Mulberry (*Morus alba*)](/trees/species/fruitless-mulberry.html) — Genus: [Morus](/trees/genus/morus.html) — Family: [Moraceae](/trees/family/moraceae.html)
 
 ## G
 
@@ -48,6 +52,10 @@ toc: true
 
 - [Holm Oak (*Quercus ilex*)](/trees/species/holm-oak.html) — Genus: [Quercus](/trees/genus/quercus.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
 - [Hornbeam (*Carpinus betulus*)](/trees/species/hornbeam.html) — Genus: [Carpinus](/trees/genus/carpinus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
+
+## L
+
+- [London Plane (*Platanus × hispanica*)](/trees/species/london-plane.html) — Genus: [Platanus](/trees/genus/platanus.html) — Family: [Platanaceae](/trees/family/platanaceae.html)
 
 ## O
 

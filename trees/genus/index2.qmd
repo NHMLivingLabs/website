@@ -42,6 +42,12 @@ toc: true
 
 - [*Juglans regia* English Walnut](/trees/species/english-walnut.html) — Genus: [Juglans](/trees/genus/juglans.html) — Family: [Juglandaceae](/trees/family/juglandaceae.html)
 
+## M
+
+- [*Malus* Apple Evereste](/trees/species/apple-evereste.html) — Genus: [Malus](/trees/genus/malus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+- [*Malus sylvestris* Crab Apple](/trees/species/crab-apple.html) — Genus: [Malus](/trees/genus/malus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+- [*Morus alba* Fruitless Mulberry](/trees/species/fruitless-mulberry.html) — Genus: [Morus](/trees/genus/morus.html) — Family: [Moraceae](/trees/family/moraceae.html)
+
 ## O
 
 - [*Olea europaea* Olive](/trees/species/olive.html) — Genus: [Olea](/trees/genus/olea.html) — Family: [Oleaceae](/trees/family/oleaceae.html)
@@ -50,6 +56,8 @@ toc: true
 
 - [*Pinus nigra* Black Pine](/trees/species/black-pine.html) — Genus: [Pinus](/trees/genus/pinus.html) — Family: [Pinaceae](/trees/family/pinaceae.html)
 - [*Pinus pinea* Stone Pine](/trees/species/stone-pine.html) — Genus: [Pinus](/trees/genus/pinus.html) — Family: [Pinaceae](/trees/family/pinaceae.html)
+- [*Platanus × hispanica* London Plane](/trees/species/london-plane.html) — Genus: [Platanus](/trees/genus/platanus.html) — Family: [Platanaceae](/trees/family/platanaceae.html)
+- [*Populus nigra betulifolia* Black Poplar](/trees/species/black-poplar.html) — Genus: [Populus](/trees/genus/populus.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
 - [*Prunus padus* Bird Cherry](/trees/species/bird-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 
 ## Q

@@ -2,3 +2,6 @@
 
 # Local environment secrets
 .env
+
+# Cache for fetched/exported data
+/cache/
