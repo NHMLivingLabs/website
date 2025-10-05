@@ -140,7 +140,7 @@ def _render_species_summary_lines(species_summary):
     if not species_summary:
         return []
     out = []
-    out.append('## Species summary')
+    out.append('## Planting summary')
     out.append('')
     out.append('| Species | Trees | Planted locations |')
     out.append('|---|---:|---|')
