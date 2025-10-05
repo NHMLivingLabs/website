@@ -4,6 +4,7 @@
   pre-render:
     - python ./scripts/generate_trees_from_epicollect.py
     - python ./scripts/generate_tree_list.py
+    - python ./scripts/generate_recent_trees.py
     - python ./scripts/generate_articles_from_bib.py
     - python ./scripts/generate_reports_index.py
     
