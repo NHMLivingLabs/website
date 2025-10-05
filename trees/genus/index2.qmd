@@ -25,12 +25,18 @@ toc: true
 
 - [*Carpinus betulus* Hornbeam](/trees/species/hornbeam.html) — Genus: [Carpinus](/trees/genus/carpinus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 - [*Castanea sativa* Sweet Chestnut](/trees/species/sweet-chestnut.html) — Genus: [Castanea](/trees/genus/castanea.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
+- [*Corylus avellana* Hazel](/trees/species/hazel.html) — Genus: [Corylus](/trees/genus/corylus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 - [*Crataegus monogyna* Common Hawthorn](/trees/species/common-hawthorn.html) — Genus: [Crataegus](/trees/genus/crataegus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [*Cydonia oblonga* Quince](/trees/species/quince.html) — Genus: [Cydonia](/trees/genus/cydonia.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 
 ## D
 
+- [*Dicksonia antarctica* Soft Tree Fern](/trees/species/soft-tree-fern.html) — Genus: [Dicksonia](/trees/genus/dicksonia.html) — Family: [Dicksoniaceae](/trees/family/dicksoniaceae.html)
 - [*Diospyros kaki* Persimmon](/trees/species/persimmon.html) — Genus: [Diospyros](/trees/genus/diospyros.html) — Family: [Ebenaceae](/trees/family/ebenaceae.html)
+
+## E
+
+- [*Euonymus europaeus* Spindle](/trees/species/spindle.html) — Genus: [Euonymus](/trees/genus/euonymus.html) — Family: [Celastraceae](/trees/family/celastraceae.html)
 
 ## F
 
@@ -58,14 +64,22 @@ toc: true
 - [*Pinus pinea* Stone Pine](/trees/species/stone-pine.html) — Genus: [Pinus](/trees/genus/pinus.html) — Family: [Pinaceae](/trees/family/pinaceae.html)
 - [*Platanus × hispanica* London Plane](/trees/species/london-plane.html) — Genus: [Platanus](/trees/genus/platanus.html) — Family: [Platanaceae](/trees/family/platanaceae.html)
 - [*Populus nigra betulifolia* Black Poplar](/trees/species/black-poplar.html) — Genus: [Populus](/trees/genus/populus.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
+- [*Populus tremula* Aspen](/trees/species/aspen.html) — Genus: [Populus](/trees/genus/populus.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
+- [*Prunus avium* Sweet Cherry](/trees/species/sweet-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+- [*Prunus cerasus* Sour Cherry](/trees/species/sour-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+- [*Prunus dulcis* Almond](/trees/species/almond.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [*Prunus padus* Bird Cherry](/trees/species/bird-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+- [*Pyrus communis* Pear Beech Hill](/trees/species/pear-beech-hill.html) — Genus: [Pyrus](/trees/genus/pyrus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 
 ## Q
 
 - [*Quercus ilex* Holm Oak](/trees/species/holm-oak.html) — Genus: [Quercus](/trees/genus/quercus.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
+- [*Quercus robur* English Oak](/trees/species/english-oak.html) — Genus: [Quercus](/trees/genus/quercus.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
 - [*Quercus suber* Cork Oak](/trees/species/cork-oak.html) — Genus: [Quercus](/trees/genus/quercus.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
 
 ## S
 
 - [*Salix caprea* Goat Willow](/trees/species/goat-willow.html) — Genus: [Salix](/trees/genus/salix.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
+- [*Salix fragilis* Crack Willow](/trees/species/crack-willow.html) — Genus: [Salix](/trees/genus/salix.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
+- [*Sambucus nigra* Elder](/trees/species/elder.html) — Genus: [Sambucus](/trees/genus/sambucus.html) — Family: [Adoxaceae](/trees/family/adoxaceae.html)
 

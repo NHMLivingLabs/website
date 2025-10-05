@@ -7,11 +7,25 @@
     "text": "Family: Sapindaceae\nGenus: Acer"
   },
   {
-    "objectID": "trees/species/stone-pine.html",
-    "href": "trees/species/stone-pine.html",
-    "title": "Stone Pine (Pinus pinea)",
+    "objectID": "trees/species/sweet-cherry.html",
+    "href": "trees/species/sweet-cherry.html",
+    "title": "Sweet Cherry (Prunus avium)",
     "section": "",
-    "text": "Family: Pinaceae\nGenus: Pinus"
+    "text": "Family: Rosaceae\nGenus: Prunus"
+  },
+  {
+    "objectID": "trees/species/spindle.html",
+    "href": "trees/species/spindle.html",
+    "title": "Spindle (Euonymus europaeus)",
+    "section": "",
+    "text": "Family: Celastraceae\nGenus: Euonymus"
+  },
+  {
+    "objectID": "trees/species/soft-tree-fern.html",
+    "href": "trees/species/soft-tree-fern.html",
+    "title": "Soft Tree Fern (Dicksonia antarctica)",
+    "section": "",
+    "text": "Family: Dicksoniaceae\nGenus: Dicksonia"
   },
   {
     "objectID": "trees/species/persimmon.html",
@@ -21,18 +35,25 @@
     "text": "Family: Ebenaceae\nGenus: Diospyros"
   },
   {
-    "objectID": "trees/species/london-plane.html",
-    "href": "trees/species/london-plane.html",
-    "title": "London Plane (Platanus × hispanica)",
+    "objectID": "trees/species/olive.html",
+    "href": "trees/species/olive.html",
+    "title": "Olive (Olea europaea)",
     "section": "",
-    "text": "Family: Platanaceae\nGenus: Platanus"
+    "text": "Family: Oleaceae\nGenus: Olea"
   },
   {
-    "objectID": "trees/species/holm-oak.html",
-    "href": "trees/species/holm-oak.html",
-    "title": "Holm Oak (Quercus ilex)",
+    "objectID": "trees/species/hornbeam.html",
+    "href": "trees/species/hornbeam.html",
+    "title": "Hornbeam (Carpinus betulus)",
     "section": "",
-    "text": "Family: Fagaceae\nGenus: Quercus"
+    "text": "Family: Betulaceae\nGenus: Carpinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/species/hazel.html",
+    "href": "trees/species/hazel.html",
+    "title": "Hazel (Corylus avellana)",
+    "section": "",
+    "text": "Family: Betulaceae\nGenus: Corylus"
   },
   {
     "objectID": "trees/species/goat-willow.html",
@@ -56,32 +77,46 @@
     "text": "Family: Juglandaceae\nGenus: Juglans"
   },
   {
-    "objectID": "trees/species/crab-apple.html",
-    "href": "trees/species/crab-apple.html",
-    "title": "Crab Apple (Malus sylvestris)",
+    "objectID": "trees/species/elder.html",
+    "href": "trees/species/elder.html",
+    "title": "Elder (Sambucus nigra)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Malus"
+    "text": "Family: Adoxaceae\nGenus: Sambucus"
   },
   {
-    "objectID": "trees/species/common-hawthorn.html",
-    "href": "trees/species/common-hawthorn.html",
-    "title": "Common Hawthorn (Crataegus monogyna)",
+    "objectID": "trees/species/crack-willow.html",
+    "href": "trees/species/crack-willow.html",
+    "title": "Crack Willow (Salix fragilis)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Crataegus"
+    "text": "Family: Salicaceae\nGenus: Salix"
   },
   {
-    "objectID": "trees/species/black-pine.html",
-    "href": "trees/species/black-pine.html",
-    "title": "Black Pine (Pinus nigra)",
+    "objectID": "trees/species/cork-oak.html",
+    "href": "trees/species/cork-oak.html",
+    "title": "Cork Oak (Quercus suber)",
     "section": "",
-    "text": "Family: Pinaceae\nGenus: Pinus"
+    "text": "Family: Fagaceae\nGenus: Quercus"
   },
   {
-    "objectID": "trees/species/bird-cherry.html",
-    "href": "trees/species/bird-cherry.html",
-    "title": "Bird Cherry (Prunus padus)",
+    "objectID": "trees/species/black-poplar.html",
+    "href": "trees/species/black-poplar.html",
+    "title": "Black Poplar (Populus nigra betulifolia)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Prunus"
+    "text": "Family: Salicaceae\nGenus: Populus"
+  },
+  {
+    "objectID": "trees/species/black-alder.html",
+    "href": "trees/species/black-alder.html",
+    "title": "Black Alder (Alnus glutinosa)",
+    "section": "",
+    "text": "Family: Betulaceae\nGenus: Alnus"
+  },
+  {
+    "objectID": "trees/species/beech.html",
+    "href": "trees/species/beech.html",
+    "title": "Beech (Fagus sylvatica)",
+    "section": "",
+    "text": "Family: Fagaceae\nGenus: Fagus"
   },
   {
     "objectID": "trees/species/ash.html",
@@ -91,11 +126,25 @@
     "text": "Family: Oleaceae\nGenus: Fraxinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/index.html",
-    "href": "trees/index.html",
-    "title": "Tree Database",
+    "objectID": "trees/species/almond.html",
+    "href": "trees/species/almond.html",
+    "title": "Almond (Prunus dulcis)",
     "section": "",
-    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\n\nTree 59 - Hornbeam\nTree 60 - Hornbeam\nTree 61 - Hornbeam\nTree 62 - Ash\nTree 63 - Ash"
+    "text": "Family: Rosaceae\nGenus: Prunus"
+  },
+  {
+    "objectID": "trees/genus/sambucus.html",
+    "href": "trees/genus/sambucus.html",
+    "title": "Sambucus",
+    "section": "",
+    "text": "Family: Adoxaceae"
+  },
+  {
+    "objectID": "trees/genus/sambucus.html#species-summary",
+    "href": "trees/genus/sambucus.html#species-summary",
+    "title": "Sambucus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
   },
   {
     "objectID": "trees/genus/quercus.html",
@@ -109,175 +158,182 @@
     "href": "trees/genus/quercus.html#species-summary",
     "title": "Quercus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCork Oak\n0\n—\n\n\nHolm Oak\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCork Oak\n0\n—\n\n\nEnglish Oak\n0\n—\n\n\nHolm Oak\n0\n—"
   },
   {
-    "objectID": "trees/genus/populus.html",
-    "href": "trees/genus/populus.html",
-    "title": "Populus",
+    "objectID": "trees/genus/prunus.html",
+    "href": "trees/genus/prunus.html",
+    "title": "Prunus",
     "section": "",
-    "text": "Family: Salicaceae"
+    "text": "Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/populus.html#species-summary",
-    "href": "trees/genus/populus.html#species-summary",
-    "title": "Populus",
+    "objectID": "trees/genus/prunus.html#species-summary",
+    "href": "trees/genus/prunus.html#species-summary",
+    "title": "Prunus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Poplar\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAlmond\n0\n—\n\n\nBird Cherry\n0\n—\n\n\nSour Cherry\n0\n—\n\n\nSweet Cherry\n0\n—"
   },
   {
-    "objectID": "trees/genus/pinus.html",
-    "href": "trees/genus/pinus.html",
-    "title": "Pinus",
+    "objectID": "trees/genus/platanus.html",
+    "href": "trees/genus/platanus.html",
+    "title": "Platanus",
     "section": "",
-    "text": "Family: Pinaceae"
+    "text": "Family: Platanaceae"
   },
   {
-    "objectID": "trees/genus/pinus.html#species-summary",
-    "href": "trees/genus/pinus.html#species-summary",
-    "title": "Pinus",
+    "objectID": "trees/genus/platanus.html#species-summary",
+    "href": "trees/genus/platanus.html#species-summary",
+    "title": "Platanus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nLondon Plane\n0\n—"
   },
   {
-    "objectID": "trees/genus/morus.html",
-    "href": "trees/genus/morus.html",
-    "title": "Morus",
+    "objectID": "trees/genus/olea.html",
+    "href": "trees/genus/olea.html",
+    "title": "Olea",
     "section": "",
-    "text": "Family: Moraceae"
+    "text": "Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/morus.html#species-summary",
-    "href": "trees/genus/morus.html#species-summary",
-    "title": "Morus",
+    "objectID": "trees/genus/olea.html#species-summary",
+    "href": "trees/genus/olea.html#species-summary",
+    "title": "Olea",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nFruitless Mulberry\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
   },
   {
-    "objectID": "trees/genus/juglans.html",
-    "href": "trees/genus/juglans.html",
-    "title": "Juglans",
+    "objectID": "trees/genus/malus.html",
+    "href": "trees/genus/malus.html",
+    "title": "Malus",
     "section": "",
-    "text": "Family: Juglandaceae"
+    "text": "Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/juglans.html#species-summary",
-    "href": "trees/genus/juglans.html#species-summary",
-    "title": "Juglans",
+    "objectID": "trees/genus/malus.html#species-summary",
+    "href": "trees/genus/malus.html#species-summary",
+    "title": "Malus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nApple Evereste\n0\n—\n\n\nCrab Apple\n0\n—"
   },
   {
-    "objectID": "trees/genus/index.html",
-    "href": "trees/genus/index.html",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html",
+    "href": "trees/genus/index2.html",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "",
-    "text": "View A–Z by scientific name"
+    "text": "View A–Z by common name"
   },
   {
-    "objectID": "trees/genus/index.html#a",
-    "href": "trees/genus/index.html#a",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#a",
+    "href": "trees/genus/index2.html#a",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "A",
-    "text": "A\n\nApple Evereste (Malus) — Genus: Malus — Family: Rosaceae\nAsh (Fraxinus excelsior) — Genus: Fraxinus — Family: Oleaceae"
+    "text": "A\n\nAcer campestre Field Maple — Genus: Acer — Family: Sapindaceae\nAcer pseudoplatanus Sycamore Maple — Genus: Acer — Family: Sapindaceae\nAlnus glutinosa Black Alder — Genus: Alnus — Family: Betulaceae\nAlnus incana Grey Alder — Genus: Alnus — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index.html#b",
-    "href": "trees/genus/index.html#b",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#b",
+    "href": "trees/genus/index2.html#b",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "B",
-    "text": "B\n\nBeech (Fagus sylvatica) — Genus: Fagus — Family: Fagaceae\nBird Cherry (Prunus padus) — Genus: Prunus — Family: Rosaceae\nBlack Alder (Alnus glutinosa) — Genus: Alnus — Family: Betulaceae\nBlack Pine (Pinus nigra) — Genus: Pinus — Family: Pinaceae\nBlack Poplar (Populus nigra betulifolia) — Genus: Populus — Family: Salicaceae"
+    "text": "B\n\nBetula pubescens Downy Birch — Genus: Betula — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index.html#c",
-    "href": "trees/genus/index.html#c",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#c",
+    "href": "trees/genus/index2.html#c",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "C",
-    "text": "C\n\nCommon Hawthorn (Crataegus monogyna) — Genus: Crataegus — Family: Rosaceae\nCork Oak (Quercus suber) — Genus: Quercus — Family: Fagaceae\nCrab Apple (Malus sylvestris) — Genus: Malus — Family: Rosaceae"
+    "text": "C\n\nCarpinus betulus Hornbeam — Genus: Carpinus — Family: Betulaceae\nCastanea sativa Sweet Chestnut — Genus: Castanea — Family: Fagaceae\nCorylus avellana Hazel — Genus: Corylus — Family: Betulaceae\nCrataegus monogyna Common Hawthorn — Genus: Crataegus — Family: Rosaceae\nCydonia oblonga Quince — Genus: Cydonia — Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/index.html#d",
-    "href": "trees/genus/index.html#d",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#d",
+    "href": "trees/genus/index2.html#d",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "D",
-    "text": "D\n\nDowny Birch (Betula pubescens) — Genus: Betula — Family: Betulaceae"
+    "text": "D\n\nDicksonia antarctica Soft Tree Fern — Genus: Dicksonia — Family: Dicksoniaceae\nDiospyros kaki Persimmon — Genus: Diospyros — Family: Ebenaceae"
   },
   {
-    "objectID": "trees/genus/index.html#e",
-    "href": "trees/genus/index.html#e",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#e",
+    "href": "trees/genus/index2.html#e",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "E",
-    "text": "E\n\nEnglish Walnut (Juglans regia) — Genus: Juglans — Family: Juglandaceae"
+    "text": "E\n\nEuonymus europaeus Spindle — Genus: Euonymus — Family: Celastraceae"
   },
   {
-    "objectID": "trees/genus/index.html#f",
-    "href": "trees/genus/index.html#f",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#f",
+    "href": "trees/genus/index2.html#f",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "F",
-    "text": "F\n\nField Maple (Acer campestre) — Genus: Acer — Family: Sapindaceae\nFig (Ficus carica) — Genus: Ficus — Family: Moraceae\nFruitless Mulberry (Morus alba) — Genus: Morus — Family: Moraceae"
+    "text": "F\n\nFagus sylvatica Beech — Genus: Fagus — Family: Fagaceae\nFicus carica Fig — Genus: Ficus — Family: Moraceae\nFraxinus excelsior Ash — Genus: Fraxinus — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/index.html#g",
-    "href": "trees/genus/index.html#g",
-    "title": "Species index — A–Z (by common name)",
-    "section": "G",
-    "text": "G\n\nGoat Willow (Salix caprea) — Genus: Salix — Family: Salicaceae\nGrey Alder (Alnus incana) — Genus: Alnus — Family: Betulaceae"
+    "objectID": "trees/genus/index2.html#j",
+    "href": "trees/genus/index2.html#j",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "J",
+    "text": "J\n\nJuglans regia English Walnut — Genus: Juglans — Family: Juglandaceae"
   },
   {
-    "objectID": "trees/genus/index.html#h",
-    "href": "trees/genus/index.html#h",
-    "title": "Species index — A–Z (by common name)",
-    "section": "H",
-    "text": "H\n\nHolm Oak (Quercus ilex) — Genus: Quercus — Family: Fagaceae\nHornbeam (Carpinus betulus) — Genus: Carpinus — Family: Betulaceae"
+    "objectID": "trees/genus/index2.html#m",
+    "href": "trees/genus/index2.html#m",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "M",
+    "text": "M\n\nMalus Apple Evereste — Genus: Malus — Family: Rosaceae\nMalus sylvestris Crab Apple — Genus: Malus — Family: Rosaceae\nMorus alba Fruitless Mulberry — Genus: Morus — Family: Moraceae"
   },
   {
-    "objectID": "trees/genus/index.html#l",
-    "href": "trees/genus/index.html#l",
-    "title": "Species index — A–Z (by common name)",
-    "section": "L",
-    "text": "L\n\nLondon Plane (Platanus × hispanica) — Genus: Platanus — Family: Platanaceae"
-  },
-  {
-    "objectID": "trees/genus/index.html#o",
-    "href": "trees/genus/index.html#o",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#o",
+    "href": "trees/genus/index2.html#o",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "O",
-    "text": "O\n\nOlive (Olea europaea) — Genus: Olea — Family: Oleaceae"
+    "text": "O\n\nOlea europaea Olive — Genus: Olea — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/index.html#p",
-    "href": "trees/genus/index.html#p",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#p",
+    "href": "trees/genus/index2.html#p",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "P",
-    "text": "P\n\nPersimmon (Diospyros kaki) — Genus: Diospyros — Family: Ebenaceae"
+    "text": "P\n\nPinus nigra Black Pine — Genus: Pinus — Family: Pinaceae\nPinus pinea Stone Pine — Genus: Pinus — Family: Pinaceae\nPlatanus × hispanica London Plane — Genus: Platanus — Family: Platanaceae\nPopulus nigra betulifolia Black Poplar — Genus: Populus — Family: Salicaceae\nPopulus tremula Aspen — Genus: Populus — Family: Salicaceae\nPrunus avium Sweet Cherry — Genus: Prunus — Family: Rosaceae\nPrunus cerasus Sour Cherry — Genus: Prunus — Family: Rosaceae\nPrunus dulcis Almond — Genus: Prunus — Family: Rosaceae\nPrunus padus Bird Cherry — Genus: Prunus — Family: Rosaceae\nPyrus communis Pear Beech Hill — Genus: Pyrus — Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/index.html#q",
-    "href": "trees/genus/index.html#q",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#q",
+    "href": "trees/genus/index2.html#q",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "Q",
-    "text": "Q\n\nQuince (Cydonia oblonga) — Genus: Cydonia — Family: Rosaceae"
+    "text": "Q\n\nQuercus ilex Holm Oak — Genus: Quercus — Family: Fagaceae\nQuercus robur English Oak — Genus: Quercus — Family: Fagaceae\nQuercus suber Cork Oak — Genus: Quercus — Family: Fagaceae"
   },
   {
-    "objectID": "trees/genus/index.html#s",
-    "href": "trees/genus/index.html#s",
-    "title": "Species index — A–Z (by common name)",
+    "objectID": "trees/genus/index2.html#s",
+    "href": "trees/genus/index2.html#s",
+    "title": "Species index — A–Z (by scientific name)",
     "section": "S",
-    "text": "S\n\nStone Pine (Pinus pinea) — Genus: Pinus — Family: Pinaceae\nSweet Chestnut (Castanea sativa) — Genus: Castanea — Family: Fagaceae\nSycamore Maple (Acer pseudoplatanus) — Genus: Acer — Family: Sapindaceae"
+    "text": "S\n\nSalix caprea Goat Willow — Genus: Salix — Family: Salicaceae\nSalix fragilis Crack Willow — Genus: Salix — Family: Salicaceae\nSambucus nigra Elder — Genus: Sambucus — Family: Adoxaceae"
   },
   {
-    "objectID": "trees/genus/ficus.html",
-    "href": "trees/genus/ficus.html",
-    "title": "Ficus",
+    "objectID": "trees/genus/fraxinus.html",
+    "href": "trees/genus/fraxinus.html",
+    "title": "Fraxinus",
     "section": "",
-    "text": "Family: Moraceae"
+    "text": "Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/ficus.html#species-summary",
-    "href": "trees/genus/ficus.html#species-summary",
-    "title": "Ficus",
+    "objectID": "trees/genus/fraxinus.html#species-summary",
+    "href": "trees/genus/fraxinus.html#species-summary",
+    "title": "Fraxinus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/genus/fagus.html",
+    "href": "trees/genus/fagus.html",
+    "title": "Fagus",
+    "section": "",
+    "text": "Family: Fagaceae"
+  },
+  {
+    "objectID": "trees/genus/fagus.html#species-summary",
+    "href": "trees/genus/fagus.html#species-summary",
+    "title": "Fagus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—"
   },
   {
     "objectID": "trees/genus/diospyros.html",
@@ -294,18 +350,32 @@
     "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
   },
   {
-    "objectID": "trees/genus/crataegus.html",
-    "href": "trees/genus/crataegus.html",
-    "title": "Crataegus",
+    "objectID": "trees/genus/cydonia.html",
+    "href": "trees/genus/cydonia.html",
+    "title": "Cydonia",
     "section": "",
     "text": "Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/crataegus.html#species-summary",
-    "href": "trees/genus/crataegus.html#species-summary",
-    "title": "Crataegus",
+    "objectID": "trees/genus/cydonia.html#species-summary",
+    "href": "trees/genus/cydonia.html#species-summary",
+    "title": "Cydonia",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCommon Hawthorn\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nQuince\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/corylus.html",
+    "href": "trees/genus/corylus.html",
+    "title": "Corylus",
+    "section": "",
+    "text": "Family: Betulaceae"
+  },
+  {
+    "objectID": "trees/genus/corylus.html#species-summary",
+    "href": "trees/genus/corylus.html#species-summary",
+    "title": "Corylus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nHazel\n0\n—"
   },
   {
     "objectID": "trees/genus/carpinus.html",
@@ -354,14 +424,14 @@
     "href": "trees/family/rosaceae.html",
     "title": "Rosaceae (Rose family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nApple Evereste\n0\n—\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nCrab Apple\n0\n—\n\n\nQuince\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAlmond\n0\n—\n\n\nApple Evereste\n0\n—\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nCrab Apple\n0\n—\n\n\nPear Beech Hill\n0\n—\n\n\nQuince\n0\n—\n\n\nSour Cherry\n0\n—\n\n\nSweet Cherry\n0\n—"
   },
   {
     "objectID": "trees/family/rosaceae.html#species-summary",
     "href": "trees/family/rosaceae.html#species-summary",
     "title": "Rosaceae (Rose family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nApple Evereste\n0\n—\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nCrab Apple\n0\n—\n\n\nQuince\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAlmond\n0\n—\n\n\nApple Evereste\n0\n—\n\n\nBird Cherry\n0\n—\n\n\nCommon Hawthorn\n0\n—\n\n\nCrab Apple\n0\n—\n\n\nPear Beech Hill\n0\n—\n\n\nQuince\n0\n—\n\n\nSour Cherry\n0\n—\n\n\nSweet Cherry\n0\n—"
   },
   {
     "objectID": "trees/family/pinaceae.html",
@@ -396,7 +466,7 @@
     "href": "trees/family/index.html",
     "title": "Tree families",
     "section": "",
-    "text": "Betulaceae (Birch family) — 4 species\nEbenaceae (Persimmon family) — 1 species\nFagaceae (Oak & Beech family) — 4 species\nJuglandaceae (Walnut family) — 1 species\nMoraceae (Fig family) — 2 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species\nPlatanaceae — 1 species\nRosaceae (Rose family) — 5 species\nSalicaceae (Willow family) — 2 species\nSapindaceae (Maple family) — 2 species"
+    "text": "Adoxaceae — 1 species\nBetulaceae (Birch family) — 5 species\nCelastraceae — 1 species\nDicksoniaceae — 1 species\nEbenaceae (Persimmon family) — 1 species\nFagaceae (Oak & Beech family) — 5 species\nJuglandaceae (Walnut family) — 1 species\nMoraceae (Fig family) — 2 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species\nPlatanaceae — 1 species\nRosaceae (Rose family) — 9 species\nSalicaceae (Willow family) — 4 species\nSapindaceae (Maple family) — 2 species"
   },
   {
     "objectID": "trees/family/ebenaceae.html",
@@ -413,338 +483,415 @@
     "text": "Species\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
   },
   {
-    "objectID": "trees/63.html",
-    "href": "trees/63.html",
-    "title": "Tree 63 - Ash",
+    "objectID": "trees/family/celastraceae.html",
+    "href": "trees/family/celastraceae.html",
+    "title": "Celastraceae",
     "section": "",
-    "text": "Tree 63 - Ash"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSpindle\n0\n—"
   },
   {
-    "objectID": "trees/63.html#species-information",
-    "href": "trees/63.html#species-information",
-    "title": "Tree 63 - Ash",
+    "objectID": "trees/family/celastraceae.html#species-summary",
+    "href": "trees/family/celastraceae.html#species-summary",
+    "title": "Celastraceae",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSpindle\n0\n—"
+  },
+  {
+    "objectID": "trees/family/adoxaceae.html",
+    "href": "trees/family/adoxaceae.html",
+    "title": "Adoxaceae",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
+  },
+  {
+    "objectID": "trees/family/adoxaceae.html#species-summary",
+    "href": "trees/family/adoxaceae.html#species-summary",
+    "title": "Adoxaceae",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
+  },
+  {
+    "objectID": "trees/62.html",
+    "href": "trees/62.html",
+    "title": "Tree 62 - Ash",
+    "section": "",
+    "text": "Tree 62 - Ash"
+  },
+  {
+    "objectID": "trees/62.html#species-information",
+    "href": "trees/62.html#species-information",
+    "title": "Tree 62 - Ash",
     "section": "Species Information",
     "text": "Species Information\nCommon name Ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/63.html#tree-data",
-    "href": "trees/63.html#tree-data",
-    "title": "Tree 63 - Ash",
-    "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 21.9cm (28/09/2025)"
-  },
-  {
-    "objectID": "trees/61.html",
-    "href": "trees/61.html",
-    "title": "Tree 61 - Hornbeam",
-    "section": "",
-    "text": "Tree 61 - Hornbeam"
-  },
-  {
-    "objectID": "trees/61.html#species-information",
-    "href": "trees/61.html#species-information",
-    "title": "Tree 61 - Hornbeam",
-    "section": "Species Information",
-    "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
-  },
-  {
-    "objectID": "trees/61.html#tree-data",
-    "href": "trees/61.html#tree-data",
-    "title": "Tree 61 - Hornbeam",
+    "objectID": "trees/62.html#tree-data",
+    "href": "trees/62.html#tree-data",
+    "title": "Tree 62 - Ash",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/59.html",
-    "href": "trees/59.html",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html",
+    "href": "trees/60.html",
+    "title": "Tree 60 - Hornbeam",
     "section": "",
-    "text": "Tree 59 - Hornbeam"
+    "text": "Tree 60 - Hornbeam"
   },
   {
-    "objectID": "trees/59.html#species-information",
-    "href": "trees/59.html#species-information",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html#species-information",
+    "href": "trees/60.html#species-information",
+    "title": "Tree 60 - Hornbeam",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/59.html#tree-data",
-    "href": "trees/59.html#tree-data",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html#tree-data",
+    "href": "trees/60.html#tree-data",
+    "title": "Tree 60 - Hornbeam",
     "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 15.75cm (03/10/2025)"
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "reports.html",
-    "href": "reports.html",
-    "title": "Urban Research Station Reports",
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
     "section": "",
-    "text": "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes."
+    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
   },
   {
-    "objectID": "reports.html#section",
-    "href": "reports.html#section",
-    "title": "Urban Research Station Reports",
-    "section": "2025",
-    "text": "2025\nNo reports yet for 2025"
-  },
-  {
-    "objectID": "case-studies.html",
-    "href": "case-studies.html",
-    "title": "Case Studies",
+    "objectID": "team.html#urban-research-station",
+    "href": "team.html#urban-research-station",
+    "title": "Team",
     "section": "",
-    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
+    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
   },
   {
-    "objectID": "case-studies.html#nhm-projects",
-    "href": "case-studies.html#nhm-projects",
-    "title": "Case Studies",
+    "objectID": "team.html#gardens-team",
+    "href": "team.html#gardens-team",
+    "title": "Team",
+    "section": "Gardens Team",
+    "text": "Gardens Team"
+  },
+  {
+    "objectID": "team.html#nhm-staff",
+    "href": "team.html#nhm-staff",
+    "title": "Team",
+    "section": "NHM Staff",
+    "text": "NHM Staff"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
     "section": "",
-    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
+    "text": "By 20250, nearly 70% of people will live in cities\nWe study how we can make cities better places for people and for nature.\nOur vision is of a future where both people and planet thrive.\n\n\n30 years of research\nIn 2025 we will have been studying the Museum’s gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one one of the most intensively studied urban sites worldwide.\n\n\n\n\n\n\n\n\nA living laboratory\nOur gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiveristy and create resilient ecosystems.\nOur gardens and research infrastructres are open to Museum staff and external collaborators for research and teaching.\n\n\nTraining the next generation\nSome text.\n\n\n\n\n\n\n\n\nIntegrating diverse datasets\nData ecosystem\n\n\nLeading change\nSKENZEN\nSomething on policy."
   },
   {
-    "objectID": "case-studies.html#external-collaborators",
-    "href": "case-studies.html#external-collaborators",
-    "title": "Case Studies",
-    "section": "External Collaborators",
-    "text": "External Collaborators\n\n\n\n\n\n\n\n\nMAARU\nAutonomous spatial audio recorders for monitoring soundscapes and wildlife acoustic activity.\n\n\n\n\n\n\n\n\n\nMore than Human Community Toolkit\nDeveloping tools and methods for engaging communities in more-than-human research. Collaboration with Goldsmiths.\n\n\n\n\n\n\n\n\n\nCreativity in Design\nCity St George"
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html",
-    "href": "case-studies/moth-trapping.html",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html",
+    "href": "case-studies/sensor-network.html",
+    "title": "Sensor Network",
     "section": "",
-    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
   },
   {
-    "objectID": "case-studies/moth-trapping.html#overview",
-    "href": "case-studies/moth-trapping.html#overview",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#overview",
+    "href": "case-studies/sensor-network.html#overview",
+    "title": "Sensor Network",
     "section": "",
-    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
   },
   {
-    "objectID": "case-studies/moth-trapping.html#objectives",
-    "href": "case-studies/moth-trapping.html#objectives",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#objectives",
+    "href": "case-studies/sensor-network.html#objectives",
+    "title": "Sensor Network",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor moth species diversity and abundance\nTrack seasonal and annual population changes\nIdentify rare or notable species\nContribute to citizen science and public engagement"
+    "text": "Objectives\n\nMonitor environmental conditions continuously\nCollect data on temperature, humidity, air quality, and other parameters\nProvide data for research and public engagement\nSupport evidence-based garden management decisions"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#methods",
-    "href": "case-studies/moth-trapping.html#methods",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#methods",
+    "href": "case-studies/sensor-network.html#methods",
+    "title": "Sensor Network",
     "section": "Methods",
-    "text": "Methods\n[Description of trap types, survey protocols, identification methods]"
+    "text": "Methods\n[Description of sensor types, deployment locations, data collection protocols]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#results",
-    "href": "case-studies/moth-trapping.html#results",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#results",
+    "href": "case-studies/sensor-network.html#results",
+    "title": "Sensor Network",
     "section": "Results",
-    "text": "Results\n[Current findings on moth species recorded]"
+    "text": "Results\n[Current findings and data visualizations]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#future-work",
-    "href": "case-studies/moth-trapping.html#future-work",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#future-work",
+    "href": "case-studies/sensor-network.html#future-work",
+    "title": "Sensor Network",
     "section": "Future Work",
-    "text": "Future Work\n[Planned survey expansions and analysis]"
+    "text": "Future Work\n[Planned expansions and improvements to the sensor network]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#team",
-    "href": "case-studies/moth-trapping.html#team",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#team",
+    "href": "case-studies/sensor-network.html#team",
+    "title": "Sensor Network",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#publications",
-    "href": "case-studies/moth-trapping.html#publications",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/sensor-network.html#publications",
+    "href": "case-studies/sensor-network.html#publications",
+    "title": "Sensor Network",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/maaru.html",
-    "href": "case-studies/maaru.html",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html",
+    "href": "case-studies/more-than-human-toolkit.html",
+    "title": "More than Human Community Toolkit",
     "section": "",
-    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
   },
   {
-    "objectID": "case-studies/maaru.html#overview",
-    "href": "case-studies/maaru.html#overview",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#overview",
+    "href": "case-studies/more-than-human-toolkit.html#overview",
+    "title": "More than Human Community Toolkit",
     "section": "",
-    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
   },
   {
-    "objectID": "case-studies/maaru.html#objectives",
-    "href": "case-studies/maaru.html#objectives",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#objectives",
+    "href": "case-studies/more-than-human-toolkit.html#objectives",
+    "title": "More than Human Community Toolkit",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor acoustic environments and soundscapes\nDetect and identify wildlife through acoustic signatures\nStudy the impact of urban noise on garden ecosystems\nDevelop automated species identification algorithms"
+    "text": "Objectives\n\nDevelop participatory research methods\nCreate tools for community engagement with nature\nFoster interdisciplinary collaboration between arts, science, and communities\nExplore new ways of understanding human-nature relationships"
   },
   {
-    "objectID": "case-studies/maaru.html#technology",
-    "href": "case-studies/maaru.html#technology",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Technology",
-    "text": "Technology\n[Description of the MAARU recording devices, deployment methods, data processing]"
+    "objectID": "case-studies/more-than-human-toolkit.html#approach",
+    "href": "case-studies/more-than-human-toolkit.html#approach",
+    "title": "More than Human Community Toolkit",
+    "section": "Approach",
+    "text": "Approach\n[Description of toolkit development, community engagement methods]"
   },
   {
-    "objectID": "case-studies/maaru.html#methods",
-    "href": "case-studies/maaru.html#methods",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#methods",
+    "href": "case-studies/more-than-human-toolkit.html#methods",
+    "title": "More than Human Community Toolkit",
     "section": "Methods",
-    "text": "Methods\n[Description of recording protocols, data analysis workflows]"
+    "text": "Methods\n[Description of research methodologies, workshop formats, evaluation methods]"
   },
   {
-    "objectID": "case-studies/maaru.html#results",
-    "href": "case-studies/maaru.html#results",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#results",
+    "href": "case-studies/more-than-human-toolkit.html#results",
+    "title": "More than Human Community Toolkit",
     "section": "Results",
-    "text": "Results\n[Current findings from acoustic monitoring]"
+    "text": "Results\n[Current outcomes and community feedback]"
   },
   {
-    "objectID": "case-studies/maaru.html#collaboration",
-    "href": "case-studies/maaru.html#collaboration",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#collaboration",
+    "href": "case-studies/more-than-human-toolkit.html#collaboration",
+    "title": "More than Human Community Toolkit",
     "section": "Collaboration",
-    "text": "Collaboration\n[Details about partners and collaboration structure]"
+    "text": "Collaboration\nGoldsmiths, University of London"
   },
   {
-    "objectID": "case-studies/maaru.html#future-work",
-    "href": "case-studies/maaru.html#future-work",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#future-work",
+    "href": "case-studies/more-than-human-toolkit.html#future-work",
+    "title": "More than Human Community Toolkit",
     "section": "Future Work",
-    "text": "Future Work\n[Planned developments and expansions]"
+    "text": "Future Work\n[Planned toolkit developments and community programs]"
   },
   {
-    "objectID": "case-studies/maaru.html#team",
-    "href": "case-studies/maaru.html#team",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#team",
+    "href": "case-studies/more-than-human-toolkit.html#team",
+    "title": "More than Human Community Toolkit",
     "section": "Team",
     "text": "Team\n[List of team members and collaborators]"
   },
   {
-    "objectID": "case-studies/maaru.html#publications",
-    "href": "case-studies/maaru.html#publications",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "objectID": "case-studies/more-than-human-toolkit.html#publications",
+    "href": "case-studies/more-than-human-toolkit.html#publications",
+    "title": "More than Human Community Toolkit",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html",
-    "href": "case-studies/dragonfly-survey.html",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html",
+    "href": "case-studies/environmental-dna.html",
+    "title": "Environmental DNA",
     "section": "",
-    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#overview",
-    "href": "case-studies/dragonfly-survey.html#overview",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#overview",
+    "href": "case-studies/environmental-dna.html#overview",
+    "title": "Environmental DNA",
     "section": "",
-    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#objectives",
-    "href": "case-studies/dragonfly-survey.html#objectives",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#objectives",
+    "href": "case-studies/environmental-dna.html#objectives",
+    "title": "Environmental DNA",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor dragonfly and damselfly species diversity\nAssess pond ecosystem health\nDocument breeding activity and larval development\nTrack the success of pond habitat creation"
+    "text": "Objectives\n\nDetect species presence through DNA analysis of soil and water samples\nMonitor biodiversity changes over time\nIdentify cryptic species that may be missed by traditional survey methods\nComplement traditional ecological survey techniques"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#methods",
-    "href": "case-studies/dragonfly-survey.html#methods",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#methods",
+    "href": "case-studies/environmental-dna.html#methods",
+    "title": "Environmental DNA",
     "section": "Methods",
-    "text": "Methods\n[Description of survey protocols, identification methods, recording systems]"
+    "text": "Methods\n[Description of sampling protocols, DNA extraction methods, sequencing approaches]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#results",
-    "href": "case-studies/dragonfly-survey.html#results",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#results",
+    "href": "case-studies/environmental-dna.html#results",
+    "title": "Environmental DNA",
     "section": "Results",
-    "text": "Results\n[Current findings on dragonfly species recorded]"
+    "text": "Results\n[Current findings on species detected through eDNA]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#future-work",
-    "href": "case-studies/dragonfly-survey.html#future-work",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#future-work",
+    "href": "case-studies/environmental-dna.html#future-work",
+    "title": "Environmental DNA",
     "section": "Future Work",
-    "text": "Future Work\n[Planned habitat improvements and survey expansions]"
+    "text": "Future Work\n[Planned sampling campaigns and method improvements]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#team",
-    "href": "case-studies/dragonfly-survey.html#team",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#team",
+    "href": "case-studies/environmental-dna.html#team",
+    "title": "Environmental DNA",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/dragonfly-survey.html#publications",
-    "href": "case-studies/dragonfly-survey.html#publications",
-    "title": "Dragonfly Survey",
+    "objectID": "case-studies/environmental-dna.html#publications",
+    "href": "case-studies/environmental-dna.html#publications",
+    "title": "Environmental DNA",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html",
-    "href": "case-studies/butterfly-transect.html",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html",
+    "href": "case-studies/creativity-in-design.html",
+    "title": "Creativity in Design",
     "section": "",
-    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#overview",
-    "href": "case-studies/butterfly-transect.html#overview",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#overview",
+    "href": "case-studies/creativity-in-design.html#overview",
+    "title": "Creativity in Design",
     "section": "",
-    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#objectives",
-    "href": "case-studies/butterfly-transect.html#objectives",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#objectives",
+    "href": "case-studies/creativity-in-design.html#objectives",
+    "title": "Creativity in Design",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor butterfly species diversity and abundance\nTrack population trends over time\nAssess the effectiveness of habitat management\nContribute to national butterfly monitoring efforts"
+    "text": "Objectives\n\nIntegrate design thinking with ecological research\nDevelop creative solutions for urban biodiversity challenges\nFoster interdisciplinary collaboration between design and ecology\nCreate innovative approaches to public engagement with nature"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#methods",
-    "href": "case-studies/butterfly-transect.html#methods",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#approach",
+    "href": "case-studies/creativity-in-design.html#approach",
+    "title": "Creativity in Design",
+    "section": "Approach",
+    "text": "Approach\n[Description of design methodologies, collaborative processes]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#methods",
+    "href": "case-studies/creativity-in-design.html#methods",
+    "title": "Creativity in Design",
     "section": "Methods",
-    "text": "Methods\n[Description of transect routes, survey protocols, weather requirements]"
+    "text": "Methods\n[Description of research and design methods, prototyping approaches]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#results",
-    "href": "case-studies/butterfly-transect.html#results",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#results",
+    "href": "case-studies/creativity-in-design.html#results",
+    "title": "Creativity in Design",
     "section": "Results",
-    "text": "Results\n[Current findings on butterfly species recorded]"
+    "text": "Results\n[Current design outcomes and innovations]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#future-work",
-    "href": "case-studies/butterfly-transect.html#future-work",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#collaboration",
+    "href": "case-studies/creativity-in-design.html#collaboration",
+    "title": "Creativity in Design",
+    "section": "Collaboration",
+    "text": "Collaboration\nCity St George"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#future-work",
+    "href": "case-studies/creativity-in-design.html#future-work",
+    "title": "Creativity in Design",
     "section": "Future Work",
-    "text": "Future Work\n[Planned survey expansions and habitat improvements]"
+    "text": "Future Work\n[Planned design developments and implementations]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#team",
-    "href": "case-studies/butterfly-transect.html#team",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/creativity-in-design.html#team",
+    "href": "case-studies/creativity-in-design.html#team",
+    "title": "Creativity in Design",
+    "section": "Team",
+    "text": "Team\n[List of team members and collaborators]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#publications",
+    "href": "case-studies/creativity-in-design.html#publications",
+    "title": "Creativity in Design",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html",
+    "href": "case-studies/bird-transect.html",
+    "title": "Bird Transect",
+    "section": "",
+    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#overview",
+    "href": "case-studies/bird-transect.html#overview",
+    "title": "Bird Transect",
+    "section": "",
+    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#objectives",
+    "href": "case-studies/bird-transect.html#objectives",
+    "title": "Bird Transect",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor bird species diversity and abundance\nTrack seasonal migration patterns\nDocument breeding activity\nAssess habitat use by different species"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#methods",
+    "href": "case-studies/bird-transect.html#methods",
+    "title": "Bird Transect",
+    "section": "Methods",
+    "text": "Methods\n[Description of transect routes, survey protocols, recording methods]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#results",
+    "href": "case-studies/bird-transect.html#results",
+    "title": "Bird Transect",
+    "section": "Results",
+    "text": "Results\n[Current findings on bird species recorded]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#future-work",
+    "href": "case-studies/bird-transect.html#future-work",
+    "title": "Bird Transect",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned survey expansions and analysis]"
+  },
+  {
+    "objectID": "case-studies/bird-transect.html#team",
+    "href": "case-studies/bird-transect.html#team",
+    "title": "Bird Transect",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#publications",
-    "href": "case-studies/butterfly-transect.html#publications",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/bird-transect.html#publications",
+    "href": "case-studies/bird-transect.html#publications",
+    "title": "Bird Transect",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
@@ -847,417 +994,382 @@
     "text": "1998\nThe flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London Honey, M.R., Leigh, C, Brooks, S.J. The London Naturalist"
   },
   {
-    "objectID": "case-studies/bird-transect.html",
-    "href": "case-studies/bird-transect.html",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html",
+    "href": "case-studies/butterfly-transect.html",
+    "title": "Butterfly Transect",
     "section": "",
-    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
   },
   {
-    "objectID": "case-studies/bird-transect.html#overview",
-    "href": "case-studies/bird-transect.html#overview",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#overview",
+    "href": "case-studies/butterfly-transect.html#overview",
+    "title": "Butterfly Transect",
     "section": "",
-    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
+    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
   },
   {
-    "objectID": "case-studies/bird-transect.html#objectives",
-    "href": "case-studies/bird-transect.html#objectives",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#objectives",
+    "href": "case-studies/butterfly-transect.html#objectives",
+    "title": "Butterfly Transect",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor bird species diversity and abundance\nTrack seasonal migration patterns\nDocument breeding activity\nAssess habitat use by different species"
+    "text": "Objectives\n\nMonitor butterfly species diversity and abundance\nTrack population trends over time\nAssess the effectiveness of habitat management\nContribute to national butterfly monitoring efforts"
   },
   {
-    "objectID": "case-studies/bird-transect.html#methods",
-    "href": "case-studies/bird-transect.html#methods",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#methods",
+    "href": "case-studies/butterfly-transect.html#methods",
+    "title": "Butterfly Transect",
     "section": "Methods",
-    "text": "Methods\n[Description of transect routes, survey protocols, recording methods]"
+    "text": "Methods\n[Description of transect routes, survey protocols, weather requirements]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#results",
-    "href": "case-studies/bird-transect.html#results",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#results",
+    "href": "case-studies/butterfly-transect.html#results",
+    "title": "Butterfly Transect",
     "section": "Results",
-    "text": "Results\n[Current findings on bird species recorded]"
+    "text": "Results\n[Current findings on butterfly species recorded]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#future-work",
-    "href": "case-studies/bird-transect.html#future-work",
-    "title": "Bird Transect",
+    "objectID": "case-studies/butterfly-transect.html#future-work",
+    "href": "case-studies/butterfly-transect.html#future-work",
+    "title": "Butterfly Transect",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned survey expansions and habitat improvements]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#team",
+    "href": "case-studies/butterfly-transect.html#team",
+    "title": "Butterfly Transect",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#publications",
+    "href": "case-studies/butterfly-transect.html#publications",
+    "title": "Butterfly Transect",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html",
+    "href": "case-studies/dragonfly-survey.html",
+    "title": "Dragonfly Survey",
+    "section": "",
+    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#overview",
+    "href": "case-studies/dragonfly-survey.html#overview",
+    "title": "Dragonfly Survey",
+    "section": "",
+    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#objectives",
+    "href": "case-studies/dragonfly-survey.html#objectives",
+    "title": "Dragonfly Survey",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor dragonfly and damselfly species diversity\nAssess pond ecosystem health\nDocument breeding activity and larval development\nTrack the success of pond habitat creation"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#methods",
+    "href": "case-studies/dragonfly-survey.html#methods",
+    "title": "Dragonfly Survey",
+    "section": "Methods",
+    "text": "Methods\n[Description of survey protocols, identification methods, recording systems]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#results",
+    "href": "case-studies/dragonfly-survey.html#results",
+    "title": "Dragonfly Survey",
+    "section": "Results",
+    "text": "Results\n[Current findings on dragonfly species recorded]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#future-work",
+    "href": "case-studies/dragonfly-survey.html#future-work",
+    "title": "Dragonfly Survey",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned habitat improvements and survey expansions]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#team",
+    "href": "case-studies/dragonfly-survey.html#team",
+    "title": "Dragonfly Survey",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#publications",
+    "href": "case-studies/dragonfly-survey.html#publications",
+    "title": "Dragonfly Survey",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/maaru.html",
+    "href": "case-studies/maaru.html",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "",
+    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/maaru.html#overview",
+    "href": "case-studies/maaru.html#overview",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "",
+    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/maaru.html#objectives",
+    "href": "case-studies/maaru.html#objectives",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor acoustic environments and soundscapes\nDetect and identify wildlife through acoustic signatures\nStudy the impact of urban noise on garden ecosystems\nDevelop automated species identification algorithms"
+  },
+  {
+    "objectID": "case-studies/maaru.html#technology",
+    "href": "case-studies/maaru.html#technology",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Technology",
+    "text": "Technology\n[Description of the MAARU recording devices, deployment methods, data processing]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#methods",
+    "href": "case-studies/maaru.html#methods",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Methods",
+    "text": "Methods\n[Description of recording protocols, data analysis workflows]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#results",
+    "href": "case-studies/maaru.html#results",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Results",
+    "text": "Results\n[Current findings from acoustic monitoring]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#collaboration",
+    "href": "case-studies/maaru.html#collaboration",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Collaboration",
+    "text": "Collaboration\n[Details about partners and collaboration structure]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#future-work",
+    "href": "case-studies/maaru.html#future-work",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned developments and expansions]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#team",
+    "href": "case-studies/maaru.html#team",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Team",
+    "text": "Team\n[List of team members and collaborators]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#publications",
+    "href": "case-studies/maaru.html#publications",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html",
+    "href": "case-studies/moth-trapping.html",
+    "title": "Moth Trapping",
+    "section": "",
+    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#overview",
+    "href": "case-studies/moth-trapping.html#overview",
+    "title": "Moth Trapping",
+    "section": "",
+    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#objectives",
+    "href": "case-studies/moth-trapping.html#objectives",
+    "title": "Moth Trapping",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor moth species diversity and abundance\nTrack seasonal and annual population changes\nIdentify rare or notable species\nContribute to citizen science and public engagement"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#methods",
+    "href": "case-studies/moth-trapping.html#methods",
+    "title": "Moth Trapping",
+    "section": "Methods",
+    "text": "Methods\n[Description of trap types, survey protocols, identification methods]"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#results",
+    "href": "case-studies/moth-trapping.html#results",
+    "title": "Moth Trapping",
+    "section": "Results",
+    "text": "Results\n[Current findings on moth species recorded]"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#future-work",
+    "href": "case-studies/moth-trapping.html#future-work",
+    "title": "Moth Trapping",
     "section": "Future Work",
     "text": "Future Work\n[Planned survey expansions and analysis]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#team",
-    "href": "case-studies/bird-transect.html#team",
-    "title": "Bird Transect",
+    "objectID": "case-studies/moth-trapping.html#team",
+    "href": "case-studies/moth-trapping.html#team",
+    "title": "Moth Trapping",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#publications",
-    "href": "case-studies/bird-transect.html#publications",
-    "title": "Bird Transect",
+    "objectID": "case-studies/moth-trapping.html#publications",
+    "href": "case-studies/moth-trapping.html#publications",
+    "title": "Moth Trapping",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html",
-    "href": "case-studies/creativity-in-design.html",
-    "title": "Creativity in Design",
+    "objectID": "case-studies.html",
+    "href": "case-studies.html",
+    "title": "Case Studies",
     "section": "",
-    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
+    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html#overview",
-    "href": "case-studies/creativity-in-design.html#overview",
-    "title": "Creativity in Design",
+    "objectID": "case-studies.html#nhm-projects",
+    "href": "case-studies.html#nhm-projects",
+    "title": "Case Studies",
     "section": "",
-    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
+    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html#objectives",
-    "href": "case-studies/creativity-in-design.html#objectives",
-    "title": "Creativity in Design",
-    "section": "Objectives",
-    "text": "Objectives\n\nIntegrate design thinking with ecological research\nDevelop creative solutions for urban biodiversity challenges\nFoster interdisciplinary collaboration between design and ecology\nCreate innovative approaches to public engagement with nature"
+    "objectID": "case-studies.html#external-collaborators",
+    "href": "case-studies.html#external-collaborators",
+    "title": "Case Studies",
+    "section": "External Collaborators",
+    "text": "External Collaborators\n\n\n\n\n\n\n\n\nMAARU\nAutonomous spatial audio recorders for monitoring soundscapes and wildlife acoustic activity.\n\n\n\n\n\n\n\n\n\nMore than Human Community Toolkit\nDeveloping tools and methods for engaging communities in more-than-human research. Collaboration with Goldsmiths.\n\n\n\n\n\n\n\n\n\nCreativity in Design\nCity St George"
   },
   {
-    "objectID": "case-studies/creativity-in-design.html#approach",
-    "href": "case-studies/creativity-in-design.html#approach",
-    "title": "Creativity in Design",
-    "section": "Approach",
-    "text": "Approach\n[Description of design methodologies, collaborative processes]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#methods",
-    "href": "case-studies/creativity-in-design.html#methods",
-    "title": "Creativity in Design",
-    "section": "Methods",
-    "text": "Methods\n[Description of research and design methods, prototyping approaches]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#results",
-    "href": "case-studies/creativity-in-design.html#results",
-    "title": "Creativity in Design",
-    "section": "Results",
-    "text": "Results\n[Current design outcomes and innovations]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#collaboration",
-    "href": "case-studies/creativity-in-design.html#collaboration",
-    "title": "Creativity in Design",
-    "section": "Collaboration",
-    "text": "Collaboration\nCity St George"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#future-work",
-    "href": "case-studies/creativity-in-design.html#future-work",
-    "title": "Creativity in Design",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned design developments and implementations]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#team",
-    "href": "case-studies/creativity-in-design.html#team",
-    "title": "Creativity in Design",
-    "section": "Team",
-    "text": "Team\n[List of team members and collaborators]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#publications",
-    "href": "case-studies/creativity-in-design.html#publications",
-    "title": "Creativity in Design",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html",
-    "href": "case-studies/environmental-dna.html",
-    "title": "Environmental DNA",
+    "objectID": "reports.html",
+    "href": "reports.html",
+    "title": "Urban Research Station Reports",
     "section": "",
-    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
+    "text": "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes."
   },
   {
-    "objectID": "case-studies/environmental-dna.html#overview",
-    "href": "case-studies/environmental-dna.html#overview",
-    "title": "Environmental DNA",
+    "objectID": "reports.html#section",
+    "href": "reports.html#section",
+    "title": "Urban Research Station Reports",
+    "section": "2025",
+    "text": "2025\nNo reports yet for 2025"
+  },
+  {
+    "objectID": "trees/59.html",
+    "href": "trees/59.html",
+    "title": "Tree 59 - Hornbeam",
     "section": "",
-    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
+    "text": "Tree 59 - Hornbeam"
   },
   {
-    "objectID": "case-studies/environmental-dna.html#objectives",
-    "href": "case-studies/environmental-dna.html#objectives",
-    "title": "Environmental DNA",
-    "section": "Objectives",
-    "text": "Objectives\n\nDetect species presence through DNA analysis of soil and water samples\nMonitor biodiversity changes over time\nIdentify cryptic species that may be missed by traditional survey methods\nComplement traditional ecological survey techniques"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#methods",
-    "href": "case-studies/environmental-dna.html#methods",
-    "title": "Environmental DNA",
-    "section": "Methods",
-    "text": "Methods\n[Description of sampling protocols, DNA extraction methods, sequencing approaches]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#results",
-    "href": "case-studies/environmental-dna.html#results",
-    "title": "Environmental DNA",
-    "section": "Results",
-    "text": "Results\n[Current findings on species detected through eDNA]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#future-work",
-    "href": "case-studies/environmental-dna.html#future-work",
-    "title": "Environmental DNA",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned sampling campaigns and method improvements]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#team",
-    "href": "case-studies/environmental-dna.html#team",
-    "title": "Environmental DNA",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#publications",
-    "href": "case-studies/environmental-dna.html#publications",
-    "title": "Environmental DNA",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html",
-    "href": "case-studies/more-than-human-toolkit.html",
-    "title": "More than Human Community Toolkit",
-    "section": "",
-    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#overview",
-    "href": "case-studies/more-than-human-toolkit.html#overview",
-    "title": "More than Human Community Toolkit",
-    "section": "",
-    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#objectives",
-    "href": "case-studies/more-than-human-toolkit.html#objectives",
-    "title": "More than Human Community Toolkit",
-    "section": "Objectives",
-    "text": "Objectives\n\nDevelop participatory research methods\nCreate tools for community engagement with nature\nFoster interdisciplinary collaboration between arts, science, and communities\nExplore new ways of understanding human-nature relationships"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#approach",
-    "href": "case-studies/more-than-human-toolkit.html#approach",
-    "title": "More than Human Community Toolkit",
-    "section": "Approach",
-    "text": "Approach\n[Description of toolkit development, community engagement methods]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#methods",
-    "href": "case-studies/more-than-human-toolkit.html#methods",
-    "title": "More than Human Community Toolkit",
-    "section": "Methods",
-    "text": "Methods\n[Description of research methodologies, workshop formats, evaluation methods]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#results",
-    "href": "case-studies/more-than-human-toolkit.html#results",
-    "title": "More than Human Community Toolkit",
-    "section": "Results",
-    "text": "Results\n[Current outcomes and community feedback]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#collaboration",
-    "href": "case-studies/more-than-human-toolkit.html#collaboration",
-    "title": "More than Human Community Toolkit",
-    "section": "Collaboration",
-    "text": "Collaboration\nGoldsmiths, University of London"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#future-work",
-    "href": "case-studies/more-than-human-toolkit.html#future-work",
-    "title": "More than Human Community Toolkit",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned toolkit developments and community programs]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#team",
-    "href": "case-studies/more-than-human-toolkit.html#team",
-    "title": "More than Human Community Toolkit",
-    "section": "Team",
-    "text": "Team\n[List of team members and collaborators]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#publications",
-    "href": "case-studies/more-than-human-toolkit.html#publications",
-    "title": "More than Human Community Toolkit",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html",
-    "href": "case-studies/sensor-network.html",
-    "title": "Sensor Network",
-    "section": "",
-    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#overview",
-    "href": "case-studies/sensor-network.html#overview",
-    "title": "Sensor Network",
-    "section": "",
-    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#objectives",
-    "href": "case-studies/sensor-network.html#objectives",
-    "title": "Sensor Network",
-    "section": "Objectives",
-    "text": "Objectives\n\nMonitor environmental conditions continuously\nCollect data on temperature, humidity, air quality, and other parameters\nProvide data for research and public engagement\nSupport evidence-based garden management decisions"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#methods",
-    "href": "case-studies/sensor-network.html#methods",
-    "title": "Sensor Network",
-    "section": "Methods",
-    "text": "Methods\n[Description of sensor types, deployment locations, data collection protocols]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#results",
-    "href": "case-studies/sensor-network.html#results",
-    "title": "Sensor Network",
-    "section": "Results",
-    "text": "Results\n[Current findings and data visualizations]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#future-work",
-    "href": "case-studies/sensor-network.html#future-work",
-    "title": "Sensor Network",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned expansions and improvements to the sensor network]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#team",
-    "href": "case-studies/sensor-network.html#team",
-    "title": "Sensor Network",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#publications",
-    "href": "case-studies/sensor-network.html#publications",
-    "title": "Sensor Network",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
-    "section": "",
-    "text": "By 20250, nearly 70% of people will live in cities\nWe study how we can make cities better places for people and for nature.\nOur vision is of a future where both people and planet thrive.\n\n\n30 years of research\nIn 2025 we will have been studying the Museum’s gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one one of the most intensively studied urban sites worldwide.\n\n\n\n\n\n\n\n\nA living laboratory\nOur gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiveristy and create resilient ecosystems.\nOur gardens and research infrastructres are open to Museum staff and external collaborators for research and teaching.\n\n\nTraining the next generation\nSome text.\n\n\n\n\n\n\n\n\nIntegrating diverse datasets\nData ecosystem\n\n\nLeading change\nSKENZEN\nSomething on policy."
-  },
-  {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Team",
-    "section": "",
-    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
-  },
-  {
-    "objectID": "team.html#urban-research-station",
-    "href": "team.html#urban-research-station",
-    "title": "Team",
-    "section": "",
-    "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
-  },
-  {
-    "objectID": "team.html#gardens-team",
-    "href": "team.html#gardens-team",
-    "title": "Team",
-    "section": "Gardens Team",
-    "text": "Gardens Team"
-  },
-  {
-    "objectID": "team.html#nhm-staff",
-    "href": "team.html#nhm-staff",
-    "title": "Team",
-    "section": "NHM Staff",
-    "text": "NHM Staff"
-  },
-  {
-    "objectID": "trees/60.html",
-    "href": "trees/60.html",
-    "title": "Tree 60 - Hornbeam",
-    "section": "",
-    "text": "Tree 60 - Hornbeam"
-  },
-  {
-    "objectID": "trees/60.html#species-information",
-    "href": "trees/60.html#species-information",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/59.html#species-information",
+    "href": "trees/59.html#species-information",
+    "title": "Tree 59 - Hornbeam",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/60.html#tree-data",
-    "href": "trees/60.html#tree-data",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/59.html#tree-data",
+    "href": "trees/59.html#tree-data",
+    "title": "Tree 59 - Hornbeam",
+    "section": "Tree data",
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 15.75cm (03/10/2025)"
+  },
+  {
+    "objectID": "trees/61.html",
+    "href": "trees/61.html",
+    "title": "Tree 61 - Hornbeam",
+    "section": "",
+    "text": "Tree 61 - Hornbeam"
+  },
+  {
+    "objectID": "trees/61.html#species-information",
+    "href": "trees/61.html#species-information",
+    "title": "Tree 61 - Hornbeam",
+    "section": "Species Information",
+    "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
+  },
+  {
+    "objectID": "trees/61.html#tree-data",
+    "href": "trees/61.html#tree-data",
+    "title": "Tree 61 - Hornbeam",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/62.html",
-    "href": "trees/62.html",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html",
+    "href": "trees/63.html",
+    "title": "Tree 63 - Ash",
     "section": "",
-    "text": "Tree 62 - Ash"
+    "text": "Tree 63 - Ash"
   },
   {
-    "objectID": "trees/62.html#species-information",
-    "href": "trees/62.html#species-information",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html#species-information",
+    "href": "trees/63.html#species-information",
+    "title": "Tree 63 - Ash",
     "section": "Species Information",
     "text": "Species Information\nCommon name Ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/62.html#tree-data",
-    "href": "trees/62.html#tree-data",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html#tree-data",
+    "href": "trees/63.html#tree-data",
+    "title": "Tree 63 - Ash",
     "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 21.9cm (28/09/2025)"
   },
   {
     "objectID": "trees/family/betulaceae.html",
     "href": "trees/family/betulaceae.html",
     "title": "Betulaceae (Birch family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHazel\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
   },
   {
     "objectID": "trees/family/betulaceae.html#species-summary",
     "href": "trees/family/betulaceae.html#species-summary",
     "title": "Betulaceae (Birch family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHazel\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/family/dicksoniaceae.html",
+    "href": "trees/family/dicksoniaceae.html",
+    "title": "Dicksoniaceae",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSoft Tree Fern\n0\n—"
+  },
+  {
+    "objectID": "trees/family/dicksoniaceae.html#species-summary",
+    "href": "trees/family/dicksoniaceae.html#species-summary",
+    "title": "Dicksoniaceae",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSoft Tree Fern\n0\n—"
   },
   {
     "objectID": "trees/family/fagaceae.html",
     "href": "trees/family/fagaceae.html",
     "title": "Fagaceae (Oak & Beech family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n0\n—\n\n\nHolm Oak\n0\n—\n\n\nSweet Chestnut\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n0\n—\n\n\nEnglish Oak\n0\n—\n\n\nHolm Oak\n0\n—\n\n\nSweet Chestnut\n0\n—"
   },
   {
     "objectID": "trees/family/fagaceae.html#species-summary",
     "href": "trees/family/fagaceae.html#species-summary",
     "title": "Fagaceae (Oak & Beech family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n0\n—\n\n\nHolm Oak\n0\n—\n\n\nSweet Chestnut\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n0\n—\n\n\nEnglish Oak\n0\n—\n\n\nHolm Oak\n0\n—\n\n\nSweet Chestnut\n0\n—"
   },
   {
     "objectID": "trees/family/juglandaceae.html",
@@ -1306,14 +1418,14 @@
     "href": "trees/family/salicaceae.html",
     "title": "Salicaceae (Willow family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Poplar\n0\n—\n\n\nGoat Willow\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAspen\n0\n—\n\n\nBlack Poplar\n0\n—\n\n\nCrack Willow\n0\n—\n\n\nGoat Willow\n0\n—"
   },
   {
     "objectID": "trees/family/salicaceae.html#species-summary",
     "href": "trees/family/salicaceae.html#species-summary",
     "title": "Salicaceae (Willow family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Poplar\n0\n—\n\n\nGoat Willow\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAspen\n0\n—\n\n\nBlack Poplar\n0\n—\n\n\nCrack Willow\n0\n—\n\n\nGoat Willow\n0\n—"
   },
   {
     "objectID": "trees/genus/acer.html",
@@ -1358,186 +1470,228 @@
     "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nSweet Chestnut\n0\n—"
   },
   {
-    "objectID": "trees/genus/cydonia.html",
-    "href": "trees/genus/cydonia.html",
-    "title": "Cydonia",
+    "objectID": "trees/genus/crataegus.html",
+    "href": "trees/genus/crataegus.html",
+    "title": "Crataegus",
     "section": "",
     "text": "Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/cydonia.html#species-summary",
-    "href": "trees/genus/cydonia.html#species-summary",
-    "title": "Cydonia",
+    "objectID": "trees/genus/crataegus.html#species-summary",
+    "href": "trees/genus/crataegus.html#species-summary",
+    "title": "Crataegus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nQuince\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCommon Hawthorn\n0\n—"
   },
   {
-    "objectID": "trees/genus/fagus.html",
-    "href": "trees/genus/fagus.html",
-    "title": "Fagus",
+    "objectID": "trees/genus/dicksonia.html",
+    "href": "trees/genus/dicksonia.html",
+    "title": "Dicksonia",
     "section": "",
-    "text": "Family: Fagaceae"
+    "text": "Family: Dicksoniaceae"
   },
   {
-    "objectID": "trees/genus/fagus.html#species-summary",
-    "href": "trees/genus/fagus.html#species-summary",
-    "title": "Fagus",
+    "objectID": "trees/genus/dicksonia.html#species-summary",
+    "href": "trees/genus/dicksonia.html#species-summary",
+    "title": "Dicksonia",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nSoft Tree Fern\n0\n—"
   },
   {
-    "objectID": "trees/genus/fraxinus.html",
-    "href": "trees/genus/fraxinus.html",
-    "title": "Fraxinus",
+    "objectID": "trees/genus/euonymus.html",
+    "href": "trees/genus/euonymus.html",
+    "title": "Euonymus",
     "section": "",
-    "text": "Family: Oleaceae"
+    "text": "Family: Celastraceae"
   },
   {
-    "objectID": "trees/genus/fraxinus.html#species-summary",
-    "href": "trees/genus/fraxinus.html#species-summary",
-    "title": "Fraxinus",
+    "objectID": "trees/genus/euonymus.html#species-summary",
+    "href": "trees/genus/euonymus.html#species-summary",
+    "title": "Euonymus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nSpindle\n0\n—"
   },
   {
-    "objectID": "trees/genus/index2.html",
-    "href": "trees/genus/index2.html",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/ficus.html",
+    "href": "trees/genus/ficus.html",
+    "title": "Ficus",
     "section": "",
-    "text": "View A–Z by common name"
+    "text": "Family: Moraceae"
   },
   {
-    "objectID": "trees/genus/index2.html#a",
-    "href": "trees/genus/index2.html#a",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/ficus.html#species-summary",
+    "href": "trees/genus/ficus.html#species-summary",
+    "title": "Ficus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nFig\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/index.html",
+    "href": "trees/genus/index.html",
+    "title": "Species index — A–Z (by common name)",
+    "section": "",
+    "text": "View A–Z by scientific name"
+  },
+  {
+    "objectID": "trees/genus/index.html#a",
+    "href": "trees/genus/index.html#a",
+    "title": "Species index — A–Z (by common name)",
     "section": "A",
-    "text": "A\n\nAcer campestre Field Maple — Genus: Acer — Family: Sapindaceae\nAcer pseudoplatanus Sycamore Maple — Genus: Acer — Family: Sapindaceae\nAlnus glutinosa Black Alder — Genus: Alnus — Family: Betulaceae\nAlnus incana Grey Alder — Genus: Alnus — Family: Betulaceae"
+    "text": "A\n\nAlmond (Prunus dulcis) — Genus: Prunus — Family: Rosaceae\nApple Evereste (Malus) — Genus: Malus — Family: Rosaceae\nAsh (Fraxinus excelsior) — Genus: Fraxinus — Family: Oleaceae\nAspen (Populus tremula) — Genus: Populus — Family: Salicaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#b",
-    "href": "trees/genus/index2.html#b",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#b",
+    "href": "trees/genus/index.html#b",
+    "title": "Species index — A–Z (by common name)",
     "section": "B",
-    "text": "B\n\nBetula pubescens Downy Birch — Genus: Betula — Family: Betulaceae"
+    "text": "B\n\nBeech (Fagus sylvatica) — Genus: Fagus — Family: Fagaceae\nBird Cherry (Prunus padus) — Genus: Prunus — Family: Rosaceae\nBlack Alder (Alnus glutinosa) — Genus: Alnus — Family: Betulaceae\nBlack Pine (Pinus nigra) — Genus: Pinus — Family: Pinaceae\nBlack Poplar (Populus nigra betulifolia) — Genus: Populus — Family: Salicaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#c",
-    "href": "trees/genus/index2.html#c",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#c",
+    "href": "trees/genus/index.html#c",
+    "title": "Species index — A–Z (by common name)",
     "section": "C",
-    "text": "C\n\nCarpinus betulus Hornbeam — Genus: Carpinus — Family: Betulaceae\nCastanea sativa Sweet Chestnut — Genus: Castanea — Family: Fagaceae\nCrataegus monogyna Common Hawthorn — Genus: Crataegus — Family: Rosaceae\nCydonia oblonga Quince — Genus: Cydonia — Family: Rosaceae"
+    "text": "C\n\nCommon Hawthorn (Crataegus monogyna) — Genus: Crataegus — Family: Rosaceae\nCork Oak (Quercus suber) — Genus: Quercus — Family: Fagaceae\nCrab Apple (Malus sylvestris) — Genus: Malus — Family: Rosaceae\nCrack Willow (Salix fragilis) — Genus: Salix — Family: Salicaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#d",
-    "href": "trees/genus/index2.html#d",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#d",
+    "href": "trees/genus/index.html#d",
+    "title": "Species index — A–Z (by common name)",
     "section": "D",
-    "text": "D\n\nDiospyros kaki Persimmon — Genus: Diospyros — Family: Ebenaceae"
+    "text": "D\n\nDowny Birch (Betula pubescens) — Genus: Betula — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#f",
-    "href": "trees/genus/index2.html#f",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#e",
+    "href": "trees/genus/index.html#e",
+    "title": "Species index — A–Z (by common name)",
+    "section": "E",
+    "text": "E\n\nElder (Sambucus nigra) — Genus: Sambucus — Family: Adoxaceae\nEnglish Oak (Quercus robur) — Genus: Quercus — Family: Fagaceae\nEnglish Walnut (Juglans regia) — Genus: Juglans — Family: Juglandaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#f",
+    "href": "trees/genus/index.html#f",
+    "title": "Species index — A–Z (by common name)",
     "section": "F",
-    "text": "F\n\nFagus sylvatica Beech — Genus: Fagus — Family: Fagaceae\nFicus carica Fig — Genus: Ficus — Family: Moraceae\nFraxinus excelsior Ash — Genus: Fraxinus — Family: Oleaceae"
+    "text": "F\n\nField Maple (Acer campestre) — Genus: Acer — Family: Sapindaceae\nFig (Ficus carica) — Genus: Ficus — Family: Moraceae\nFruitless Mulberry (Morus alba) — Genus: Morus — Family: Moraceae"
   },
   {
-    "objectID": "trees/genus/index2.html#j",
-    "href": "trees/genus/index2.html#j",
-    "title": "Species index — A–Z (by scientific name)",
-    "section": "J",
-    "text": "J\n\nJuglans regia English Walnut — Genus: Juglans — Family: Juglandaceae"
+    "objectID": "trees/genus/index.html#g",
+    "href": "trees/genus/index.html#g",
+    "title": "Species index — A–Z (by common name)",
+    "section": "G",
+    "text": "G\n\nGoat Willow (Salix caprea) — Genus: Salix — Family: Salicaceae\nGrey Alder (Alnus incana) — Genus: Alnus — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#m",
-    "href": "trees/genus/index2.html#m",
-    "title": "Species index — A–Z (by scientific name)",
-    "section": "M",
-    "text": "M\n\nMalus Apple Evereste — Genus: Malus — Family: Rosaceae\nMalus sylvestris Crab Apple — Genus: Malus — Family: Rosaceae\nMorus alba Fruitless Mulberry — Genus: Morus — Family: Moraceae"
+    "objectID": "trees/genus/index.html#h",
+    "href": "trees/genus/index.html#h",
+    "title": "Species index — A–Z (by common name)",
+    "section": "H",
+    "text": "H\n\nHazel (Corylus avellana) — Genus: Corylus — Family: Betulaceae\nHolm Oak (Quercus ilex) — Genus: Quercus — Family: Fagaceae\nHornbeam (Carpinus betulus) — Genus: Carpinus — Family: Betulaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#o",
-    "href": "trees/genus/index2.html#o",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#l",
+    "href": "trees/genus/index.html#l",
+    "title": "Species index — A–Z (by common name)",
+    "section": "L",
+    "text": "L\n\nLondon Plane (Platanus × hispanica) — Genus: Platanus — Family: Platanaceae"
+  },
+  {
+    "objectID": "trees/genus/index.html#o",
+    "href": "trees/genus/index.html#o",
+    "title": "Species index — A–Z (by common name)",
     "section": "O",
-    "text": "O\n\nOlea europaea Olive — Genus: Olea — Family: Oleaceae"
+    "text": "O\n\nOlive (Olea europaea) — Genus: Olea — Family: Oleaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#p",
-    "href": "trees/genus/index2.html#p",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#p",
+    "href": "trees/genus/index.html#p",
+    "title": "Species index — A–Z (by common name)",
     "section": "P",
-    "text": "P\n\nPinus nigra Black Pine — Genus: Pinus — Family: Pinaceae\nPinus pinea Stone Pine — Genus: Pinus — Family: Pinaceae\nPlatanus × hispanica London Plane — Genus: Platanus — Family: Platanaceae\nPopulus nigra betulifolia Black Poplar — Genus: Populus — Family: Salicaceae\nPrunus padus Bird Cherry — Genus: Prunus — Family: Rosaceae"
+    "text": "P\n\nPear Beech Hill (Pyrus communis) — Genus: Pyrus — Family: Rosaceae\nPersimmon (Diospyros kaki) — Genus: Diospyros — Family: Ebenaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#q",
-    "href": "trees/genus/index2.html#q",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#q",
+    "href": "trees/genus/index.html#q",
+    "title": "Species index — A–Z (by common name)",
     "section": "Q",
-    "text": "Q\n\nQuercus ilex Holm Oak — Genus: Quercus — Family: Fagaceae\nQuercus suber Cork Oak — Genus: Quercus — Family: Fagaceae"
+    "text": "Q\n\nQuince (Cydonia oblonga) — Genus: Cydonia — Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/index2.html#s",
-    "href": "trees/genus/index2.html#s",
-    "title": "Species index — A–Z (by scientific name)",
+    "objectID": "trees/genus/index.html#s",
+    "href": "trees/genus/index.html#s",
+    "title": "Species index — A–Z (by common name)",
     "section": "S",
-    "text": "S\n\nSalix caprea Goat Willow — Genus: Salix — Family: Salicaceae"
+    "text": "S\n\nSoft Tree Fern (Dicksonia antarctica) — Genus: Dicksonia — Family: Dicksoniaceae\nSour Cherry (Prunus cerasus) — Genus: Prunus — Family: Rosaceae\nSpindle (Euonymus europaeus) — Genus: Euonymus — Family: Celastraceae\nStone Pine (Pinus pinea) — Genus: Pinus — Family: Pinaceae\nSweet Cherry (Prunus avium) — Genus: Prunus — Family: Rosaceae\nSweet Chestnut (Castanea sativa) — Genus: Castanea — Family: Fagaceae\nSycamore Maple (Acer pseudoplatanus) — Genus: Acer — Family: Sapindaceae"
   },
   {
-    "objectID": "trees/genus/malus.html",
-    "href": "trees/genus/malus.html",
-    "title": "Malus",
+    "objectID": "trees/genus/juglans.html",
+    "href": "trees/genus/juglans.html",
+    "title": "Juglans",
+    "section": "",
+    "text": "Family: Juglandaceae"
+  },
+  {
+    "objectID": "trees/genus/juglans.html#species-summary",
+    "href": "trees/genus/juglans.html#species-summary",
+    "title": "Juglans",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/morus.html",
+    "href": "trees/genus/morus.html",
+    "title": "Morus",
+    "section": "",
+    "text": "Family: Moraceae"
+  },
+  {
+    "objectID": "trees/genus/morus.html#species-summary",
+    "href": "trees/genus/morus.html#species-summary",
+    "title": "Morus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nFruitless Mulberry\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/pinus.html",
+    "href": "trees/genus/pinus.html",
+    "title": "Pinus",
+    "section": "",
+    "text": "Family: Pinaceae"
+  },
+  {
+    "objectID": "trees/genus/pinus.html#species-summary",
+    "href": "trees/genus/pinus.html#species-summary",
+    "title": "Pinus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBlack Pine\n0\n—\n\n\nStone Pine\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/populus.html",
+    "href": "trees/genus/populus.html",
+    "title": "Populus",
+    "section": "",
+    "text": "Family: Salicaceae"
+  },
+  {
+    "objectID": "trees/genus/populus.html#species-summary",
+    "href": "trees/genus/populus.html#species-summary",
+    "title": "Populus",
+    "section": "Species summary",
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nAspen\n0\n—\n\n\nBlack Poplar\n0\n—"
+  },
+  {
+    "objectID": "trees/genus/pyrus.html",
+    "href": "trees/genus/pyrus.html",
+    "title": "Pyrus",
     "section": "",
     "text": "Family: Rosaceae"
   },
   {
-    "objectID": "trees/genus/malus.html#species-summary",
-    "href": "trees/genus/malus.html#species-summary",
-    "title": "Malus",
+    "objectID": "trees/genus/pyrus.html#species-summary",
+    "href": "trees/genus/pyrus.html#species-summary",
+    "title": "Pyrus",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nApple Evereste\n0\n—\n\n\nCrab Apple\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/olea.html",
-    "href": "trees/genus/olea.html",
-    "title": "Olea",
-    "section": "",
-    "text": "Family: Oleaceae"
-  },
-  {
-    "objectID": "trees/genus/olea.html#species-summary",
-    "href": "trees/genus/olea.html#species-summary",
-    "title": "Olea",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nOlive\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/platanus.html",
-    "href": "trees/genus/platanus.html",
-    "title": "Platanus",
-    "section": "",
-    "text": "Family: Platanaceae"
-  },
-  {
-    "objectID": "trees/genus/platanus.html#species-summary",
-    "href": "trees/genus/platanus.html#species-summary",
-    "title": "Platanus",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nLondon Plane\n0\n—"
-  },
-  {
-    "objectID": "trees/genus/prunus.html",
-    "href": "trees/genus/prunus.html",
-    "title": "Prunus",
-    "section": "",
-    "text": "Family: Rosaceae"
-  },
-  {
-    "objectID": "trees/genus/prunus.html#species-summary",
-    "href": "trees/genus/prunus.html#species-summary",
-    "title": "Prunus",
-    "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nBird Cherry\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nPear Beech Hill\n0\n—"
   },
   {
     "objectID": "trees/genus/salix.html",
@@ -1551,7 +1705,14 @@
     "href": "trees/genus/salix.html#species-summary",
     "title": "Salix",
     "section": "Species summary",
-    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nGoat Willow\n0\n—"
+    "text": "Species summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nCrack Willow\n0\n—\n\n\nGoat Willow\n0\n—"
+  },
+  {
+    "objectID": "trees/index.html",
+    "href": "trees/index.html",
+    "title": "Tree Database",
+    "section": "",
+    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\n\nTree 59 - Hornbeam\nTree 60 - Hornbeam\nTree 61 - Hornbeam\nTree 62 - Ash\nTree 63 - Ash"
   },
   {
     "objectID": "trees/species/apple-evereste.html",
@@ -1561,32 +1722,39 @@
     "text": "Family: Rosaceae\nGenus: Malus"
   },
   {
-    "objectID": "trees/species/beech.html",
-    "href": "trees/species/beech.html",
-    "title": "Beech (Fagus sylvatica)",
-    "section": "",
-    "text": "Family: Fagaceae\nGenus: Fagus"
-  },
-  {
-    "objectID": "trees/species/black-alder.html",
-    "href": "trees/species/black-alder.html",
-    "title": "Black Alder (Alnus glutinosa)",
-    "section": "",
-    "text": "Family: Betulaceae\nGenus: Alnus"
-  },
-  {
-    "objectID": "trees/species/black-poplar.html",
-    "href": "trees/species/black-poplar.html",
-    "title": "Black Poplar (Populus nigra betulifolia)",
+    "objectID": "trees/species/aspen.html",
+    "href": "trees/species/aspen.html",
+    "title": "Aspen (Populus tremula)",
     "section": "",
     "text": "Family: Salicaceae\nGenus: Populus"
   },
   {
-    "objectID": "trees/species/cork-oak.html",
-    "href": "trees/species/cork-oak.html",
-    "title": "Cork Oak (Quercus suber)",
+    "objectID": "trees/species/bird-cherry.html",
+    "href": "trees/species/bird-cherry.html",
+    "title": "Bird Cherry (Prunus padus)",
     "section": "",
-    "text": "Family: Fagaceae\nGenus: Quercus"
+    "text": "Family: Rosaceae\nGenus: Prunus"
+  },
+  {
+    "objectID": "trees/species/black-pine.html",
+    "href": "trees/species/black-pine.html",
+    "title": "Black Pine (Pinus nigra)",
+    "section": "",
+    "text": "Family: Pinaceae\nGenus: Pinus"
+  },
+  {
+    "objectID": "trees/species/common-hawthorn.html",
+    "href": "trees/species/common-hawthorn.html",
+    "title": "Common Hawthorn (Crataegus monogyna)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Crataegus"
+  },
+  {
+    "objectID": "trees/species/crab-apple.html",
+    "href": "trees/species/crab-apple.html",
+    "title": "Crab Apple (Malus sylvestris)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Malus"
   },
   {
     "objectID": "trees/species/downy-birch.html",
@@ -1594,6 +1762,13 @@
     "title": "Downy Birch (Betula pubescens)",
     "section": "",
     "text": "Family: Betulaceae\nGenus: Betula"
+  },
+  {
+    "objectID": "trees/species/english-oak.html",
+    "href": "trees/species/english-oak.html",
+    "title": "English Oak (Quercus robur)",
+    "section": "",
+    "text": "Family: Fagaceae\nGenus: Quercus"
   },
   {
     "objectID": "trees/species/field-maple.html",
@@ -1617,18 +1792,25 @@
     "text": "Family: Betulaceae\nGenus: Alnus"
   },
   {
-    "objectID": "trees/species/hornbeam.html",
-    "href": "trees/species/hornbeam.html",
-    "title": "Hornbeam (Carpinus betulus)",
+    "objectID": "trees/species/holm-oak.html",
+    "href": "trees/species/holm-oak.html",
+    "title": "Holm Oak (Quercus ilex)",
     "section": "",
-    "text": "Family: Betulaceae\nGenus: Carpinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
+    "text": "Family: Fagaceae\nGenus: Quercus"
   },
   {
-    "objectID": "trees/species/olive.html",
-    "href": "trees/species/olive.html",
-    "title": "Olive (Olea europaea)",
+    "objectID": "trees/species/london-plane.html",
+    "href": "trees/species/london-plane.html",
+    "title": "London Plane (Platanus × hispanica)",
     "section": "",
-    "text": "Family: Oleaceae\nGenus: Olea"
+    "text": "Family: Platanaceae\nGenus: Platanus"
+  },
+  {
+    "objectID": "trees/species/pear-beech-hill.html",
+    "href": "trees/species/pear-beech-hill.html",
+    "title": "Pear Beech Hill (Pyrus communis)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Pyrus"
   },
   {
     "objectID": "trees/species/quince.html",
@@ -1636,6 +1818,20 @@
     "title": "Quince (Cydonia oblonga)",
     "section": "",
     "text": "Family: Rosaceae\nGenus: Cydonia"
+  },
+  {
+    "objectID": "trees/species/sour-cherry.html",
+    "href": "trees/species/sour-cherry.html",
+    "title": "Sour Cherry (Prunus cerasus)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Prunus"
+  },
+  {
+    "objectID": "trees/species/stone-pine.html",
+    "href": "trees/species/stone-pine.html",
+    "title": "Stone Pine (Pinus pinea)",
+    "section": "",
+    "text": "Family: Pinaceae\nGenus: Pinus"
   },
   {
     "objectID": "trees/species/sweet-chestnut.html",

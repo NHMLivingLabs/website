@@ -12,9 +12,13 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
+| [Almond](/trees/species/almond.html) | 0 | — |
 | [Apple Evereste](/trees/species/apple-evereste.html) | 0 | — |
 | [Bird Cherry](/trees/species/bird-cherry.html) | 0 | — |
 | [Common Hawthorn](/trees/species/common-hawthorn.html) | 0 | — |
 | [Crab Apple](/trees/species/crab-apple.html) | 0 | — |
+| [Pear Beech Hill](/trees/species/pear-beech-hill.html) | 0 | — |
 | [Quince](/trees/species/quince.html) | 0 | — |
+| [Sour Cherry](/trees/species/sour-cherry.html) | 0 | — |
+| [Sweet Cherry](/trees/species/sweet-cherry.html) | 0 | — |
 

@@ -12,6 +12,8 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
+| [Aspen](/trees/species/aspen.html) | 0 | — |
 | [Black Poplar](/trees/species/black-poplar.html) | 0 | — |
+| [Crack Willow](/trees/species/crack-willow.html) | 0 | — |
 | [Goat Willow](/trees/species/goat-willow.html) | 0 | — |
 

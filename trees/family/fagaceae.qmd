@@ -14,6 +14,7 @@ toc: true
 |---|---:|---|
 | [Beech](/trees/species/beech.html) | 0 | — |
 | [Cork Oak](/trees/species/cork-oak.html) | 0 | — |
+| [English Oak](/trees/species/english-oak.html) | 0 | — |
 | [Holm Oak](/trees/species/holm-oak.html) | 0 | — |
 | [Sweet Chestnut](/trees/species/sweet-chestnut.html) | 0 | — |
 

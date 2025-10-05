@@ -12,5 +12,6 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
+| [Aspen](/trees/species/aspen.html) | 0 | — |
 | [Black Poplar](/trees/species/black-poplar.html) | 0 | — |
 
