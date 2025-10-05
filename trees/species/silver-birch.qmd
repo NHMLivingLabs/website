@@ -1,5 +1,5 @@
 ---
-title: "Betula"
+title: "Silver Birch (Betula pendula)"
 toc: true
 ---
 
@@ -8,10 +8,5 @@ toc: true
 
 **Family:** [Betulaceae](/trees/family/betulaceae.html)
 
-## Planting summary
-
-| Species | Trees | Planted locations |
-|---|---:|---|
-| [Downy Birch](/trees/species/downy-birch.html) | 0 | — |
-| [Silver Birch](/trees/species/silver-birch.html) | 0 | — |
+**Genus:** [*Betula*](/trees/genus/betula.html)
 

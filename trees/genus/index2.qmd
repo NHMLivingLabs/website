@@ -19,6 +19,7 @@ toc: true
 
 ## B
 
+- [*Betula pendula* Silver Birch](/trees/species/silver-birch.html) — Genus: [Betula](/trees/genus/betula.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 - [*Betula pubescens* Downy Birch](/trees/species/downy-birch.html) — Genus: [Betula](/trees/genus/betula.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 
 ## C

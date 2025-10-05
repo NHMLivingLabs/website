@@ -16,4 +16,5 @@ toc: true
 | [Grey Alder](/trees/species/grey-alder.html) | 0 | — |
 | [Hazel](/trees/species/hazel.html) | 0 | — |
 | [Hornbeam](/trees/species/hornbeam.html) | 3 | SK: Nature Discovery Garden |
+| [Silver Birch](/trees/species/silver-birch.html) | 0 | — |
 

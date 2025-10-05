@@ -78,6 +78,7 @@ toc: true
 
 ## S
 
+- [Silver Birch (*Betula pendula*)](/trees/species/silver-birch.html) — Genus: [Betula](/trees/genus/betula.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 - [Soft Tree Fern (*Dicksonia antarctica*)](/trees/species/soft-tree-fern.html) — Genus: [Dicksonia](/trees/genus/dicksonia.html) — Family: [Dicksoniaceae](/trees/family/dicksoniaceae.html)
 - [Sour Cherry (*Prunus cerasus*)](/trees/species/sour-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [Spindle (*Euonymus europaeus*)](/trees/species/spindle.html) — Genus: [Euonymus](/trees/genus/euonymus.html) — Family: [Celastraceae](/trees/family/celastraceae.html)
