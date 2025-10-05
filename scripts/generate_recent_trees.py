@@ -120,8 +120,14 @@ def main():
     lines.append('# Recent tree updates')
     lines.append('')
     for created, tid, species in top:
-        created_str = created.strftime('%Y') if created and created != datetime.min else ''
-        link = f'trees/{tid}.qmd' if tid else ''
+        # show only the date in day-month-year order (e.g. '04 Oct 2025')
+        if created and created != datetime.min:
+            created_str = created.strftime('%d %b %Y')
+        else:
+            created_str = ''
+
+        # links should be relative to the `trees/` directory (this file is placed in trees/)
+        link = f'{tid}.qmd' if tid else ''
         title = f'Tree {tid}' if tid else 'Tree'
         if species:
             title = f'{title} — {species}'
