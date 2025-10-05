@@ -1,0 +1,61 @@
+---
+title: "NHM Urban Research Station Survey Protocol — Tree Tagging"
+author:
+  - name: Ed Baker
+    affiliation: Natural History Museum, London
+citation:
+  container-title: Urban Research Station Reports
+  issue: 1
+date: "2025-10-05"
+---
+
+Trees are tagged with unique identifiers to facilitate consistent, long-term monitoring and data collection critical to urban ecological research. Tagging enables repeated measurements of individual trees, supporting studies on growth rates, health status, phenological changes, carbon sequestration and responses to urban-specific stressors such as urban heat. Tagging also supports spatial analysis and management of the living collections.
+
+## Definitions
+
+### Diameter at breast height (DBH)
+
+The diameter of the tree, measured at 1.3 m from the base (the standard height used by the Forestry Commission).
+
+## Installation
+
+### Trees with DBH ≥ 5 cm
+
+- Attach a unique number tag to the tree at 1.3 m; the nail also serves as a mark for the DBH measurement height.
+- Nail orientation and placement:
+	- Nail should slant downwards so the tag does not rest against the bark.
+	- Nail only into sapwood.
+	- Always leave at least 1 cm of nail exposed to allow for trunk growth.
+
+### Trees with DBH < 5 cm
+
+- Consider whether it is useful to tag at this age.
+- If tagging is appropriate, consider attaching the tag with a loop of wire.
+- Otherwise, attach the tag with a screw into sapwood (this is more secure than a nail); place at 1.3 m if practical.
+
+## Annual survey
+
+Ideally, conduct the tag survey at the same time as the tree survey. The annual tag check should include:
+
+- Check that all suitable trees are tagged.
+- Check for missing or damaged tags and replace where necessary.
+- Check that wire loops will not cause girdling in the coming year; replace with nails where appropriate.
+- If required, back out nails and screws so there is at least 1 cm allowance for growth.
+- At South Kensington: check that plaques attached to trees to support public programmes are not causing girdling or other damage.
+
+## Appendix I: Numbering scheme
+
+### Accommodating existing tree numbering at South Kensington
+
+- Numbers 1–27 are reserved to follow the numbering used in Wassells (WAS132/2019). For example, T1 in that report corresponds to tag 0001.
+- Grouped plantings recorded as a single group (e.g. Silver Birch listed as G1) should be retagged with individual tree numbers when practical.
+- There are established trees outside the Nature Activity Centre with terminal tags 59 and 63; the trees between these should be retagged using the intermediate numbers.
+
+### New tag numbers
+
+- Tags 0001–0099 are reserved to cover existing use cases in South Kensington.
+- In the long term, reserving number blocks for particular geographic areas (for example, Nature Discovery Garden, Tring) will either:
+	- require purchase of a large quantity of tags, or
+	- result in non-sequential blocks of numbers being used.
+- Tags 100 and above can be applied to any tree on the NHM estate. Geographic localisation of numbers should be handled through the tree database rather than by permanently reserving number blocks.
+

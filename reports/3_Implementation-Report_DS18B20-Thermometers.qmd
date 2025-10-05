@@ -1,0 +1,11 @@
+---
+title: "NHM Urban Research Station Implementation Report — DS18B20 Thermometers"
+author:
+  - name: Ed Baker
+    affiliation: Natural History Museum, London
+citation:
+  container-title: Urban Research Station Reports
+  issue: 3
+---
+
+Blh blah blaaah

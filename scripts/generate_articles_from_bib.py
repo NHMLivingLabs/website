@@ -152,6 +152,9 @@ def generate_qmd(entries):
     recent_years = [y for y in years if (y.isdigit() and int(y) >= 2025)]
     wildlife_years = [y for y in years if (y.isdigit() and int(y) < 2025)]
 
+    # global article counter (sequential across the whole document)
+    article_counter = 1
+
     # Emit recent years first
     for y in recent_years:
         lines.append(f'## {y}\n')
@@ -160,7 +163,9 @@ def generate_qmd(entries):
             authors = format_authors(e.get('author', ''))
             venue = venue_line(e)
             if title:
-                lines.append(title)
+                # prefix the title with a sequential article number
+                lines.append(f'{article_counter}. {title}')
+                article_counter += 1
             if authors:
                 lines.append('<br>' + authors)
             if venue:
@@ -181,7 +186,9 @@ def generate_qmd(entries):
                 authors = format_authors(e.get('author', ''))
                 venue = venue_line(e)
                 if title:
-                    lines.append(title)
+                    # prefix the title with a sequential article number
+                    lines.append(f'{article_counter}. {title}')
+                    article_counter += 1
                 if authors:
                     lines.append('<br>' + authors)
                 if venue:

@@ -8,7 +8,7 @@ toc-depth: 2
 
 ## 2025
 
-[Catalysts for change: Museum gardens in a planetary emergency](https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.70100)
+1. [Catalysts for change: Museum gardens in a planetary emergency](https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.70100)
 <br>Baker, E, Kenrick, P, Knapp, S, McCarter, T, Tweddle, J
 <br>*Plants, People, Planet*
 
@@ -16,88 +16,88 @@ toc-depth: 2
 
 ## 2022
 
-[The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2021-2022 -- Twenty-seven years of species recording](assets/publications/2022_London_Naturalist_update.pdf)
+2. [The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2021-2022 -- Twenty-seven years of species recording](assets/publications/2022_London_Naturalist_update.pdf)
 <br>McCarter, T, Lees, D, Ware, C, Ellis, L, Thomas, S, Barclay, M.V.L., Geiser, M.F., Matsumoto, K
 <br>*The London Naturalist*
 
 ## 2021
 
-[The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2020-2021 -- Twenty-six years of species recording](assets/publications/NHM_Garden_London_Naturalist_2021.pdf)
+3. [The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2020-2021 -- Twenty-six years of species recording](assets/publications/NHM_Garden_London_Naturalist_2021.pdf)
 <br>McCarter, T, Myers, S, Ware, C, Ellis, L, Barclay, M.V.L., Thomas, S, Sivell, D, Broad, G
 <br>*The London Naturalist*
 
 ## 2020
 
-[The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2019-2020 -- Twenty-five years of species recording](assets/publications/Sivell_et_al_2020_WLG_Update_London_Naturalist.pdf)
+4. [The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2019-2020 -- Twenty-five years of species recording](assets/publications/Sivell_et_al_2020_WLG_Update_London_Naturalist.pdf)
 <br>Sivell, D, McCarter, T, Myers, S, Thomas, S, Thomas, T.J.
 <br>*The London Naturalist*
 
 ## 2019
 
-[The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2018-2019 -- Twenty-four years of species recording](assets/publications/Sivell_et_al_2019_London_Naturalist.pdf)
+5. [The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2018-2019 -- Twenty-four years of species recording](assets/publications/Sivell_et_al_2019_London_Naturalist.pdf)
 <br>Sivell, D, Beale, J, Reilly, N, Lowe, M, Barclay, M.V.L., Ellis, L, Geiser, M, Lees, D, Notton, D.G., Potts, K, Ware, C
 <br>*The London Naturalist*
 
 ## 2018
 
-[The spider wasp, Agenioideus apicalis (Hymenoptera: Pompilidae) new to Britain, and a second British record of Agenioideus sericeus](assets/publications/Spider_Wasp_new_to_Britain.pdf)
+6. [The spider wasp, Agenioideus apicalis (Hymenoptera: Pompilidae) new to Britain, and a second British record of Agenioideus sericeus](assets/publications/Spider_Wasp_new_to_Britain.pdf)
 <br>Notton, D.G.
 <br>*British Journal of Entomology \& Natural History*
 
-[The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2017-2018 -- Twenty three years of species recording](assets/publications/Ware_et_al_2018_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf)
+7. [The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2017-2018 -- Twenty three years of species recording](assets/publications/Ware_et_al_2018_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf)
 <br>Ware, C, Lowe, M, Sivell, D, Barclay, M.V.L., Beale, J, Ellis, L, Feneru, F, Honey, M, Lees, D, Notton, D, Reilly, N, Sterling, M.J., Thomas, T.J.
 <br>*The London Naturalist*
 
 ## 2017
 
-[Estimating the potential biodiversity impact of redeveloping small urban spaces: the Natural History Museum’s grounds](https://doi.org/10.7717/peerj.3914)
+8. [Estimating the potential biodiversity impact of redeveloping small urban spaces: the Natural History Museum’s grounds](https://doi.org/10.7717/peerj.3914)
 <br>Phillips, H.R.P., Knapp, S., Purvis, A.
 <br>*PeerJ*
 
-[Natural History Museum Wildlife Garden Anabat monitoring 2017 Summary of results](assets/publications/NHM_Wildlife_Garden_-_bat_monitoring_report_2017.pdf)
+9. [Natural History Museum Wildlife Garden Anabat monitoring 2017 Summary of results](assets/publications/NHM_Wildlife_Garden_-_bat_monitoring_report_2017.pdf)
 <br>Briggs, Philip
 <br>*REPORT*
 
-[Further developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Part 2 -- Twenty one years of species recording](assets/publications/Ware_et_al_2017_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf)
+10. [Further developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Part 2 -- Twenty one years of species recording](assets/publications/Ware_et_al_2017_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf)
 <br>Ware, C, Lowe, M, Sivell, D, Cooper, L, Greaves, P, Root, T, Shaw, P, Shubert, E, Spooner, B, Strekopytov, S
 <br>*The London Naturalist*
 
 ## 2016
 
-Wildlife Reports: Spiders
+11. Wildlife Reports: Spiders
 <br>Neilson, A
 <br>*British Wildlife*
 
-[Further developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Twenty years of species recording](assets/publications/Ware_et_al_2016_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf)
+12. [Further developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Twenty years of species recording](assets/publications/Ware_et_al_2016_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf)
 <br>Ware, C, Lowe, M, Sivell, D, Baker, A, Bantock, T, Barclay, M, Carr, G, Cooper, L, Ellis, L, Hall, M.J.R., Hollowday, E, Honey, M, John, D.M., Martin, J, Notton, D, Osborne, D, Rundle, A, Sherlock, E, Tabor, B, Thomas, T.J., Thüs, H., Tovey, J, Wolseley, P
 <br>*The London Naturalist*
 
 ## 2015
 
-[Celebrating 20 years of the Wildlife Garden](assets/publications/Brooks_2015_Evolve.pdf)
+13. [Celebrating 20 years of the Wildlife Garden](assets/publications/Brooks_2015_Evolve.pdf)
 <br>Brooks, S.J.
 <br>*Evolve*
 
 ## 2010
 
-[Use of Calluna vulgaris to detect signals of nitrogen deposition across an urban-rural gradient](assets/publications/Power_&_Collins_2010_N_deposition_AtmosEnv.pdf)
+14. [Use of Calluna vulgaris to detect signals of nitrogen deposition across an urban-rural gradient](assets/publications/Power_&_Collins_2010_N_deposition_AtmosEnv.pdf)
 <br>Power, S.A., Collins, C.M.
 <br>*Atmospheric Environment*
 
 ## 2003
 
-The development of the flora, fauna and environment of the Wildlife Garden at the Natural History Museum, London
+15. The development of the flora, fauna and environment of the Wildlife Garden at the Natural History Museum, London
 <br>Leigh, C, Ware, C
 <br>*The London Naturalist*
 
 ## 1999
 
-[A survey of vascular plants in the Wildlife Garden of the Natural History Museum](assets/publications/Ware_(1999)_LondNat.pdf)
+16. [A survey of vascular plants in the Wildlife Garden of the Natural History Museum](assets/publications/Ware_(1999)_LondNat.pdf)
 <br>Ware, C
 <br>*The London Naturalist*
 
 ## 1998
 
-The flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London
+17. The flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London
 <br>Honey, M.R., Leigh, C, Brooks, S.J.
 <br>*The London Naturalist*

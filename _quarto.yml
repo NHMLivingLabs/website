@@ -5,6 +5,7 @@
     - python ./scripts/generate_trees_from_epicollect.py
     - python ./scripts/generate_tree_list.py
     - python ./scripts/generate_articles_from_bib.py
+    - python ./scripts/generate_reports_index.py
     
 website:
   title: "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>"

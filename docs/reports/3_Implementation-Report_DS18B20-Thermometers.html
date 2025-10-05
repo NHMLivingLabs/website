@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ed Baker">
 
-<title>Articles – Urban Research Stationsat the Natural History Museum</title>
+<title>NHM Urban Research Station Implementation Report — DS18B20 Thermometers – Urban Research Stationsat the Natural History Museum</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Urban Research Stations<br><span style="font-size: x-small;">at the Natural History Museum</span></span>
     </a>
   </div>
@@ -89,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -98,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-studies">    
         <li>
-    <a class="dropdown-item" href="./case-studies.html">
+    <a class="dropdown-item" href="../case-studies.html">
  <span class="dropdown-text">Case Studies</span></a>
   </li>  
     </ul>
@@ -109,15 +110,15 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-trees">    
         <li>
-    <a class="dropdown-item" href="./trees/index.html">
+    <a class="dropdown-item" href="../trees/index.html">
  <span class="dropdown-text">Tree Database</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./trees/family/index.html">
+    <a class="dropdown-item" href="../trees/family/index.html">
  <span class="dropdown-text">Tree families</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./trees/genus/index.html">
+    <a class="dropdown-item" href="../trees/genus/index.html">
  <span class="dropdown-text">Species index — A–Z (by common name)</span></a>
   </li>  
     </ul>
@@ -128,17 +129,17 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="./articles.html">
+    <a class="dropdown-item" href="../articles.html">
  <span class="dropdown-text">Articles</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./reports.html">
+    <a class="dropdown-item" href="../reports.html">
  <span class="dropdown-text">Urban Research Station Reports</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./team.html"> 
+    <a class="nav-link" href="../team.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
 </ul>
@@ -152,43 +153,35 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2025</a></li>
-  <li><a href="#wildlife-gardens-publications" id="toc-wildlife-gardens-publications" class="nav-link" data-scroll-target="#wildlife-gardens-publications">Wildlife Gardens Publications</a>
-  <ul class="collapse">
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2022</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2021</a></li>
-  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2020</a></li>
-  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2019</a></li>
-  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">2018</a></li>
-  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6">2017</a></li>
-  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7">2016</a></li>
-  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8">2015</a></li>
-  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9">2010</a></li>
-  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10">2003</a></li>
-  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11">1999</a></li>
-  <li><a href="#section-12" id="toc-section-12" class="nav-link" data-scroll-target="#section-12">1998</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Articles</h1>
+<h1 class="title">NHM Urban Research Station Implementation Report — DS18B20 Thermometers</h1>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ed Baker </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Natural History Museum, London
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
   
     
   </div>
@@ -198,96 +191,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- This file is generated by scripts/generate_articles_from_bib.py. Do not edit this file directly; update the generator or the underlying data sources instead. -->
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2025</h2>
-<ol type="1">
-<li><a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.70100">Catalysts for change: Museum gardens in a planetary emergency</a> <br>Baker, E, Kenrick, P, Knapp, S, McCarter, T, Tweddle, J <br><em>Plants, People, Planet</em></li>
-</ol>
-</section>
-<section id="wildlife-gardens-publications" class="level1">
-<h1>Wildlife Gardens Publications</h1>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2022</h2>
-<ol start="2" type="1">
-<li><a href="assets/publications/2022_London_Naturalist_update.pdf">The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2021-2022 – Twenty-seven years of species recording</a> <br>McCarter, T, Lees, D, Ware, C, Ellis, L, Thomas, S, Barclay, M.V.L., Geiser, M.F., Matsumoto, K <br><em>The London Naturalist</em></li>
-</ol>
-</section>
-<section id="section-2" class="level2">
-<h2 class="anchored" data-anchor-id="section-2">2021</h2>
-<ol start="3" type="1">
-<li><a href="assets/publications/NHM_Garden_London_Naturalist_2021.pdf">The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2020-2021 – Twenty-six years of species recording</a> <br>McCarter, T, Myers, S, Ware, C, Ellis, L, Barclay, M.V.L., Thomas, S, Sivell, D, Broad, G <br><em>The London Naturalist</em></li>
-</ol>
-</section>
-<section id="section-3" class="level2">
-<h2 class="anchored" data-anchor-id="section-3">2020</h2>
-<ol start="4" type="1">
-<li><a href="assets/publications/Sivell_et_al_2020_WLG_Update_London_Naturalist.pdf">The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2019-2020 – Twenty-five years of species recording</a> <br>Sivell, D, McCarter, T, Myers, S, Thomas, S, Thomas, T.J. <br><em>The London Naturalist</em></li>
-</ol>
-</section>
-<section id="section-4" class="level2">
-<h2 class="anchored" data-anchor-id="section-4">2019</h2>
-<ol start="5" type="1">
-<li><a href="assets/publications/Sivell_et_al_2019_London_Naturalist.pdf">The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2018-2019 – Twenty-four years of species recording</a> <br>Sivell, D, Beale, J, Reilly, N, Lowe, M, Barclay, M.V.L., Ellis, L, Geiser, M, Lees, D, Notton, D.G., Potts, K, Ware, C <br><em>The London Naturalist</em></li>
-</ol>
-</section>
-<section id="section-5" class="level2">
-<h2 class="anchored" data-anchor-id="section-5">2018</h2>
-<ol start="6" type="1">
-<li><p><a href="assets/publications/Spider_Wasp_new_to_Britain.pdf">The spider wasp, Agenioideus apicalis (Hymenoptera: Pompilidae) new to Britain, and a second British record of Agenioideus sericeus</a> <br>Notton, D.G. <br><em>British Journal of Entomology &amp; Natural History</em></p></li>
-<li><p><a href="assets/publications/Ware_et_al_2018_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf">The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2017-2018 – Twenty three years of species recording</a> <br>Ware, C, Lowe, M, Sivell, D, Barclay, M.V.L., Beale, J, Ellis, L, Feneru, F, Honey, M, Lees, D, Notton, D, Reilly, N, Sterling, M.J., Thomas, T.J. <br><em>The London Naturalist</em></p></li>
-</ol>
-</section>
-<section id="section-6" class="level2">
-<h2 class="anchored" data-anchor-id="section-6">2017</h2>
-<ol start="8" type="1">
-<li><p><a href="https://doi.org/10.7717/peerj.3914">Estimating the potential biodiversity impact of redeveloping small urban spaces: the Natural History Museum’s grounds</a> <br>Phillips, H.R.P., Knapp, S., Purvis, A. <br><em>PeerJ</em></p></li>
-<li><p><a href="assets/publications/NHM_Wildlife_Garden_-_bat_monitoring_report_2017.pdf">Natural History Museum Wildlife Garden Anabat monitoring 2017 Summary of results</a> <br>Briggs, Philip <br><em>REPORT</em></p></li>
-<li><p><a href="assets/publications/Ware_et_al_2017_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf">Further developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Part 2 – Twenty one years of species recording</a> <br>Ware, C, Lowe, M, Sivell, D, Cooper, L, Greaves, P, Root, T, Shaw, P, Shubert, E, Spooner, B, Strekopytov, S <br><em>The London Naturalist</em></p></li>
-</ol>
-</section>
-<section id="section-7" class="level2">
-<h2 class="anchored" data-anchor-id="section-7">2016</h2>
-<ol start="11" type="1">
-<li><p>Wildlife Reports: Spiders <br>Neilson, A <br><em>British Wildlife</em></p></li>
-<li><p><a href="assets/publications/Ware_et_al_2016_further_developments_of_the_flora_and_fauna_of_the_NHM_Wildlife_Garden.pdf">Further developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Twenty years of species recording</a> <br>Ware, C, Lowe, M, Sivell, D, Baker, A, Bantock, T, Barclay, M, Carr, G, Cooper, L, Ellis, L, Hall, M.J.R., Hollowday, E, Honey, M, John, D.M., Martin, J, Notton, D, Osborne, D, Rundle, A, Sherlock, E, Tabor, B, Thomas, T.J., Thüs, H., Tovey, J, Wolseley, P <br><em>The London Naturalist</em></p></li>
-</ol>
-</section>
-<section id="section-8" class="level2">
-<h2 class="anchored" data-anchor-id="section-8">2015</h2>
-<ol start="13" type="1">
-<li><a href="assets/publications/Brooks_2015_Evolve.pdf">Celebrating 20 years of the Wildlife Garden</a> <br>Brooks, S.J. <br><em>Evolve</em></li>
-</ol>
-</section>
-<section id="section-9" class="level2">
-<h2 class="anchored" data-anchor-id="section-9">2010</h2>
-<ol start="14" type="1">
-<li><a href="assets/publications/Power_&amp;_Collins_2010_N_deposition_AtmosEnv.pdf">Use of Calluna vulgaris to detect signals of nitrogen deposition across an urban-rural gradient</a> <br>Power, S.A., Collins, C.M. <br><em>Atmospheric Environment</em></li>
-</ol>
-</section>
-<section id="section-10" class="level2">
-<h2 class="anchored" data-anchor-id="section-10">2003</h2>
-<ol start="15" type="1">
-<li>The development of the flora, fauna and environment of the Wildlife Garden at the Natural History Museum, London <br>Leigh, C, Ware, C <br><em>The London Naturalist</em></li>
-</ol>
-</section>
-<section id="section-11" class="level2">
-<h2 class="anchored" data-anchor-id="section-11">1999</h2>
-<ol start="16" type="1">
-<li><a href="assets/publications/Ware_(1999)_LondNat.pdf">A survey of vascular plants in the Wildlife Garden of the Natural History Museum</a> <br>Ware, C <br><em>The London Naturalist</em></li>
-</ol>
-</section>
-<section id="section-12" class="level2">
-<h2 class="anchored" data-anchor-id="section-12">1998</h2>
-<ol start="17" type="1">
-<li>The flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London <br>Honey, M.R., Leigh, C, Brooks, S.J. <br><em>The London Naturalist</em></li>
-</ol>
+<p>Blh blah blaaah</p>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{baker,
+  author = {Baker, Ed},
+  title = {NHM {Urban} {Research} {Station} {Implementation} {Report} —
+    {DS18B20} {Thermometers}},
+  number = {3},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-baker" class="csl-entry quarto-appendix-citeas" role="listitem">
+Baker, Ed. n.d. <span>“NHM Urban Research Station Implementation Report
+— DS18B20 Thermometers.”</span> Urban Research Station Reports.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
