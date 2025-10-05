@@ -493,7 +493,7 @@ for fam_slug, fdata in family_map.items():
     else:
         fname_display = fname
     flines = _page_header(f"{fname_display}")
-    flines.append(f"# Species in {fname_display}")
+    # The YAML header provides the page title; omit a duplicate H1 in the body
     flines.append('')
     # de-duplicate species list while preserving order
     deduped_sp = _dedupe_species_list(fdata.get('species', []))
