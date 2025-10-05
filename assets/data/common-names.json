@@ -1,10 +1,30 @@
 [
     { "family": "Betulaceae", "common_name": "Birch family" },
+    { "family": "Ebenaceae", "common_name": "Persimmon family" },
+    { "family": "Fagaceae", "common_name": "Oak & Beech family" },
+    { "family": "Juglandaceae", "common_name": "Walnut family" },
+    { "family": "Moraceae", "common_name": "Fig family" },
     { "family": "Oleaceae", "common_name": "Olive family" },
     { "family": "Pinaceae", "common_name": "Pine family" },
+    { "family": "Rosaceae", "common_name": "Rose family" },
+    { "family": "Salicaceae", "common_name": "Willow family" },
+    { "family": "Sapindaceae", "common_name": "Maple family" },
 
+    { "genus": "Acer", "common_name": "Maples" },
+    { "genus": "Alnus", "common_name": "Alders" },
+    { "genus": "Betula", "common_name": "Birches" },
+    { "genus": "Carpinus", "common_name": "Hornbeams" },
+    { "genus": "Castanea", "common_name": "Chestnuts" },
+    { "genus": "Crataegus", "common_name": "Hawthorns" },
+    { "genus": "Cydonia", "common_name": "Quinces" },
+    { "genus": "Diospyros", "common_name": "Persimmons" },
+    { "genus": "Fagus", "common_name": "Beeches" },
+    { "genus": "Ficus", "common_name": "Figs" },
+    { "genus": "Fraxinus", "common_name": "Ashes" },
+    { "genus": "Juglans", "common_name": "Walnuts" },
     { "genus": "Olea", "common_name": "Olives" },
     { "genus": "Pinus", "common_name": "Pines" },
-    { "genus": "Fraxinus", "common_name": "Ashes" },
-    { "genus": "Carpinus", "common_name": "Hornbeams" }
+    { "genus": "Prunus", "common_name": "Cherries & plums" },
+    { "genus": "Quercus", "common_name": "Oaks" },
+    { "genus": "Salix", "common_name": "Willows" }
 ]
