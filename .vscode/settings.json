@@ -1,0 +1,17 @@
+{
+  // Set default browser for VS Code actions to Firefox (Windows)
+  // Update the path below if Firefox is installed elsewhere.
+  "browser.preview.openInExternal": true,
+
+  // Use Firefox as default for the builtin 'Open in Browser' actions
+  "open-in-browser.default": "firefox",
+
+  // Live Server extension: specify Firefox path if needed
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\Mozilla Firefox\\firefox.exe --new-window %URL%",
+
+  // For the Quarto preview or other extensions that use 'browser' setting
+  "quarto.preview.browser": "firefox",
+
+  // Optional: set default external browser for VS Code (uses system default but keep explicit)
+  "workbench.startupEditor": "none"
+}

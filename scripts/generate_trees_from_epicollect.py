@@ -22,6 +22,91 @@ Usage:
 from pathlib import Path
 import urllib.request
 import urllib.parse
+import urllib.error
+import json
+import os
+import argparse
+import re
+from datetime import datetime
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT_DIR = ROOT / 'trees'
+IMG_DIR = ROOT / 'assets' / 'images' / 'trees'
+
+
+def load_dotenv_if_exists(root: Path):
+    """Minimal .env loader: reads KEY=VALUE lines from repo .env and sets os.environ if not present.
+    Handles UTF-8 BOM by decoding with utf-8-sig."""
+    env_path = root / '.env'
+    if not env_path.exists():
+        return
+    try:
+        text = env_path.read_text(encoding='utf8')
+    except Exception:
+        # fallback to utf-8-sig to handle BOMs
+        try:
+            text = env_path.read_text(encoding='utf-8-sig')
+        except Exception:
+            return
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or line.startswith('#'):
+            continue
+        if '=' in line:
+            k, v = line.split('=', 1)
+            k = k.strip()
+            v = v.strip()
+            # do not overwrite existing environment variables; allow explicit env to take precedence
+            if k and (k not in os.environ or not os.environ.get(k)):
+                os.environ[k] = v
+
+
+# Load .env from repo root if present so that Quarto-invoked processes pick up credentials
+load_dotenv_if_exists(ROOT)
+
+# Project-specific configuration
+PROJECT_SLUG = 'nhm-urs-tree-dbh'
+# Hard-coded form_ref (per instructions)
+FORM_REF = 'cfdf37225027464f8102e8a1ff29637a_68df814906e40'
+
+# Environment-driven auth (token OR client credentials)
+EPICOLLECT_TOKEN = os.environ.get('EPICOLLECT_TOKEN')
+EPICOLLECT_CLIENT_ID = os.environ.get('EPICOLLECT_CLIENT_ID')
+EPICOLLECT_CLIENT_SECRET = os.environ.get('EPICOLLECT_CLIENT_SECRET')
+EPICOLLECT_TOKEN_URL = os.environ.get('EPICOLLECT_TOKEN_URL', 'https://five.epicollect.net/oauth/token')
+
+
+def http_get_bytes(url, headers=None, timeout=20):
+    headers = headers or {}
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read()
+
+"""Minimal tree page generator using Epicollect documented export API.
+
+This file is intentionally small and focused. It:
+- Fetches entries from /api/export/entries/{project_slug} using the
+  provided FORM_REF.
+- Prefers the `2_Tree_Number` field as the canonical identifier and falls
+  back to `ec5_uuid`/`id` when missing.
+- Optionally downloads the primary image referenced in the entry using
+  /api/export/media/{project_slug} and writes it to
+  `assets/images/trees/tree<id>.jpg`.
+- Writes a simple Quarto page to `trees/<id>.qmd` and does not overwrite
+  existing pages unless `--force` is supplied.
+
+Auth: set EPICOLLECT_TOKEN in the environment for a bearer token, or set
+EPICOLLECT_CLIENT_ID and EPICOLLECT_CLIENT_SECRET (and optionally
+EPICOLLECT_TOKEN_URL) to obtain a token using the client_credentials flow.
+
+Usage:
+  python scripts/generate_trees_from_epicollect.py [--force] [--no-download] [--dry-run]
+"""
+
+from pathlib import Path
+import urllib.request
+import urllib.parse
 import json
 import os
 import argparse
