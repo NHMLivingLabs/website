@@ -6,11 +6,21 @@
   // Use Firefox as default for the builtin 'Open in Browser' actions
   "open-in-browser.default": "firefox",
 
-  // Live Server extension: specify Firefox path if needed
+  // Live Server extension: specify Firefox path if needed (detected)
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\Mozilla Firefox\\firefox.exe --new-window %URL%",
 
   // For the Quarto preview or other extensions that use 'browser' setting
   "quarto.preview.browser": "firefox",
+
+  // Explicit path to firefox executable (detected on this system)
+  "browser.openExternal.windowsExec": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+
+  // Browser Preview extension (if installed) — prefer external Firefox
+  "browser-preview.openInBrowser": true,
+  "browser-preview.defaultBrowser": "firefox",
+
+  // Open in Browser extension settings
+  "open-in-browser.customBrowserPath.windows": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
 
   // Optional: set default external browser for VS Code (uses system default but keep explicit)
   "workbench.startupEditor": "none"
