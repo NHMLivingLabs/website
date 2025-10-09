@@ -21,3 +21,6 @@ docs/**/pdfs/*.aux
 docs/**/pdfs/*.log
 docs/**/pdfs/*.out
 docs/**/pdfs/*.toc
+
+# Persistent sanitized inputs produced by scripts/render_articles_to_pdf.py
+/docs/assets/pdfs/sanitized_inputs/

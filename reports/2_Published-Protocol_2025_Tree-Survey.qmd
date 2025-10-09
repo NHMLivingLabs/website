@@ -10,10 +10,9 @@ citation:
   issue: 2
 date: "2025-10-05"
 ---
-
-<a class="pdf-download" href="/assets/pdfs/2_Published-Protocol_2025_Tree-Survey.pdf">
-  <img src="/assets/images/icons/pdf.svg" alt="PDF file" style="width:24px; height:auto; vertical-align:middle;"/>
-  <span class="pdf-label">Download PDF</span>
-</a>
+<!-- HTML-only download link (hidden in PDF) -->
+::: {.content-visible when-format="html"}
+[![](/assets/images/icons/pdf.svg){width=24px height=auto style="vertical-align:middle;"}](/assets/pdfs/2_Published-Protocol_2025_Tree-Survey.pdf) [Download PDF](/assets/pdfs/2_Published-Protocol_2025_Tree-Survey.pdf)
+:::
 
 Describe

@@ -9,10 +9,10 @@ citation:
 date: "2025-10-05"
 ---
  
-<a class="pdf-download" href="/assets/pdfs/1_Published_Protocol_2025_Tree-Tagging.pdf">
-	<img src="/assets/images/icons/pdf.svg" alt="PDF file" style="width:24px; height:auto; vertical-align:middle;"/>
-	<span class="pdf-label">Download PDF</span>
-</a>
+<!-- HTML-only download link (hidden in PDF) -->
+::: {.content-visible when-format="html"}
+[![](/assets/images/icons/pdf.svg){width=24px height=auto style="vertical-align:middle;"}](/assets/pdfs/1_Published_Protocol_2025_Tree-Tagging.pdf) [Download PDF](/assets/pdfs/1_Published_Protocol_2025_Tree-Tagging.pdf)
+:::
 
 Trees are tagged with unique identifiers to facilitate consistent, long-term monitoring and data collection critical to urban ecological research. Tagging enables repeated measurements of individual trees, supporting studies on growth rates, health status, phenological changes, carbon sequestration and responses to urban-specific stressors such as urban heat. Tagging also supports spatial analysis and management of the living collections.
 

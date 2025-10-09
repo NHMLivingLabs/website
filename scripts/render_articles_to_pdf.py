@@ -23,6 +23,7 @@ import re
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PERSIST_SANITIZED = False
 
 
 def find_targets(all_qmd: bool):
@@ -320,19 +321,75 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
         return None
 
     author_name = extract_author_name_from_frontmatter(src)
-
     pandoc_cmd = [pandoc_path, str(src), '--from', 'markdown', '--to', 'latex', '--standalone', '-o', str(outtex)]
     tmp_meta = None
+    temp_input = None
+    persistent_sanitized_path = None
     try:
-        temp_input = None
+        # Preprocess the QMD to remove HTML-only/quarto-only blocks so pandoc -> LaTeX
+        # rendering does not accidentally include HTML-only content.
+        orig_text = src.read_text(encoding='utf-8')
+
+        def _remove_html_only_quarto_blocks(text: str) -> str:
+            # Remove fenced raw HTML blocks: ```{=html} ... ``` (handles variations)
+            text = re.sub(r"```\{\s*=\s*html[^}]*\}[\s\S]*?```\s*", "", text, flags=re.IGNORECASE)
+            # Remove Quarto conditional blocks like ::: {.content-visible when-format="html"} ... :::
+            # Use a non-greedy match and allow single or double quotes in attributes.
+            text = re.sub(r":::\s*\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\}[\s\S]*?:::\s*", "", text, flags=re.IGNORECASE)
+            # Remove HTML tags with when-format attribute: <div ... when-format="html">...</div>
+            text = re.sub(r"<[^>]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^>]*>[\s\S]*?<\/[a-zA-Z0-9:_-]+>\s*", "", text, flags=re.IGNORECASE)
+            # Remove markdown elements that have inline when-format="html" attributes, e.g. [text](url){... when-format="html"}
+            text = re.sub(r"(!?\[[^\]]*\]\([^\)]*\)\s*\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\})", "", text, flags=re.IGNORECASE)
+            # As a last resort, remove any attribute blocks that only contain when-format="html" to avoid leaving stray attributes
+            text = re.sub(r"\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\}", "", text, flags=re.IGNORECASE)
+            return text
+
+        sanitized = _remove_html_only_quarto_blocks(orig_text)
+        if sanitized != orig_text:
+            import tempfile
+            tf = tempfile.NamedTemporaryFile(delete=False, suffix=src.suffix, mode='w', encoding='utf-8')
+            tf.write(sanitized)
+            tf.close()
+            temp_input = tf.name
+            pandoc_cmd[1] = str(temp_input)
+            print('Created temporary input with HTML-only content removed:', temp_input)
+            # If requested, also write a persistent sanitized copy for inspection
+            if PERSIST_SANITIZED:
+                try:
+                    sanitized_dir = outdir / 'sanitized_inputs'
+                    sanitized_dir.mkdir(parents=True, exist_ok=True)
+                    persistent_sanitized_path = sanitized_dir / (stem + '.sanitized' + src.suffix)
+                    Path(temp_input).replace(persistent_sanitized_path)
+                    # Use the persistent file as the pandoc input
+                    pandoc_cmd[1] = str(persistent_sanitized_path)
+                    # Keep temp_input reference for cleanup logic, but mark persistent as kept
+                    temp_input = None
+                    print('Wrote persistent sanitized input:', persistent_sanitized_path)
+                except Exception:
+                    # If moving fails, continue using temp file
+                    pass
+            # Also write a persistent copy for verification (not cleaned automatically)
+            try:
+                persistent_dir = outdir / 'sanitized_inputs'
+                persistent_dir.mkdir(parents=True, exist_ok=True)
+                pers_path = persistent_dir / (stem + '.qmd')
+                pers_path.write_text(sanitized, encoding='utf-8')
+                print('Wrote persistent sanitized copy for verification:', pers_path)
+            except Exception:
+                pass
+
+        # Normalize authors by creating a temporary QMD copy with an inline
+        # YAML author list of strings. This avoids pandoc/metadata-file
+        # merging issues that in some environments lead to boolean 'true'.
         if author_name:
-            # Normalize authors by creating a temporary QMD copy with an inline
-            # YAML author list of strings. This avoids pandoc/metadata-file
-            # merging issues that in some environments lead to boolean 'true'.
             names = [n.strip() for n in re.split(r"\s*,\s*", author_name) if n.strip()]
             if names:
-                # Read original content and replace the author block in frontmatter
-                orig = src.read_text(encoding='utf-8')
+                # Read the current pandoc input content (could be original src or sanitized temp)
+                current_input = pandoc_cmd[1]
+                try:
+                    orig = Path(current_input).read_text(encoding='utf-8')
+                except Exception:
+                    orig = src.read_text(encoding='utf-8')
                 # Build inline YAML author list: author: ["A","B"]
                 quoted = ', '.join(f'"{n.replace("\"", "\\\"") }"' for n in names)
                 inline = f'author: [{quoted}]\n'
@@ -373,10 +430,24 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                         tf = tempfile.NamedTemporaryFile(delete=False, suffix=src.suffix, mode='w', encoding='utf-8')
                         tf.write(new_content)
                         tf.close()
-                        temp_input = tf.name
-                        print('Created temporary input with normalized authors:', temp_input)
-                        # Use the temp file as pandoc input
-                        pandoc_cmd[1] = str(temp_input)
+                        temp_name = tf.name
+                        # If persistent sanitized file was requested earlier, overwrite that path with normalized content
+                        if PERSIST_SANITIZED and persistent_sanitized_path:
+                            try:
+                                Path(temp_name).replace(persistent_sanitized_path)
+                                pandoc_cmd[1] = str(persistent_sanitized_path)
+                                print('Updated persistent sanitized input with normalized authors:', persistent_sanitized_path)
+                                # ensure cleanup does not delete the persistent file
+                                temp_input = None
+                            except Exception:
+                                # fallback to using temp_name
+                                temp_input = temp_name
+                                pandoc_cmd[1] = str(temp_input)
+                                print('Created temporary input with normalized authors:', temp_input)
+                        else:
+                            temp_input = temp_name
+                            pandoc_cmd[1] = str(temp_input)
+                            print('Created temporary input with normalized authors:', temp_input)
 
         print('Running:', ' '.join(pandoc_cmd))
         p = subprocess.run(pandoc_cmd, cwd=str(Path.cwd()))
@@ -497,8 +568,13 @@ def main():
     parser.add_argument('--all', action='store_true', help='Render all .qmd files (excludes docs/assets/site_libs/scripts)')
     parser.add_argument('--dry-run', action='store_true', help='Only list files that would be rendered')
     parser.add_argument('--check-authors', action='store_true', help='Check and report extracted author metadata for all targets')
+    parser.add_argument('--persist-sanitized', action='store_true', help='Write persistent sanitized QMD copies to output directory for inspection')
     parser.add_argument('targets', nargs='*', help='Optional list of specific .qmd files to render (paths relative to repo root or absolute)')
     args = parser.parse_args()
+
+    global PERSIST_SANITIZED
+    if args.persist_sanitized:
+        PERSIST_SANITIZED = True
 
     # If explicit targets provided on the command line, use those. Paths may be
     # relative to the repository root or absolute. Otherwise discover targets

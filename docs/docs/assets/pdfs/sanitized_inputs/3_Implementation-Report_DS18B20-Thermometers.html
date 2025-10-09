@@ -7,10 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ed Baker">
-<meta name="author" content="John Tweddle">
-<meta name="dcterms.date" content="2025-10-05">
 
-<title>NHM Urban Research Station Survey Protocol — Annual Tree Survey – Urban Research Stationsat the Natural History Museum</title>
+<title>NHM Urban Research Station Implementation Report — DS18B20 Thermometers – Urban Research Stationsat the Natural History Museum</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-bf19b75f51ea680c8de03e84aa65eabd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -81,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Urban Research Stations<br><span style="font-size: x-small;">at the Natural History Museum</span></span>
     </a>
   </div>
@@ -92,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -101,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-studies">    
         <li>
-    <a class="dropdown-item" href="../case-studies.html">
+    <a class="dropdown-item" href="../../../../case-studies.html">
  <span class="dropdown-text">Case Studies</span></a>
   </li>  
     </ul>
@@ -112,15 +110,15 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-trees">    
         <li>
-    <a class="dropdown-item" href="../trees/index.html">
+    <a class="dropdown-item" href="../../../../trees/index.html">
  <span class="dropdown-text">Tree Database</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../trees/family/index.html">
+    <a class="dropdown-item" href="../../../../trees/family/index.html">
  <span class="dropdown-text">Tree families</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../trees/genus/index.html">
+    <a class="dropdown-item" href="../../../../trees/genus/index.html">
  <span class="dropdown-text">Species index — A–Z (by common name)</span></a>
   </li>  
     </ul>
@@ -131,17 +129,17 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../articles.html">
+    <a class="dropdown-item" href="../../../../articles.html">
  <span class="dropdown-text">Articles</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../reports.html">
+    <a class="dropdown-item" href="../../../../reports.html">
  <span class="dropdown-text">Urban Research Station Reports</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../team.html"> 
+    <a class="nav-link" href="../../../../team.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
 </ul>
@@ -163,24 +161,16 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">NHM Urban Research Station Survey Protocol — Annual Tree Survey</h1>
+<h1 class="title">NHM Urban Research Station Implementation Report — DS18B20 Thermometers</h1>
 </div>
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Author</div>
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
     <p class="author">Ed Baker </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Natural History Museum, London
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">John Tweddle </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -192,12 +182,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
       
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 5, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -208,23 +192,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- HTML-only download link (hidden in PDF) -->
-<p><a href="..\assets/pdfs/2_Published-Protocol_2025_Tree-Survey.pdf"><img src="..\assets/images/icons/pdf.svg" style="vertical-align:middle;" width="24"></a> <a href="..\assets/pdfs/2_Published-Protocol_2025_Tree-Survey.pdf">Download PDF</a></p>
-<p>Describe</p>
+<p>Blh blah blaaah</p>
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{baker2025,
-  author = {Baker, Ed and Tweddle, John},
-  title = {NHM {Urban} {Research} {Station} {Survey} {Protocol} —
-    {Annual} {Tree} {Survey}},
-  number = {2},
-  date = {2025-10-05},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{baker,
+  author = {Baker, Ed},
+  title = {NHM {Urban} {Research} {Station} {Implementation} {Report} —
+    {DS18B20} {Thermometers}},
+  number = {3},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-baker2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Baker, Ed, and John Tweddle. 2025. <span>“NHM Urban Research Station
-Survey Protocol — Annual Tree Survey.”</span> Urban Research Station
-Reports. October 5, 2025.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-baker" class="csl-entry quarto-appendix-citeas" role="listitem">
+Baker, Ed. n.d. <span>“NHM Urban Research Station Implementation Report
+— DS18B20 Thermometers.”</span> Urban Research Station Reports.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

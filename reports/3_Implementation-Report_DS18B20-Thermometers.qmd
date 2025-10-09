@@ -7,10 +7,9 @@ citation:
   container-title: Urban Research Station Reports
   issue: 3
 ---
-
-<a class="pdf-download" href="/assets/pdfs/3_Implementation-Report_DS18B20-Thermometers.pdf">
-  <img src="/assets/images/icons/pdf.svg" alt="PDF file" style="width:24px; height:auto; vertical-align:middle;"/>
-  <span class="pdf-label">Download PDF</span>
-</a>
+<!-- HTML-only download link (hidden in PDF) -->
+::: {.content-visible when-format="html"}
+[![](/assets/images/icons/pdf.svg){width=24px height=auto style="vertical-align:middle;"}](/assets/pdfs/3_Implementation-Report_DS18B20-Thermometers.pdf) [Download PDF](/assets/pdfs/3_Implementation-Report_DS18B20-Thermometers.pdf)
+:::
 
 Blh blah blaaah
