@@ -592,7 +592,7 @@
     "href": "reports.html#published-protocols",
     "title": "Urban Research Station Reports",
     "section": "Published Protocols",
-    "text": "Published Protocols\n\nAnnual Tree Survey — Ed Baker, John Tweddle — Urban Research Station Reports — Issue 2\nTree Tagging — 2025 — Ed Baker — Urban Research Station Reports — Issue 1"
+    "text": "Published Protocols\n\nAnnual Tree Survey — 2025 — Ed Baker, John Tweddle — Urban Research Station Reports — Issue 2\nTree Tagging — 2025 — Ed Baker — Urban Research Station Reports — Issue 1"
   },
   {
     "objectID": "reports.html#implementation-reports",
@@ -606,320 +606,362 @@
     "href": "reports/2_Published-Protocol_2025_Tree-Survey.html",
     "title": "NHM Urban Research Station Survey Protocol — Annual Tree Survey",
     "section": "",
-    "text": "Describe\n\n\n\nCitationBibTeX citation:@online{baker,\n  author = {Baker, Ed and Tweddle, John},\n  title = {NHM {Urban} {Research} {Station} {Survey} {Protocol} —\n    {Annual} {Tree} {Survey}},\n  number = {2},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed, and John Tweddle. n.d. “NHM Urban Research Station\nSurvey Protocol — Annual Tree Survey.” Urban Research Station\nReports."
+    "text": "Download PDF \nDescribe\n\n\n\nCitationBibTeX citation:@online{baker2025,\n  author = {Baker, Ed and Tweddle, John},\n  title = {NHM {Urban} {Research} {Station} {Survey} {Protocol} —\n    {Annual} {Tree} {Survey}},\n  number = {2},\n  date = {2025-10-05},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed, and John Tweddle. 2025. “NHM Urban Research Station\nSurvey Protocol — Annual Tree Survey.” Urban Research Station\nReports. October 5, 2025."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "By 20250, nearly 70% of people will live in cities\nWe study how we can make cities better places for people and for nature.\nOur vision is of a future where both people and planet thrive.\n\n\n30 years of research\nIn 2025 we will have been studying the Museum’s gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one one of the most intensively studied urban sites worldwide.\n\n\n\n\n\n\n\n\nA living laboratory\nOur gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiveristy and create resilient ecosystems.\nOur gardens and research infrastructres are open to Museum staff and external collaborators for research and teaching.\n\n\nTraining the next generation\nSome text.\n\n\n\n\n\n\n\n\nIntegrating diverse datasets\nData ecosystem\n\n\nLeading change\nSKENZEN\nSomething on policy."
+    "text": "Catalysts for change: Museum gardens in a planetary emergency Baker E, Kenrick P, Knapp S, McCarter T, Tweddle J Plants, People, Planet"
   },
   {
-    "objectID": "case-studies/sensor-network.html",
-    "href": "case-studies/sensor-network.html",
-    "title": "Sensor Network",
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
     "section": "",
-    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
+    "text": "Catalysts for change: Museum gardens in a planetary emergency Baker E, Kenrick P, Knapp S, McCarter T, Tweddle J Plants, People, Planet"
   },
   {
-    "objectID": "case-studies/sensor-network.html#overview",
-    "href": "case-studies/sensor-network.html#overview",
-    "title": "Sensor Network",
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2021-2022 – Twenty-seven years of species recording McCarter T, Lees D, Ware C, Ellis L, Thomas S, Barclay MVL, Geiser MF, Matsumoto K The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2020-2021 – Twenty-six years of species recording McCarter T, Myers S, Ware C, Ellis L, Barclay MVL, Thomas S, Sivell D, Broad G The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2019-2020 – Twenty-five years of species recording Sivell D, McCarter T, Myers S, Thomas S, Thomas TJ The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "2019",
+    "text": "2019\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2018-2019 – Twenty-four years of species recording Sivell D, Beale J, Reilly N, Lowe M, Barclay MVL, Ellis L, Geiser M, Lees D, Notton DG, Potts K, Ware C The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-5",
+    "href": "publications.html#section-5",
+    "title": "Publications",
+    "section": "2018",
+    "text": "2018\nThe spider wasp, Agenioideus apicalis (Hymenoptera: Pompilidae) new to Britain, and a second British record of Agenioideus sericeus Notton DG British Journal of Entomology & Natural History\nThe Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2017-2018 – Twenty three years of species recording Ware C, Lowe M, Sivell D, Barclay MVL, Beale J, Ellis L, Feneru F, Honey M, Lees D, Notton D, Reilly N, Sterling MJ, Thomas TJ The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-6",
+    "href": "publications.html#section-6",
+    "title": "Publications",
+    "section": "2017",
+    "text": "2017\nEstimating the potential biodiversity impact of redeveloping small urban spaces: the Natural History Museum’s grounds Phillips HRP, Knapp S, Purvis A PeerJ\nNatural History Museum Wildlife Garden Anabat monitoring 2017 Summary of results Philip Briggs REPORT\nFurther developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Part 2 – Twenty one years of species recording Ware C, Lowe M, Sivell D, Cooper L, Greaves P, Root T, Shaw P, Shubert E, Spooner B, Strekopytov S The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-7",
+    "href": "publications.html#section-7",
+    "title": "Publications",
+    "section": "2016",
+    "text": "2016\nWildlife Reports: Spiders Neilson, A British Wildlife\nFurther developments of the flora and fauna of the Wildlife Garden at the Natural History Museum, London: Twenty years of species recording Ware C, Lowe M, Sivell D, Baker A, Bantock T, Barclay M, Carr G, Cooper L, Ellis L, Hall MJR, Hollowday E, Honey M, John DM, Martin J, Notton D, Osborne D, Rundle A, Sherlock E, Tabor B, Thomas TJ, Thüs H, Tovey J, Wolseley P The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-8",
+    "href": "publications.html#section-8",
+    "title": "Publications",
+    "section": "2015",
+    "text": "2015\nCelebrating 20 years of the Wildlife Garden Brooks SJ Evolve"
+  },
+  {
+    "objectID": "publications.html#section-9",
+    "href": "publications.html#section-9",
+    "title": "Publications",
+    "section": "2010",
+    "text": "2010\nUse of Calluna vulgaris to detect signals of nitrogen deposition across an urban-rural gradient Power SA, Collins CM Atmospheric Environment"
+  },
+  {
+    "objectID": "publications.html#section-10",
+    "href": "publications.html#section-10",
+    "title": "Publications",
+    "section": "2003",
+    "text": "2003\nThe development of the flora, fauna and environment of the Wildlife Garden at the Natural History Museum, London Leigh C, Ware C The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-11",
+    "href": "publications.html#section-11",
+    "title": "Publications",
+    "section": "1999",
+    "text": "1999\nA survey of vascular plants in the Wildlife Garden of the Natural History Museum Ware C The London Naturalist"
+  },
+  {
+    "objectID": "publications.html#section-12",
+    "href": "publications.html#section-12",
+    "title": "Publications",
+    "section": "1998",
+    "text": "1998\nThe flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London Honey MR, Leigh C, Brooks SJ The London Naturalist"
+  },
+  {
+    "objectID": "case-studies.html",
+    "href": "case-studies.html",
+    "title": "Case Studies",
     "section": "",
-    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
+    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
   },
   {
-    "objectID": "case-studies/sensor-network.html#objectives",
-    "href": "case-studies/sensor-network.html#objectives",
-    "title": "Sensor Network",
+    "objectID": "case-studies.html#nhm-projects",
+    "href": "case-studies.html#nhm-projects",
+    "title": "Case Studies",
+    "section": "",
+    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
+  },
+  {
+    "objectID": "case-studies.html#external-collaborators",
+    "href": "case-studies.html#external-collaborators",
+    "title": "Case Studies",
+    "section": "External Collaborators",
+    "text": "External Collaborators\n\n\n\n\n\n\n\n\nMAARU\nAutonomous spatial audio recorders for monitoring soundscapes and wildlife acoustic activity.\n\n\n\n\n\n\n\n\n\nMore than Human Community Toolkit\nDeveloping tools and methods for engaging communities in more-than-human research. Collaboration with Goldsmiths.\n\n\n\n\n\n\n\n\n\nCreativity in Design\nCity St George"
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html",
+    "href": "case-studies/moth-trapping.html",
+    "title": "Moth Trapping",
+    "section": "",
+    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#overview",
+    "href": "case-studies/moth-trapping.html#overview",
+    "title": "Moth Trapping",
+    "section": "",
+    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
+  },
+  {
+    "objectID": "case-studies/moth-trapping.html#objectives",
+    "href": "case-studies/moth-trapping.html#objectives",
+    "title": "Moth Trapping",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor environmental conditions continuously\nCollect data on temperature, humidity, air quality, and other parameters\nProvide data for research and public engagement\nSupport evidence-based garden management decisions"
+    "text": "Objectives\n\nMonitor moth species diversity and abundance\nTrack seasonal and annual population changes\nIdentify rare or notable species\nContribute to citizen science and public engagement"
   },
   {
-    "objectID": "case-studies/sensor-network.html#methods",
-    "href": "case-studies/sensor-network.html#methods",
-    "title": "Sensor Network",
+    "objectID": "case-studies/moth-trapping.html#methods",
+    "href": "case-studies/moth-trapping.html#methods",
+    "title": "Moth Trapping",
     "section": "Methods",
-    "text": "Methods\n[Description of sensor types, deployment locations, data collection protocols]"
+    "text": "Methods\n[Description of trap types, survey protocols, identification methods]"
   },
   {
-    "objectID": "case-studies/sensor-network.html#results",
-    "href": "case-studies/sensor-network.html#results",
-    "title": "Sensor Network",
+    "objectID": "case-studies/moth-trapping.html#results",
+    "href": "case-studies/moth-trapping.html#results",
+    "title": "Moth Trapping",
     "section": "Results",
-    "text": "Results\n[Current findings and data visualizations]"
+    "text": "Results\n[Current findings on moth species recorded]"
   },
   {
-    "objectID": "case-studies/sensor-network.html#future-work",
-    "href": "case-studies/sensor-network.html#future-work",
-    "title": "Sensor Network",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned expansions and improvements to the sensor network]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#team",
-    "href": "case-studies/sensor-network.html#team",
-    "title": "Sensor Network",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
-  },
-  {
-    "objectID": "case-studies/sensor-network.html#publications",
-    "href": "case-studies/sensor-network.html#publications",
-    "title": "Sensor Network",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html",
-    "href": "case-studies/more-than-human-toolkit.html",
-    "title": "More than Human Community Toolkit",
-    "section": "",
-    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#overview",
-    "href": "case-studies/more-than-human-toolkit.html#overview",
-    "title": "More than Human Community Toolkit",
-    "section": "",
-    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#objectives",
-    "href": "case-studies/more-than-human-toolkit.html#objectives",
-    "title": "More than Human Community Toolkit",
-    "section": "Objectives",
-    "text": "Objectives\n\nDevelop participatory research methods\nCreate tools for community engagement with nature\nFoster interdisciplinary collaboration between arts, science, and communities\nExplore new ways of understanding human-nature relationships"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#approach",
-    "href": "case-studies/more-than-human-toolkit.html#approach",
-    "title": "More than Human Community Toolkit",
-    "section": "Approach",
-    "text": "Approach\n[Description of toolkit development, community engagement methods]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#methods",
-    "href": "case-studies/more-than-human-toolkit.html#methods",
-    "title": "More than Human Community Toolkit",
-    "section": "Methods",
-    "text": "Methods\n[Description of research methodologies, workshop formats, evaluation methods]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#results",
-    "href": "case-studies/more-than-human-toolkit.html#results",
-    "title": "More than Human Community Toolkit",
-    "section": "Results",
-    "text": "Results\n[Current outcomes and community feedback]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#collaboration",
-    "href": "case-studies/more-than-human-toolkit.html#collaboration",
-    "title": "More than Human Community Toolkit",
-    "section": "Collaboration",
-    "text": "Collaboration\nGoldsmiths, University of London"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#future-work",
-    "href": "case-studies/more-than-human-toolkit.html#future-work",
-    "title": "More than Human Community Toolkit",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned toolkit developments and community programs]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#team",
-    "href": "case-studies/more-than-human-toolkit.html#team",
-    "title": "More than Human Community Toolkit",
-    "section": "Team",
-    "text": "Team\n[List of team members and collaborators]"
-  },
-  {
-    "objectID": "case-studies/more-than-human-toolkit.html#publications",
-    "href": "case-studies/more-than-human-toolkit.html#publications",
-    "title": "More than Human Community Toolkit",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html",
-    "href": "case-studies/environmental-dna.html",
-    "title": "Environmental DNA",
-    "section": "",
-    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#overview",
-    "href": "case-studies/environmental-dna.html#overview",
-    "title": "Environmental DNA",
-    "section": "",
-    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#objectives",
-    "href": "case-studies/environmental-dna.html#objectives",
-    "title": "Environmental DNA",
-    "section": "Objectives",
-    "text": "Objectives\n\nDetect species presence through DNA analysis of soil and water samples\nMonitor biodiversity changes over time\nIdentify cryptic species that may be missed by traditional survey methods\nComplement traditional ecological survey techniques"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#methods",
-    "href": "case-studies/environmental-dna.html#methods",
-    "title": "Environmental DNA",
-    "section": "Methods",
-    "text": "Methods\n[Description of sampling protocols, DNA extraction methods, sequencing approaches]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#results",
-    "href": "case-studies/environmental-dna.html#results",
-    "title": "Environmental DNA",
-    "section": "Results",
-    "text": "Results\n[Current findings on species detected through eDNA]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#future-work",
-    "href": "case-studies/environmental-dna.html#future-work",
-    "title": "Environmental DNA",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned sampling campaigns and method improvements]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#team",
-    "href": "case-studies/environmental-dna.html#team",
-    "title": "Environmental DNA",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
-  },
-  {
-    "objectID": "case-studies/environmental-dna.html#publications",
-    "href": "case-studies/environmental-dna.html#publications",
-    "title": "Environmental DNA",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html",
-    "href": "case-studies/creativity-in-design.html",
-    "title": "Creativity in Design",
-    "section": "",
-    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#overview",
-    "href": "case-studies/creativity-in-design.html#overview",
-    "title": "Creativity in Design",
-    "section": "",
-    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#objectives",
-    "href": "case-studies/creativity-in-design.html#objectives",
-    "title": "Creativity in Design",
-    "section": "Objectives",
-    "text": "Objectives\n\nIntegrate design thinking with ecological research\nDevelop creative solutions for urban biodiversity challenges\nFoster interdisciplinary collaboration between design and ecology\nCreate innovative approaches to public engagement with nature"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#approach",
-    "href": "case-studies/creativity-in-design.html#approach",
-    "title": "Creativity in Design",
-    "section": "Approach",
-    "text": "Approach\n[Description of design methodologies, collaborative processes]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#methods",
-    "href": "case-studies/creativity-in-design.html#methods",
-    "title": "Creativity in Design",
-    "section": "Methods",
-    "text": "Methods\n[Description of research and design methods, prototyping approaches]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#results",
-    "href": "case-studies/creativity-in-design.html#results",
-    "title": "Creativity in Design",
-    "section": "Results",
-    "text": "Results\n[Current design outcomes and innovations]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#collaboration",
-    "href": "case-studies/creativity-in-design.html#collaboration",
-    "title": "Creativity in Design",
-    "section": "Collaboration",
-    "text": "Collaboration\nCity St George"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#future-work",
-    "href": "case-studies/creativity-in-design.html#future-work",
-    "title": "Creativity in Design",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned design developments and implementations]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#team",
-    "href": "case-studies/creativity-in-design.html#team",
-    "title": "Creativity in Design",
-    "section": "Team",
-    "text": "Team\n[List of team members and collaborators]"
-  },
-  {
-    "objectID": "case-studies/creativity-in-design.html#publications",
-    "href": "case-studies/creativity-in-design.html#publications",
-    "title": "Creativity in Design",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/bird-transect.html",
-    "href": "case-studies/bird-transect.html",
-    "title": "Bird Transect",
-    "section": "",
-    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
-  },
-  {
-    "objectID": "case-studies/bird-transect.html#overview",
-    "href": "case-studies/bird-transect.html#overview",
-    "title": "Bird Transect",
-    "section": "",
-    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
-  },
-  {
-    "objectID": "case-studies/bird-transect.html#objectives",
-    "href": "case-studies/bird-transect.html#objectives",
-    "title": "Bird Transect",
-    "section": "Objectives",
-    "text": "Objectives\n\nMonitor bird species diversity and abundance\nTrack seasonal migration patterns\nDocument breeding activity\nAssess habitat use by different species"
-  },
-  {
-    "objectID": "case-studies/bird-transect.html#methods",
-    "href": "case-studies/bird-transect.html#methods",
-    "title": "Bird Transect",
-    "section": "Methods",
-    "text": "Methods\n[Description of transect routes, survey protocols, recording methods]"
-  },
-  {
-    "objectID": "case-studies/bird-transect.html#results",
-    "href": "case-studies/bird-transect.html#results",
-    "title": "Bird Transect",
-    "section": "Results",
-    "text": "Results\n[Current findings on bird species recorded]"
-  },
-  {
-    "objectID": "case-studies/bird-transect.html#future-work",
-    "href": "case-studies/bird-transect.html#future-work",
-    "title": "Bird Transect",
+    "objectID": "case-studies/moth-trapping.html#future-work",
+    "href": "case-studies/moth-trapping.html#future-work",
+    "title": "Moth Trapping",
     "section": "Future Work",
     "text": "Future Work\n[Planned survey expansions and analysis]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#team",
-    "href": "case-studies/bird-transect.html#team",
-    "title": "Bird Transect",
+    "objectID": "case-studies/moth-trapping.html#team",
+    "href": "case-studies/moth-trapping.html#team",
+    "title": "Moth Trapping",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/bird-transect.html#publications",
-    "href": "case-studies/bird-transect.html#publications",
-    "title": "Bird Transect",
+    "objectID": "case-studies/moth-trapping.html#publications",
+    "href": "case-studies/moth-trapping.html#publications",
+    "title": "Moth Trapping",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/maaru.html",
+    "href": "case-studies/maaru.html",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "",
+    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/maaru.html#overview",
+    "href": "case-studies/maaru.html#overview",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "",
+    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/maaru.html#objectives",
+    "href": "case-studies/maaru.html#objectives",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor acoustic environments and soundscapes\nDetect and identify wildlife through acoustic signatures\nStudy the impact of urban noise on garden ecosystems\nDevelop automated species identification algorithms"
+  },
+  {
+    "objectID": "case-studies/maaru.html#technology",
+    "href": "case-studies/maaru.html#technology",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Technology",
+    "text": "Technology\n[Description of the MAARU recording devices, deployment methods, data processing]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#methods",
+    "href": "case-studies/maaru.html#methods",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Methods",
+    "text": "Methods\n[Description of recording protocols, data analysis workflows]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#results",
+    "href": "case-studies/maaru.html#results",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Results",
+    "text": "Results\n[Current findings from acoustic monitoring]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#collaboration",
+    "href": "case-studies/maaru.html#collaboration",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Collaboration",
+    "text": "Collaboration\n[Details about partners and collaboration structure]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#future-work",
+    "href": "case-studies/maaru.html#future-work",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned developments and expansions]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#team",
+    "href": "case-studies/maaru.html#team",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Team",
+    "text": "Team\n[List of team members and collaborators]"
+  },
+  {
+    "objectID": "case-studies/maaru.html#publications",
+    "href": "case-studies/maaru.html#publications",
+    "title": "MAARU - Autonomous Spatial Audio Recorders",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html",
+    "href": "case-studies/dragonfly-survey.html",
+    "title": "Dragonfly Survey",
+    "section": "",
+    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#overview",
+    "href": "case-studies/dragonfly-survey.html#overview",
+    "title": "Dragonfly Survey",
+    "section": "",
+    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#objectives",
+    "href": "case-studies/dragonfly-survey.html#objectives",
+    "title": "Dragonfly Survey",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor dragonfly and damselfly species diversity\nAssess pond ecosystem health\nDocument breeding activity and larval development\nTrack the success of pond habitat creation"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#methods",
+    "href": "case-studies/dragonfly-survey.html#methods",
+    "title": "Dragonfly Survey",
+    "section": "Methods",
+    "text": "Methods\n[Description of survey protocols, identification methods, recording systems]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#results",
+    "href": "case-studies/dragonfly-survey.html#results",
+    "title": "Dragonfly Survey",
+    "section": "Results",
+    "text": "Results\n[Current findings on dragonfly species recorded]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#future-work",
+    "href": "case-studies/dragonfly-survey.html#future-work",
+    "title": "Dragonfly Survey",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned habitat improvements and survey expansions]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#team",
+    "href": "case-studies/dragonfly-survey.html#team",
+    "title": "Dragonfly Survey",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/dragonfly-survey.html#publications",
+    "href": "case-studies/dragonfly-survey.html#publications",
+    "title": "Dragonfly Survey",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html",
+    "href": "case-studies/butterfly-transect.html",
+    "title": "Butterfly Transect",
+    "section": "",
+    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#overview",
+    "href": "case-studies/butterfly-transect.html#overview",
+    "title": "Butterfly Transect",
+    "section": "",
+    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#objectives",
+    "href": "case-studies/butterfly-transect.html#objectives",
+    "title": "Butterfly Transect",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor butterfly species diversity and abundance\nTrack population trends over time\nAssess the effectiveness of habitat management\nContribute to national butterfly monitoring efforts"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#methods",
+    "href": "case-studies/butterfly-transect.html#methods",
+    "title": "Butterfly Transect",
+    "section": "Methods",
+    "text": "Methods\n[Description of transect routes, survey protocols, weather requirements]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#results",
+    "href": "case-studies/butterfly-transect.html#results",
+    "title": "Butterfly Transect",
+    "section": "Results",
+    "text": "Results\n[Current findings on butterfly species recorded]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#future-work",
+    "href": "case-studies/butterfly-transect.html#future-work",
+    "title": "Butterfly Transect",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned survey expansions and habitat improvements]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#team",
+    "href": "case-studies/butterfly-transect.html#team",
+    "title": "Butterfly Transect",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/butterfly-transect.html#publications",
+    "href": "case-studies/butterfly-transect.html#publications",
+    "title": "Butterfly Transect",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
@@ -1022,270 +1064,326 @@
     "text": "1998\n\nThe flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London Honey, M.R., Leigh, C, Brooks, S.J. The London Naturalist"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html",
-    "href": "case-studies/butterfly-transect.html",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/bird-transect.html",
+    "href": "case-studies/bird-transect.html",
+    "title": "Bird Transect",
     "section": "",
-    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#overview",
-    "href": "case-studies/butterfly-transect.html#overview",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/bird-transect.html#overview",
+    "href": "case-studies/bird-transect.html#overview",
+    "title": "Bird Transect",
     "section": "",
-    "text": "Weekly butterfly transect surveys follow standardized UK Butterfly Monitoring Scheme protocols to monitor butterfly populations in the Nature Discovery Garden."
+    "text": "Standardized bird transect surveys are conducted regularly in the Nature Discovery Garden to monitor avian diversity and abundance throughout the year."
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#objectives",
-    "href": "case-studies/butterfly-transect.html#objectives",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/bird-transect.html#objectives",
+    "href": "case-studies/bird-transect.html#objectives",
+    "title": "Bird Transect",
     "section": "Objectives",
-    "text": "Objectives\n\nMonitor butterfly species diversity and abundance\nTrack population trends over time\nAssess the effectiveness of habitat management\nContribute to national butterfly monitoring efforts"
+    "text": "Objectives\n\nMonitor bird species diversity and abundance\nTrack seasonal migration patterns\nDocument breeding activity\nAssess habitat use by different species"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#methods",
-    "href": "case-studies/butterfly-transect.html#methods",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/bird-transect.html#methods",
+    "href": "case-studies/bird-transect.html#methods",
+    "title": "Bird Transect",
     "section": "Methods",
-    "text": "Methods\n[Description of transect routes, survey protocols, weather requirements]"
+    "text": "Methods\n[Description of transect routes, survey protocols, recording methods]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#results",
-    "href": "case-studies/butterfly-transect.html#results",
-    "title": "Butterfly Transect",
+    "objectID": "case-studies/bird-transect.html#results",
+    "href": "case-studies/bird-transect.html#results",
+    "title": "Bird Transect",
     "section": "Results",
-    "text": "Results\n[Current findings on butterfly species recorded]"
+    "text": "Results\n[Current findings on bird species recorded]"
   },
   {
-    "objectID": "case-studies/butterfly-transect.html#future-work",
-    "href": "case-studies/butterfly-transect.html#future-work",
-    "title": "Butterfly Transect",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned survey expansions and habitat improvements]"
-  },
-  {
-    "objectID": "case-studies/butterfly-transect.html#team",
-    "href": "case-studies/butterfly-transect.html#team",
-    "title": "Butterfly Transect",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
-  },
-  {
-    "objectID": "case-studies/butterfly-transect.html#publications",
-    "href": "case-studies/butterfly-transect.html#publications",
-    "title": "Butterfly Transect",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html",
-    "href": "case-studies/dragonfly-survey.html",
-    "title": "Dragonfly Survey",
-    "section": "",
-    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html#overview",
-    "href": "case-studies/dragonfly-survey.html#overview",
-    "title": "Dragonfly Survey",
-    "section": "",
-    "text": "Targeted dragonfly and damselfly surveys are conducted around the pond areas and water features in the Nature Discovery Garden to monitor Odonata diversity."
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html#objectives",
-    "href": "case-studies/dragonfly-survey.html#objectives",
-    "title": "Dragonfly Survey",
-    "section": "Objectives",
-    "text": "Objectives\n\nMonitor dragonfly and damselfly species diversity\nAssess pond ecosystem health\nDocument breeding activity and larval development\nTrack the success of pond habitat creation"
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html#methods",
-    "href": "case-studies/dragonfly-survey.html#methods",
-    "title": "Dragonfly Survey",
-    "section": "Methods",
-    "text": "Methods\n[Description of survey protocols, identification methods, recording systems]"
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html#results",
-    "href": "case-studies/dragonfly-survey.html#results",
-    "title": "Dragonfly Survey",
-    "section": "Results",
-    "text": "Results\n[Current findings on dragonfly species recorded]"
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html#future-work",
-    "href": "case-studies/dragonfly-survey.html#future-work",
-    "title": "Dragonfly Survey",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned habitat improvements and survey expansions]"
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html#team",
-    "href": "case-studies/dragonfly-survey.html#team",
-    "title": "Dragonfly Survey",
-    "section": "Team",
-    "text": "Team\n[List of team members involved in this project]"
-  },
-  {
-    "objectID": "case-studies/dragonfly-survey.html#publications",
-    "href": "case-studies/dragonfly-survey.html#publications",
-    "title": "Dragonfly Survey",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/maaru.html",
-    "href": "case-studies/maaru.html",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "",
-    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
-  },
-  {
-    "objectID": "case-studies/maaru.html#overview",
-    "href": "case-studies/maaru.html#overview",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "",
-    "text": "MAARU (Autonomous Spatial Audio Recorders) is a collaboration focused on deploying autonomous audio recording devices to monitor soundscapes and wildlife acoustic activity in the Nature Discovery Garden."
-  },
-  {
-    "objectID": "case-studies/maaru.html#objectives",
-    "href": "case-studies/maaru.html#objectives",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Objectives",
-    "text": "Objectives\n\nMonitor acoustic environments and soundscapes\nDetect and identify wildlife through acoustic signatures\nStudy the impact of urban noise on garden ecosystems\nDevelop automated species identification algorithms"
-  },
-  {
-    "objectID": "case-studies/maaru.html#technology",
-    "href": "case-studies/maaru.html#technology",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Technology",
-    "text": "Technology\n[Description of the MAARU recording devices, deployment methods, data processing]"
-  },
-  {
-    "objectID": "case-studies/maaru.html#methods",
-    "href": "case-studies/maaru.html#methods",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Methods",
-    "text": "Methods\n[Description of recording protocols, data analysis workflows]"
-  },
-  {
-    "objectID": "case-studies/maaru.html#results",
-    "href": "case-studies/maaru.html#results",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Results",
-    "text": "Results\n[Current findings from acoustic monitoring]"
-  },
-  {
-    "objectID": "case-studies/maaru.html#collaboration",
-    "href": "case-studies/maaru.html#collaboration",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Collaboration",
-    "text": "Collaboration\n[Details about partners and collaboration structure]"
-  },
-  {
-    "objectID": "case-studies/maaru.html#future-work",
-    "href": "case-studies/maaru.html#future-work",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Future Work",
-    "text": "Future Work\n[Planned developments and expansions]"
-  },
-  {
-    "objectID": "case-studies/maaru.html#team",
-    "href": "case-studies/maaru.html#team",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Team",
-    "text": "Team\n[List of team members and collaborators]"
-  },
-  {
-    "objectID": "case-studies/maaru.html#publications",
-    "href": "case-studies/maaru.html#publications",
-    "title": "MAARU - Autonomous Spatial Audio Recorders",
-    "section": "Publications",
-    "text": "Publications\n[Any publications or reports related to this work]"
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html",
-    "href": "case-studies/moth-trapping.html",
-    "title": "Moth Trapping",
-    "section": "",
-    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html#overview",
-    "href": "case-studies/moth-trapping.html#overview",
-    "title": "Moth Trapping",
-    "section": "",
-    "text": "Regular moth trapping surveys are conducted in the Nature Discovery Garden to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring efforts."
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html#objectives",
-    "href": "case-studies/moth-trapping.html#objectives",
-    "title": "Moth Trapping",
-    "section": "Objectives",
-    "text": "Objectives\n\nMonitor moth species diversity and abundance\nTrack seasonal and annual population changes\nIdentify rare or notable species\nContribute to citizen science and public engagement"
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html#methods",
-    "href": "case-studies/moth-trapping.html#methods",
-    "title": "Moth Trapping",
-    "section": "Methods",
-    "text": "Methods\n[Description of trap types, survey protocols, identification methods]"
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html#results",
-    "href": "case-studies/moth-trapping.html#results",
-    "title": "Moth Trapping",
-    "section": "Results",
-    "text": "Results\n[Current findings on moth species recorded]"
-  },
-  {
-    "objectID": "case-studies/moth-trapping.html#future-work",
-    "href": "case-studies/moth-trapping.html#future-work",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/bird-transect.html#future-work",
+    "href": "case-studies/bird-transect.html#future-work",
+    "title": "Bird Transect",
     "section": "Future Work",
     "text": "Future Work\n[Planned survey expansions and analysis]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#team",
-    "href": "case-studies/moth-trapping.html#team",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/bird-transect.html#team",
+    "href": "case-studies/bird-transect.html#team",
+    "title": "Bird Transect",
     "section": "Team",
     "text": "Team\n[List of team members involved in this project]"
   },
   {
-    "objectID": "case-studies/moth-trapping.html#publications",
-    "href": "case-studies/moth-trapping.html#publications",
-    "title": "Moth Trapping",
+    "objectID": "case-studies/bird-transect.html#publications",
+    "href": "case-studies/bird-transect.html#publications",
+    "title": "Bird Transect",
     "section": "Publications",
     "text": "Publications\n[Any publications or reports related to this work]"
   },
   {
-    "objectID": "case-studies.html",
-    "href": "case-studies.html",
-    "title": "Case Studies",
+    "objectID": "case-studies/creativity-in-design.html",
+    "href": "case-studies/creativity-in-design.html",
+    "title": "Creativity in Design",
     "section": "",
-    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
+    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
   },
   {
-    "objectID": "case-studies.html#nhm-projects",
-    "href": "case-studies.html#nhm-projects",
-    "title": "Case Studies",
+    "objectID": "case-studies/creativity-in-design.html#overview",
+    "href": "case-studies/creativity-in-design.html#overview",
+    "title": "Creativity in Design",
     "section": "",
-    "text": "Environmental monitoring sensors throughout the Nature Discovery Garden collecting real-time data on various environmental parameters.\n\n\n\n\n\n\n\n\n\n\nUsing eDNA sampling to detect and monitor biodiversity through genetic material analysis in environmental samples.\n\n\n\n\n\n\n\n\n\n\nRegular moth trapping surveys to monitor lepidopteran diversity and abundance, contributing to long-term biodiversity monitoring.\n\n\n\n\n\n\n\n\n\n\nStandardized bird transect surveys to monitor avian diversity and abundance throughout the year.\n\n\n\n\n\n\n\n\n\n\nWeekly butterfly transect surveys following UK Butterfly Monitoring Scheme protocols to monitor butterfly populations.\n\n\n\n\n\n\n\n\n\n\nText"
+    "text": "A collaboration with City St George focusing on exploring creative design approaches to urban nature spaces and developing innovative solutions for biodiversity conservation in urban environments."
   },
   {
-    "objectID": "case-studies.html#external-collaborators",
-    "href": "case-studies.html#external-collaborators",
-    "title": "Case Studies",
-    "section": "External Collaborators",
-    "text": "External Collaborators\n\n\n\n\n\n\n\n\nMAARU\nAutonomous spatial audio recorders for monitoring soundscapes and wildlife acoustic activity.\n\n\n\n\n\n\n\n\n\nMore than Human Community Toolkit\nDeveloping tools and methods for engaging communities in more-than-human research. Collaboration with Goldsmiths.\n\n\n\n\n\n\n\n\n\nCreativity in Design\nCity St George"
+    "objectID": "case-studies/creativity-in-design.html#objectives",
+    "href": "case-studies/creativity-in-design.html#objectives",
+    "title": "Creativity in Design",
+    "section": "Objectives",
+    "text": "Objectives\n\nIntegrate design thinking with ecological research\nDevelop creative solutions for urban biodiversity challenges\nFoster interdisciplinary collaboration between design and ecology\nCreate innovative approaches to public engagement with nature"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#approach",
+    "href": "case-studies/creativity-in-design.html#approach",
+    "title": "Creativity in Design",
+    "section": "Approach",
+    "text": "Approach\n[Description of design methodologies, collaborative processes]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#methods",
+    "href": "case-studies/creativity-in-design.html#methods",
+    "title": "Creativity in Design",
+    "section": "Methods",
+    "text": "Methods\n[Description of research and design methods, prototyping approaches]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#results",
+    "href": "case-studies/creativity-in-design.html#results",
+    "title": "Creativity in Design",
+    "section": "Results",
+    "text": "Results\n[Current design outcomes and innovations]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#collaboration",
+    "href": "case-studies/creativity-in-design.html#collaboration",
+    "title": "Creativity in Design",
+    "section": "Collaboration",
+    "text": "Collaboration\nCity St George"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#future-work",
+    "href": "case-studies/creativity-in-design.html#future-work",
+    "title": "Creativity in Design",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned design developments and implementations]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#team",
+    "href": "case-studies/creativity-in-design.html#team",
+    "title": "Creativity in Design",
+    "section": "Team",
+    "text": "Team\n[List of team members and collaborators]"
+  },
+  {
+    "objectID": "case-studies/creativity-in-design.html#publications",
+    "href": "case-studies/creativity-in-design.html#publications",
+    "title": "Creativity in Design",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html",
+    "href": "case-studies/environmental-dna.html",
+    "title": "Environmental DNA",
+    "section": "",
+    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html#overview",
+    "href": "case-studies/environmental-dna.html#overview",
+    "title": "Environmental DNA",
+    "section": "",
+    "text": "Environmental DNA (eDNA) sampling is used to detect and monitor biodiversity in the Nature Discovery Garden by analyzing genetic material present in environmental samples."
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html#objectives",
+    "href": "case-studies/environmental-dna.html#objectives",
+    "title": "Environmental DNA",
+    "section": "Objectives",
+    "text": "Objectives\n\nDetect species presence through DNA analysis of soil and water samples\nMonitor biodiversity changes over time\nIdentify cryptic species that may be missed by traditional survey methods\nComplement traditional ecological survey techniques"
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html#methods",
+    "href": "case-studies/environmental-dna.html#methods",
+    "title": "Environmental DNA",
+    "section": "Methods",
+    "text": "Methods\n[Description of sampling protocols, DNA extraction methods, sequencing approaches]"
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html#results",
+    "href": "case-studies/environmental-dna.html#results",
+    "title": "Environmental DNA",
+    "section": "Results",
+    "text": "Results\n[Current findings on species detected through eDNA]"
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html#future-work",
+    "href": "case-studies/environmental-dna.html#future-work",
+    "title": "Environmental DNA",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned sampling campaigns and method improvements]"
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html#team",
+    "href": "case-studies/environmental-dna.html#team",
+    "title": "Environmental DNA",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/environmental-dna.html#publications",
+    "href": "case-studies/environmental-dna.html#publications",
+    "title": "Environmental DNA",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html",
+    "href": "case-studies/more-than-human-toolkit.html",
+    "title": "More than Human Community Toolkit",
+    "section": "",
+    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#overview",
+    "href": "case-studies/more-than-human-toolkit.html#overview",
+    "title": "More than Human Community Toolkit",
+    "section": "",
+    "text": "A collaboration with Goldsmiths focusing on developing tools and methods for engaging communities in more-than-human research and fostering connections between people and nature."
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#objectives",
+    "href": "case-studies/more-than-human-toolkit.html#objectives",
+    "title": "More than Human Community Toolkit",
+    "section": "Objectives",
+    "text": "Objectives\n\nDevelop participatory research methods\nCreate tools for community engagement with nature\nFoster interdisciplinary collaboration between arts, science, and communities\nExplore new ways of understanding human-nature relationships"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#approach",
+    "href": "case-studies/more-than-human-toolkit.html#approach",
+    "title": "More than Human Community Toolkit",
+    "section": "Approach",
+    "text": "Approach\n[Description of toolkit development, community engagement methods]"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#methods",
+    "href": "case-studies/more-than-human-toolkit.html#methods",
+    "title": "More than Human Community Toolkit",
+    "section": "Methods",
+    "text": "Methods\n[Description of research methodologies, workshop formats, evaluation methods]"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#results",
+    "href": "case-studies/more-than-human-toolkit.html#results",
+    "title": "More than Human Community Toolkit",
+    "section": "Results",
+    "text": "Results\n[Current outcomes and community feedback]"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#collaboration",
+    "href": "case-studies/more-than-human-toolkit.html#collaboration",
+    "title": "More than Human Community Toolkit",
+    "section": "Collaboration",
+    "text": "Collaboration\nGoldsmiths, University of London"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#future-work",
+    "href": "case-studies/more-than-human-toolkit.html#future-work",
+    "title": "More than Human Community Toolkit",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned toolkit developments and community programs]"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#team",
+    "href": "case-studies/more-than-human-toolkit.html#team",
+    "title": "More than Human Community Toolkit",
+    "section": "Team",
+    "text": "Team\n[List of team members and collaborators]"
+  },
+  {
+    "objectID": "case-studies/more-than-human-toolkit.html#publications",
+    "href": "case-studies/more-than-human-toolkit.html#publications",
+    "title": "More than Human Community Toolkit",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "case-studies/sensor-network.html",
+    "href": "case-studies/sensor-network.html",
+    "title": "Sensor Network",
+    "section": "",
+    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
+  },
+  {
+    "objectID": "case-studies/sensor-network.html#overview",
+    "href": "case-studies/sensor-network.html#overview",
+    "title": "Sensor Network",
+    "section": "",
+    "text": "The sensor network project involves deploying environmental monitoring sensors throughout the Nature Discovery Garden to collect real-time data on various environmental parameters."
+  },
+  {
+    "objectID": "case-studies/sensor-network.html#objectives",
+    "href": "case-studies/sensor-network.html#objectives",
+    "title": "Sensor Network",
+    "section": "Objectives",
+    "text": "Objectives\n\nMonitor environmental conditions continuously\nCollect data on temperature, humidity, air quality, and other parameters\nProvide data for research and public engagement\nSupport evidence-based garden management decisions"
+  },
+  {
+    "objectID": "case-studies/sensor-network.html#methods",
+    "href": "case-studies/sensor-network.html#methods",
+    "title": "Sensor Network",
+    "section": "Methods",
+    "text": "Methods\n[Description of sensor types, deployment locations, data collection protocols]"
+  },
+  {
+    "objectID": "case-studies/sensor-network.html#results",
+    "href": "case-studies/sensor-network.html#results",
+    "title": "Sensor Network",
+    "section": "Results",
+    "text": "Results\n[Current findings and data visualizations]"
+  },
+  {
+    "objectID": "case-studies/sensor-network.html#future-work",
+    "href": "case-studies/sensor-network.html#future-work",
+    "title": "Sensor Network",
+    "section": "Future Work",
+    "text": "Future Work\n[Planned expansions and improvements to the sensor network]"
+  },
+  {
+    "objectID": "case-studies/sensor-network.html#team",
+    "href": "case-studies/sensor-network.html#team",
+    "title": "Sensor Network",
+    "section": "Team",
+    "text": "Team\n[List of team members involved in this project]"
+  },
+  {
+    "objectID": "case-studies/sensor-network.html#publications",
+    "href": "case-studies/sensor-network.html#publications",
+    "title": "Sensor Network",
+    "section": "Publications",
+    "text": "Publications\n[Any publications or reports related to this work]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
+    "section": "",
+    "text": "By 2050, nearly 70% of people will live in cities\nWe study how we can make cities better places for people and for nature.\nOur vision is of a future where both people and planet thrive.\n\n\n30 years of research\nIn 2025 we will have been studying the Museum’s gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one of the most intensively studied urban sites worldwide.\n\n\n\n\n\n\n\n\nA living laboratory\nOur gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiversity and create resilient ecosystems.\nOur gardens and research infrastructures are open to Museum staff and external collaborators for research and teaching.\n\n\nTraining the next generation\nWe run training, internships and practical projects for students and early-career researchers to build capacity in urban ecology and data-driven conservation.\n\n\n\n\n\n\n\n\nIntegrating diverse datasets\nWe integrate sensor, observational and specimen data into interoperable datasets to support research, monitoring and evidence-based decision making.\n\n\nLeading change\nWe engage with policy-makers, urban planners and community partners to translate research into practical guidance and to promote nature-positive urban change."
   },
   {
     "objectID": "reports/1_Published_Protocol_2025_Tree-Tagging.html",
     "href": "reports/1_Published_Protocol_2025_Tree-Tagging.html",
     "title": "NHM Urban Research Station Survey Protocol — Tree Tagging",
     "section": "",
-    "text": "Trees are tagged with unique identifiers to facilitate consistent, long-term monitoring and data collection critical to urban ecological research. Tagging enables repeated measurements of individual trees, supporting studies on growth rates, health status, phenological changes, carbon sequestration and responses to urban-specific stressors such as urban heat. Tagging also supports spatial analysis and management of the living collections."
+    "text": "Download PDF\nTrees are tagged with unique identifiers to facilitate consistent, long-term monitoring and data collection critical to urban ecological research. Tagging enables repeated measurements of individual trees, supporting studies on growth rates, health status, phenological changes, carbon sequestration and responses to urban-specific stressors such as urban heat. Tagging also supports spatial analysis and management of the living collections."
   },
   {
     "objectID": "reports/1_Published_Protocol_2025_Tree-Tagging.html#definitions",
@@ -1320,7 +1418,7 @@
     "href": "reports/3_Implementation-Report_DS18B20-Thermometers.html",
     "title": "NHM Urban Research Station Implementation Report — DS18B20 Thermometers",
     "section": "",
-    "text": "Blh blah blaaah\n\n\n\nCitationBibTeX citation:@online{baker,\n  author = {Baker, Ed},\n  title = {NHM {Urban} {Research} {Station} {Implementation} {Report} —\n    {DS18B20} {Thermometers}},\n  number = {3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed. n.d. “NHM Urban Research Station Implementation Report\n— DS18B20 Thermometers.” Urban Research Station Reports."
+    "text": "pdf: “/assets/pdfs/3_Implementation-Report_DS18B20-Thermometers.pdf”\n  Download PDF \nBlh blah blaaah\n\n\n\nCitationBibTeX citation:@online{baker,\n  author = {Baker, Ed},\n  title = {NHM {Urban} {Research} {Station} {Implementation} {Report} —\n    {DS18B20} {Thermometers}},\n  number = {3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed. n.d. “NHM Urban Research Station Implementation Report\n— DS18B20 Thermometers.” Urban Research Station Reports."
   },
   {
     "objectID": "team.html",

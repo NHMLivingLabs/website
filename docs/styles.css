@@ -16,3 +16,21 @@
   width: 100%;
   height: 100%;
 }
+
+/* PDF download link styling */
+.pdf-download {
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+.pdf-download a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+.pdf-download .pdf-label {
+  font-size: 0.9rem;
+  color: #222;
+}

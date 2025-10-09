@@ -8,7 +8,7 @@ toc: false
 
 ![Tree 63 - Ash](/assets/images/trees/tree63.jpg)
 
-{{< include _tree-species-info/_ash.md >}}
+{{< include '_tree-species-info/_ash.md' >}}
 
 ## Tree data
 

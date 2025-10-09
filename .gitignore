@@ -5,3 +5,19 @@
 
 # Cache for fetched/exported data
 /cache/
+
+
+# Ignore generated LaTeX intermediate files produced by scripts/render_articles_to_pdf.py
+# Keep the final .pdf files tracked; ignore .tex and common aux files under docs/assets/pdfs
+/docs/assets/pdfs/*.tex
+/docs/assets/pdfs/*.aux
+/docs/assets/pdfs/*.log
+/docs/assets/pdfs/*.out
+/docs/assets/pdfs/*.toc
+
+# Generic fallback: ignore tex intermediates anywhere in docs assets pdf folders
+docs/**/pdfs/*.tex
+docs/**/pdfs/*.aux
+docs/**/pdfs/*.log
+docs/**/pdfs/*.out
+docs/**/pdfs/*.toc

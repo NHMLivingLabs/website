@@ -14,6 +14,8 @@ toc-depth: 2
 
 # Wildlife Gardens Publications
 
+Papers below this point relate to research done in the NHM Wildlife Garden before the transition to the Nature Discovery Garden.
+
 ## 2022
 
 2. [The Wildlife Garden at the Natural History Museum: Developments of the flora and fauna update 2021-2022 -- Twenty-seven years of species recording](assets/publications/2022_London_Naturalist_update.pdf)

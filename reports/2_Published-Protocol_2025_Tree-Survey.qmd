@@ -8,6 +8,12 @@ author:
 citation:
   container-title: Urban Research Station Reports
   issue: 2
+date: "2025-10-05"
 ---
+
+<a class="pdf-download" href="/assets/pdfs/2_Published-Protocol_2025_Tree-Survey.pdf">
+  <img src="/assets/images/icons/pdf.svg" alt="PDF file" style="width:24px; height:auto; vertical-align:middle;"/>
+  <span class="pdf-label">Download PDF</span>
+</a>
 
 Describe

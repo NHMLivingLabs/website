@@ -13,7 +13,7 @@ toc: false
   
 ::: {.g-col-8}
 
-### *By 20250, nearly 70% of people will live in cities*
+### *By 2050, nearly 70% of people will live in cities*
 
 We study how we can make cities better places for people and for nature.
 
@@ -25,7 +25,7 @@ Our vision is of a future where both people and planet thrive.
 
 ### *30 years of research*
 
-In 2025 we will have been studying the Museum's gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one one of the most intensively studied urban sites worldwide.
+In 2025 we will have been studying the Museum's gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one of the most intensively studied urban sites worldwide.
 
 :::
 
@@ -47,9 +47,9 @@ In 2025 we will have been studying the Museum's gardens for thirty years. Regula
 
 ### *A living laboratory*
 
-Our gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiveristy and create resilient ecosystems.
+Our gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiversity and create resilient ecosystems.
 
-Our gardens and research infrastructres are open to Museum staff and external collaborators for research and teaching.
+Our gardens and research infrastructures are open to Museum staff and external collaborators for research and teaching.
 
 :::
   
@@ -57,7 +57,7 @@ Our gardens and research infrastructres are open to Museum staff and external co
 
 ### *Training the next generation*
 
-Some text.
+We run training, internships and practical projects for students and early-career researchers to build capacity in urban ecology and data-driven conservation.
 
 :::
 
@@ -80,7 +80,7 @@ Some text.
 
 ### *Integrating diverse datasets*
 
-Data ecosystem
+We integrate sensor, observational and specimen data into interoperable datasets to support research, monitoring and evidence-based decision making.
 
 :::
   
@@ -88,9 +88,7 @@ Data ecosystem
 
 ### *Leading change*
 
-SKENZEN
-
-Something on policy.
+We engage with policy-makers, urban planners and community partners to translate research into practical guidance and to promote nature-positive urban change.
 
 :::
 

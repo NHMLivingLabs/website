@@ -8,7 +8,7 @@ toc: false
 
 ![Tree 61 - Hornbeam](/assets/images/trees/tree61.jpg)
 
-{{< include _tree-species-info/_hornbeam.md >}}
+{{< include '_tree-species-info/_hornbeam.md' >}}
 
 ## Tree data
 

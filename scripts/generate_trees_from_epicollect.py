@@ -250,7 +250,8 @@ def write_tree_page(tree_id, cols, species_raw, photo_path, force=False):
     # one clear blank line between image and include (if present)
     lines.append('')
     if inc_rel:
-        lines.append(f"{{{{< include {inc_rel} >}}}}")
+        # Emit positional include syntax (no file=) to match project conventions
+        lines.append(f"{{{{< include '{inc_rel}' >}}}}")
         lines.append('')
     lines.append('## Tree data')
     lines.append('')
