@@ -1,14 +1,11 @@
 """Generate articles.qmd from assets/data/publications.bib
 
-This script parses the BibTeX file and emits a Quarto .qmd file that matches the
-format of the existing `publications.qmd` (year headings, title as a link when
-url/file available, authors on the next line, journal/venue in italics).
+This script parses the BibTeX file and emits a Quarto .qmd file 
 
 Usage:
     python scripts/generate_articles_from_bib.py
 
-The script prefers the `bibtexparser` package but includes a minimal fallback
-if not installed (basic parsing of @ entries).
+    Should be called automatically on Quarto Render via _quarto.yml
 """
 from pathlib import Path
 import re
@@ -18,13 +15,8 @@ BIB = ROOT / 'assets' / 'data' / 'publications.bib'
 OUT = ROOT / 'articles.qmd'
 PUB_SRC = ROOT / 'publications.qmd'
 
-# Use the built-in fallback parser only (remove dependency on bibtexparser)
-HAVE_BIBTEXPARSER = False
-
-
-def parse_bib_fallback(text):
+def parse_bib(text):
     entries = []
-    # Very small BibTeX fallback parser (works for simple well-formed input)
     pattern = re.compile(r"@(?P<type>\w+)\{(?P<key>[^,]+),(?P<body>.*?)\n\}\s*",
                          re.S)
     field_re = re.compile(r"(?P<name>\w+)\s*=\s*\{(?P<value>.*?)\}\s*,?",
@@ -44,8 +36,7 @@ def parse_bib_fallback(text):
 
 def load_bib(path):
     text = path.read_text(encoding='utf8')
-    # Use the local fallback parser for portability and to avoid external deps
-    return parse_bib_fallback(text)
+    return parse_bib(text)
 
 
 def format_authors(author_field):
@@ -54,7 +45,6 @@ def format_authors(author_field):
     # authors in BibTeX often use ' and ' or ' and, ' or commas; here authors use 'and' separated
     authors = [a.strip() for a in re.split(r"\s+and\s+|,\s*(?=[A-Z]\.?)", author_field) if a.strip()]
     return ', '.join(authors)
-
 
 def title_link(entry):
     title = entry.get('title', '').strip()
@@ -66,7 +56,6 @@ def title_link(entry):
     if url:
         return f"[{title}]({url})"
     return title
-
 
 def venue_line(entry):
     journal = entry.get('journal') or entry.get('howpublished') or entry.get('type') or ''
@@ -84,49 +73,18 @@ def generate_qmd(entries):
 
     years = sorted(by_year.keys(), reverse=True)
 
-    # Read interstitial sections from publications.qmd so we can preserve
-    # headings or explanatory paragraphs that appear between year blocks.
-    # We'll group all years earlier than 2025 under the Wildlife Gardens
-    # Publications heading. Extract the explainer paragraph from
-    # `publications.qmd` if it exists (the small paragraph immediately after
-    # the H1) so we can include it once.
-    interstitial = {}
-    wildlife_block = None
-    wildlife_years = []
-    if PUB_SRC.exists():
-        pub_text = PUB_SRC.read_text(encoding='utf8')
-        # find the Wildlife Gardens Publications H1 and capture the paragraph
-        # that follows it (up to the next blank line or next heading)
-        wh = re.search(r"^#\s+Wildlife Gardens Publications\s*$", pub_text, re.M)
-        if wh:
-            # start after the H1 line
-            start = wh.end()
-            rest = pub_text[start:]
-            # split into lines and skip leading blank lines
-            lines_after = rest.splitlines()
-            i = 0
-            # skip leading blank lines
-            while i < len(lines_after) and lines_after[i].strip() == '':
-                i += 1
-            # collect lines until we hit a new heading (## ) or EOF
-            collected = []
-            while i < len(lines_after):
-                line = lines_after[i]
-                if re.match(r"^##\s+\d{4}", line):
-                    break
-                if re.match(r"^#\s+", line):
-                    break
-                collected.append(line)
-                i += 1
-            para = '\n'.join(collected).strip()
-            if para:
-                wildlife_block = '# Wildlife Gardens Publications\n\n' + para
-
-    # determine wildlife_years as years < 2025 present in our entries
+    # Group all years earlier than 2025 under the Wildlife Gardens
+    # Publications heading.
+    wildlife_garden_block = (
+        "# Wildlife Gardens Publications\n\n"
+        "Papers below this point relate to research done in the NHM Wildlife Garden before the transition to the Nature Discovery Garden."
+    )
+    wildlife_garden_years = []
+    # determine wildlife_garden_years as years < 2025 present in our entries
     for y in years:
         try:
             if int(y) < 2025:
-                wildlife_years.append(y)
+                wildlife_garden_years.append(y)
         except Exception:
             pass
 
@@ -142,7 +100,7 @@ def generate_qmd(entries):
 
     # Split years into recent (>=2025) and wildlife (<2025)
     recent_years = [y for y in years if (y.isdigit() and int(y) >= 2025)]
-    wildlife_years = [y for y in years if (y.isdigit() and int(y) < 2025)]
+    wildlife_garden_years = [y for y in years if (y.isdigit() and int(y) < 2025)]
 
     # global article counter (sequential across the whole document)
     article_counter = 1
@@ -165,13 +123,13 @@ def generate_qmd(entries):
             lines.append('')
 
     # Emit Wildlife Gardens Publications block and then all wildlife years
-    if wildlife_years:
-        if wildlife_block:
-            lines.append(wildlife_block)
+    if wildlife_garden_years:
+        if wildlife_garden_block:
+            lines.append(wildlife_garden_block)
             lines.append('')
         else:
             lines.append('# Wildlife Gardens Publications\n')
-        for y in sorted(wildlife_years, reverse=True):
+        for y in sorted(wildlife_garden_years, reverse=True):
             lines.append(f'## {y}\n')
             for e in by_year[y]:
                 title = title_link(e)
