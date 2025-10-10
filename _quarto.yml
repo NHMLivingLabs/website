@@ -21,6 +21,7 @@ website:
         menu:
             - href: trees/index.qmd
             - href: trees/family/index.qmd
+            - href: trees/genus/index2.qmd
             - href: trees/genus/index.qmd
       - text: Publications
         menu:

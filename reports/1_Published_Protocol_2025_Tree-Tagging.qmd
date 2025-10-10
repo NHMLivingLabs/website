@@ -1,5 +1,5 @@
 ---
-title: "NHM Urban Research Station Survey Protocol — Tree Tagging"
+title: NHM Urban Research Station Survey Protocol — Tree Tagging
 author:
   - name: Ed Baker
     affiliation: Natural History Museum, London

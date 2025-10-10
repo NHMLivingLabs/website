@@ -146,6 +146,7 @@ def citation_from_front_matter(fm: dict, path: Path):
         authors_str = ', '.join(names)
     else:
         authors_str = str(authors) if authors else ''
+    # authors_str left as-is (do not strip braces)
 
     citation = fm.get('citation', {}) or {}
     container = citation.get('container-title') or citation.get('journal') or ''
