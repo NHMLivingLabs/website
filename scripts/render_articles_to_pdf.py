@@ -130,6 +130,38 @@ def extract_author_name_from_frontmatter(path: Path):
     return None
 
 
+def extract_date_from_frontmatter(path: Path):
+    """Return the `date` string from the YAML frontmatter of a QMD file, or None.
+
+    This uses a resilient, line-oriented heuristic (no external YAML parser).
+    """
+    try:
+        txt = path.read_text(encoding="utf-8")
+    except (OSError, UnicodeError):
+        return None
+
+    lines = txt.splitlines()
+    if not lines or not lines[0].strip().startswith("---"):
+        return None
+    end = None
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            end = i
+            break
+    if end is None:
+        return None
+    fm_text = "\n".join(lines[1:end])
+
+    # Look for a simple scalar: date: 2025-10-04 or date: "04 Oct 2025"
+    for ln in fm_text.splitlines():
+        m = re.match(r"^\s*date\s*:\s*['\"]?(.+?)['\"]?\s*$", ln)
+        if m:
+            val = m.group(1).strip()
+            if val:
+                return val
+    return None
+
+
 def extract_authors_with_affiliations(path: Path):
     """Return a list of {'name':..., 'affiliation':...} dicts parsed from frontmatter.
 
@@ -239,87 +271,16 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
         return subprocess.CompletedProcess(args=["xelatex"], returncode=3)
 
     # 1) Run pandoc to produce .tex
-    # Try to extract a simple author name from the QMD frontmatter and pass
-    # it explicitly to pandoc to avoid metadata parsing oddities (which can
-    # produce 'true' for complex author YAML blocks).
-    def extract_author_name_from_frontmatter(path: Path):
-        """Return a string with one or more author names (comma-joined), or None.
-
-        Strategy:
-                - Use a resilient line-based heuristic that handles:
-          * scalar: author: Ed Baker
-          * list of strings: author: ["A", "B"]
-          * list of mappings: author:\n  - name: Ed Baker\n    affiliation: ...
-          * mapping: author: { name: Ed Baker }
-        """
-        try:
-            txt = path.read_text(encoding="utf-8")
-        except (OSError, UnicodeError):
-            return None
-
-        # Extract frontmatter block
-        lines = txt.splitlines()
-        if not lines or not lines[0].strip().startswith("---"):
-            return None
-        end = None
-        for i in range(1, len(lines)):
-            if lines[i].strip() == "---":
-                end = i
-                break
-        if end is None:
-            return None
-        fm_text = "\n".join(lines[1:end])
-
-    # Note: avoid PyYAML dependency; use heuristic parsing below.
-
-    # Fallback heuristic parsing when an external YAML parser isn't present or parsing fails
-        # Look for scalar author: line
-        for ln in fm_text.splitlines():
-            m = re.match(r"^\s*author\s*:\s*(?:\[)?\s*['\"]?(.+?)['\"]?\s*(?:\])?\s*$", ln)
-            if m:
-                # Might be a scalar or first element of inline list
-                candidate = m.group(1).strip()
-                if candidate.lower() in ("true", "false"):
-                    # ignore boolean-like misparses
-                    continue
-                return candidate
-
-        # Look for a YAML list block 'author:' followed by '- name: ...' or '- "Name"' lines
-        in_author = False
-        names = []
-        for ln in fm_text.splitlines():
-            if re.match(r"^\s*author\s*:\s*$", ln):
-                in_author = True
-                continue
-            if in_author:
-                # end of author block if new top-level key
-                if re.match(r"^\S", ln) and ":" in ln:
-                    break
-                # - name: Foo
-                m = re.match(r"^\s*-\s*name\s*:\s*(.+)$", ln)
-                if m:
-                    names.append(m.group(1).strip().strip('"\''))
-                    continue
-                # - Foo  (list of strings)
-                m2 = re.match(r"^\s*-\s*(?:['\"]?)(.+?)(?:['\"]?)\s*$", ln)
-                if m2:
-                    val = m2.group(1).strip()
-                    if val.lower() not in ("true", "false"):
-                        names.append(val)
-                        continue
-                # name: Foo inside an author mapping
-                m3 = re.match(r"^\s*name\s*:\s*(.+)$", ln)
-                if m3:
-                    names.append(m3.group(1).strip().strip('"\''))
-                    continue
-
-        if names:
-            return ", ".join(names)
-
-        return None
+    # We already provide a top-level helper `extract_author_name_from_frontmatter`
+    # so don't redefine it here. Use that helper to normalise author metadata.
 
     author_name = extract_author_name_from_frontmatter(src)
     pandoc_cmd = [pandoc_path, str(src), "--from", "markdown", "--to", "latex", "--standalone", "-o", str(outtex)]
+    # If the source contains a YAML date, pass it through to pandoc so the
+    # generated PDF uses the article's declared date instead of filesystem timestamps.
+    src_date = extract_date_from_frontmatter(src)
+    if src_date:
+        pandoc_cmd.extend(["--metadata", f"date={src_date}"])
     tmp_meta = None
     temp_input = None
     try:
@@ -477,6 +438,55 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                     print("Injected deduplicated author affiliations into", outtex)
             except (OSError, UnicodeError) as e:
                 print(f"Warning: failed to inject affiliations into {outtex}: {e}")
+            # Additionally, ensure the PDF uses the article's YAML date if present.
+            try:
+                src_date = extract_date_from_frontmatter(src)
+                if src_date:
+                    try:
+                        tex_text = outtex.read_text(encoding="utf-8", errors="ignore")
+                        # Escape closing brace to avoid breaking LaTeX
+                        safe_date = src_date.replace('}', '\\}')
+                        # Replace existing \date{...} if present
+                        if re.search(r"\\date\s*\{.*?\}", tex_text, flags=re.DOTALL):
+                            tex_text = re.sub(r"\\date\s*\{.*?\}", "\\date{" + safe_date + "}", tex_text, flags=re.DOTALL)
+                        else:
+                            # Insert \date{...} before \maketitle if present, otherwise prepend
+                            if "\\maketitle" in tex_text:
+                                tex_text = tex_text.replace("\\maketitle", "\\date{" + safe_date + "}\n\\maketitle")
+                            else:
+                                tex_text = "\\date{" + safe_date + "}\n" + tex_text
+                        outtex.write_text(tex_text, encoding="utf-8")
+                        print(f"Injected date metadata into {outtex}: {src_date}")
+                    except (OSError, UnicodeError) as e:
+                        print(f"Warning: failed to inject date into {outtex}: {e}")
+                    # Additionally, make the date visible in the PDF by inserting
+                    # a small centered date block after the title/affiliation so that
+                    # templates that ignore \date{} still show the article date.
+                    try:
+                        # Re-read the current tex to operate on latest content
+                        tex_text = outtex.read_text(encoding="utf-8", errors="ignore")
+                        safe_date = src_date.replace('}', '\\}')
+                        vis_block = "\\begin{center}\\small " + safe_date + "\\\\\\end{center}\\n"
+                        # If an affiliation center block was inserted (\begin{center}\footnotesize ... \end{center}),
+                        # insert the visible date after its closing tag. Otherwise insert after \maketitle.
+                        if "\\begin{center}\\footnotesize" in tex_text and "\\end{center}" in tex_text:
+                            # find the last affiliation closing tag and insert after it
+                            last_end = tex_text.rfind("\\end{center}")
+                            if last_end != -1:
+                                # insert vis_block after the end tag (preserve newline)
+                                tex_text = tex_text[: last_end + len("\\end{center}")] + "\n" + vis_block + tex_text[last_end + len("\\end{center}"):]
+                            else:
+                                # fallback: insert after \maketitle
+                                tex_text = tex_text.replace("\\maketitle", "\\maketitle\n" + vis_block)
+                        else:
+                            tex_text = tex_text.replace("\\maketitle", "\\maketitle\n" + vis_block)
+                        outtex.write_text(tex_text, encoding="utf-8")
+                        print(f"Inserted visible date block into {outtex}: {src_date}")
+                    except Exception as e:
+                        print(f"Warning: failed to insert visible date block into {outtex}: {e}")
+            except Exception:
+                # keep the earlier behavior if anything unexpected happens
+                pass
     except Exception as e:
         print(f"Warning: unexpected error while processing affiliations for {src}: {e}")
 

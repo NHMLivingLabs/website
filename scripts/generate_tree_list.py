@@ -173,18 +173,7 @@ def _get_planted_from_tree(base: str) -> str:
             txt = cand.read_text(encoding="utf-8")
         except (OSError, UnicodeError):
             continue
-        # permissive, line-oriented match that tolerates optional bold markers
-        # Examples it should handle:
-        #   **Planted:** SK: Nature Discovery Garden
-        #   Planted: SK: Nature Discovery Garden
-        #   **Planted on:** 04 Oct 2025
-        m = re.search(r"(?m)^\s\*{0,2}\s*Planted(?: on)?\s*\*{0,2}\s*[:\-–\s]*(.+)$", txt, re.IGNORECASE)
-        if not m:
-            # fallback: look for a non-line anchored variant (older formats)
-            m = re.search(r"\*\*Planted(?: on)?\*\*[:\s]*(.+)", txt, re.IGNORECASE)
-        if not m:
-            # final fallback: unbolded 'Planted:' at line start
-            m = re.search(r"(?m)^Planted(?: on)?:\s*(.+)$", txt, re.IGNORECASE)
+        m = re.search(r"\*\*Planted(?::| on:)?\*\*[:\s]*(.+)", txt, re.IGNORECASE)
         if m:
             planted = strip_markup(m.group(1).strip())
             break
