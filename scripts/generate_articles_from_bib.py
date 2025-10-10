@@ -18,12 +18,8 @@ BIB = ROOT / 'assets' / 'data' / 'publications.bib'
 OUT = ROOT / 'articles.qmd'
 PUB_SRC = ROOT / 'publications.qmd'
 
-try:
-    import bibtexparser
-    from bibtexparser.bparser import BibTexParser
-    HAVE_BIBTEXPARSER = True
-except Exception:
-    HAVE_BIBTEXPARSER = False
+# Use the built-in fallback parser only (remove dependency on bibtexparser)
+HAVE_BIBTEXPARSER = False
 
 
 def parse_bib_fallback(text):
@@ -48,12 +44,8 @@ def parse_bib_fallback(text):
 
 def load_bib(path):
     text = path.read_text(encoding='utf8')
-    if HAVE_BIBTEXPARSER:
-        parser = BibTexParser(common_strings=True)
-        db = bibtexparser.loads(text, parser=parser)
-        return db.entries
-    else:
-        return parse_bib_fallback(text)
+    # Use the local fallback parser for portability and to avoid external deps
+    return parse_bib_fallback(text)
 
 
 def format_authors(author_field):

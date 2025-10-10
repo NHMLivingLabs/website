@@ -23,7 +23,6 @@ import re
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PERSIST_SANITIZED = False
 
 
 def find_targets(all_qmd: bool):
@@ -324,7 +323,6 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
     pandoc_cmd = [pandoc_path, str(src), '--from', 'markdown', '--to', 'latex', '--standalone', '-o', str(outtex)]
     tmp_meta = None
     temp_input = None
-    persistent_sanitized_path = None
     try:
         # Preprocess the QMD to remove HTML-only/quarto-only blocks so pandoc -> LaTeX
         # rendering does not accidentally include HTML-only content.
@@ -344,39 +342,16 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
             text = re.sub(r"\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\}", "", text, flags=re.IGNORECASE)
             return text
 
-        sanitized = _remove_html_only_quarto_blocks(orig_text)
-        if sanitized != orig_text:
+        sanitised = _remove_html_only_quarto_blocks(orig_text)
+        if sanitised != orig_text:
             import tempfile
             tf = tempfile.NamedTemporaryFile(delete=False, suffix=src.suffix, mode='w', encoding='utf-8')
-            tf.write(sanitized)
+            tf.write(sanitised)
             tf.close()
             temp_input = tf.name
             pandoc_cmd[1] = str(temp_input)
             print('Created temporary input with HTML-only content removed:', temp_input)
-            # If requested, also write a persistent sanitized copy for inspection
-            if PERSIST_SANITIZED:
-                try:
-                    sanitized_dir = outdir / 'sanitized_inputs'
-                    sanitized_dir.mkdir(parents=True, exist_ok=True)
-                    persistent_sanitized_path = sanitized_dir / (stem + '.sanitized' + src.suffix)
-                    Path(temp_input).replace(persistent_sanitized_path)
-                    # Use the persistent file as the pandoc input
-                    pandoc_cmd[1] = str(persistent_sanitized_path)
-                    # Keep temp_input reference for cleanup logic, but mark persistent as kept
-                    temp_input = None
-                    print('Wrote persistent sanitized input:', persistent_sanitized_path)
-                except Exception:
-                    # If moving fails, continue using temp file
-                    pass
-            # Also write a persistent copy for verification (not cleaned automatically)
-            try:
-                persistent_dir = outdir / 'sanitized_inputs'
-                persistent_dir.mkdir(parents=True, exist_ok=True)
-                pers_path = persistent_dir / (stem + '.qmd')
-                pers_path.write_text(sanitized, encoding='utf-8')
-                print('Wrote persistent sanitized copy for verification:', pers_path)
-            except Exception:
-                pass
+            # temporary sanitised copy will be used as pandoc input and removed after rendering
 
         # Normalize authors by creating a temporary QMD copy with an inline
         # YAML author list of strings. This avoids pandoc/metadata-file
@@ -384,7 +359,7 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
         if author_name:
             names = [n.strip() for n in re.split(r"\s*,\s*", author_name) if n.strip()]
             if names:
-                # Read the current pandoc input content (could be original src or sanitized temp)
+                # Read the current pandoc input content (could be original src or sanitised temp)
                 current_input = pandoc_cmd[1]
                 try:
                     orig = Path(current_input).read_text(encoding='utf-8')
@@ -431,23 +406,10 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                         tf.write(new_content)
                         tf.close()
                         temp_name = tf.name
-                        # If persistent sanitized file was requested earlier, overwrite that path with normalized content
-                        if PERSIST_SANITIZED and persistent_sanitized_path:
-                            try:
-                                Path(temp_name).replace(persistent_sanitized_path)
-                                pandoc_cmd[1] = str(persistent_sanitized_path)
-                                print('Updated persistent sanitized input with normalized authors:', persistent_sanitized_path)
-                                # ensure cleanup does not delete the persistent file
-                                temp_input = None
-                            except Exception:
-                                # fallback to using temp_name
-                                temp_input = temp_name
-                                pandoc_cmd[1] = str(temp_input)
-                                print('Created temporary input with normalized authors:', temp_input)
-                        else:
-                            temp_input = temp_name
-                            pandoc_cmd[1] = str(temp_input)
-                            print('Created temporary input with normalized authors:', temp_input)
+            # Use the normalized temporary file as pandoc input (will be removed later)
+            temp_input = temp_name
+            pandoc_cmd[1] = str(temp_input)
+            print('Created temporary input with normalized authors:', temp_input)
 
         print('Running:', ' '.join(pandoc_cmd))
         p = subprocess.run(pandoc_cmd, cwd=str(Path.cwd()))
@@ -568,13 +530,10 @@ def main():
     parser.add_argument('--all', action='store_true', help='Render all .qmd files (excludes docs/assets/site_libs/scripts)')
     parser.add_argument('--dry-run', action='store_true', help='Only list files that would be rendered')
     parser.add_argument('--check-authors', action='store_true', help='Check and report extracted author metadata for all targets')
-    parser.add_argument('--persist-sanitized', action='store_true', help='Write persistent sanitized QMD copies to output directory for inspection')
     parser.add_argument('targets', nargs='*', help='Optional list of specific .qmd files to render (paths relative to repo root or absolute)')
     args = parser.parse_args()
 
-    global PERSIST_SANITIZED
-    if args.persist_sanitized:
-        PERSIST_SANITIZED = True
+    # persistent sanitized outputs have been removed; sanitizer uses temporary files only
 
     # If explicit targets provided on the command line, use those. Paths may be
     # relative to the repository root or absolute. Otherwise discover targets

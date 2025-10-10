@@ -638,13 +638,16 @@ for letter, entries in alpha_groups.items():
         # display common name first, scientific name in italics afterwards when available
         scientific = species_map.get(s_slug, {}).get('scientific')
         if scientific:
-            label = f'{s_name} (*{scientific}*)'
+            # link common and scientific names separately; keep the dash outside the links
+            common_link = f'[{s_name}]({sp_link})'
+            sci_link = f'[*{scientific}*]({sp_link})'
+            label_html = f'{common_link} — {sci_link}'
         else:
-            label = s_name
+            label_html = f'[{s_name}]({sp_link})'
         if parts:
-            glines.append(f'- [{label}]({sp_link}) — {parts}')
+            glines.append(f'- {label_html} — {parts}')
         else:
-            glines.append(f'- [{label}]({sp_link})')
+            glines.append(f'- {label_html}')
     glines.append('')
 
 _write_page(GENUS_INDEX, glines)
@@ -679,9 +682,12 @@ for letter, entries in sc_groups.items():
         sp_link = f'/trees/species/{s_slug}.html'
         label = ''
         if scientific:
-            label = f'*{scientific}* {common}'
+            # link scientific and common names separately; keep the dash outside the links
+            sci_link = f'[*{scientific}*]({sp_link})'
+            common_link = f'[{common}]({sp_link})'
+            label = f'{sci_link} — {common_link}'
         else:
-            label = common
+            label = f'[{common}]({sp_link})'
         # include genus/family when available
         g_slug = species_map.get(s_slug, {}).get('genus')
         f_name = species_map.get(s_slug, {}).get('family')
