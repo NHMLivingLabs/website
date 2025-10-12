@@ -421,23 +421,20 @@ def main():
         local_img_path = IMG_DIR / f"tree{tree_id}.jpg"
 
         if not args.no_download and photo_filename:
-            if not args.dry_run:
-                success = download_image(
-                    PROJECT_SLUG, photo_filename, local_img_path, token=token
-                )
-                if not success:
-                    print("Could not download media for", tree_id)
-
-        if args.dry_run:
-            print("Would write page for", tree_id)
-        else:
-            write_tree_page(
-                tree_id,
-                cols,
-                species_raw,
-                local_img_path if local_img_path.exists() else None,
-                force=args.force,
+            success = download_image(
+                PROJECT_SLUG, photo_filename, local_img_path, token=token
             )
+            if not success:
+                print("Could not download media for", tree_id)
+
+        # Always write the tree page (the script no longer supports a --dry-run flag).
+        write_tree_page(
+            tree_id,
+            cols,
+            species_raw,
+            local_img_path if local_img_path.exists() else None,
+            force=args.force,
+        )
 
 
 if __name__ == "__main__":

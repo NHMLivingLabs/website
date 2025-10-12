@@ -24,7 +24,7 @@ def ensure_cache():
     if CACHED.exists():
         return True
     print("Cache not found at", CACHED)
-    print("Attempting to run fetch script to create cache (dry-run)")
+    print("Attempting to run fetch script to create cache")
     try:
         # run the existing fetcher to populate the cache; the fetcher no longer supports --dry-run
         subprocess.run(
