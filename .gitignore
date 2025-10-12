@@ -24,3 +24,8 @@ docs/**/pdfs/*.toc
 # Ignore compiled python files and caches
 __pycache__/
 *.pyc
+
+# Ignore PDF backups created by sanitizer when run with --inplace
+# e.g. docs/assets/pdfs/1_Published_Protocol_2025_Tree-Tagging.pdf.bak
+*.pdf.bak
+docs/**/pdfs/*.pdf.bak
