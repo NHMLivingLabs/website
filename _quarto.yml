@@ -8,6 +8,7 @@
     - python ./scripts/generate_articles_from_bib.py
     - python ./scripts/generate_reports_index.py
     - python ./scripts/render_articles_to_pdf.py --output-dir docs/assets/pdfs
+    - python ./scripts/clean_pdfs.py --pattern "docs/assets/pdfs/*.pdf" --inplace --no-backup
 website:
   title: "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>"
   navbar:

@@ -628,7 +628,7 @@ def main():
     )
     args = parser.parse_args()
 
-    # Sanitizer uses temporary files only; no persistent sanitized outputs are written.
+    # Sanitiser uses temporary files only; no persistent sanitised outputs are written.
 
     # If explicit targets provided on the command line, use those. Paths may be
     # relative to the repository root or absolute. Otherwise discover targets
