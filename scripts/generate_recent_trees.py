@@ -2,7 +2,7 @@
 
 This script looks for the Epicollect export cached at `cache/epicollect-meta/entries_{project}.json`.
 If the cache is missing it will attempt to run the existing fetch script
-`scripts/generate_trees_from_epicollect.py --dry-run` to refresh the cache.
+`scripts/generate_trees_from_epicollect.py` to refresh the cache.
 
 Output: writes `trees/_tree-list.md` with 10 bullets linking to `trees/<id>.qmd`, ordered
 by `created_at` descending (most recent first).
@@ -26,13 +26,9 @@ def ensure_cache():
     print("Cache not found at", CACHED)
     print("Attempting to run fetch script to create cache (dry-run)")
     try:
-        # run the existing fetcher in dry-run mode so it populates the cache without overwriting pages
+        # run the existing fetcher to populate the cache; the fetcher no longer supports --dry-run
         subprocess.run(
-            [
-                sys.executable,
-                str(ROOT / "scripts" / "generate_trees_from_epicollect.py"),
-                "--dry-run",
-            ],
+            [sys.executable, str(ROOT / "scripts" / "generate_trees_from_epicollect.py")],
             check=False,
         )
         if CACHED.exists():

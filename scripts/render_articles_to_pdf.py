@@ -7,7 +7,7 @@ Notes:
  - This script uses `pandoc` to convert QMD/Markdown to LaTeX and then runs a TeX engine
      (`xelatex` preferred, falls back to `pdflatex`).
  - A working TeX distribution (TinyTeX, TeX Live, MikTeX) is required for PDF creation.
- - This script supports a --dry-run mode which will list files without invoking the renderer.
+ - This script lists files in `reports/` and renders them to PDF using pandoc + a TeX engine.
 
 """
 

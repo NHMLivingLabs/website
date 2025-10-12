@@ -16,7 +16,7 @@ EPICOLLECT_CLIENT_ID and EPICOLLECT_CLIENT_SECRET (and optionally
 EPICOLLECT_TOKEN_URL) to obtain a token using the client_credentials flow.
 
 Usage:
-  python scripts/generate_trees_from_epicollect.py [--force] [--no-download] [--dry-run]
+    python scripts/generate_trees_from_epicollect.py [--force] [--no-download]
 """
 
 import argparse
@@ -353,7 +353,7 @@ def main():
     p.add_argument(
         "--no-download", action="store_true", help="Do not attempt to download images"
     )
-    p.add_argument("--dry-run", action="store_true", help="Show what would be done")
+    # --dry-run removed: this script now performs actions; use source control or a separate dry-run wrapper if needed
     args = p.parse_args()
 
     # Resolve token: explicit EPICOLLECT_TOKEN takes precedence; otherwise try client credentials
