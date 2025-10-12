@@ -258,8 +258,7 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
         return subprocess.CompletedProcess(args=["xelatex"], returncode=3)
 
     # 1) Run pandoc to produce .tex
-    # We already provide a top-level helper `extract_author_name_from_frontmatter`
-    # so don't redefine it here. Use that helper to normalise author metadata.
+    # Use helper functions above to normalise metadata and frontmatter values.
 
     author_name = extract_author_name_from_frontmatter(src)
     pandoc_cmd = [
@@ -629,7 +628,7 @@ def main():
     )
     args = parser.parse_args()
 
-    # persistent sanitized outputs have been removed; sanitizer uses temporary files only
+    # Sanitizer uses temporary files only; no persistent sanitized outputs are written.
 
     # If explicit targets provided on the command line, use those. Paths may be
     # relative to the repository root or absolute. Otherwise discover targets
