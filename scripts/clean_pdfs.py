@@ -51,10 +51,10 @@ def sanitise_pdf(src: Path, dst: Path) -> None:
 
     # Deterministic metadata values. add_metadata expects keys without leading '/'.
     deterministic_meta = {
-        "Producer": "",
-        "Creator": "",
-        "CreationDate": "D:19700101000000",
-        "ModDate": "D:19700101000000",
+        "/Producer": "",
+        "/Creator": "",
+        "/CreationDate": "D:19700101000000",
+        "/ModDate": "D:19700101000000",
     }
     # Use the public API; some PyPDF2 versions expect keys without '/'
     writer.add_metadata(deterministic_meta)

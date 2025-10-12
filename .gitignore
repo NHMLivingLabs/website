@@ -29,3 +29,6 @@ __pycache__/
 # e.g. docs/assets/pdfs/1_Published_Protocol_2025_Tree-Tagging.pdf.bak
 *.pdf.bak
 docs/**/pdfs/*.pdf.bak
+# Ignore sanitized copies created by the sanitiser script
+*.sanitised.pdf
+docs/**/pdfs/*.sanitised.pdf
