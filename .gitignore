@@ -20,3 +20,7 @@ docs/**/pdfs/*.aux
 docs/**/pdfs/*.log
 docs/**/pdfs/*.out
 docs/**/pdfs/*.toc
+
+# Ignore compiled python files and caches
+__pycache__/
+*.pyc

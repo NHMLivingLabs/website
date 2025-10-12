@@ -2,9 +2,6 @@
 """Render PDFs for reports using pandoc -> LaTeX -> xelatex.
 
 By default this script will render every `.qmd` file in the `reports/` directory.
-This script will NEVER render a top-level `articles.qmd` to PDF.
-
-Use --all to render every .qmd file found (excludes `docs/`, `assets/`, `site_libs`, and `scripts/`).
 
 Notes:
  - This script uses `pandoc` to convert QMD/Markdown to LaTeX and then runs a TeX engine
@@ -24,32 +21,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def find_targets(all_qmd: bool):
-    files = []
-    if all_qmd:
-        # find all .qmd except in excluded folders
-        for p in ROOT.rglob("*.qmd"):
-            if any(part in ("docs", "assets", "site_libs", "scripts") for part in p.parts):
-                continue
-            # always exclude the top-level articles.qmd from PDF rendering
-            if p.name == "articles.qmd" and p.parent == ROOT:
-                continue
-            files.append(p)
-    else:
-        # default: anything in reports/ (explicitly do NOT render top-level articles.qmd)
-        repdir = ROOT / "reports"
-        if repdir.exists() and repdir.is_dir():
-            files.extend(sorted(repdir.glob("*.qmd")))
-
-    # dedupe and return
-    seen = set()
-    out = []
-    for p in files:
-        rp = p.resolve()
-        if rp not in seen:
-            seen.add(rp)
-            out.append(rp)
-    return out
+def find_targets():
+    """Return the list of .qmd files to render: the files in `reports/`."""
+    repdir = ROOT / "reports"
+    if repdir.exists() and repdir.is_dir():
+        return [p.resolve() for p in sorted(repdir.glob("*.qmd"))]
+    return []
 
 
 def extract_author_name_from_frontmatter(path: Path):
@@ -109,7 +86,7 @@ def extract_author_name_from_frontmatter(path: Path):
             # - name: Foo
             m = re.match(r"^\s*-\s*name\s*:\s*(.+)$", ln)
             if m:
-                names.append(m.group(1).strip().strip('"\''))
+                names.append(m.group(1).strip().strip("\"'"))
                 continue
             # - Foo  (list of strings)
             m2 = re.match(r"^\s*-\s*(?:['\"]?)(.+?)(?:['\"]?)\s*$", ln)
@@ -121,7 +98,7 @@ def extract_author_name_from_frontmatter(path: Path):
             # name: Foo inside an author mapping
             m3 = re.match(r"^\s*name\s*:\s*(.+)$", ln)
             if m3:
-                names.append(m3.group(1).strip().strip('"\''))
+                names.append(m3.group(1).strip().strip("\"'"))
                 continue
 
     if names:
@@ -190,7 +167,7 @@ def extract_authors_with_affiliations(path: Path):
 
     # Heuristic parsing if PyYAML unavailable or failed
     def _unq(s: str) -> str:
-        return (s or "").strip().strip('"\'')
+        return (s or "").strip().strip("\"'")
 
     in_author = False
     current = None
@@ -240,9 +217,7 @@ def extract_authors_with_affiliations(path: Path):
 
 
 def run_pandoc_xelatex(src: Path, outdir: Path):
-    """Render a single QMD -> PDF using pandoc to create .tex and xelatex to build PDF.
-
-    """
+    """Render a single QMD -> PDF using pandoc to create .tex and xelatex to build PDF."""
     outdir.mkdir(parents=True, exist_ok=True)
     stem = src.stem
     outtex = outdir / (stem + ".tex")
@@ -252,7 +227,9 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
     pandoc_path = shutil.which("pandoc")
     if not pandoc_path:
         # Common place: RStudio/Quarto bundled pandoc
-        possible = Path("C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/pandoc.exe")
+        possible = Path(
+            "C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/pandoc.exe"
+        )
         if possible.exists():
             pandoc_path = str(possible)
         else:
@@ -261,13 +238,23 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                 pandoc_path = str(possible2)
 
     if not pandoc_path:
-        print("Error: pandoc not found on PATH and no bundled pandoc detected. Install pandoc and retry.", file=sys.stderr)
+        print(
+            "Error: pandoc not found on PATH and no bundled pandoc detected. Install pandoc and retry.",
+            file=sys.stderr,
+        )
         return subprocess.CompletedProcess(args=["pandoc"], returncode=2)
 
     # Choose TeX engine
-    tex_engine = "xelatex" if shutil.which("xelatex") else ("pdflatex" if shutil.which("pdflatex") else None)
+    tex_engine = (
+        "xelatex"
+        if shutil.which("xelatex")
+        else ("pdflatex" if shutil.which("pdflatex") else None)
+    )
     if tex_engine is None:
-        print("Error: No TeX engine found (xelatex or pdflatex). Install a TeX distribution and retry.", file=sys.stderr)
+        print(
+            "Error: No TeX engine found (xelatex or pdflatex). Install a TeX distribution and retry.",
+            file=sys.stderr,
+        )
         return subprocess.CompletedProcess(args=["xelatex"], returncode=3)
 
     # 1) Run pandoc to produce .tex
@@ -275,7 +262,17 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
     # so don't redefine it here. Use that helper to normalise author metadata.
 
     author_name = extract_author_name_from_frontmatter(src)
-    pandoc_cmd = [pandoc_path, str(src), "--from", "markdown", "--to", "latex", "--standalone", "-o", str(outtex)]
+    pandoc_cmd = [
+        pandoc_path,
+        str(src),
+        "--from",
+        "markdown",
+        "--to",
+        "latex",
+        "--standalone",
+        "-o",
+        str(outtex),
+    ]
     # If the source contains a YAML date, pass it through to pandoc so the
     # generated PDF uses the article's declared date instead of filesystem timestamps.
     src_date = extract_date_from_frontmatter(src)
@@ -290,22 +287,47 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
 
         def _remove_html_only_quarto_blocks(text: str) -> str:
             # Remove fenced raw HTML blocks: ```{=html} ... ``` (handles variations)
-            text = re.sub(r"```\{\s*=\s*html[^}]*\}[\s\S]*?```\s*", "", text, flags=re.IGNORECASE)
+            text = re.sub(
+                r"```\{\s*=\s*html[^}]*\}[\s\S]*?```\s*", "", text, flags=re.IGNORECASE
+            )
             # Remove Quarto conditional blocks like ::: {.content-visible when-format="html"} ... :::
             # Use a non-greedy match and allow single or double quotes in attributes.
-            text = re.sub(r":::\s*\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\}[\s\S]*?:::\s*", "", text, flags=re.IGNORECASE)
+            text = re.sub(
+                r":::\s*\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\}[\s\S]*?:::\s*",
+                "",
+                text,
+                flags=re.IGNORECASE,
+            )
             # Remove HTML tags with when-format attribute: <div ... when-format="html">...</div>
-            text = re.sub(r"<[^>]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^>]*>[\s\S]*?<\/[a-zA-Z0-9:_-]+>\s*", "", text, flags=re.IGNORECASE)
+            text = re.sub(
+                r"<[^>]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^>]*>[\s\S]*?<\/[a-zA-Z0-9:_-]+>\s*",
+                "",
+                text,
+                flags=re.IGNORECASE,
+            )
             # Remove markdown elements that have inline when-format="html" attributes, e.g. [text](url){... when-format="html"}
-            text = re.sub(r"(!?\[[^\]]*\]\([^\)]*\)\s*\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\})", "", text, flags=re.IGNORECASE)
+            text = re.sub(
+                r"(!?\[[^\]]*\]\([^\)]*\)\s*\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\})",
+                "",
+                text,
+                flags=re.IGNORECASE,
+            )
             # As a last resort, remove any attribute blocks that only contain when-format="html" to avoid leaving stray attributes
-            text = re.sub(r"\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\}", "", text, flags=re.IGNORECASE)
+            text = re.sub(
+                r"\{[^}]*when-format\s*=\s*(?:\"|')?html(?:\"|')?[^}]*\}",
+                "",
+                text,
+                flags=re.IGNORECASE,
+            )
             return text
 
         sanitised = _remove_html_only_quarto_blocks(orig_text)
         if sanitised != orig_text:
             import tempfile
-            tf = tempfile.NamedTemporaryFile(delete=False, suffix=src.suffix, mode="w", encoding="utf-8")
+
+            tf = tempfile.NamedTemporaryFile(
+                delete=False, suffix=src.suffix, mode="w", encoding="utf-8"
+            )
             tf.write(sanitised)
             tf.close()
             temp_input = tf.name
@@ -327,10 +349,12 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                     try:
                         orig = src.read_text(encoding="utf-8")
                     except (OSError, UnicodeError) as e:
-                        print(f"Warning: failed to read source for author normalisation: {e}")
+                        print(
+                            f"Warning: failed to read source for author normalisation: {e}"
+                        )
                         orig = ""
                 # Build inline YAML author list: author: ["A","B"]
-                quoted = ", ".join(f'"{n.replace("\"", "\\\"") }"' for n in names)
+                quoted = ", ".join(f'"{n.replace('"', '\\"')}"' for n in names)
                 inline = f"author: [{quoted}]\n"
                 # Replace the author: block in the frontmatter using a simple heuristic
                 lines = orig.splitlines()
@@ -364,9 +388,15 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                                 new_fm.append(ln)
                         # insert our inline author at the start of frontmatter
                         new_fm.insert(0, inline.rstrip())
-                        new_content = "\n".join(["---"] + new_fm + ["---"] + lines[end+1:]) + "\n"
+                        new_content = (
+                            "\n".join(["---"] + new_fm + ["---"] + lines[end + 1 :])
+                            + "\n"
+                        )
                         import tempfile
-                        tf = tempfile.NamedTemporaryFile(delete=False, suffix=src.suffix, mode="w", encoding="utf-8")
+
+                        tf = tempfile.NamedTemporaryFile(
+                            delete=False, suffix=src.suffix, mode="w", encoding="utf-8"
+                        )
                         tf.write(new_content)
                         tf.close()
                         temp_name = tf.name
@@ -423,16 +453,32 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                             parts.append(name)
 
                     new_auth = " \\and ".join(parts)
-                    tex_text = tex_text[:m.start()] + "\\author{" + new_auth + "}" + tex_text[m.end():]
+                    tex_text = (
+                        tex_text[: m.start()]
+                        + "\\author{"
+                        + new_auth
+                        + "}"
+                        + tex_text[m.end() :]
+                    )
 
                     # Insert affiliation block after \maketitle if we have any affiliations
                     if uniq:
-                        aff_lines = [f"\\textsuperscript{{{i}}} {uniq[i-1]}" for i in range(1, len(uniq)+1)]
+                        aff_lines = [
+                            f"\\textsuperscript{{{i}}} {uniq[i - 1]}"
+                            for i in range(1, len(uniq) + 1)
+                        ]
                         # Build a small centered affiliation block. Use '\\' (LaTeX linebreak)
                         # and real newline characters in the generated .tex.
-                        aff_block = "\n" + "\\begin{center}\\footnotesize " + " \\ ".join(aff_lines) + "\n\\end{center}\n"
+                        aff_block = (
+                            "\n"
+                            + "\\begin{center}\\footnotesize "
+                            + " \\ ".join(aff_lines)
+                            + "\n\\end{center}\n"
+                        )
                         # Insert the affiliation block immediately after \maketitle (with a real newline)
-                        tex_text = tex_text.replace("\\maketitle", "\\maketitle" + "\n" + aff_block)
+                        tex_text = tex_text.replace(
+                            "\\maketitle", "\\maketitle" + "\n" + aff_block
+                        )
 
                     outtex.write_text(tex_text, encoding="utf-8")
                     print("Injected deduplicated author affiliations into", outtex)
@@ -445,14 +491,22 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                     try:
                         tex_text = outtex.read_text(encoding="utf-8", errors="ignore")
                         # Escape closing brace to avoid breaking LaTeX
-                        safe_date = src_date.replace('}', '\\}')
+                        safe_date = src_date.replace("}", "\\}")
                         # Replace existing \date{...} if present
                         if re.search(r"\\date\s*\{.*?\}", tex_text, flags=re.DOTALL):
-                            tex_text = re.sub(r"\\date\s*\{.*?\}", "\\date{" + safe_date + "}", tex_text, flags=re.DOTALL)
+                            tex_text = re.sub(
+                                r"\\date\s*\{.*?\}",
+                                "\\date{" + safe_date + "}",
+                                tex_text,
+                                flags=re.DOTALL,
+                            )
                         else:
                             # Insert \date{...} before \maketitle if present, otherwise prepend
                             if "\\maketitle" in tex_text:
-                                tex_text = tex_text.replace("\\maketitle", "\\date{" + safe_date + "}\n\\maketitle")
+                                tex_text = tex_text.replace(
+                                    "\\maketitle",
+                                    "\\date{" + safe_date + "}\n\\maketitle",
+                                )
                             else:
                                 tex_text = "\\date{" + safe_date + "}\n" + tex_text
                         outtex.write_text(tex_text, encoding="utf-8")
@@ -465,25 +519,43 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
                     try:
                         # Re-read the current tex to operate on latest content
                         tex_text = outtex.read_text(encoding="utf-8", errors="ignore")
-                        safe_date = src_date.replace('}', '\\}')
-                        vis_block = "\\begin{center}\\small " + safe_date + "\\\\\\end{center}\\n"
+                        safe_date = src_date.replace("}", "\\}")
+                        vis_block = (
+                            "\\begin{center}\\small "
+                            + safe_date
+                            + "\\\\\\end{center}\\n"
+                        )
                         # If an affiliation center block was inserted (\begin{center}\footnotesize ... \end{center}),
                         # insert the visible date after its closing tag. Otherwise insert after \maketitle.
-                        if "\\begin{center}\\footnotesize" in tex_text and "\\end{center}" in tex_text:
+                        if (
+                            "\\begin{center}\\footnotesize" in tex_text
+                            and "\\end{center}" in tex_text
+                        ):
                             # find the last affiliation closing tag and insert after it
                             last_end = tex_text.rfind("\\end{center}")
                             if last_end != -1:
                                 # insert vis_block after the end tag (preserve newline)
-                                tex_text = tex_text[: last_end + len("\\end{center}")] + "\n" + vis_block + tex_text[last_end + len("\\end{center}"):]
+                                tex_text = (
+                                    tex_text[: last_end + len("\\end{center}")]
+                                    + "\n"
+                                    + vis_block
+                                    + tex_text[last_end + len("\\end{center}") :]
+                                )
                             else:
                                 # fallback: insert after \maketitle
-                                tex_text = tex_text.replace("\\maketitle", "\\maketitle\n" + vis_block)
+                                tex_text = tex_text.replace(
+                                    "\\maketitle", "\\maketitle\n" + vis_block
+                                )
                         else:
-                            tex_text = tex_text.replace("\\maketitle", "\\maketitle\n" + vis_block)
+                            tex_text = tex_text.replace(
+                                "\\maketitle", "\\maketitle\n" + vis_block
+                            )
                         outtex.write_text(tex_text, encoding="utf-8")
                         print(f"Inserted visible date block into {outtex}: {src_date}")
                     except Exception as e:
-                        print(f"Warning: failed to insert visible date block into {outtex}: {e}")
+                        print(
+                            f"Warning: failed to insert visible date block into {outtex}: {e}"
+                        )
             except Exception:
                 # keep the earlier behavior if anything unexpected happens
                 pass
@@ -536,12 +608,25 @@ def run_pandoc_xelatex(src: Path, outdir: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Render PDFs for site articles/reports using pandoc + xelatex")
-    parser.add_argument("--output-dir", "-o", default="docs/assets/pdfs", help="Directory to write PDFs into (default: docs/assets/pdfs)")
-    parser.add_argument("--all", action="store_true", help="Render all .qmd files (excludes docs/assets/site_libs/scripts)")
-    parser.add_argument("--dry-run", action="store_true", help="Only list files that would be rendered")
-    parser.add_argument("--check-authors", action="store_true", help="Check and report extracted author metadata for all targets")
-    parser.add_argument("targets", nargs="*", help="Optional list of specific .qmd files to render (paths relative to repo root or absolute)")
+    parser = argparse.ArgumentParser(
+        description="Render PDFs for site articles/reports using pandoc + xelatex"
+    )
+    parser.add_argument(
+        "--output-dir",
+        "-o",
+        default="docs/assets/pdfs",
+        help="Directory to write PDFs into (default: docs/assets/pdfs)",
+    )
+    parser.add_argument(
+        "--check-authors",
+        action="store_true",
+        help="Check and report extracted author metadata for report targets",
+    )
+    parser.add_argument(
+        "targets",
+        nargs="*",
+        help="Optional list of specific .qmd files to render (paths relative to repo root or absolute)",
+    )
     args = parser.parse_args()
 
     # persistent sanitized outputs have been removed; sanitizer uses temporary files only
@@ -567,23 +652,19 @@ def main():
             # exit with non-zero status to indicate user provided bad paths
             raise SystemExit(2)
     else:
-        targets = find_targets(args.all)
+        targets = find_targets()
     if not targets:
-        print("No target QMD files found (try --all).")
+        print("No target QMD files found in reports/.")
         return 0
 
     print(f"Found {len(targets)} files to render:")
     for p in targets:
         print(" -", p.relative_to(ROOT))
 
-    if args.dry_run:
-        print("\nDry-run complete. No PDF rendering performed.")
-        return 0
-
     if args.check_authors:
         outdir = ROOT / args.output_dir
-        print("\nChecking authors for all targets:")
-        targets = find_targets(args.all)
+        print("\nChecking authors for all report targets:")
+        targets = find_targets()
         any_missing = False
         for src in targets:
             author = extract_author_name_from_frontmatter(src)
@@ -603,9 +684,11 @@ def main():
             if not author or (tex_author and tex_author.strip().lower() == "true"):
                 any_missing = True
         if any_missing:
-            print("\nSome files lacked a robust author extraction or have tex author=true; consider inspecting their frontmatter.")
+            print(
+                "\nSome files lacked a robust author extraction or have tex author=true; consider inspecting their frontmatter."
+            )
         else:
-            print("\nAll targets have sensible author metadata extracted.")
+            print("\nAll report targets have sensible author metadata extracted.")
         return 0
 
     outdir = ROOT / args.output_dir
@@ -613,7 +696,7 @@ def main():
 
     failures = []
     for src in targets:
-        print(f'\nRendering {src} -> {outdir / (src.stem + ".pdf")}')
+        print(f"\nRendering {src} -> {outdir / (src.stem + '.pdf')}")
         res = run_pandoc_xelatex(src, outdir)
         if res.returncode != 0:
             print("--- Render failed ---", file=sys.stderr)

@@ -7,6 +7,7 @@ If the cache is missing it will attempt to run the existing fetch script
 Output: writes `trees/_tree-list.md` with 10 bullets linking to `trees/<id>.qmd`, ordered
 by `created_at` descending (most recent first).
 """
+
 import json
 import subprocess
 import sys
@@ -19,8 +20,6 @@ CACHED = ROOT / "cache" / "epicollect-meta" / f"entries_{PROJECT_SLUG}.json"
 OUT = ROOT / "trees" / "_tree-list.md"
 
 
-
-
 def ensure_cache():
     if CACHED.exists():
         return True
@@ -28,7 +27,14 @@ def ensure_cache():
     print("Attempting to run fetch script to create cache (dry-run)")
     try:
         # run the existing fetcher in dry-run mode so it populates the cache without overwriting pages
-        subprocess.run([sys.executable, str(ROOT / "scripts" / "generate_trees_from_epicollect.py"), "--dry-run"], check=False)
+        subprocess.run(
+            [
+                sys.executable,
+                str(ROOT / "scripts" / "generate_trees_from_epicollect.py"),
+                "--dry-run",
+            ],
+            check=False,
+        )
         if CACHED.exists():
             return True
         print("Fetch script completed but cache still missing.")
@@ -77,7 +83,11 @@ def tree_id_from_entry(entry):
     if isinstance(entry, dict):
         # try keys case-insensitively
         for k, v in entry.items():
-            if isinstance(k, str) and k.strip().lower().startswith("2_") and "tree" in k.lower():
+            if (
+                isinstance(k, str)
+                and k.strip().lower().startswith("2_")
+                and "tree" in k.lower()
+            ):
                 return str(v)
         if "ec5_uuid" in entry:
             return str(entry.get("ec5_uuid"))

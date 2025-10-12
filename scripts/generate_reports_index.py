@@ -9,6 +9,7 @@ Usage: python scripts/generate_reports_index.py
 
 The output file is `reports.qmd` at the repository root and will be overwritten.
 """
+
 import re
 from pathlib import Path
 
@@ -33,10 +34,10 @@ def read_front_matter(path: Path):
     if not m:
         return {}, text
     # find second '---'
-    m2 = re.search(r"^---\s*$", text[m.end():], re.MULTILINE)
+    m2 = re.search(r"^---\s*$", text[m.end() :], re.MULTILINE)
     if not m2:
         return {}, text
-    fm_text = text[m.end():m.end()+m2.start()]
+    fm_text = text[m.end() : m.end() + m2.start()]
     # Improved YAML-like parser for limited front-matter (handles nested mappings and simple lists)
     fm = {}
     lines = fm_text.splitlines()
@@ -55,7 +56,9 @@ def read_front_matter(path: Path):
                 # collect indented block
                 j = i + 1
                 nested_lines = []
-                while j < len(lines) and (lines[j].startswith(" ") or lines[j].startswith("\t")):
+                while j < len(lines) and (
+                    lines[j].startswith(" ") or lines[j].startswith("\t")
+                ):
                     nested_lines.append(lines[j])
                     j += 1
                 # parse nested block: either mapping or list
@@ -97,7 +100,7 @@ def read_front_matter(path: Path):
                 continue
             fm[key] = val
         i += 1
-    rest = text[m.end()+m2.end():]
+    rest = text[m.end() + m2.end() :]
     return fm or {}, rest
 
 
@@ -125,7 +128,7 @@ def citation_from_front_matter(fm: dict, path: Path):
     ]
     for pfx in prefixes:
         if title.startswith(pfx):
-            title = title[len(pfx):].strip(" \u2014-–:")
+            title = title[len(pfx) :].strip(" \u2014-–:")
 
     authors = fm.get("author")
     # normalize authors: the front-matter parser may produce a list of dicts
@@ -193,7 +196,11 @@ def main():
         grouped.setdefault(heading, []).append((p, fm))
 
     # Ensure stable order of sections
-    ordered_headings = ["Published Protocols", "Implementation Reports", "Other Reports"]
+    ordered_headings = [
+        "Published Protocols",
+        "Implementation Reports",
+        "Other Reports",
+    ]
     for h in list(grouped.keys()):
         if h not in ordered_headings:
             ordered_headings.append(h)
@@ -203,12 +210,15 @@ def main():
     lines.append('title: "Urban Research Station Reports"')
     lines.append("toc: true")
     lines.append("---\n")
-    lines.append("This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes.\n")
+    lines.append(
+        "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes.\n"
+    )
 
     for heading in ordered_headings:
         items = grouped.get(heading)
         if not items:
             continue
+
         # sort by numeric citation.issue descending; missing issues go last
         def issue_val(item):
             p, fm = item
@@ -219,6 +229,7 @@ def main():
             except Exception:
                 # missing/invalid issue -> put after numeric issues
                 return -1
+
         items = sorted(items, key=issue_val, reverse=True)
         lines.append(f"## {heading}\n")
         for p, fm in items:
