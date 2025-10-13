@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -169,8 +198,8 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a>
   <ul class="collapse">
-  <li><a href="#trees-with-dbh-5-cm" id="toc-trees-with-dbh-5-cm" class="nav-link" data-scroll-target="#trees-with-dbh-5-cm">Trees with DBH ≥ 5 cm</a></li>
-  <li><a href="#trees-with-dbh-5-cm-1" id="toc-trees-with-dbh-5-cm-1" class="nav-link" data-scroll-target="#trees-with-dbh-5-cm-1">Trees with DBH &lt; 5 cm</a></li>
+  <li><a href="#trees-with-dbh-geq-5-cm" id="toc-trees-with-dbh-geq-5-cm" class="nav-link" data-scroll-target="#trees-with-dbh-geq-5-cm">Trees with DBH <span class="math inline">\(\geq\)</span> 5 cm</a></li>
+  <li><a href="#trees-with-dbh-5-cm" id="toc-trees-with-dbh-5-cm" class="nav-link" data-scroll-target="#trees-with-dbh-5-cm">Trees with DBH &lt; 5 cm</a></li>
   </ul></li>
   <li><a href="#annual-survey" id="toc-annual-survey" class="nav-link" data-scroll-target="#annual-survey">Annual survey</a></li>
   <li><a href="#appendix-i-numbering-scheme" id="toc-appendix-i-numbering-scheme" class="nav-link" data-scroll-target="#appendix-i-numbering-scheme">Appendix I: Numbering scheme</a>
@@ -234,8 +263,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="installation" class="level2">
 <h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<section id="trees-with-dbh-5-cm" class="level3">
-<h3 class="anchored" data-anchor-id="trees-with-dbh-5-cm">Trees with DBH ≥ 5 cm</h3>
+<section id="trees-with-dbh-geq-5-cm" class="level3">
+<h3 class="anchored" data-anchor-id="trees-with-dbh-geq-5-cm">Trees with DBH <span class="math inline">\(\geq\)</span> 5 cm</h3>
 <ul>
 <li>Attach a unique number tag to the tree at 1.3 m; the nail also serves as a mark for the DBH measurement height.</li>
 <li>Nail orientation and placement:
@@ -246,8 +275,8 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="trees-with-dbh-5-cm-1" class="level3">
-<h3 class="anchored" data-anchor-id="trees-with-dbh-5-cm-1">Trees with DBH &lt; 5 cm</h3>
+<section id="trees-with-dbh-5-cm" class="level3">
+<h3 class="anchored" data-anchor-id="trees-with-dbh-5-cm">Trees with DBH &lt; 5 cm</h3>
 <ul>
 <li>Consider whether it is useful to tag at this age.</li>
 <li>If tagging is appropriate, consider attaching the tag with a loop of wire.</li>
