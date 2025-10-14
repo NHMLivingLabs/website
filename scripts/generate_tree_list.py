@@ -820,9 +820,9 @@ for letter, entries in sc_groups.items():
             f_part = f"Family: [{fam_display}](/trees/family/{fam_slug}.html)"
         parts = " — ".join([p for p in (g_part, f_part) if p])
         if parts:
-            slines.append(f"- [{label}]({sp_link}) — {parts}")
+            slines.append(f"- {label} — {parts}")
         else:
-            slines.append(f"- [{label}]({sp_link})")
+            slines.append(f"- {label}")
     slines.append("")
 
 _write_page(GENUS_INDEX2, slines)
