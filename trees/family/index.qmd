@@ -13,6 +13,7 @@ toc: true
 - [Ebenaceae (Persimmon family)](/trees/family/ebenaceae.html) — 1 species
 - [Fagaceae (Oak & Beech family)](/trees/family/fagaceae.html) — 5 species
 - [Juglandaceae (Walnut family)](/trees/family/juglandaceae.html) — 1 species
+- [Malvaceae](/trees/family/malvaceae.html) — 1 species
 - [Moraceae (Fig family)](/trees/family/moraceae.html) — 2 species
 - [Oleaceae (Olive family)](/trees/family/oleaceae.html) — 2 species
 - [Pinaceae (Pine family)](/trees/family/pinaceae.html) — 2 species

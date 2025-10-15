@@ -87,3 +87,7 @@ toc: true
 - [Sweet Chestnut](/trees/species/sweet-chestnut.html) — [*Castanea sativa*](/trees/species/sweet-chestnut.html) — Genus: [Castanea](/trees/genus/castanea.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
 - [Sycamore Maple](/trees/species/sycamore-maple.html) — [*Acer pseudoplatanus*](/trees/species/sycamore-maple.html) — Genus: [Acer](/trees/genus/acer.html) — Family: [Sapindaceae](/trees/family/sapindaceae.html)
 
+## W
+
+- [Weeping Silver Lime](/trees/species/weeping-silver-lime.html) — [*Tilia tomentosa*](/trees/species/weeping-silver-lime.html) — Genus: [Tilia](/trees/genus/tilia.html) — Family: [Malvaceae](/trees/family/malvaceae.html)
+

@@ -1,143 +1,157 @@
 [
   {
-    "objectID": "trees/species/sycamore-maple.html",
-    "href": "trees/species/sycamore-maple.html",
-    "title": "Sycamore Maple (Acer pseudoplatanus)",
+    "objectID": "trees/species/weeping-silver-lime.html",
+    "href": "trees/species/weeping-silver-lime.html",
+    "title": "Weeping Silver Lime (Tilia tomentosa)",
     "section": "",
-    "text": "Family: Sapindaceae\nGenus: Acer"
+    "text": "Family: Malvaceae\nGenus: Tilia\n\n\n\nTree\nPlanted\n\n\n\n\nTree 20 - Weeping Silver Lime\nSK: Darwin Centre Courtyard"
   },
   {
-    "objectID": "trees/species/sweet-cherry.html",
-    "href": "trees/species/sweet-cherry.html",
-    "title": "Sweet Cherry (Prunus avium)",
+    "objectID": "trees/species/sweet-chestnut.html",
+    "href": "trees/species/sweet-chestnut.html",
+    "title": "Sweet Chestnut (Castanea sativa)",
+    "section": "",
+    "text": "Family: Fagaceae\nGenus: Castanea"
+  },
+  {
+    "objectID": "trees/species/stone-pine.html",
+    "href": "trees/species/stone-pine.html",
+    "title": "Stone Pine (Pinus pinea)",
+    "section": "",
+    "text": "Family: Pinaceae\nGenus: Pinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 129 - Stone Pine\nSK: Darwin Centre Courtyard"
+  },
+  {
+    "objectID": "trees/species/sour-cherry.html",
+    "href": "trees/species/sour-cherry.html",
+    "title": "Sour Cherry (Prunus cerasus)",
     "section": "",
     "text": "Family: Rosaceae\nGenus: Prunus"
   },
   {
-    "objectID": "trees/species/spindle.html",
-    "href": "trees/species/spindle.html",
-    "title": "Spindle (Euonymus europaeus)",
-    "section": "",
-    "text": "Family: Celastraceae\nGenus: Euonymus"
-  },
-  {
-    "objectID": "trees/species/soft-tree-fern.html",
-    "href": "trees/species/soft-tree-fern.html",
-    "title": "Soft Tree Fern (Dicksonia antarctica)",
-    "section": "",
-    "text": "Family: Dicksoniaceae\nGenus: Dicksonia\n\n\n\nTree\nPlanted\n\n\n\n\nTree 339 - Soft Tree Fern\nSK: Evolution Garden\n\n\nTree 343 - Soft Tree Fern\nSK: Evolution Garden"
-  },
-  {
-    "objectID": "trees/species/quince.html",
-    "href": "trees/species/quince.html",
-    "title": "Quince (Cydonia oblonga)",
-    "section": "",
-    "text": "Family: Rosaceae\nGenus: Cydonia"
-  },
-  {
-    "objectID": "trees/species/pear-beech-hill.html",
-    "href": "trees/species/pear-beech-hill.html",
-    "title": "Pear Beech Hill (Pyrus communis)",
-    "section": "",
-    "text": "Family: Rosaceae\nGenus: Pyrus"
-  },
-  {
-    "objectID": "trees/species/london-plane.html",
-    "href": "trees/species/london-plane.html",
-    "title": "London Plane (Platanus × hispanica)",
-    "section": "",
-    "text": "Family: Platanaceae\nGenus: Platanus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 1 - London Plane\nSK: Evolution Garden"
-  },
-  {
-    "objectID": "trees/species/holm-oak.html",
-    "href": "trees/species/holm-oak.html",
-    "title": "Holm Oak (Quercus ilex)",
-    "section": "",
-    "text": "Family: Fagaceae\nGenus: Quercus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 195 - Holm Oak\nSK: Nature Discovery Garden"
-  },
-  {
-    "objectID": "trees/species/grey-alder.html",
-    "href": "trees/species/grey-alder.html",
-    "title": "Grey Alder (Alnus incana)",
-    "section": "",
-    "text": "Family: Betulaceae\nGenus: Alnus"
-  },
-  {
-    "objectID": "trees/species/fruitless-mulberry.html",
-    "href": "trees/species/fruitless-mulberry.html",
-    "title": "Fruitless Mulberry (Morus alba)",
-    "section": "",
-    "text": "Family: Moraceae\nGenus: Morus"
-  },
-  {
-    "objectID": "trees/species/field-maple.html",
-    "href": "trees/species/field-maple.html",
-    "title": "Field Maple (Acer campestre)",
-    "section": "",
-    "text": "Family: Sapindaceae\nGenus: Acer"
-  },
-  {
-    "objectID": "trees/species/english-oak.html",
-    "href": "trees/species/english-oak.html",
-    "title": "English Oak (Quercus robur)",
-    "section": "",
-    "text": "Family: Fagaceae\nGenus: Quercus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 25 - English Oak\nSK: Nature Discovery Garden"
-  },
-  {
-    "objectID": "trees/species/downy-birch.html",
-    "href": "trees/species/downy-birch.html",
-    "title": "Downy Birch (Betula pubescens)",
+    "objectID": "trees/species/silver-birch.html",
+    "href": "trees/species/silver-birch.html",
+    "title": "Silver Birch (Betula pendula)",
     "section": "",
     "text": "Family: Betulaceae\nGenus: Betula"
   },
   {
-    "objectID": "trees/species/crab-apple.html",
-    "href": "trees/species/crab-apple.html",
-    "title": "Crab Apple (Malus sylvestris)",
+    "objectID": "trees/species/persimmon.html",
+    "href": "trees/species/persimmon.html",
+    "title": "Persimmon (Diospyros kaki)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Malus"
+    "text": "Family: Ebenaceae\nGenus: Diospyros"
   },
   {
-    "objectID": "trees/species/common-hawthorn.html",
-    "href": "trees/species/common-hawthorn.html",
-    "title": "Common Hawthorn (Crataegus monogyna)",
+    "objectID": "trees/species/olive.html",
+    "href": "trees/species/olive.html",
+    "title": "Olive (Olea europaea)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Crataegus"
+    "text": "Family: Oleaceae\nGenus: Olea\n\n\n\nTree\nPlanted\n\n\n\n\nTree 121 - Olive\nSK: Darwin Centre Courtyard"
   },
   {
-    "objectID": "trees/species/black-pine.html",
-    "href": "trees/species/black-pine.html",
-    "title": "Black Pine (Pinus nigra)",
+    "objectID": "trees/species/hornbeam.html",
+    "href": "trees/species/hornbeam.html",
+    "title": "Hornbeam (Carpinus betulus)",
     "section": "",
-    "text": "Family: Pinaceae\nGenus: Pinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 123 - Black Pine\nSK: Darwin Centre Courtyard\n\n\nTree 153 - Black Pine\nSK: Nature Discovery Garden\n\n\nTree 163 - Black Pine\nSK: Nature Discovery Garden\n\n\nTree 174 - Black Pine\nSK: Nature Discovery Garden\n\n\nTree 178 - Black Pine\nSK: Nature Discovery Garden"
+    "text": "Family: Betulaceae\nGenus: Carpinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/species/bird-cherry.html",
-    "href": "trees/species/bird-cherry.html",
-    "title": "Bird Cherry (Prunus padus)",
+    "objectID": "trees/species/hazel.html",
+    "href": "trees/species/hazel.html",
+    "title": "Hazel (Corylus avellana)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Prunus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 147 - Bird Cherry\nSK: Nature Discovery Garden"
+    "text": "Family: Betulaceae\nGenus: Corylus"
   },
   {
-    "objectID": "trees/species/aspen.html",
-    "href": "trees/species/aspen.html",
-    "title": "Aspen (Populus tremula)",
+    "objectID": "trees/species/goat-willow.html",
+    "href": "trees/species/goat-willow.html",
+    "title": "Goat Willow (Salix caprea)",
+    "section": "",
+    "text": "Family: Salicaceae\nGenus: Salix"
+  },
+  {
+    "objectID": "trees/species/fig.html",
+    "href": "trees/species/fig.html",
+    "title": "Fig (Ficus carica)",
+    "section": "",
+    "text": "Family: Moraceae\nGenus: Ficus"
+  },
+  {
+    "objectID": "trees/species/english-walnut.html",
+    "href": "trees/species/english-walnut.html",
+    "title": "English Walnut (Juglans regia)",
+    "section": "",
+    "text": "Family: Juglandaceae\nGenus: Juglans"
+  },
+  {
+    "objectID": "trees/species/elder.html",
+    "href": "trees/species/elder.html",
+    "title": "Elder (Sambucus nigra)",
+    "section": "",
+    "text": "Family: Adoxaceae\nGenus: Sambucus"
+  },
+  {
+    "objectID": "trees/species/crack-willow.html",
+    "href": "trees/species/crack-willow.html",
+    "title": "Crack Willow (Salix fragilis)",
+    "section": "",
+    "text": "Family: Salicaceae\nGenus: Salix"
+  },
+  {
+    "objectID": "trees/species/cork-oak.html",
+    "href": "trees/species/cork-oak.html",
+    "title": "Cork Oak (Quercus suber)",
+    "section": "",
+    "text": "Family: Fagaceae\nGenus: Quercus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 200 - Cork Oak\nSK: Darwin Centre Courtyard"
+  },
+  {
+    "objectID": "trees/species/black-poplar.html",
+    "href": "trees/species/black-poplar.html",
+    "title": "Black Poplar (Populus nigra betulifolia)",
     "section": "",
     "text": "Family: Salicaceae\nGenus: Populus"
   },
   {
-    "objectID": "trees/species/apple-evereste.html",
-    "href": "trees/species/apple-evereste.html",
-    "title": "Apple Evereste (Malus)",
+    "objectID": "trees/species/black-alder.html",
+    "href": "trees/species/black-alder.html",
+    "title": "Black Alder (Alnus glutinosa)",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Malus"
+    "text": "Family: Betulaceae\nGenus: Alnus"
   },
   {
-    "objectID": "trees/index.html",
-    "href": "trees/index.html",
-    "title": "Tree Database",
+    "objectID": "trees/species/beech.html",
+    "href": "trees/species/beech.html",
+    "title": "Beech (Fagus sylvatica)",
     "section": "",
-    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\nRecent tree updates\n\nTree 339 — Soft Tree Fern (Dicksonia antarctica) — 15 Oct 2025\nTree 343 — Soft Tree Fern (Dicksonia antarctica) — 15 Oct 2025\nTree 1 — London Plane (Platanus × hispanica) — 15 Oct 2025\nTree 147 — Bird Cherry (Prunus padus) — 15 Oct 2025\nTree 129 — Stone Pine (Pinus pinea) — 15 Oct 2025\nTree 123 — Black Pine (Pinus nigra) — 15 Oct 2025\nTree 121 — Olive (Olea europaea) — 15 Oct 2025\nTree 200 — Cork Oak (Quercus suber) — 15 Oct 2025\nTree 153 — Black Pine (Pinus nigra) — 15 Oct 2025\nTree 195 — Holm Oak (Quercus ilex) — 15 Oct 2025"
+    "text": "Family: Fagaceae\nGenus: Fagus"
+  },
+  {
+    "objectID": "trees/species/ash.html",
+    "href": "trees/species/ash.html",
+    "title": "Ash (Fraxinus excelsior)",
+    "section": "",
+    "text": "Family: Oleaceae\nGenus: Fraxinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/species/almond.html",
+    "href": "trees/species/almond.html",
+    "title": "Almond (Prunus dulcis)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Prunus"
+  },
+  {
+    "objectID": "trees/genus/tilia.html",
+    "href": "trees/genus/tilia.html",
+    "title": "Tilia",
+    "section": "",
+    "text": "Family: Malvaceae"
+  },
+  {
+    "objectID": "trees/genus/tilia.html#planting-summary",
+    "href": "trees/genus/tilia.html#planting-summary",
+    "title": "Tilia",
+    "section": "Planting summary",
+    "text": "Planting summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nWeeping Silver Lime\n1\nSK: Darwin Centre Courtyard"
   },
   {
     "objectID": "trees/genus/salix.html",
@@ -322,6 +336,13 @@
     "text": "S\n\nSilver Birch — Betula pendula — Genus: Betula — Family: Betulaceae\nSoft Tree Fern — Dicksonia antarctica — Genus: Dicksonia — Family: Dicksoniaceae\nSour Cherry — Prunus cerasus — Genus: Prunus — Family: Rosaceae\nSpindle — Euonymus europaeus — Genus: Euonymus — Family: Celastraceae\nStone Pine — Pinus pinea — Genus: Pinus — Family: Pinaceae\nSweet Cherry — Prunus avium — Genus: Prunus — Family: Rosaceae\nSweet Chestnut — Castanea sativa — Genus: Castanea — Family: Fagaceae\nSycamore Maple — Acer pseudoplatanus — Genus: Acer — Family: Sapindaceae"
   },
   {
+    "objectID": "trees/genus/index.html#w",
+    "href": "trees/genus/index.html#w",
+    "title": "Species index — A–Z (by common name)",
+    "section": "W",
+    "text": "W\n\nWeeping Silver Lime — Tilia tomentosa — Genus: Tilia — Family: Malvaceae"
+  },
+  {
     "objectID": "trees/genus/ficus.html",
     "href": "trees/genus/ficus.html",
     "title": "Ficus",
@@ -462,163 +483,170 @@
     "text": "Species\nTrees\nPlanted locations\n\n\n\n\nAsh\n2\nSK: Nature Discovery Garden\n\n\nOlive\n1\nSK: Darwin Centre Courtyard"
   },
   {
-    "objectID": "trees/family/juglandaceae.html",
-    "href": "trees/family/juglandaceae.html",
-    "title": "Juglandaceae (Walnut family)",
+    "objectID": "trees/family/malvaceae.html",
+    "href": "trees/family/malvaceae.html",
+    "title": "Malvaceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nWeeping Silver Lime\n1\nSK: Darwin Centre Courtyard"
   },
   {
-    "objectID": "trees/family/juglandaceae.html#planting-summary",
-    "href": "trees/family/juglandaceae.html#planting-summary",
-    "title": "Juglandaceae (Walnut family)",
+    "objectID": "trees/family/malvaceae.html#planting-summary",
+    "href": "trees/family/malvaceae.html#planting-summary",
+    "title": "Malvaceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nWeeping Silver Lime\n1\nSK: Darwin Centre Courtyard"
   },
   {
-    "objectID": "trees/family/fagaceae.html",
-    "href": "trees/family/fagaceae.html",
-    "title": "Fagaceae (Oak & Beech family)",
+    "objectID": "trees/family/index.html",
+    "href": "trees/family/index.html",
+    "title": "Tree families",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n1\nSK: Darwin Centre Courtyard\n\n\nEnglish Oak\n1\nSK: Nature Discovery Garden\n\n\nHolm Oak\n1\nSK: Nature Discovery Garden\n\n\nSweet Chestnut\n0\n—"
+    "text": "Adoxaceae — 1 species\nBetulaceae (Birch family) — 6 species\nCelastraceae — 1 species\nDicksoniaceae — 1 species\nEbenaceae (Persimmon family) — 1 species\nFagaceae (Oak & Beech family) — 5 species\nJuglandaceae (Walnut family) — 1 species\nMalvaceae — 1 species\nMoraceae (Fig family) — 2 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species\nPlatanaceae — 1 species\nRosaceae (Rose family) — 9 species\nSalicaceae (Willow family) — 4 species\nSapindaceae (Maple family) — 2 species"
   },
   {
-    "objectID": "trees/family/fagaceae.html#planting-summary",
-    "href": "trees/family/fagaceae.html#planting-summary",
-    "title": "Fagaceae (Oak & Beech family)",
+    "objectID": "trees/family/ebenaceae.html",
+    "href": "trees/family/ebenaceae.html",
+    "title": "Ebenaceae (Persimmon family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n1\nSK: Darwin Centre Courtyard\n\n\nEnglish Oak\n1\nSK: Nature Discovery Garden\n\n\nHolm Oak\n1\nSK: Nature Discovery Garden\n\n\nSweet Chestnut\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
   },
   {
-    "objectID": "trees/family/dicksoniaceae.html",
-    "href": "trees/family/dicksoniaceae.html",
-    "title": "Dicksoniaceae",
+    "objectID": "trees/family/ebenaceae.html#planting-summary",
+    "href": "trees/family/ebenaceae.html#planting-summary",
+    "title": "Ebenaceae (Persimmon family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSoft Tree Fern\n2\nSK: Evolution Garden"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
   },
   {
-    "objectID": "trees/family/dicksoniaceae.html#planting-summary",
-    "href": "trees/family/dicksoniaceae.html#planting-summary",
-    "title": "Dicksoniaceae",
+    "objectID": "trees/family/celastraceae.html",
+    "href": "trees/family/celastraceae.html",
+    "title": "Celastraceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSoft Tree Fern\n2\nSK: Evolution Garden"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSpindle\n0\n—"
   },
   {
-    "objectID": "trees/family/betulaceae.html",
-    "href": "trees/family/betulaceae.html",
-    "title": "Betulaceae (Birch family)",
+    "objectID": "trees/family/celastraceae.html#planting-summary",
+    "href": "trees/family/celastraceae.html#planting-summary",
+    "title": "Celastraceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHazel\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden\n\n\nSilver Birch\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSpindle\n0\n—"
   },
   {
-    "objectID": "trees/family/betulaceae.html#planting-summary",
-    "href": "trees/family/betulaceae.html#planting-summary",
-    "title": "Betulaceae (Birch family)",
+    "objectID": "trees/family/adoxaceae.html",
+    "href": "trees/family/adoxaceae.html",
+    "title": "Adoxaceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHazel\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden\n\n\nSilver Birch\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
   },
   {
-    "objectID": "trees/63.html",
-    "href": "trees/63.html",
-    "title": "Tree 63 - Ash",
+    "objectID": "trees/family/adoxaceae.html#planting-summary",
+    "href": "trees/family/adoxaceae.html#planting-summary",
+    "title": "Adoxaceae",
     "section": "",
-    "text": "Tree 63 - Ash"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
   },
   {
-    "objectID": "trees/63.html#species-information",
-    "href": "trees/63.html#species-information",
-    "title": "Tree 63 - Ash",
+    "objectID": "trees/62.html",
+    "href": "trees/62.html",
+    "title": "Tree 62 - Ash",
+    "section": "",
+    "text": "Tree 62 - Ash"
+  },
+  {
+    "objectID": "trees/62.html#species-information",
+    "href": "trees/62.html#species-information",
+    "title": "Tree 62 - Ash",
     "section": "Species Information",
     "text": "Species Information\nCommon name Ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/63.html#tree-data",
-    "href": "trees/63.html#tree-data",
-    "title": "Tree 63 - Ash",
-    "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 21.9cm (28/09/2025)"
-  },
-  {
-    "objectID": "trees/61.html",
-    "href": "trees/61.html",
-    "title": "Tree 61 - Hornbeam",
-    "section": "",
-    "text": "Tree 61 - Hornbeam"
-  },
-  {
-    "objectID": "trees/61.html#species-information",
-    "href": "trees/61.html#species-information",
-    "title": "Tree 61 - Hornbeam",
-    "section": "Species Information",
-    "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
-  },
-  {
-    "objectID": "trees/61.html#tree-data",
-    "href": "trees/61.html#tree-data",
-    "title": "Tree 61 - Hornbeam",
+    "objectID": "trees/62.html#tree-data",
+    "href": "trees/62.html#tree-data",
+    "title": "Tree 62 - Ash",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/59.html",
-    "href": "trees/59.html",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html",
+    "href": "trees/60.html",
+    "title": "Tree 60 - Hornbeam",
     "section": "",
-    "text": "Tree 59 - Hornbeam"
+    "text": "Tree 60 - Hornbeam"
   },
   {
-    "objectID": "trees/59.html#species-information",
-    "href": "trees/59.html#species-information",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html#species-information",
+    "href": "trees/60.html#species-information",
+    "title": "Tree 60 - Hornbeam",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/59.html#tree-data",
-    "href": "trees/59.html#tree-data",
-    "title": "Tree 59 - Hornbeam",
+    "objectID": "trees/60.html#tree-data",
+    "href": "trees/60.html#tree-data",
+    "title": "Tree 60 - Hornbeam",
     "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 15.75cm (03/10/2025)"
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/339.html",
-    "href": "trees/339.html",
-    "title": "Tree 339 - Soft Tree Fern",
+    "objectID": "trees/343.html",
+    "href": "trees/343.html",
+    "title": "Tree 343 - Soft Tree Fern",
     "section": "",
-    "text": "Tree 339 - Soft Tree Fern"
+    "text": "Tree 343 - Soft Tree Fern"
   },
   {
-    "objectID": "trees/339.html#species-information",
-    "href": "trees/339.html#species-information",
-    "title": "Tree 339 - Soft Tree Fern",
+    "objectID": "trees/343.html#species-information",
+    "href": "trees/343.html#species-information",
+    "title": "Tree 343 - Soft Tree Fern",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Soft tree fern\nScientific name: Dicksonia antarctica\nGenus: Dicksonia\nFamily: Dicksoniaceae\nOrigin: cultivated"
   },
   {
-    "objectID": "trees/339.html#tree-data",
-    "href": "trees/339.html#tree-data",
-    "title": "Tree 339 - Soft Tree Fern",
+    "objectID": "trees/343.html#tree-data",
+    "href": "trees/343.html#tree-data",
+    "title": "Tree 343 - Soft Tree Fern",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Evolution Garden"
   },
   {
-    "objectID": "trees/200.html",
-    "href": "trees/200.html",
-    "title": "Tree 200 - Cork Oak",
+    "objectID": "trees/25.html",
+    "href": "trees/25.html",
+    "title": "Tree 25 - English Oak",
     "section": "",
-    "text": "Tree 200 - Cork Oak"
+    "text": "Tree 25 - English Oak"
   },
   {
-    "objectID": "trees/200.html#species-information",
-    "href": "trees/200.html#species-information",
-    "title": "Tree 200 - Cork Oak",
+    "objectID": "trees/25.html#species-information",
+    "href": "trees/25.html#species-information",
+    "title": "Tree 25 - English Oak",
     "section": "Species Information",
-    "text": "Species Information\nCommon name: Cork Oak\nScientific name: Quercus suber\nGenus: Quercus\nFamily: Fagaceae\nOrigin: planted"
+    "text": "Species Information\nCommon name: English oak\nScientific name: Quercus robur\nGenus: Quercus\nFamily: Fagaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/200.html#tree-data",
-    "href": "trees/200.html#tree-data",
-    "title": "Tree 200 - Cork Oak",
+    "objectID": "trees/25.html#tree-data",
+    "href": "trees/25.html#tree-data",
+    "title": "Tree 25 - English Oak",
+    "section": "Tree data",
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/20.html",
+    "href": "trees/20.html",
+    "title": "Tree 20 - Weeping Silver Lime",
+    "section": "",
+    "text": "Tree 20 - Weeping Silver Lime"
+  },
+  {
+    "objectID": "trees/20.html#species-information",
+    "href": "trees/20.html#species-information",
+    "title": "Tree 20 - Weeping Silver Lime",
+    "section": "Species Information",
+    "text": "Species Information\nCommon name: Weeping silver lime\nScientific name: Tilia tomentosa ‘Petiolaris’\nGenus: Tilia\nFamily: Malvaceae\nOrigin: cultivar"
+  },
+  {
+    "objectID": "trees/20.html#tree-data",
+    "href": "trees/20.html#tree-data",
+    "title": "Tree 20 - Weeping Silver Lime",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Darwin Centre Courtyard"
   },
@@ -1701,137 +1729,165 @@
     "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/25.html",
-    "href": "trees/25.html",
-    "title": "Tree 25 - English Oak",
+    "objectID": "trees/200.html",
+    "href": "trees/200.html",
+    "title": "Tree 200 - Cork Oak",
     "section": "",
-    "text": "Tree 25 - English Oak"
+    "text": "Tree 200 - Cork Oak"
   },
   {
-    "objectID": "trees/25.html#species-information",
-    "href": "trees/25.html#species-information",
-    "title": "Tree 25 - English Oak",
+    "objectID": "trees/200.html#species-information",
+    "href": "trees/200.html#species-information",
+    "title": "Tree 200 - Cork Oak",
     "section": "Species Information",
-    "text": "Species Information\nCommon name: English oak\nScientific name: Quercus robur\nGenus: Quercus\nFamily: Fagaceae\nOrigin: native"
+    "text": "Species Information\nCommon name: Cork Oak\nScientific name: Quercus suber\nGenus: Quercus\nFamily: Fagaceae\nOrigin: planted"
   },
   {
-    "objectID": "trees/25.html#tree-data",
-    "href": "trees/25.html#tree-data",
-    "title": "Tree 25 - English Oak",
+    "objectID": "trees/200.html#tree-data",
+    "href": "trees/200.html#tree-data",
+    "title": "Tree 200 - Cork Oak",
     "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
+    "text": "Tree data\nPlanted: SK: Darwin Centre Courtyard"
   },
   {
-    "objectID": "trees/343.html",
-    "href": "trees/343.html",
-    "title": "Tree 343 - Soft Tree Fern",
+    "objectID": "trees/339.html",
+    "href": "trees/339.html",
+    "title": "Tree 339 - Soft Tree Fern",
     "section": "",
-    "text": "Tree 343 - Soft Tree Fern"
+    "text": "Tree 339 - Soft Tree Fern"
   },
   {
-    "objectID": "trees/343.html#species-information",
-    "href": "trees/343.html#species-information",
-    "title": "Tree 343 - Soft Tree Fern",
+    "objectID": "trees/339.html#species-information",
+    "href": "trees/339.html#species-information",
+    "title": "Tree 339 - Soft Tree Fern",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Soft tree fern\nScientific name: Dicksonia antarctica\nGenus: Dicksonia\nFamily: Dicksoniaceae\nOrigin: cultivated"
   },
   {
-    "objectID": "trees/343.html#tree-data",
-    "href": "trees/343.html#tree-data",
-    "title": "Tree 343 - Soft Tree Fern",
+    "objectID": "trees/339.html#tree-data",
+    "href": "trees/339.html#tree-data",
+    "title": "Tree 339 - Soft Tree Fern",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Evolution Garden"
   },
   {
-    "objectID": "trees/60.html",
-    "href": "trees/60.html",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/59.html",
+    "href": "trees/59.html",
+    "title": "Tree 59 - Hornbeam",
     "section": "",
-    "text": "Tree 60 - Hornbeam"
+    "text": "Tree 59 - Hornbeam"
   },
   {
-    "objectID": "trees/60.html#species-information",
-    "href": "trees/60.html#species-information",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/59.html#species-information",
+    "href": "trees/59.html#species-information",
+    "title": "Tree 59 - Hornbeam",
     "section": "Species Information",
     "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/60.html#tree-data",
-    "href": "trees/60.html#tree-data",
-    "title": "Tree 60 - Hornbeam",
+    "objectID": "trees/59.html#tree-data",
+    "href": "trees/59.html#tree-data",
+    "title": "Tree 59 - Hornbeam",
+    "section": "Tree data",
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 15.75cm (03/10/2025)"
+  },
+  {
+    "objectID": "trees/61.html",
+    "href": "trees/61.html",
+    "title": "Tree 61 - Hornbeam",
+    "section": "",
+    "text": "Tree 61 - Hornbeam"
+  },
+  {
+    "objectID": "trees/61.html#species-information",
+    "href": "trees/61.html#species-information",
+    "title": "Tree 61 - Hornbeam",
+    "section": "Species Information",
+    "text": "Species Information\nCommon name: Hornbeam\nScientific name: Carpinus betulus\nGenus: Carpinus\nFamily: Betulaceae\nOrigin: native"
+  },
+  {
+    "objectID": "trees/61.html#tree-data",
+    "href": "trees/61.html#tree-data",
+    "title": "Tree 61 - Hornbeam",
     "section": "Tree data",
     "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/62.html",
-    "href": "trees/62.html",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html",
+    "href": "trees/63.html",
+    "title": "Tree 63 - Ash",
     "section": "",
-    "text": "Tree 62 - Ash"
+    "text": "Tree 63 - Ash"
   },
   {
-    "objectID": "trees/62.html#species-information",
-    "href": "trees/62.html#species-information",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html#species-information",
+    "href": "trees/63.html#species-information",
+    "title": "Tree 63 - Ash",
     "section": "Species Information",
     "text": "Species Information\nCommon name Ash\nScientific name: Fraxinus excelsior\nGenus: Fraxinus\nFamily: Oleaceae\nOrigin: native"
   },
   {
-    "objectID": "trees/62.html#tree-data",
-    "href": "trees/62.html#tree-data",
-    "title": "Tree 62 - Ash",
+    "objectID": "trees/63.html#tree-data",
+    "href": "trees/63.html#tree-data",
+    "title": "Tree 63 - Ash",
     "section": "Tree data",
-    "text": "Tree data\nPlanted: SK: Nature Discovery Garden"
+    "text": "Tree data\nPlanted: SK: Nature Discovery Garden\nDiameter at breast height (1.2m): 21.9cm (28/09/2025)"
   },
   {
-    "objectID": "trees/family/adoxaceae.html",
-    "href": "trees/family/adoxaceae.html",
-    "title": "Adoxaceae",
+    "objectID": "trees/family/betulaceae.html",
+    "href": "trees/family/betulaceae.html",
+    "title": "Betulaceae (Birch family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHazel\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden\n\n\nSilver Birch\n0\n—"
   },
   {
-    "objectID": "trees/family/adoxaceae.html#planting-summary",
-    "href": "trees/family/adoxaceae.html#planting-summary",
-    "title": "Adoxaceae",
+    "objectID": "trees/family/betulaceae.html#planting-summary",
+    "href": "trees/family/betulaceae.html#planting-summary",
+    "title": "Betulaceae (Birch family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBlack Alder\n0\n—\n\n\nDowny Birch\n0\n—\n\n\nGrey Alder\n0\n—\n\n\nHazel\n0\n—\n\n\nHornbeam\n3\nSK: Nature Discovery Garden\n\n\nSilver Birch\n0\n—"
   },
   {
-    "objectID": "trees/family/celastraceae.html",
-    "href": "trees/family/celastraceae.html",
-    "title": "Celastraceae",
+    "objectID": "trees/family/dicksoniaceae.html",
+    "href": "trees/family/dicksoniaceae.html",
+    "title": "Dicksoniaceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSpindle\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSoft Tree Fern\n2\nSK: Evolution Garden"
   },
   {
-    "objectID": "trees/family/celastraceae.html#planting-summary",
-    "href": "trees/family/celastraceae.html#planting-summary",
-    "title": "Celastraceae",
+    "objectID": "trees/family/dicksoniaceae.html#planting-summary",
+    "href": "trees/family/dicksoniaceae.html#planting-summary",
+    "title": "Dicksoniaceae",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSpindle\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nSoft Tree Fern\n2\nSK: Evolution Garden"
   },
   {
-    "objectID": "trees/family/ebenaceae.html",
-    "href": "trees/family/ebenaceae.html",
-    "title": "Ebenaceae (Persimmon family)",
+    "objectID": "trees/family/fagaceae.html",
+    "href": "trees/family/fagaceae.html",
+    "title": "Fagaceae (Oak & Beech family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n1\nSK: Darwin Centre Courtyard\n\n\nEnglish Oak\n1\nSK: Nature Discovery Garden\n\n\nHolm Oak\n1\nSK: Nature Discovery Garden\n\n\nSweet Chestnut\n0\n—"
   },
   {
-    "objectID": "trees/family/ebenaceae.html#planting-summary",
-    "href": "trees/family/ebenaceae.html#planting-summary",
-    "title": "Ebenaceae (Persimmon family)",
+    "objectID": "trees/family/fagaceae.html#planting-summary",
+    "href": "trees/family/fagaceae.html#planting-summary",
+    "title": "Fagaceae (Oak & Beech family)",
     "section": "",
-    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nPersimmon\n0\n—"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nBeech\n0\n—\n\n\nCork Oak\n1\nSK: Darwin Centre Courtyard\n\n\nEnglish Oak\n1\nSK: Nature Discovery Garden\n\n\nHolm Oak\n1\nSK: Nature Discovery Garden\n\n\nSweet Chestnut\n0\n—"
   },
   {
-    "objectID": "trees/family/index.html",
-    "href": "trees/family/index.html",
-    "title": "Tree families",
+    "objectID": "trees/family/juglandaceae.html",
+    "href": "trees/family/juglandaceae.html",
+    "title": "Juglandaceae (Walnut family)",
     "section": "",
-    "text": "Adoxaceae — 1 species\nBetulaceae (Birch family) — 6 species\nCelastraceae — 1 species\nDicksoniaceae — 1 species\nEbenaceae (Persimmon family) — 1 species\nFagaceae (Oak & Beech family) — 5 species\nJuglandaceae (Walnut family) — 1 species\nMoraceae (Fig family) — 2 species\nOleaceae (Olive family) — 2 species\nPinaceae (Pine family) — 2 species\nPlatanaceae — 1 species\nRosaceae (Rose family) — 9 species\nSalicaceae (Willow family) — 4 species\nSapindaceae (Maple family) — 2 species"
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
+  },
+  {
+    "objectID": "trees/family/juglandaceae.html#planting-summary",
+    "href": "trees/family/juglandaceae.html#planting-summary",
+    "title": "Juglandaceae (Walnut family)",
+    "section": "",
+    "text": "Species\nTrees\nPlanted locations\n\n\n\n\nEnglish Walnut\n0\n—"
   },
   {
     "objectID": "trees/family/moraceae.html",
@@ -2079,6 +2135,13 @@
     "text": "S\n\nSalix caprea — Goat Willow — Genus: Salix — Family: Salicaceae\nSalix fragilis — Crack Willow — Genus: Salix — Family: Salicaceae\nSambucus nigra — Elder — Genus: Sambucus — Family: Adoxaceae"
   },
   {
+    "objectID": "trees/genus/index2.html#t",
+    "href": "trees/genus/index2.html#t",
+    "title": "Species index — A–Z (by scientific name)",
+    "section": "T",
+    "text": "T\n\nTilia tomentosa — Weeping Silver Lime — Genus: Tilia — Family: Malvaceae"
+  },
+  {
     "objectID": "trees/genus/malus.html",
     "href": "trees/genus/malus.html",
     "title": "Malus",
@@ -2163,136 +2226,143 @@
     "text": "Planting summary\n\n\n\nSpecies\nTrees\nPlanted locations\n\n\n\n\nElder\n0\n—"
   },
   {
-    "objectID": "trees/species/almond.html",
-    "href": "trees/species/almond.html",
-    "title": "Almond (Prunus dulcis)",
+    "objectID": "trees/index.html",
+    "href": "trees/index.html",
+    "title": "Tree Database",
     "section": "",
-    "text": "Family: Rosaceae\nGenus: Prunus"
+    "text": "Enter a tree number to view detailed information about that specific tree in our collection.\n\n\nTree Number: \n\n\nView Tree\n\n\n\nThe tree database contains detailed information about individual trees in the Nature Discovery Garden (South Kensington), Evolution Garden (South Kensington) and Tring including species identification, planting history, and measurement data.\n\nRecent tree updates\n\nTree 20 — Weeping Silver Lime (Tillia tomentosa ‘Petiolaris’) — 15 Oct 2025\nTree 339 — Soft Tree Fern (Dicksonia antarctica) — 15 Oct 2025\nTree 343 — Soft Tree Fern (Dicksonia antarctica) — 15 Oct 2025\nTree 1 — London Plane (Platanus × hispanica) — 15 Oct 2025\nTree 147 — Bird Cherry (Prunus padus) — 15 Oct 2025\nTree 129 — Stone Pine (Pinus pinea) — 15 Oct 2025\nTree 123 — Black Pine (Pinus nigra) — 15 Oct 2025\nTree 121 — Olive (Olea europaea) — 15 Oct 2025\nTree 200 — Cork Oak (Quercus suber) — 15 Oct 2025\nTree 153 — Black Pine (Pinus nigra) — 15 Oct 2025"
   },
   {
-    "objectID": "trees/species/ash.html",
-    "href": "trees/species/ash.html",
-    "title": "Ash (Fraxinus excelsior)",
+    "objectID": "trees/species/apple-evereste.html",
+    "href": "trees/species/apple-evereste.html",
+    "title": "Apple Evereste (Malus)",
     "section": "",
-    "text": "Family: Oleaceae\nGenus: Fraxinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 62 - Ash\nSK: Nature Discovery Garden\n\n\nTree 63 - Ash\nSK: Nature Discovery Garden"
+    "text": "Family: Rosaceae\nGenus: Malus"
   },
   {
-    "objectID": "trees/species/beech.html",
-    "href": "trees/species/beech.html",
-    "title": "Beech (Fagus sylvatica)",
-    "section": "",
-    "text": "Family: Fagaceae\nGenus: Fagus"
-  },
-  {
-    "objectID": "trees/species/black-alder.html",
-    "href": "trees/species/black-alder.html",
-    "title": "Black Alder (Alnus glutinosa)",
-    "section": "",
-    "text": "Family: Betulaceae\nGenus: Alnus"
-  },
-  {
-    "objectID": "trees/species/black-poplar.html",
-    "href": "trees/species/black-poplar.html",
-    "title": "Black Poplar (Populus nigra betulifolia)",
+    "objectID": "trees/species/aspen.html",
+    "href": "trees/species/aspen.html",
+    "title": "Aspen (Populus tremula)",
     "section": "",
     "text": "Family: Salicaceae\nGenus: Populus"
   },
   {
-    "objectID": "trees/species/cork-oak.html",
-    "href": "trees/species/cork-oak.html",
-    "title": "Cork Oak (Quercus suber)",
+    "objectID": "trees/species/bird-cherry.html",
+    "href": "trees/species/bird-cherry.html",
+    "title": "Bird Cherry (Prunus padus)",
     "section": "",
-    "text": "Family: Fagaceae\nGenus: Quercus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 200 - Cork Oak\nSK: Darwin Centre Courtyard"
+    "text": "Family: Rosaceae\nGenus: Prunus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 147 - Bird Cherry\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/species/crack-willow.html",
-    "href": "trees/species/crack-willow.html",
-    "title": "Crack Willow (Salix fragilis)",
+    "objectID": "trees/species/black-pine.html",
+    "href": "trees/species/black-pine.html",
+    "title": "Black Pine (Pinus nigra)",
     "section": "",
-    "text": "Family: Salicaceae\nGenus: Salix"
+    "text": "Family: Pinaceae\nGenus: Pinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 123 - Black Pine\nSK: Darwin Centre Courtyard\n\n\nTree 153 - Black Pine\nSK: Nature Discovery Garden\n\n\nTree 163 - Black Pine\nSK: Nature Discovery Garden\n\n\nTree 174 - Black Pine\nSK: Nature Discovery Garden\n\n\nTree 178 - Black Pine\nSK: Nature Discovery Garden"
   },
   {
-    "objectID": "trees/species/elder.html",
-    "href": "trees/species/elder.html",
-    "title": "Elder (Sambucus nigra)",
+    "objectID": "trees/species/common-hawthorn.html",
+    "href": "trees/species/common-hawthorn.html",
+    "title": "Common Hawthorn (Crataegus monogyna)",
     "section": "",
-    "text": "Family: Adoxaceae\nGenus: Sambucus"
+    "text": "Family: Rosaceae\nGenus: Crataegus"
   },
   {
-    "objectID": "trees/species/english-walnut.html",
-    "href": "trees/species/english-walnut.html",
-    "title": "English Walnut (Juglans regia)",
+    "objectID": "trees/species/crab-apple.html",
+    "href": "trees/species/crab-apple.html",
+    "title": "Crab Apple (Malus sylvestris)",
     "section": "",
-    "text": "Family: Juglandaceae\nGenus: Juglans"
+    "text": "Family: Rosaceae\nGenus: Malus"
   },
   {
-    "objectID": "trees/species/fig.html",
-    "href": "trees/species/fig.html",
-    "title": "Fig (Ficus carica)",
-    "section": "",
-    "text": "Family: Moraceae\nGenus: Ficus"
-  },
-  {
-    "objectID": "trees/species/goat-willow.html",
-    "href": "trees/species/goat-willow.html",
-    "title": "Goat Willow (Salix caprea)",
-    "section": "",
-    "text": "Family: Salicaceae\nGenus: Salix"
-  },
-  {
-    "objectID": "trees/species/hazel.html",
-    "href": "trees/species/hazel.html",
-    "title": "Hazel (Corylus avellana)",
-    "section": "",
-    "text": "Family: Betulaceae\nGenus: Corylus"
-  },
-  {
-    "objectID": "trees/species/hornbeam.html",
-    "href": "trees/species/hornbeam.html",
-    "title": "Hornbeam (Carpinus betulus)",
-    "section": "",
-    "text": "Family: Betulaceae\nGenus: Carpinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 59 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 60 - Hornbeam\nSK: Nature Discovery Garden\n\n\nTree 61 - Hornbeam\nSK: Nature Discovery Garden"
-  },
-  {
-    "objectID": "trees/species/olive.html",
-    "href": "trees/species/olive.html",
-    "title": "Olive (Olea europaea)",
-    "section": "",
-    "text": "Family: Oleaceae\nGenus: Olea\n\n\n\nTree\nPlanted\n\n\n\n\nTree 121 - Olive\nSK: Darwin Centre Courtyard"
-  },
-  {
-    "objectID": "trees/species/persimmon.html",
-    "href": "trees/species/persimmon.html",
-    "title": "Persimmon (Diospyros kaki)",
-    "section": "",
-    "text": "Family: Ebenaceae\nGenus: Diospyros"
-  },
-  {
-    "objectID": "trees/species/silver-birch.html",
-    "href": "trees/species/silver-birch.html",
-    "title": "Silver Birch (Betula pendula)",
+    "objectID": "trees/species/downy-birch.html",
+    "href": "trees/species/downy-birch.html",
+    "title": "Downy Birch (Betula pubescens)",
     "section": "",
     "text": "Family: Betulaceae\nGenus: Betula"
   },
   {
-    "objectID": "trees/species/sour-cherry.html",
-    "href": "trees/species/sour-cherry.html",
-    "title": "Sour Cherry (Prunus cerasus)",
+    "objectID": "trees/species/english-oak.html",
+    "href": "trees/species/english-oak.html",
+    "title": "English Oak (Quercus robur)",
+    "section": "",
+    "text": "Family: Fagaceae\nGenus: Quercus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 25 - English Oak\nSK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/species/field-maple.html",
+    "href": "trees/species/field-maple.html",
+    "title": "Field Maple (Acer campestre)",
+    "section": "",
+    "text": "Family: Sapindaceae\nGenus: Acer"
+  },
+  {
+    "objectID": "trees/species/fruitless-mulberry.html",
+    "href": "trees/species/fruitless-mulberry.html",
+    "title": "Fruitless Mulberry (Morus alba)",
+    "section": "",
+    "text": "Family: Moraceae\nGenus: Morus"
+  },
+  {
+    "objectID": "trees/species/grey-alder.html",
+    "href": "trees/species/grey-alder.html",
+    "title": "Grey Alder (Alnus incana)",
+    "section": "",
+    "text": "Family: Betulaceae\nGenus: Alnus"
+  },
+  {
+    "objectID": "trees/species/holm-oak.html",
+    "href": "trees/species/holm-oak.html",
+    "title": "Holm Oak (Quercus ilex)",
+    "section": "",
+    "text": "Family: Fagaceae\nGenus: Quercus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 195 - Holm Oak\nSK: Nature Discovery Garden"
+  },
+  {
+    "objectID": "trees/species/london-plane.html",
+    "href": "trees/species/london-plane.html",
+    "title": "London Plane (Platanus × hispanica)",
+    "section": "",
+    "text": "Family: Platanaceae\nGenus: Platanus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 1 - London Plane\nSK: Evolution Garden"
+  },
+  {
+    "objectID": "trees/species/pear-beech-hill.html",
+    "href": "trees/species/pear-beech-hill.html",
+    "title": "Pear Beech Hill (Pyrus communis)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Pyrus"
+  },
+  {
+    "objectID": "trees/species/quince.html",
+    "href": "trees/species/quince.html",
+    "title": "Quince (Cydonia oblonga)",
+    "section": "",
+    "text": "Family: Rosaceae\nGenus: Cydonia"
+  },
+  {
+    "objectID": "trees/species/soft-tree-fern.html",
+    "href": "trees/species/soft-tree-fern.html",
+    "title": "Soft Tree Fern (Dicksonia antarctica)",
+    "section": "",
+    "text": "Family: Dicksoniaceae\nGenus: Dicksonia\n\n\n\nTree\nPlanted\n\n\n\n\nTree 339 - Soft Tree Fern\nSK: Evolution Garden\n\n\nTree 343 - Soft Tree Fern\nSK: Evolution Garden"
+  },
+  {
+    "objectID": "trees/species/spindle.html",
+    "href": "trees/species/spindle.html",
+    "title": "Spindle (Euonymus europaeus)",
+    "section": "",
+    "text": "Family: Celastraceae\nGenus: Euonymus"
+  },
+  {
+    "objectID": "trees/species/sweet-cherry.html",
+    "href": "trees/species/sweet-cherry.html",
+    "title": "Sweet Cherry (Prunus avium)",
     "section": "",
     "text": "Family: Rosaceae\nGenus: Prunus"
   },
   {
-    "objectID": "trees/species/stone-pine.html",
-    "href": "trees/species/stone-pine.html",
-    "title": "Stone Pine (Pinus pinea)",
+    "objectID": "trees/species/sycamore-maple.html",
+    "href": "trees/species/sycamore-maple.html",
+    "title": "Sycamore Maple (Acer pseudoplatanus)",
     "section": "",
-    "text": "Family: Pinaceae\nGenus: Pinus\n\n\n\nTree\nPlanted\n\n\n\n\nTree 129 - Stone Pine\nSK: Darwin Centre Courtyard"
-  },
-  {
-    "objectID": "trees/species/sweet-chestnut.html",
-    "href": "trees/species/sweet-chestnut.html",
-    "title": "Sweet Chestnut (Castanea sativa)",
-    "section": "",
-    "text": "Family: Fagaceae\nGenus: Castanea"
+    "text": "Family: Sapindaceae\nGenus: Acer"
   }
 ]

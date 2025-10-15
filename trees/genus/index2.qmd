@@ -84,3 +84,7 @@ toc: true
 - [*Salix fragilis*](/trees/species/crack-willow.html) — [Crack Willow](/trees/species/crack-willow.html) — Genus: [Salix](/trees/genus/salix.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
 - [*Sambucus nigra*](/trees/species/elder.html) — [Elder](/trees/species/elder.html) — Genus: [Sambucus](/trees/genus/sambucus.html) — Family: [Adoxaceae](/trees/family/adoxaceae.html)
 
+## T
+
+- [*Tilia tomentosa*](/trees/species/weeping-silver-lime.html) — [Weeping Silver Lime](/trees/species/weeping-silver-lime.html) — Genus: [Tilia](/trees/genus/tilia.html) — Family: [Malvaceae](/trees/family/malvaceae.html)
+
