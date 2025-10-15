@@ -30,147 +30,98 @@ def read_front_matter(path: Path):
     if not text.startswith("---"):
         return {}, text
     # find end of front matter
-    m = re.search(r"^---\s*$", text, re.MULTILINE)
-    if not m:
+    if not (m := re.search(r"^---\s*$", text, re.MULTILINE)):
         return {}, text
-    # find second '---'
-    m2 = re.search(r"^---\s*$", text[m.end() :], re.MULTILINE)
-    if not m2:
+    if not (m2 := re.search(r"^---\s*$", text[m.end():], re.MULTILINE)):
         return {}, text
-    fm_text = text[m.end() : m.end() + m2.start()]
-    # Improved YAML-like parser for limited front-matter (handles nested mappings and simple lists)
+    
+    fm_text = text[m.end():m.end() + m2.start()]
     fm = {}
     lines = fm_text.splitlines()
     i = 0
     while i < len(lines):
-        raw = lines[i]
-        line = raw.strip()
+        line = lines[i].strip()
         if not line or line.startswith("#"):
             i += 1
             continue
         if ":" in line:
             key, val = line.split(":", 1)
-            key = key.strip()
-            val = val.strip().strip('"')
+            key, val = key.strip(), val.strip().strip('"')
             if val == "":
                 # collect indented block
                 j = i + 1
                 nested_lines = []
-                while j < len(lines) and (
-                    lines[j].startswith(" ") or lines[j].startswith("\t")
-                ):
+                while j < len(lines) and (lines[j].startswith(" ") or lines[j].startswith("\t")):
                     nested_lines.append(lines[j])
                     j += 1
-                # parse nested block: either mapping or list
-                # detect list items (start with '- ' after stripping leading spaces)
                 stripped = [ln.lstrip() for ln in nested_lines]
                 if stripped and all(s.startswith("-") or ":" in s for s in stripped):
-                    # parse as list or mapping of simple items
-                    # if items start with '- ', parse as list
                     if any(s.startswith("-") for s in stripped):
                         items = []
                         for s in stripped:
                             if s.startswith("-"):
                                 item = s[1:].strip()
-                                # item can be 'name: Foo' or plain 'Foo'
                                 if ":" in item:
                                     k, v = item.split(":", 1)
-                                    if k.strip() == "name":
-                                        items.append({"name": v.strip()})
-                                    else:
-                                        items.append({k.strip(): v.strip()})
+                                    items.append({"name": v.strip()} if k.strip() == "name" else {k.strip(): v.strip()})
                                 else:
                                     items.append(item)
-                            # mapping line
                             elif ":" in s:
                                 k, v = s.split(":", 1)
                                 items.append({k.strip(): v.strip()})
                         fm[key] = items
                     else:
-                        # parse as mapping
-                        nested = {}
-                        for s in stripped:
-                            if ":" in s:
-                                k, v = s.split(":", 1)
-                                nested[k.strip()] = v.strip().strip('"')
-                        fm[key] = nested
+                        fm[key] = {k.strip(): v.strip().strip('"') for s in stripped if ":" in s for k, v in [s.split(":", 1)]}
                 else:
                     fm[key] = ""
                 i = j
                 continue
             fm[key] = val
         i += 1
-    rest = text[m.end() + m2.end() :]
-    return fm or {}, rest
+    return fm or {}, text[m.end() + m2.end():]
 
 
 def infer_type_from_name(name: str):
     for rx, label in TYPE_MAP:
         if rx.search(name):
             return label
-    # fallback: look for keywords
     if "protocol" in name.lower():
         return "Published Protocols"
-    if "implementation" in name.lower() or "implementation-report" in name.lower():
+    if "implementation" in name.lower():
         return "Implementation Reports"
     return "Other Reports"
 
 
 def citation_from_front_matter(fm: dict, path: Path):
-    # Build a simple citation string using available fields in front matter
+    # Build citation string
     title = fm.get("title") or path.stem
-    # remove common NHM prefixes from titles
-    prefixes = [
-        "NHM Urban Research Station Survey Protocol —",
-        "NHM Urban Research Station Implementation Report —",
-        "NHM Urban Research Station Survey Protocol",
-        "NHM Urban Research Station Implementation Report",
-    ]
-    for pfx in prefixes:
+    for pfx in ["NHM Urban Research Station Survey Protocol —", "NHM Urban Research Station Implementation Report —",
+                "NHM Urban Research Station Survey Protocol", "NHM Urban Research Station Implementation Report"]:
         if title.startswith(pfx):
-            title = title[len(pfx) :].strip(" \u2014-–:")
+            title = title[len(pfx):].strip(" \u2014-–:")
+            break
 
     authors = fm.get("author")
-    # normalize authors: the front-matter parser may produce a list of dicts
-    # containing alternating 'name' and 'affiliation' mappings. Extract only
-    # entries that include a 'name' or plain strings.
     authors_str = ""
     if isinstance(authors, list):
-        names = []
-        for a in authors:
-            if isinstance(a, dict):
-                if a.get("name"):
-                    names.append(a["name"])
-            elif isinstance(a, str) and a.strip():
-                names.append(a.strip())
+        names = [a.get("name") if isinstance(a, dict) and a.get("name") else a.strip() 
+                 for a in authors if (isinstance(a, dict) and a.get("name")) or (isinstance(a, str) and a.strip())]
         authors_str = ", ".join(names)
-    else:
-        authors_str = str(authors) if authors else ""
-    # authors_str left as-is (do not strip braces)
+    elif authors:
+        authors_str = str(authors)
 
     citation = fm.get("citation", {}) or {}
     container = citation.get("container-title") or citation.get("journal") or ""
     issue = citation.get("issue")
-    # only use year/date if explicitly present in front-matter/citation
     year = fm.get("year") or citation.get("year") or fm.get("date")
-    # normalize year to a 4-digit year if a full date was provided
     if year:
-        ys = str(year)
-        m = re.search(r"(19|20)\d{2}", ys)
-        if m:
+        if m := re.search(r"(19|20)\d{2}", str(year)):
             year = m.group(0)
-        else:
-            # keep as-is if no 4-digit year found
-            year = ys
 
     link = f"reports/{path.name}"
-    parts = []
-    # Link first, using the title as the link text
-    parts.append(f"[{title}]({link})")
-    # then year
+    parts = [f"[{title}]({link})"]
     if year:
         parts.append(str(year))
-    # then authors
     if authors_str:
         parts.append(authors_str)
     if container:
@@ -186,55 +137,35 @@ def main():
     for p in files:
         fm, _ = read_front_matter(p)
         typ = fm.get("type") or infer_type_from_name(p.name)
-        # normalize heading
-        if typ == "Published Protocols" or typ == "Published-Protocol":
-            heading = "Published Protocols"
-        elif typ in ("Implementation Reports", "Implementation-Report"):
-            heading = "Implementation Reports"
-        else:
-            heading = typ
+        heading = {
+            "Published Protocols": "Published Protocols",
+            "Published-Protocol": "Published Protocols",
+            "Implementation Reports": "Implementation Reports",
+            "Implementation-Report": "Implementation Reports"
+        }.get(typ, typ)
         grouped.setdefault(heading, []).append((p, fm))
 
-    # Ensure stable order of sections
-    ordered_headings = [
-        "Published Protocols",
-        "Implementation Reports",
-        "Other Reports",
-    ]
-    for h in list(grouped.keys()):
+    ordered_headings = ["Published Protocols", "Implementation Reports", "Other Reports"]
+    for h in grouped.keys():
         if h not in ordered_headings:
             ordered_headings.append(h)
 
-    lines = []
-    lines.append("---")
-    lines.append('title: "Urban Research Station Reports"')
-    lines.append("toc: true")
-    lines.append("---\n")
-    lines.append(
+    lines = [
+        "---",
+        'title: "Urban Research Station Reports"',
+        "toc: true",
+        "---\n",
         "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes.\n"
-    )
+    ]
 
     for heading in ordered_headings:
-        items = grouped.get(heading)
-        if not items:
+        if not (items := grouped.get(heading)):
             continue
 
-        # sort by numeric citation.issue descending; missing issues go last
-        def issue_val(item):
-            p, fm = item
-            citation = fm.get("citation") or {}
-            iss = citation.get("issue")
-            try:
-                return int(iss)
-            except Exception:
-                # missing/invalid issue -> put after numeric issues
-                return -1
-
-        items = sorted(items, key=issue_val, reverse=True)
+        items = sorted(items, key=lambda x: int(iss) if (iss := (x[1].get("citation") or {}).get("issue")) and str(iss).isdigit() else -1, reverse=True)
         lines.append(f"## {heading}\n")
         for p, fm in items:
-            cite = citation_from_front_matter(fm, p)
-            lines.append(f"- {cite}")
+            lines.append(f"- {citation_from_front_matter(fm, p)}")
         lines.append("")
 
     OUT.write_text("\n".join(lines), encoding="utf8")

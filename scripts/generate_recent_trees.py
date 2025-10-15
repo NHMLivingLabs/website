@@ -41,31 +41,20 @@ def ensure_cache():
 
 
 def load_entries():
-    text = CACHED.read_text(encoding="utf8")
-    j = json.loads(text)
-    # normalize to list of entries in a few common shapes
-    entries = []
+    j = json.loads(CACHED.read_text(encoding="utf8"))
+    # normalize to list of entries
     if isinstance(j, dict):
         data = j.get("data") or j.get("entries") or j
-        if isinstance(data, dict):
-            entries = data.get("entries") or data.get("data") or []
-        elif isinstance(data, list):
-            entries = data
-    elif isinstance(j, list):
-        entries = j
-    return entries
+        return data.get("entries") or data.get("data") or [] if isinstance(data, dict) else (data if isinstance(data, list) else [])
+    return j if isinstance(j, list) else []
 
 
 def entry_created_at(e):
-    # Epicollect uses created_at or createdAt depending on export shape
     for k in ("created_at", "createdAt", "created"):
-        v = e.get(k)
-        if v:
+        if v := e.get(k):
             try:
-                # try parsing ISO-like timestamps
                 return datetime.fromisoformat(v.replace("Z", "+00:00"))
             except Exception:
-                # fallback: try common date formats
                 for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d"):
                     try:
                         return datetime.strptime(v[:19], fmt)
@@ -75,21 +64,13 @@ def entry_created_at(e):
 
 
 def tree_id_from_entry(entry):
-    # prefer 2_Tree_Number then ec5_uuid or id
-    if isinstance(entry, dict):
-        # try keys case-insensitively
-        for k, v in entry.items():
-            if (
-                isinstance(k, str)
-                and k.strip().lower().startswith("2_")
-                and "tree" in k.lower()
-            ):
-                return str(v)
-        if "ec5_uuid" in entry:
-            return str(entry.get("ec5_uuid"))
-        if "id" in entry:
-            return str(entry.get("id"))
-    return None
+    if not isinstance(entry, dict):
+        return None
+    # prefer 2_Tree_Number
+    for k, v in entry.items():
+        if isinstance(k, str) and k.strip().lower().startswith("2_") and "tree" in k.lower():
+            return str(v)
+    return str(entry.get("ec5_uuid") or entry.get("id") or "")
 
 
 def main():
@@ -97,8 +78,7 @@ def main():
         print("Cache unavailable; cannot generate recent tree list.")
         raise SystemExit(1)
 
-    entries = load_entries()
-    if not entries:
+    if not (entries := load_entries()):
         print("No entries found in cache; aborting")
         raise SystemExit(1)
 
@@ -107,42 +87,23 @@ def main():
         created = entry_created_at(e) or datetime.min
         tid = tree_id_from_entry(e) or e.get("ec5_uuid") or e.get("id")
         species = ""
-        # try common species fields
         if isinstance(e, dict):
             for k in ("3_Species", "species"):
                 if k in e:
                     v = e.get(k)
-                    if isinstance(v, list):
-                        species = "; ".join(str(x) for x in v)
-                    else:
-                        species = str(v)
+                    species = "; ".join(str(x) for x in v) if isinstance(v, list) else str(v)
                     break
         rows.append((created, tid, species))
 
-    # sort descending by created
-    rows = sorted(rows, key=lambda r: r[0], reverse=True)
-    top = rows[:10]
+    top = sorted(rows, key=lambda r: r[0], reverse=True)[:10]
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    lines = []
-    lines.append("# Recent tree updates")
-    lines.append("")
+    lines = ["# Recent tree updates", ""]
     for created, tid, species in top:
-        # show only the date in day-month-year order (e.g. '04 Oct 2025')
-        if created and created != datetime.min:
-            created_str = created.strftime("%d %b %Y")
-        else:
-            created_str = ""
-
-        # links should be relative to the `trees/` directory (this file is placed in trees/)
+        created_str = created.strftime("%d %b %Y") if created and created != datetime.min else ""
         link = f"{tid}.qmd" if tid else ""
-        title = f"Tree {tid}" if tid else "Tree"
-        if species:
-            title = f"{title} — {species}"
-        if link:
-            lines.append(f"- [{title}]({link}) — {created_str}")
-        else:
-            lines.append(f"- {title} — {created_str}")
+        title = f"Tree {tid}" + (f" — {species}" if species else "") if tid else "Tree"
+        lines.append(f"- [{title}]({link}) — {created_str}" if link else f"- {title} — {created_str}")
 
     OUT.write_text("\n".join(lines), encoding="utf8")
     print("Wrote", OUT)

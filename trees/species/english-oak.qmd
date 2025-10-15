@@ -10,3 +10,7 @@ toc: true
 
 **Genus:** [*Quercus*](/trees/genus/quercus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 25 - English Oak](../25.html) | SK: Nature Discovery Garden |
+

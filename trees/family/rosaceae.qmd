@@ -13,7 +13,7 @@ toc: true
 |---|---:|---|
 | [Almond](/trees/species/almond.html) | 0 | — |
 | [Apple Evereste](/trees/species/apple-evereste.html) | 0 | — |
-| [Bird Cherry](/trees/species/bird-cherry.html) | 0 | — |
+| [Bird Cherry](/trees/species/bird-cherry.html) | 1 | SK: Nature Discovery Garden |
 | [Common Hawthorn](/trees/species/common-hawthorn.html) | 0 | — |
 | [Crab Apple](/trees/species/crab-apple.html) | 0 | — |
 | [Pear Beech Hill](/trees/species/pear-beech-hill.html) | 0 | — |

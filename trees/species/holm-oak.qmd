@@ -10,3 +10,7 @@ toc: true
 
 **Genus:** [*Quercus*](/trees/genus/quercus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 195 - Holm Oak](../195.html) | SK: Nature Discovery Garden |
+

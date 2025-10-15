@@ -11,6 +11,6 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Black Pine](/trees/species/black-pine.html) | 3 | SK: Nature Discovery Garden |
-| [Stone Pine](/trees/species/stone-pine.html) | 0 | — |
+| [Black Pine](/trees/species/black-pine.html) | 5 | SK: Darwin Centre Courtyard, SK: Nature Discovery Garden |
+| [Stone Pine](/trees/species/stone-pine.html) | 1 | SK: Darwin Centre Courtyard |
 

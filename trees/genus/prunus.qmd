@@ -13,7 +13,7 @@ toc: true
 | Species | Trees | Planted locations |
 |---|---:|---|
 | [Almond](/trees/species/almond.html) | 0 | — |
-| [Bird Cherry](/trees/species/bird-cherry.html) | 0 | — |
+| [Bird Cherry](/trees/species/bird-cherry.html) | 1 | SK: Nature Discovery Garden |
 | [Sour Cherry](/trees/species/sour-cherry.html) | 0 | — |
 | [Sweet Cherry](/trees/species/sweet-cherry.html) | 0 | — |
 

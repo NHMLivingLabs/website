@@ -11,5 +11,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Soft Tree Fern](/trees/species/soft-tree-fern.html) | 0 | — |
+| [Soft Tree Fern](/trees/species/soft-tree-fern.html) | 2 | SK: Evolution Garden |
 

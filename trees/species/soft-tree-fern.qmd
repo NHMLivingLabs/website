@@ -10,3 +10,8 @@ toc: true
 
 **Genus:** [*Dicksonia*](/trees/genus/dicksonia.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 339 - Soft Tree Fern](../339.html) | SK: Evolution Garden |
+| [Tree 343 - Soft Tree Fern](../343.html) | SK: Evolution Garden |
+
