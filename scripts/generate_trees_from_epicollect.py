@@ -309,7 +309,7 @@ def write_tree_page(tree_id, cols, species_raw, photo_path, force=False):
     if diam_text and dateval:
         diam_text = f"{diam_text} ({dateval})"
     if diam_text:
-        lines.append(f"**Diameter at breast height (1.2m):** {diam_text}")
+        lines.append(f"**Diameter at breast height (1.3m):** {diam_text}")
         lines.append("")
 
     if not photo_path or not photo_path.exists():

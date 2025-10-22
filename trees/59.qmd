@@ -14,4 +14,4 @@ toc: false
 
 **Planted:** SK: Nature Discovery Garden
 
-**Diameter at breast height (1.2m):** 15.75cm (03/10/2025)
+**Diameter at breast height (1.3m):** 15.75cm (03/10/2025)
