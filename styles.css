@@ -35,6 +35,11 @@
   color: #222;
 }
 
+/* Remove numbering from publications page */
+#quarto-content p {
+  list-style-type: none !important;
+}
+
 /* Hide PDF download links and similar UI elements in print/PDF output */
 @media print {
   .pdf-download {
