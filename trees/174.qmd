@@ -13,3 +13,5 @@ toc: false
 ## Tree data
 
 **Planted:** SK: Nature Discovery Garden
+
+**Diameter at breast height (1.3m):** 7.3cm

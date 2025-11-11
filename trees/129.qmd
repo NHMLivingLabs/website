@@ -13,3 +13,5 @@ toc: false
 ## Tree data
 
 **Planted:** SK: Darwin Centre Courtyard
+
+**Diameter at breast height (1.3m):** 5cm

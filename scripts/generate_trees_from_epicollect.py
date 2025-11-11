@@ -187,12 +187,32 @@ def find_photo_filename(entry):
     return walk(entry)
 
 
+def extract_existing_dbh(file_path):
+    """Extract DBH value from existing tree file."""
+    try:
+        content = file_path.read_text(encoding="utf-8")
+        for line in content.split('\n'):
+            if '**Diameter at breast height' in line:
+                # Extract the DBH value (e.g., "15.7cm" or "15.7cm (2024-01-15)")
+                match = re.search(r':\*\*\s*([\d.]+cm(?:\s*\([^)]*\))?)', line)
+                if match:
+                    return match.group(1)
+    except Exception:
+        pass
+    return None
+
+
 def write_tree_page(tree_id, cols, species_raw, photo_path, force=False):
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     outpath = OUT_DIR / f"{tree_id}.qmd"
-    if outpath.exists() and not force:
-        print("Skipping existing", outpath, "(use --force to overwrite)")
-        return outpath
+    
+    # Check if file exists and extract existing DBH
+    existing_dbh = None
+    if outpath.exists():
+        existing_dbh = extract_existing_dbh(outpath)
+        if not force:
+            print("Skipping existing", outpath, "(use --force to overwrite)")
+            return outpath
 
     # Basic display name extraction
     common_name = ""
@@ -293,6 +313,9 @@ def write_tree_page(tree_id, cols, species_raw, photo_path, force=False):
     diameter = cols.get("6_Diameter_at_12m_fr") or cols.get("diameter") or ""
     dateval = cols.get("5_Date") or cols.get("date") or ""
     diam_text = ""
+    
+    # Check if we have a diameter value from Epicollect
+    has_epicollect_diameter = False
     try:
         if diameter is not None and str(diameter).strip() not in (
             "",
@@ -303,11 +326,20 @@ def write_tree_page(tree_id, cols, species_raw, photo_path, force=False):
             dflt = float(diameter)
             if dflt != 0:
                 diam_text = f"{int(dflt) if dflt.is_integer() else dflt}cm"
+                has_epicollect_diameter = True
     except (ValueError, TypeError):
         if diameter:
             diam_text = f"{diameter}cm"
+            has_epicollect_diameter = True
+    
+    # Add date if we have Epicollect diameter
     if diam_text and dateval:
         diam_text = f"{diam_text} ({dateval})"
+    
+    # If no Epicollect diameter, use existing file DBH if available
+    if not has_epicollect_diameter and existing_dbh:
+        diam_text = existing_dbh
+    
     if diam_text:
         lines.append(f"**Diameter at breast height (1.3m):** {diam_text}")
         lines.append("")

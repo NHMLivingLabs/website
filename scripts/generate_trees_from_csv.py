@@ -111,14 +111,33 @@ def extract_common_name(species_file: Path) -> str:
     return None
 
 
+def extract_existing_dbh(file_path: Path) -> str:
+    """Extract DBH value from existing tree file."""
+    try:
+        content = file_path.read_text(encoding="utf-8")
+        for line in content.split('\n'):
+            if '**Diameter at breast height' in line:
+                # Extract the DBH value (e.g., "15.7cm" from "**Diameter at breast height (1.3m):** 15.7cm")
+                match = re.search(r':\*\*\s*([\d.]+)cm', line)
+                if match:
+                    return match.group(1)
+    except Exception:
+        pass
+    return None
+
+
 def write_tree_page(tree_id: str, row: dict, force=False):
     """Generate a tree page from CSV row."""
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     outpath = OUT_DIR / f"{tree_id}.qmd"
     
-    if outpath.exists() and not force:
-        print(f"Skipping existing {outpath} (use --force to overwrite)")
-        return outpath
+    # Check if file exists and extract existing DBH
+    existing_dbh = None
+    if outpath.exists():
+        existing_dbh = extract_existing_dbh(outpath)
+        if not force:
+            print(f"Skipping existing {outpath} (use --force to overwrite)")
+            return outpath
     
     taxon = row.get("TaxonName", "")
     common_name, scientific = parse_taxon_name(taxon)
@@ -156,14 +175,15 @@ def write_tree_page(tree_id: str, row: dict, force=False):
     
     lines.extend(["## Tree data", ""])
     
-    # Add DBH if available
-    if dbh := row.get("DBH", "").strip():
+    # Add DBH if available - prefer existing value from file
+    dbh_to_use = existing_dbh if existing_dbh else row.get("DBH", "").strip()
+    if dbh_to_use:
         try:
-            if float(dbh) > 0:
-                lines.extend([f"**Diameter at breast height (1.3m):** {dbh}cm", ""])
+            if float(dbh_to_use) > 0:
+                lines.extend([f"**Diameter at breast height (1.3m):** {dbh_to_use}cm", ""])
         except ValueError:
-            if dbh:
-                lines.extend([f"**Diameter at breast height (1.3m):** {dbh}cm", ""])
+            if dbh_to_use:
+                lines.extend([f"**Diameter at breast height (1.3m):** {dbh_to_use}cm", ""])
     
     # Add age group if available
     if age := row.get("AgeGroup", "").strip():
