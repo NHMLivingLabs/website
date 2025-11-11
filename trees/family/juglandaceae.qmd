@@ -11,5 +11,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [English Walnut](/trees/species/english-walnut.html) | 0 | — |
+| [English Walnut](/trees/species/english-walnut.html) | 1 | — |
 

@@ -13,4 +13,8 @@ toc: true
 | Tree | Planted |
 | --- | --- |
 | [Tree 147 - Bird Cherry](../147.html) | SK: Nature Discovery Garden |
+| [Tree 180 — Bird cherry](../180.html) |  |
+| [Tree 334 — Bird cherry](../334.html) |  |
+| [Tree 362 — Bird cherry](../362.html) |  |
+| [Tree 363 — Bird cherry](../363.html) |  |
 

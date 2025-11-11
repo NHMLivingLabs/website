@@ -12,5 +12,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Ash](/trees/species/ash.html) | 2 | SK: Nature Discovery Garden |
+| [Ash](/trees/species/ash.html) | 3 | SK: Nature Discovery Garden |
 

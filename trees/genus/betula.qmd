@@ -12,6 +12,6 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Downy Birch](/trees/species/downy-birch.html) | 0 | — |
-| [Silver Birch](/trees/species/silver-birch.html) | 0 | — |
+| [Downy Birch](/trees/species/downy-birch.html) | 3 | — |
+| [Silver Birch](/trees/species/silver-birch.html) | 7 | — |
 

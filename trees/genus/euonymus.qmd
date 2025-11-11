@@ -12,5 +12,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Spindle](/trees/species/spindle.html) | 0 | — |
+| [Spindle](/trees/species/spindle.html) | 1 | — |
 

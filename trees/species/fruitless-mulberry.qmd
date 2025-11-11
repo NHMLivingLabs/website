@@ -10,3 +10,7 @@ toc: true
 
 **Genus:** [*Morus*](/trees/genus/morus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 199 — Fruitless mulberry](../199.html) |  |
+

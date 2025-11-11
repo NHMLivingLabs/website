@@ -69,6 +69,7 @@ toc: true
 
 ## P
 
+- [Pear Beech Hill](/trees/species/pear-Beech-Hill.html) — [*Pyrus communis*](/trees/species/pear-Beech-Hill.html) — Genus: [Pyrus](/trees/genus/pyrus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [Pear Beech Hill](/trees/species/pear-beech-hill.html) — [*Pyrus communis*](/trees/species/pear-beech-hill.html) — Genus: [Pyrus](/trees/genus/pyrus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [Persimmon](/trees/species/persimmon.html) — [*Diospyros kaki*](/trees/species/persimmon.html) — Genus: [Diospyros](/trees/genus/diospyros.html) — Family: [Ebenaceae](/trees/family/ebenaceae.html)
 

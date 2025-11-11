@@ -11,6 +11,6 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Ash](/trees/species/ash.html) | 2 | SK: Nature Discovery Garden |
-| [Olive](/trees/species/olive.html) | 1 | SK: Darwin Centre Courtyard |
+| [Ash](/trees/species/ash.html) | 3 | SK: Nature Discovery Garden |
+| [Olive](/trees/species/olive.html) | 3 | SK: Darwin Centre Courtyard |
 

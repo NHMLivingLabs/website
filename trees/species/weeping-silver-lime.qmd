@@ -13,4 +13,6 @@ toc: true
 | Tree | Planted |
 | --- | --- |
 | [Tree 20 - Weeping Silver Lime](../20.html) | SK: Darwin Centre Courtyard |
+| [Tree 24 — Weeping silver lime](../24.html) |  |
+| [Tree 390 — Weeping silver lime](../390.html) |  |
 

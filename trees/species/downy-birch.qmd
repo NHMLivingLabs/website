@@ -10,3 +10,9 @@ toc: true
 
 **Genus:** [*Betula*](/trees/genus/betula.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 372 — Downy birch](../372.html) |  |
+| [Tree 375 — Downy birch](../375.html) |  |
+| [Tree 391 — Downy birch](../391.html) |  |
+

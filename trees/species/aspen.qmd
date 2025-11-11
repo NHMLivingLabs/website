@@ -10,3 +10,7 @@ toc: true
 
 **Genus:** [*Populus*](/trees/genus/populus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 157 — Aspen](../157.html) |  |
+

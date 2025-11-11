@@ -10,3 +10,9 @@ toc: true
 
 **Genus:** [*Prunus*](/trees/genus/prunus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 128 — Almond](../128.html) |  |
+| [Tree 198 — Almond](../198.html) |  |
+| [Tree 388 — Almond](../388.html) |  |
+

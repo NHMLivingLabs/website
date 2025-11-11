@@ -12,5 +12,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Hazel](/trees/species/hazel.html) | 0 | — |
+| [Hazel](/trees/species/hazel.html) | 6 | — |
 

@@ -12,5 +12,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Elder](/trees/species/elder.html) | 0 | — |
+| [Elder](/trees/species/elder.html) | 2 | — |
 

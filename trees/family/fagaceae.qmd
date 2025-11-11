@@ -11,9 +11,9 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Beech](/trees/species/beech.html) | 0 | — |
-| [Cork Oak](/trees/species/cork-oak.html) | 1 | SK: Darwin Centre Courtyard |
-| [English Oak](/trees/species/english-oak.html) | 1 | SK: Nature Discovery Garden |
-| [Holm Oak](/trees/species/holm-oak.html) | 1 | SK: Nature Discovery Garden |
+| [Beech](/trees/species/beech.html) | 7 | — |
+| [Cork Oak](/trees/species/cork-oak.html) | 2 | SK: Darwin Centre Courtyard |
+| [English Oak](/trees/species/english-oak.html) | 27 | SK: Nature Discovery Garden |
+| [Holm Oak](/trees/species/holm-oak.html) | 4 | SK: Nature Discovery Garden |
 | [Sweet Chestnut](/trees/species/sweet-chestnut.html) | 0 | — |
 

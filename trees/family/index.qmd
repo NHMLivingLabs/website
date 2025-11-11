@@ -18,7 +18,7 @@ toc: true
 - [Oleaceae (Olive family)](/trees/family/oleaceae.html) — 2 species
 - [Pinaceae (Pine family)](/trees/family/pinaceae.html) — 2 species
 - [Platanaceae](/trees/family/platanaceae.html) — 1 species
-- [Rosaceae (Rose family)](/trees/family/rosaceae.html) — 9 species
+- [Rosaceae (Rose family)](/trees/family/rosaceae.html) — 10 species
 - [Salicaceae (Willow family)](/trees/family/salicaceae.html) — 4 species
 - [Sapindaceae (Maple family)](/trees/family/sapindaceae.html) — 2 species
 

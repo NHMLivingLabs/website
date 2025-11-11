@@ -12,5 +12,6 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
+| [Pear Beech Hill](/trees/species/pear-Beech-Hill.html) | 1 | — |
 | [Pear Beech Hill](/trees/species/pear-beech-hill.html) | 0 | — |
 

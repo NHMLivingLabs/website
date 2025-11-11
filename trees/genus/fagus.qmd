@@ -12,5 +12,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Beech](/trees/species/beech.html) | 0 | — |
+| [Beech](/trees/species/beech.html) | 7 | — |
 

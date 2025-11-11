@@ -10,3 +10,8 @@ toc: true
 
 **Genus:** [*Sambucus*](/trees/genus/sambucus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 367 — Elder](../367.html) |  |
+| [Tree 383 — Elder](../383.html) |  |
+

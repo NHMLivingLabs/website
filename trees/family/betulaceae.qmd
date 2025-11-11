@@ -12,9 +12,9 @@ toc: true
 | Species | Trees | Planted locations |
 |---|---:|---|
 | [Black Alder](/trees/species/black-alder.html) | 0 | — |
-| [Downy Birch](/trees/species/downy-birch.html) | 0 | — |
+| [Downy Birch](/trees/species/downy-birch.html) | 3 | — |
 | [Grey Alder](/trees/species/grey-alder.html) | 0 | — |
-| [Hazel](/trees/species/hazel.html) | 0 | — |
-| [Hornbeam](/trees/species/hornbeam.html) | 3 | SK: Nature Discovery Garden |
-| [Silver Birch](/trees/species/silver-birch.html) | 0 | — |
+| [Hazel](/trees/species/hazel.html) | 6 | — |
+| [Hornbeam](/trees/species/hornbeam.html) | 23 | SK: Nature Discovery Garden |
+| [Silver Birch](/trees/species/silver-birch.html) | 7 | — |
 

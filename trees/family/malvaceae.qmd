@@ -11,5 +11,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Weeping Silver Lime](/trees/species/weeping-silver-lime.html) | 1 | SK: Darwin Centre Courtyard |
+| [Weeping Silver Lime](/trees/species/weeping-silver-lime.html) | 3 | SK: Darwin Centre Courtyard |
 

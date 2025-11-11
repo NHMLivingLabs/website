@@ -10,3 +10,13 @@ toc: true
 
 **Genus:** [*Betula*](/trees/genus/betula.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 101 — Silver birch](../101.html) |  |
+| [Tree 103 — Silver birch](../103.html) |  |
+| [Tree 105 — Silver birch](../105.html) |  |
+| [Tree 109 — Silver birch](../109.html) |  |
+| [Tree 111 — Silver birch](../111.html) |  |
+| [Tree 117 — Silver birch](../117.html) |  |
+| [Tree 336 — Silver birch](../336.html) |  |
+

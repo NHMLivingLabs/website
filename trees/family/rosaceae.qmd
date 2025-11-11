@@ -11,13 +11,14 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Almond](/trees/species/almond.html) | 0 | — |
+| [Almond](/trees/species/almond.html) | 3 | — |
 | [Apple Evereste](/trees/species/apple-evereste.html) | 0 | — |
-| [Bird Cherry](/trees/species/bird-cherry.html) | 1 | SK: Nature Discovery Garden |
+| [Bird Cherry](/trees/species/bird-cherry.html) | 5 | SK: Nature Discovery Garden |
 | [Common Hawthorn](/trees/species/common-hawthorn.html) | 0 | — |
 | [Crab Apple](/trees/species/crab-apple.html) | 0 | — |
+| [Pear Beech Hill](/trees/species/pear-Beech-Hill.html) | 1 | — |
 | [Pear Beech Hill](/trees/species/pear-beech-hill.html) | 0 | — |
-| [Quince](/trees/species/quince.html) | 0 | — |
+| [Quince](/trees/species/quince.html) | 1 | — |
 | [Sour Cherry](/trees/species/sour-cherry.html) | 0 | — |
-| [Sweet Cherry](/trees/species/sweet-cherry.html) | 0 | — |
+| [Sweet Cherry](/trees/species/sweet-cherry.html) | 3 | — |
 

@@ -12,5 +12,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Olive](/trees/species/olive.html) | 1 | SK: Darwin Centre Courtyard |
+| [Olive](/trees/species/olive.html) | 3 | SK: Darwin Centre Courtyard |
 

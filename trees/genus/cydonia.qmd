@@ -12,5 +12,5 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Quince](/trees/species/quince.html) | 0 | — |
+| [Quince](/trees/species/quince.html) | 1 | — |
 

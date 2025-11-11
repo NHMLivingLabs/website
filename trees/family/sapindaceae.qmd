@@ -11,6 +11,6 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [Field Maple](/trees/species/field-maple.html) | 0 | — |
-| [Sycamore Maple](/trees/species/sycamore-maple.html) | 0 | — |
+| [Field Maple](/trees/species/field-maple.html) | 11 | — |
+| [Sycamore Maple](/trees/species/sycamore-maple.html) | 1 | — |
 

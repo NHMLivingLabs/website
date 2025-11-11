@@ -10,3 +10,7 @@ toc: true
 
 **Genus:** [*Euonymus*](/trees/genus/euonymus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 382 — Spindle](../382.html) |  |
+

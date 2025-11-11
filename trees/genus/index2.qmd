@@ -70,6 +70,7 @@ toc: true
 - [*Prunus cerasus*](/trees/species/sour-cherry.html) — [Sour Cherry](/trees/species/sour-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [*Prunus dulcis*](/trees/species/almond.html) — [Almond](/trees/species/almond.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [*Prunus padus*](/trees/species/bird-cherry.html) — [Bird Cherry](/trees/species/bird-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+- [*Pyrus communis*](/trees/species/pear-Beech-Hill.html) — [Pear Beech Hill](/trees/species/pear-Beech-Hill.html) — Genus: [Pyrus](/trees/genus/pyrus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 - [*Pyrus communis*](/trees/species/pear-beech-hill.html) — [Pear Beech Hill](/trees/species/pear-beech-hill.html) — Genus: [Pyrus](/trees/genus/pyrus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 
 ## Q

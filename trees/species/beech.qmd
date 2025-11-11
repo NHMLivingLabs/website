@@ -10,3 +10,13 @@ toc: true
 
 **Genus:** [*Fagus*](/trees/genus/fagus.html)
 
+| Tree | Planted |
+| --- | --- |
+| [Tree 142 — Beech](../142.html) |  |
+| [Tree 143 — Beech](../143.html) |  |
+| [Tree 144 — Beech](../144.html) |  |
+| [Tree 145 — Beech](../145.html) |  |
+| [Tree 149 — Beech](../149.html) |  |
+| [Tree 150 — Beech](../150.html) |  |
+| [Tree 151 — Beech](../151.html) |  |
+
