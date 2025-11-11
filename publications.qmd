@@ -2,6 +2,7 @@
 title: "Publications"
 toc: true
 toc-depth: 2
+number-sections: false
 ---
 
 ## 2025
