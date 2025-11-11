@@ -13,7 +13,6 @@ toc: true
 | Tree | Planted |
 | --- | --- |
 | [Tree 95 — Holm Oak](../95.html) |  |
-| [Tree 185 — Holm Oak](../185.html) |  |
 | [Tree 194 — Holm Oak](../194.html) |  |
 | [Tree 195 - Holm Oak](../195.html) | SK: Nature Discovery Garden |
 

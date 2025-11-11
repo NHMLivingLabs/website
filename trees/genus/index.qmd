@@ -24,6 +24,7 @@ toc: true
 - [Black Alder](/trees/species/black-alder.html) — [*Alnus glutinosa*](/trees/species/black-alder.html) — Genus: [Alnus](/trees/genus/alnus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 - [Black Pine](/trees/species/black-pine.html) — [*Pinus nigra*](/trees/species/black-pine.html) — Genus: [Pinus](/trees/genus/pinus.html) — Family: [Pinaceae](/trees/family/pinaceae.html)
 - [Black Poplar](/trees/species/black-poplar.html) — [*Populus nigra betulifolia*](/trees/species/black-poplar.html) — Genus: [Populus](/trees/genus/populus.html) — Family: [Salicaceae](/trees/family/salicaceae.html)
+- [Buckthorn](/trees/species/buckthorn.html) — [*Rhamnus cathartica*](/trees/species/buckthorn.html) — Genus: [Rhamnus](/trees/genus/rhamnus.html) — Family: [Rhamnaceae](/trees/family/rhamnaceae.html)
 
 ## C
 
@@ -56,16 +57,19 @@ toc: true
 ## H
 
 - [Hazel](/trees/species/hazel.html) — [*Corylus avellana*](/trees/species/hazel.html) — Genus: [Corylus](/trees/genus/corylus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
+- [Holly](/trees/species/holly.html) — [*Ilex aquifolium*](/trees/species/holly.html) — Genus: [Ilex](/trees/genus/ilex.html) — Family: [Aquifoliaceae](/trees/family/aquifoliaceae.html)
 - [Holm Oak](/trees/species/holm-oak.html) — [*Quercus ilex*](/trees/species/holm-oak.html) — Genus: [Quercus](/trees/genus/quercus.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
 - [Hornbeam](/trees/species/hornbeam.html) — [*Carpinus betulus*](/trees/species/hornbeam.html) — Genus: [Carpinus](/trees/genus/carpinus.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 
 ## L
 
+- [Lilac](/trees/species/lilac.html) — [*Syringa vulgaris*](/trees/species/lilac.html) — Genus: [Syringa](/trees/genus/syringa.html) — Family: [Oleaceae](/trees/family/oleaceae.html)
 - [London Plane](/trees/species/london-plane.html) — [*Platanus × hispanica*](/trees/species/london-plane.html) — Genus: [Platanus](/trees/genus/platanus.html) — Family: [Platanaceae](/trees/family/platanaceae.html)
 
 ## O
 
 - [Olive](/trees/species/olive.html) — [*Olea europaea*](/trees/species/olive.html) — Genus: [Olea](/trees/genus/olea.html) — Family: [Oleaceae](/trees/family/oleaceae.html)
+- [Oriental Plane](/trees/species/oriental-plane.html) — [*Platanus orientalis*](/trees/species/oriental-plane.html) — Genus: [Platanus](/trees/genus/platanus.html) — Family: [Platanaceae](/trees/family/platanaceae.html)
 
 ## P
 
@@ -77,8 +81,13 @@ toc: true
 
 - [Quince](/trees/species/quince.html) — [*Cydonia oblonga*](/trees/species/quince.html) — Genus: [Cydonia](/trees/genus/cydonia.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
 
+## R
+
+- [Rowan](/trees/species/rowan.html) — [*Sorbus aucuparia*](/trees/species/rowan.html) — Genus: [Sorbus](/trees/genus/sorbus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+
 ## S
 
+- [Sessile Oak](/trees/species/sessile-oak.html) — [*Quercus petraea*](/trees/species/sessile-oak.html) — Genus: [Quercus](/trees/genus/quercus.html) — Family: [Fagaceae](/trees/family/fagaceae.html)
 - [Silver Birch](/trees/species/silver-birch.html) — [*Betula pendula*](/trees/species/silver-birch.html) — Genus: [Betula](/trees/genus/betula.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
 - [Soft Tree Fern](/trees/species/soft-tree-fern.html) — [*Dicksonia antarctica*](/trees/species/soft-tree-fern.html) — Genus: [Dicksonia](/trees/genus/dicksonia.html) — Family: [Dicksoniaceae](/trees/family/dicksoniaceae.html)
 - [Sour Cherry](/trees/species/sour-cherry.html) — [*Prunus cerasus*](/trees/species/sour-cherry.html) — Genus: [Prunus](/trees/genus/prunus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
@@ -91,4 +100,10 @@ toc: true
 ## W
 
 - [Weeping Silver Lime](/trees/species/weeping-silver-lime.html) — [*Tilia tomentosa*](/trees/species/weeping-silver-lime.html) — Genus: [Tilia](/trees/genus/tilia.html) — Family: [Malvaceae](/trees/family/malvaceae.html)
+- [White Birch](/trees/species/white-birch.html) — [*Betula alba*](/trees/species/white-birch.html) — Genus: [Betula](/trees/genus/betula.html) — Family: [Betulaceae](/trees/family/betulaceae.html)
+- [Whitebeam](/trees/species/whitebeam.html) — [*Sorbus aria*](/trees/species/whitebeam.html) — Genus: [Sorbus](/trees/genus/sorbus.html) — Family: [Rosaceae](/trees/family/rosaceae.html)
+
+## Y
+
+- [Yew](/trees/species/yew.html) — [*Taxus baccata*](/trees/species/yew.html) — Genus: [Taxus](/trees/genus/taxus.html) — Family: [Taxaceae](/trees/family/taxaceae.html)
 

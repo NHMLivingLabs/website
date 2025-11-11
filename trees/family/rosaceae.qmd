@@ -19,6 +19,8 @@ toc: true
 | [Pear Beech Hill](/trees/species/pear-Beech-Hill.html) | 1 | — |
 | [Pear Beech Hill](/trees/species/pear-beech-hill.html) | 0 | — |
 | [Quince](/trees/species/quince.html) | 1 | — |
+| [Rowan](/trees/species/rowan.html) | 3 | — |
 | [Sour Cherry](/trees/species/sour-cherry.html) | 0 | — |
 | [Sweet Cherry](/trees/species/sweet-cherry.html) | 3 | — |
+| [Whitebeam](/trees/species/whitebeam.html) | 2 | — |
 

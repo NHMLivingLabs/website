@@ -15,6 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CSV_FILE = ROOT / "assets" / "data" / "NHMGardenTrees_0.csv"
 OUT_DIR = ROOT / "trees"
+ERROR_DIR = ROOT / "errors"
+MISSING_SPECIES_FILE = ERROR_DIR / "missing_species.txt"
 
 
 def slugify(text: str) -> str:
@@ -22,10 +24,28 @@ def slugify(text: str) -> str:
     return re.sub(r"[^0-9a-zA-Z-]+", "-", str(text).lower()).strip("-")
 
 
+def normalize_species_name(taxon: str) -> str:
+    """Normalize known species name variations."""
+    if not taxon:
+        return taxon
+    
+    taxon = taxon.strip()
+    
+    # Specific normalization for London Plane
+    # Use × (multiplication sign) instead of x for hybrid notation
+    if "Platanus occidentalis x orientalis" in taxon or "platanus occidentalis x orientalis" in taxon.lower():
+        return "Platanus × hispanica"
+    
+    return taxon
+
+
 def parse_taxon_name(taxon):
     """Parse TaxonName field to extract common and scientific names."""
     if not taxon:
         return "", taxon
+    
+    # Normalize species name first
+    taxon = normalize_species_name(taxon)
     
     # Handle various formats:
     # "Betula pendula" -> scientific name
@@ -73,7 +93,12 @@ def find_species_include_file(species_slug: str) -> Path:
     
     # Fallback: search file contents for scientific name match
     # This avoids false matches like "ilex" matching "Quercus ilex"
+    # Normalize both 'x' and '×' for matching
     guess = species_slug.replace("-", " ").lower()
+    # Handle hybrid notation - if the slug removed × or x, try both forms
+    guess_with_x = guess.replace("platanus hispanica", "platanus x hispanica")
+    guess_with_times = guess.replace("platanus hispanica", "platanus × hispanica")
+    
     for f in (f for f in inc_dir.iterdir() if f.is_file() and f.suffix.lower() == ".md"):
         try:
             txt = f.read_text(encoding="utf-8")
@@ -87,7 +112,10 @@ def find_species_include_file(species_slug: str) -> Path:
                         sci_match = re.search(r'\*([^*]+)\*', after_label)
                         if sci_match:
                             sci_name = sci_match.group(1).strip().lower()
-                            if guess in sci_name or sci_name in guess:
+                            # Check original guess and both forms of hybrid notation
+                            if (guess in sci_name or sci_name in guess or 
+                                guess_with_x in sci_name or sci_name in guess_with_x or
+                                guess_with_times in sci_name or sci_name in guess_with_times):
                                 return f
         except Exception:
             continue
@@ -127,7 +155,7 @@ def extract_existing_dbh(file_path: Path) -> str:
 
 
 def write_tree_page(tree_id: str, row: dict, force=False):
-    """Generate a tree page from CSV row."""
+    """Generate a tree page from CSV row. Returns (success, missing_species_info)."""
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     outpath = OUT_DIR / f"{tree_id}.qmd"
     
@@ -137,7 +165,7 @@ def write_tree_page(tree_id: str, row: dict, force=False):
         existing_dbh = extract_existing_dbh(outpath)
         if not force:
             print(f"Skipping existing {outpath} (use --force to overwrite)")
-            return outpath
+            return True, None
     
     taxon = row.get("TaxonName", "")
     common_name, scientific = parse_taxon_name(taxon)
@@ -147,6 +175,7 @@ def write_tree_page(tree_id: str, row: dict, force=False):
     
     # Try to find species include file and extract common name
     inc_file = None
+    missing_species = None
     if scientific:
         species_slug = slugify(scientific.split("'")[0].strip())  # Remove cultivar for slug
         inc_file = find_species_include_file(species_slug)
@@ -154,6 +183,9 @@ def write_tree_page(tree_id: str, row: dict, force=False):
             # Extract common name from species file
             if extracted_common := extract_common_name(inc_file):
                 display_name = extracted_common
+        else:
+            # No species file found - log this
+            missing_species = f"Tree {tree_id}: {scientific} (from CSV: {taxon})"
     
     lines = [
         "---",
@@ -195,7 +227,7 @@ def write_tree_page(tree_id: str, row: dict, force=False):
     
     outpath.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote {outpath}")
-    return outpath
+    return True, missing_species
 
 
 def main():
@@ -211,6 +243,7 @@ def main():
     
     trees_created = 0
     trees_skipped = 0
+    missing_species_list = []
     
     with CSV_FILE.open(encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -222,15 +255,30 @@ def main():
                 continue
             
             try:
-                write_tree_page(tree_id, row, force=args.force)
-                trees_created += 1
+                success, missing_species = write_tree_page(tree_id, row, force=args.force)
+                if success:
+                    trees_created += 1
+                    if missing_species:
+                        missing_species_list.append(missing_species)
+                else:
+                    trees_skipped += 1
             except Exception as e:
                 print(f"Error processing tree {tree_id}: {e}")
                 trees_skipped += 1
     
+    # Write missing species to error file
+    if missing_species_list:
+        ERROR_DIR.mkdir(parents=True, exist_ok=True)
+        MISSING_SPECIES_FILE.write_text(
+            "\n".join(sorted(set(missing_species_list))) + "\n",
+            encoding="utf-8"
+        )
+        print(f"\nWrote {len(missing_species_list)} missing species to {MISSING_SPECIES_FILE}")
+    
     print(f"\nSummary:")
     print(f"  Trees created: {trees_created}")
     print(f"  Trees skipped: {trees_skipped}")
+    print(f"  Missing species info: {len(missing_species_list)}")
     
     return 0
 

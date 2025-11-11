@@ -6,6 +6,9 @@
 # Cache for fetched/exported data
 /cache/
 
+# Script-generated error logs
+/errors/
+
 # Ignore generated LaTeX intermediate files produced by scripts/render_articles_to_pdf.py
 # Keep the final .pdf files tracked; ignore .tex and common aux files under docs/assets/pdfs
 /docs/assets/pdfs/*.tex

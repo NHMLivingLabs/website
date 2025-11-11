@@ -14,5 +14,6 @@ toc: true
 |---|---:|---|
 | [Cork Oak](/trees/species/cork-oak.html) | 2 | SK: Darwin Centre Courtyard |
 | [English Oak](/trees/species/english-oak.html) | 27 | SK: Nature Discovery Garden |
-| [Holm Oak](/trees/species/holm-oak.html) | 4 | SK: Nature Discovery Garden |
+| [Holm Oak](/trees/species/holm-oak.html) | 3 | SK: Nature Discovery Garden |
+| [Sessile Oak](/trees/species/sessile-oak.html) | 5 | — |
 

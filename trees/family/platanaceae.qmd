@@ -11,5 +11,6 @@ toc: true
 
 | Species | Trees | Planted locations |
 |---|---:|---|
-| [London Plane](/trees/species/london-plane.html) | 1 | SK: Evolution Garden |
+| [London Plane](/trees/species/london-plane.html) | 17 | SK: Evolution Garden |
+| [Oriental Plane](/trees/species/oriental-plane.html) | 1 | — |
 

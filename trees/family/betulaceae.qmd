@@ -17,4 +17,5 @@ toc: true
 | [Hazel](/trees/species/hazel.html) | 6 | — |
 | [Hornbeam](/trees/species/hornbeam.html) | 23 | SK: Nature Discovery Garden |
 | [Silver Birch](/trees/species/silver-birch.html) | 7 | — |
+| [White Birch](/trees/species/white-birch.html) | 9 | — |
 
