@@ -27,7 +27,9 @@ The sensor network project involves deploying environmental monitoring sensors t
 
 ## Team
 
-[List of team members involved in this project]
+Lead: Ed Baker
+
+Becky Heath
 
 ## Publications
 
