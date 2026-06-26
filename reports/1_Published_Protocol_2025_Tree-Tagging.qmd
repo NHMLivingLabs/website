@@ -1,10 +1,10 @@
 ---
-title: NHM Urban Research Station Survey Protocol — Tree Tagging
+title: NHM Living Labs Urban Research Station Survey Protocol — Tree Tagging
 author:
   - name: Ed Baker
     affiliation: Natural History Museum, London
 citation:
-  container-title: Urban Research Station Reports
+	container-title: NHM Living Labs Reports
   issue: 1
 date: "2025-10-05"
 ---

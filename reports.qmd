@@ -1,15 +1,15 @@
 ---
-title: "Urban Research Station Reports"
+title: "NHM Living Labs Reports"
 toc: true
 ---
 
-This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes.
+This section contains reports on the implementation and development of NHM Living Labs, including Urban Research Station and Tring, covering infrastructure, methodologies, and research programmes.
 
 ## Published Protocols
 
-- [Annual Tree Survey](reports/2_Published-Protocol_2025_Tree-Survey.qmd) — 2025 — Ed Baker, John Tweddle — *Urban Research Station Reports* — Issue 2
-- [Tree Tagging](reports/1_Published_Protocol_2025_Tree-Tagging.qmd) — 2025 — Ed Baker — *Urban Research Station Reports* — Issue 1
+- [Annual Tree Survey](reports/2_Published-Protocol_2025_Tree-Survey.qmd) — 2025 — Ed Baker, John Tweddle — *NHM Living Labs Reports* — Issue 2
+- [Tree Tagging](reports/1_Published_Protocol_2025_Tree-Tagging.qmd) — 2025 — Ed Baker — *NHM Living Labs Reports* — Issue 1
 
 ## Implementation Reports
 
-- [DS18B20 Thermometers](reports/3_Implementation-Report_DS18B20-Thermometers.qmd) — Ed Baker — *Urban Research Station Reports* — Issue 3
+- [DS18B20 Thermometers](reports/3_Implementation-Report_DS18B20-Thermometers.qmd) — Ed Baker — *NHM Living Labs Reports* — Issue 3

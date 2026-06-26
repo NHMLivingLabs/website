@@ -1,12 +1,12 @@
 ---
-title: "NHM Urban Research Station Survey Protocol — Annual Tree Survey"
+title: "NHM Living Labs Urban Research Station Survey Protocol — Annual Tree Survey"
 author:
   - name: Ed Baker
     affiliation: Natural History Museum, London
   - name: John Tweddle
     affiliation: Natural History Museum, London
 citation:
-  container-title: Urban Research Station Reports
+  container-title: NHM Living Labs Reports
   issue: 2
 date: "2025-10-05"
 ---
