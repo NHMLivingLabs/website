@@ -3,6 +3,10 @@ title: "Urban Research Station"
 toc: false
 ---
 
+::: {.living-labs-quote}
+"A living model for how cities can repair relationships between people, biodiversity, climate, culture and the public realm."
+:::
+
 ::: {.grid}
 
 ::: {.g-col-4}
