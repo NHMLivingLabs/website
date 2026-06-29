@@ -2604,8 +2604,8 @@
     "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
   },
   {
-    "objectID": "team.html#urban-research-station",
-    "href": "team.html#urban-research-station",
+    "objectID": "team.html#nhm-living-labs",
+    "href": "team.html#nhm-living-labs",
     "title": "Team",
     "section": "",
     "text": "Role\n\n\n\n\n\n\n\n\n\n\nRole"
@@ -2627,49 +2627,49 @@
   {
     "objectID": "reports/3_Implementation-Report_DS18B20-Thermometers.html",
     "href": "reports/3_Implementation-Report_DS18B20-Thermometers.html",
-    "title": "NHM Urban Research Station Implementation Report — DS18B20 Thermometers",
+    "title": "NHM Living Labs Urban Research Station Implementation Report — DS18B20 Thermometers",
     "section": "",
-    "text": "Download PDF\nBlh blah blaaah\n\n\n\nCitationBibTeX citation:@online{baker,\n  author = {Baker, Ed},\n  title = {NHM {Urban} {Research} {Station} {Implementation} {Report} —\n    {DS18B20} {Thermometers}},\n  number = {3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed. n.d. “NHM Urban Research Station Implementation Report\n— DS18B20 Thermometers.” Urban Research Station Reports."
+    "text": "Download PDF\nBlh blah blaaah\n\n\n\nCitationBibTeX citation:@online{baker,\n  author = {Baker, Ed},\n  title = {NHM {Living} {Labs} {Urban} {Research} {Station}\n    {Implementation} {Report} — {DS18B20} {Thermometers}},\n  number = {3},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed. n.d. “NHM Living Labs Urban Research Station\nImplementation Report — DS18B20 Thermometers.” NHM Living Labs\nReports."
   },
   {
     "objectID": "reports/1_Published_Protocol_2025_Tree-Tagging.html",
     "href": "reports/1_Published_Protocol_2025_Tree-Tagging.html",
-    "title": "NHM Urban Research Station Survey Protocol — Tree Tagging",
+    "title": "NHM Living Labs Urban Research Station Survey Protocol — Tree Tagging",
     "section": "",
     "text": "Download PDF\nTrees are tagged with unique identifiers to facilitate consistent, long-term monitoring and data collection critical to urban ecological research. Tagging enables repeated measurements of individual trees, supporting studies on growth rates, health status, phenological changes, carbon sequestration and responses to urban-specific stressors such as urban heat. Tagging also supports spatial analysis and management of the living collections."
   },
   {
     "objectID": "reports/1_Published_Protocol_2025_Tree-Tagging.html#definitions",
     "href": "reports/1_Published_Protocol_2025_Tree-Tagging.html#definitions",
-    "title": "NHM Urban Research Station Survey Protocol — Tree Tagging",
+    "title": "NHM Living Labs Urban Research Station Survey Protocol — Tree Tagging",
     "section": "Definitions",
     "text": "Definitions\n\nDiameter at breast height (DBH)\nThe diameter of the tree, measured at 1.3 m from the base (the standard height used by the Forestry Commission)."
   },
   {
     "objectID": "reports/1_Published_Protocol_2025_Tree-Tagging.html#installation",
     "href": "reports/1_Published_Protocol_2025_Tree-Tagging.html#installation",
-    "title": "NHM Urban Research Station Survey Protocol — Tree Tagging",
+    "title": "NHM Living Labs Urban Research Station Survey Protocol — Tree Tagging",
     "section": "Installation",
     "text": "Installation\n\nTrees with DBH \\(\\geq\\) 5 cm\n\nAttach a unique number tag to the tree at 1.3 m; the nail also serves as a mark for the DBH measurement height.\nNail orientation and placement:\n\nNail should slant downwards so the tag does not rest against the bark.\nNail only into sapwood.\nAlways leave at least 1 cm of nail exposed to allow for trunk growth.\n\n\n\n\nTrees with DBH &lt; 5 cm\n\nConsider whether it is useful to tag at this age.\nIf tagging is appropriate, consider attaching the tag with a loop of wire.\nOtherwise, attach the tag with a screw into sapwood (this is more secure than a nail); place at 1.3 m if practical."
   },
   {
     "objectID": "reports/1_Published_Protocol_2025_Tree-Tagging.html#annual-survey",
     "href": "reports/1_Published_Protocol_2025_Tree-Tagging.html#annual-survey",
-    "title": "NHM Urban Research Station Survey Protocol — Tree Tagging",
+    "title": "NHM Living Labs Urban Research Station Survey Protocol — Tree Tagging",
     "section": "Annual survey",
     "text": "Annual survey\nIdeally, conduct the tag survey at the same time as the tree survey. The annual tag check should include:\n\nCheck that all suitable trees are tagged.\nCheck for missing or damaged tags and replace where necessary.\nCheck that wire loops will not cause girdling in the coming year; replace with nails where appropriate.\nIf required, back out nails and screws so there is at least 1 cm allowance for growth.\nAt South Kensington: check that plaques attached to trees to support public programmes are not causing girdling or other damage."
   },
   {
     "objectID": "reports/1_Published_Protocol_2025_Tree-Tagging.html#appendix-i-numbering-scheme",
     "href": "reports/1_Published_Protocol_2025_Tree-Tagging.html#appendix-i-numbering-scheme",
-    "title": "NHM Urban Research Station Survey Protocol — Tree Tagging",
+    "title": "NHM Living Labs Urban Research Station Survey Protocol — Tree Tagging",
     "section": "Appendix I: Numbering scheme",
     "text": "Appendix I: Numbering scheme\n\nAccommodating existing tree numbering at South Kensington\n\nNumbers 1–27 are reserved to follow the numbering used in Wassells (WAS132/2019). For example, T1 in that report corresponds to tag 0001.\nGrouped plantings recorded as a single group (e.g. Silver Birch listed as G1) should be retagged with individual tree numbers when practical.\nThere are established trees outside the Nature Activity Centre with terminal tags 59 and 63; the trees between these should be retagged using the intermediate numbers.\n\n\n\nNew tag numbers\n\nTags 0001–0099 are reserved to cover existing use cases in South Kensington.\nIn the long term, reserving number blocks for particular geographic areas (for example, Nature Discovery Garden, Tring) will either:\n\nrequire purchase of a large quantity of tags, or\nresult in non-sequential blocks of numbers being used.\n\nTags 100 and above can be applied to any tree on the NHM estate. Geographic localisation of numbers should be handled through the tree database rather than by permanently reserving number blocks."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Urban Research Stations<br><span style='font-size: x-small;'>at the Natural History Museum</span>",
+    "title": "NHM Living Labs<br><span style='font-size: x-small;'>Urban Research Station and Tring</span>",
     "section": "",
     "text": "By 2050, nearly 70% of people will live in cities\nWe study how we can make cities better places for people and for nature.\nOur vision is of a future where both people and planet thrive.\n\n\n30 years of research\nIn 2025 we will have been studying the Museum’s gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one of the most intensively studied urban sites worldwide.\n\n\n\n\n\n\n\n\nA living laboratory\nOur gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiversity and create resilient ecosystems.\nOur gardens and research infrastructures are open to Museum staff and external collaborators for research and teaching.\n\n\nTraining the next generation\nWe run training, internships and practical projects for students and early-career researchers to build capacity in urban ecology and data-driven conservation.\n\n\n\n\n\n\n\n\nIntegrating diverse datasets\nWe integrate sensor, observational and specimen data into interoperable datasets to support research, monitoring and evidence-based decision making.\n\n\nLeading change\nWe engage with policy-makers, urban planners and community partners to translate research into practical guidance and to promote nature-positive urban change."
   },
@@ -3439,30 +3439,30 @@
   {
     "objectID": "reports/2_Published-Protocol_2025_Tree-Survey.html",
     "href": "reports/2_Published-Protocol_2025_Tree-Survey.html",
-    "title": "NHM Urban Research Station Survey Protocol — Annual Tree Survey",
+    "title": "NHM Living Labs Urban Research Station Survey Protocol — Annual Tree Survey",
     "section": "",
-    "text": "Download PDF\nDescribe\n\n\n\nCitationBibTeX citation:@online{baker2025,\n  author = {Baker, Ed and Tweddle, John},\n  title = {NHM {Urban} {Research} {Station} {Survey} {Protocol} —\n    {Annual} {Tree} {Survey}},\n  number = {2},\n  date = {2025-10-05},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed, and John Tweddle. 2025. “NHM Urban Research Station\nSurvey Protocol — Annual Tree Survey.” Urban Research Station\nReports. October 5, 2025."
+    "text": "Download PDF\nDescribe\n\n\n\nCitationBibTeX citation:@online{baker2025,\n  author = {Baker, Ed and Tweddle, John},\n  title = {NHM {Living} {Labs} {Urban} {Research} {Station} {Survey}\n    {Protocol} — {Annual} {Tree} {Survey}},\n  number = {2},\n  date = {2025-10-05},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nBaker, Ed, and John Tweddle. 2025. “NHM Living Labs Urban Research\nStation Survey Protocol — Annual Tree Survey.” NHM Living Labs\nReports, October 5."
   },
   {
     "objectID": "reports.html",
     "href": "reports.html",
-    "title": "Urban Research Station Reports",
+    "title": "NHM Living Labs Reports",
     "section": "",
-    "text": "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes."
+    "text": "This section contains reports on the implementation and development of NHM Living Labs, including Urban Research Station and Tring, covering infrastructure, methodologies, and research programmes."
   },
   {
     "objectID": "reports.html#published-protocols",
     "href": "reports.html#published-protocols",
-    "title": "Urban Research Station Reports",
+    "title": "NHM Living Labs Reports",
     "section": "Published Protocols",
-    "text": "Published Protocols\n\nAnnual Tree Survey — 2025 — Ed Baker, John Tweddle — Urban Research Station Reports — Issue 2\nTree Tagging — 2025 — Ed Baker — Urban Research Station Reports — Issue 1"
+    "text": "Published Protocols\n\nAnnual Tree Survey — 2025 — Ed Baker, John Tweddle — NHM Living Labs Reports — Issue 2\nTree Tagging — 2025 — Ed Baker — NHM Living Labs Reports — Issue 1"
   },
   {
     "objectID": "reports.html#implementation-reports",
     "href": "reports.html#implementation-reports",
-    "title": "Urban Research Station Reports",
+    "title": "NHM Living Labs Reports",
     "section": "Implementation Reports",
-    "text": "Implementation Reports\n\nDS18B20 Thermometers — Ed Baker — Urban Research Station Reports — Issue 3"
+    "text": "Implementation Reports\n\nDS18B20 Thermometers — Ed Baker — NHM Living Labs Reports — Issue 3"
   },
   {
     "objectID": "trees/1.html",

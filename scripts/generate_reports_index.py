@@ -95,8 +95,16 @@ def infer_type_from_name(name: str):
 def citation_from_front_matter(fm: dict, path: Path):
     # Build citation string
     title = fm.get("title") or path.stem
-    for pfx in ["NHM Urban Research Station Survey Protocol —", "NHM Urban Research Station Implementation Report —",
-                "NHM Urban Research Station Survey Protocol", "NHM Urban Research Station Implementation Report"]:
+    for pfx in [
+        "NHM Living Labs Urban Research Station Survey Protocol —",
+        "NHM Living Labs Urban Research Station Implementation Report —",
+        "NHM Urban Research Station Survey Protocol —",
+        "NHM Urban Research Station Implementation Report —",
+        "NHM Living Labs Urban Research Station Survey Protocol",
+        "NHM Living Labs Urban Research Station Implementation Report",
+        "NHM Urban Research Station Survey Protocol",
+        "NHM Urban Research Station Implementation Report",
+    ]:
         if title.startswith(pfx):
             title = title[len(pfx):].strip(" \u2014-–:")
             break
@@ -152,10 +160,10 @@ def main():
 
     lines = [
         "---",
-        'title: "Urban Research Station Reports"',
+        'title: "NHM Living Labs Reports"',
         "toc: true",
         "---\n",
-        "This section contains reports on the implementation and development of the Urban Research Station and Nature Discovery Garden infrastructure, methodologies, and research programmes.\n"
+        "This section contains reports on the implementation and development of NHM Living Labs, including Urban Research Station and Tring, covering infrastructure, methodologies, and research programmes.\n"
     ]
 
     for heading in ordered_headings:

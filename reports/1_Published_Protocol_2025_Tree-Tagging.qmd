@@ -4,7 +4,7 @@ author:
   - name: Ed Baker
     affiliation: Natural History Museum, London
 citation:
-	container-title: NHM Living Labs Reports
+  container-title: NHM Living Labs Reports
   issue: 1
 date: "2025-10-05"
 ---
@@ -28,9 +28,9 @@ The diameter of the tree, measured at 1.3 m from the base (the standard height u
 
 - Attach a unique number tag to the tree at 1.3 m; the nail also serves as a mark for the DBH measurement height.
 - Nail orientation and placement:
-	- Nail should slant downwards so the tag does not rest against the bark.
-	- Nail only into sapwood.
-	- Always leave at least 1 cm of nail exposed to allow for trunk growth.
+  - Nail should slant downwards so the tag does not rest against the bark.
+  - Nail only into sapwood.
+  - Always leave at least 1 cm of nail exposed to allow for trunk growth.
 
 ### Trees with DBH < 5 cm
 
@@ -60,7 +60,7 @@ Ideally, conduct the tag survey at the same time as the tree survey. The annual 
 
 - Tags 0001–0099 are reserved to cover existing use cases in South Kensington.
 - In the long term, reserving number blocks for particular geographic areas (for example, Nature Discovery Garden, Tring) will either:
-	- require purchase of a large quantity of tags, or
-	- result in non-sequential blocks of numbers being used.
+  - require purchase of a large quantity of tags, or
+  - result in non-sequential blocks of numbers being used.
 - Tags 100 and above can be applied to any tree on the NHM estate. Geographic localisation of numbers should be handled through the tree database rather than by permanently reserving number blocks.
 
