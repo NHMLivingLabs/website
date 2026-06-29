@@ -35,3 +35,5 @@ docs/**/pdfs/*.pdf.bak
 # Ignore sanitized copies created by the sanitiser script
 *.sanitised.pdf
 docs/**/pdfs/*.sanitised.pdf
+
+**/*.quarto_ipynb
