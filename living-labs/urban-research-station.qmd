@@ -4,7 +4,7 @@ toc: false
 ---
 
 ::: {.living-labs-quote}
-"A living model for how cities can repair relationships between people, biodiversity, climate, culture and the public realm."
+"A living model for how cities can repair relationships between people, biodiversity, climate, culture, and the public realm."
 :::
 
 ::: {.grid}
@@ -12,8 +12,6 @@ toc: false
 ::: {.g-col-4}
 
 ![](/assets/images/home/2024-new-ponds.jpg)
-
-:::
 
 ::: {.g-col-8}
 
@@ -104,5 +102,7 @@ We engage with policy-makers, urban planners and community partners to translate
 
 
 
+
+:::
 
 :::
