@@ -1,0 +1,6 @@
+---
+title: "Tring Living Lab"
+toc: false
+---
+
+This is a placeholder page for the Tring Living Lab.

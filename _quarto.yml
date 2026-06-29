@@ -16,6 +16,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: Living Labs
+        menu:
+          - href: living-labs/index.qmd
+            text: Living Labs
+          - href: living-labs/urban-research-station.qmd
+            text: Urban Research Station
+          - href: living-labs/tring.qmd
+            text: Tring Living Lab
       - text: Studies
         menu:
           - href: case-studies.qmd
