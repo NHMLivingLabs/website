@@ -24,6 +24,8 @@ website:
             text: Urban Research Station
           - href: living-labs/tring.qmd
             text: Tring Living Lab
+      - href: environments.qmd
+        text: Environments
       - text: Studies
         menu:
           - href: case-studies.qmd

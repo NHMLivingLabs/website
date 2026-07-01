@@ -1,0 +1,9 @@
+---
+title: "Environments"
+toc: false
+---
+
+## Environments
+
+- [Soil](environments/soil.qmd)
+- [Freshwater](environments/freshwater.qmd)
