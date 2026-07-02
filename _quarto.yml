@@ -18,16 +18,12 @@ website:
         text: Home
       - text: Living Labs
         menu:
-          - href: living-labs/index.qmd
-            text: Living Labs
           - href: living-labs/urban-research-station.qmd
             text: Urban Research Station
           - href: living-labs/tring.qmd
             text: Tring Living Lab
       - text: Environments
         menu:
-          - href: environments.qmd
-            text: Environments
           - href: environments/soil.qmd
             text: Soil
           - href: environments/freshwater.qmd

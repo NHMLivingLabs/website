@@ -1,9 +1,0 @@
----
-title: "Living Labs"
-toc: false
----
-
-This is a placeholder index for NHM Living Labs.
-
-- [Urban Research Station](urban-research-station.qmd)
-- [Tring Living Lab](tring.qmd)
