@@ -13,6 +13,8 @@ toc: false
 
 ![](/assets/images/home/2024-new-ponds.jpg)
 
+:::
+
 ::: {.g-col-8}
 
 ### *By 2050, nearly 70% of people will live in cities*
@@ -102,7 +104,5 @@ We engage with policy-makers, urban planners and community partners to translate
 
 
 
-
-:::
 
 :::
