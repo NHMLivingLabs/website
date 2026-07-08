@@ -63,3 +63,22 @@
 #quarto-content.quarto-container main.content {
   max-width: min(1200px, 100%);
 }
+
+/* Quarto article layout still constrains full-content pages to a narrow track.
+   Force the main content to span the page grid on pages without sidebars/TOC. */
+body.fullcontent #quarto-content.page-layout-article {
+  max-width: min(1700px, 98vw);
+}
+
+body.fullcontent #quarto-content.page-layout-article > main.content {
+  grid-column: page-start / page-end !important;
+  max-width: min(1400px, 100%) !important;
+  width: 100%;
+}
+
+/* Apply the same widening to standard article pages (e.g. homepage). */
+#quarto-content.page-layout-article > main.content {
+  grid-column: page-start / page-end;
+  max-width: min(1400px, 100%);
+  width: 100%;
+}
