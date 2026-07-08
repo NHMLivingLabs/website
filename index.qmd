@@ -4,7 +4,7 @@ toc: false
 ---
 
 ::: {.living-labs-quote}
-We are transofrming the Museums' estates into public-facing ecological observatories.
+We are transforming the Museums' estates into public-facing ecological observatories.
 :::
 
 ::: {.living-labs-quote}
