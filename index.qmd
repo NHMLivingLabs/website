@@ -3,7 +3,14 @@ title: "Living Labs"
 toc: false
 ---
 
-This is a placeholder index for NHM Living Labs.
+::: {.living-labs-quote}
+We are transofrming the Museums' estates into public-facing ecological observatories.
+:::
 
-- [Urban Research Station](living-labs/urban-research-station.qmd)
-- [Tring Living Lab](living-labs/tring.qmd)
+::: {.living-labs-quote}
+We link collections-based science with real-time monitoring, community participation and nature recovery.
+:::
+
+::: {.living-labs-quote}
+These create spaces where NHM staff and collaborators develop new methods to transform how natural history is observed, analysed and understood.
+:::
