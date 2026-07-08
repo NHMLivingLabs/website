@@ -12,5 +12,5 @@ We link collections-based science with real-time monitoring, community participa
 :::
 
 ::: {.living-labs-quote}
-These create spaces where NHM staff and collaborators develop new methods to transform how natural history is observed, analysed and understood.
+We create spaces where NHM staff and collaborators develop new methods to transform how natural history is observed, analysed and understood.
 :::
