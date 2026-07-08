@@ -96,6 +96,8 @@ We run training, internships and practical projects for students and early-caree
 
 We integrate sensor, observational and specimen data into interoperable datasets to support research, monitoring and evidence-based decision making.
 
+Data Ecosystem
+
 :::
 
 ::: {.g-col-8}
