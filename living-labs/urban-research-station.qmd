@@ -1,6 +1,8 @@
 ---
 title: "Urban Research Station"
 toc: false
+filters:
+  - ../scripts/pandoc/urban_research_station_years.lua
 ---
 
 ::: {.living-labs-quote}
@@ -35,9 +37,9 @@ Our vision is of a future where both people and planet thrive.
 
 ::: {.g-col-8}
 
-### *30 years of research*
+### *[30]{.years-of-research} years of research*
 
-In 2025 we will have been studying the Museum's gardens for thirty years. Regular biodiversity surveys by Museum staff and others make it one of the most intensively studied urban sites worldwide.
+In [2025]{.current-year} we will have been studying the Museum's gardens for [30]{.years-of-research} years. Regular biodiversity surveys by Museum staff and others make it one of the most intensively studied urban sites worldwide.
 
 :::
 
