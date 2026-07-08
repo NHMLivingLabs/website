@@ -19,6 +19,14 @@ toc: false
 
 ### *By 2050, nearly 70% of people will live in cities*
 
+But cities have challenges:
+
+- Habitat loss and fragmentation
+- Urban heat islands
+- Poor air quality and noise pollution 
+- Flooding and drought pressures from sealed surfaces and changing rainfall
+- Unequal access to high-quality green space
+
 We study how we can make cities better places for people and for nature.
 
 Our vision is of a future where both people and planet thrive.
@@ -51,9 +59,11 @@ In 2025 we will have been studying the Museum's gardens for thirty years. Regula
 
 ### *A living laboratory*
 
-Our gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiversity and create resilient ecosystems.
+Our gardens are a place where we experiment with new techniques and evaluate new methodologies to better understand how we can restore biodiversity, connect people with nature, and create resilient ecosystems.
 
 Our gardens and research infrastructures are open to Museum staff and external collaborators for research and teaching.
+
+Working with collaborators we are transforming the study of natural history.
 
 :::
 
