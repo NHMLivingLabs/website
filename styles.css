@@ -71,14 +71,20 @@ body.fullcontent #quarto-content.page-layout-article {
 }
 
 body.fullcontent #quarto-content.page-layout-article > main.content {
-  grid-column: page-start / page-end !important;
-  max-width: min(1400px, 100%) !important;
-  width: 100%;
+  grid-column: screen-start / screen-end !important;
+  max-width: min(1700px, 96vw) !important;
+  width: min(1700px, 96vw);
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
 }
 
 /* Apply the same widening to standard article pages (e.g. homepage). */
 #quarto-content.page-layout-article > main.content {
-  grid-column: page-start / page-end;
-  max-width: min(1400px, 100%);
-  width: 100%;
+  grid-column: screen-start / screen-end;
+  max-width: min(1700px, 96vw);
+  width: min(1700px, 96vw);
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
 }
