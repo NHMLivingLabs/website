@@ -103,9 +103,15 @@ body.fullcontent #quarto-content.page-layout-article > main.content {
   margin-right: 0.65rem;
 }
 
-/* The provided logo asset is white; darken only the light-theme variant. */
-body.quarto-light .navbar-brand .navbar-logo.light-content {
+/* Keep logo close to navbar text color in each navbar theme. */
+.navbar[data-bs-theme="dark"] .navbar-brand .navbar-logo.light-content {
+  filter: none;
+  opacity: 0.82;
+}
+
+.navbar[data-bs-theme="light"] .navbar-brand .navbar-logo.light-content {
   filter: brightness(0) saturate(100%);
+  opacity: 0.82;
 }
 
 @media (max-width: 767.98px) {
