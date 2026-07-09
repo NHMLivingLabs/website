@@ -11,8 +11,9 @@
     - python ./scripts/render_articles_to_pdf.py --output-dir docs/assets/pdfs
     - python ./scripts/clean_pdfs.py --pattern "docs/assets/pdfs/*.pdf" --inplace --no-backup
 website:
-  title: "NHM Living Labs<br><span style='font-size: x-small;'>Urban Research Station and Tring</span>"
+  title: "Living<br>Labs"
   navbar:
+    logo: assets/images/nhm_logo_white.png
     left:
       - href: index.qmd
         text: Home

@@ -94,3 +94,24 @@ body.fullcontent #quarto-content.page-layout-article > main.content {
   margin-right: auto;
   justify-self: center;
 }
+
+/* Site navbar branding */
+.navbar-brand .navbar-logo {
+  max-height: 40px;
+  height: 40px;
+  width: auto;
+  margin-right: 0.65rem;
+}
+
+/* The provided logo asset is white; darken only the light-theme variant. */
+body.quarto-light .navbar-brand .navbar-logo.light-content {
+  filter: brightness(0) saturate(100%);
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand .navbar-logo {
+    max-height: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+  }
+}
