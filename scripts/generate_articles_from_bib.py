@@ -61,7 +61,11 @@ def generate_qmd(entries):
         by_year.setdefault(e.get("year", "n.d."), []).append(e)
 
     years = sorted(by_year.keys(), reverse=True)
-    recent_years = [y for y in years if y.isdigit() and int(y) >= 2025]
+    recent_years = [
+        y for y in years
+        if y.lower() in {"in press"}
+        or (y.isdigit() and int(y) >= 2025)
+    ]
     wildlife_garden_years = [y for y in years if y.isdigit() and int(y) < 2025]
 
     lines = [
