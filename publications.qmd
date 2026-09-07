@@ -5,11 +5,21 @@ toc-depth: 2
 number-sections: false
 ---
 
+## In Press
+
+The Urban Research Station at the Natural History Museum: A New Era of Biological and Environmental Recording
+<br>Baker E, Barclay MVL, Harbord M, Lees D, Patman S, Silver D, Stevens L, Town B, Tweddle J & Willabraham, J
+<br>*The London Naturalist*
+
 ## 2025
 
 [Catalysts for change: Museum gardens in a planetary emergency](https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.70100)
 <br>Baker E, Kenrick P, Knapp S, McCarter T, Tweddle J
 <br>*Plants, People, Planet*
+
+[A Gateway to Nature: The Urban Research Station at London’s Natural History Museum](https://ebaker.me.uk/pubs/2025-Linnean-Baker.pdf)
+<br>Baker, E
+<br>*The Linnean*
 
 # Wildlife Gardens Publications
 
@@ -103,3 +113,11 @@ The development of the flora, fauna and environment of the Wildlife Garden at th
 The flora and fauna of the newly created Wildlife Garden in the grounds of the Natural History Museum, London
 <br>Honey MR, Leigh C, Brooks SJ
 <br>*The London Naturalist*
+
+# NHM Site before Wildlife Garden
+
+## 1907
+
+On the variations of the evening primrose (Oenothera biennis, L.).
+<br>Boulenger, G. A.
+<br>Journal of Botany, British and Foreign, 45, 353–363.
