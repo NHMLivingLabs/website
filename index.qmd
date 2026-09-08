@@ -5,12 +5,18 @@ toc: false
 
 ::: {.living-labs-quote}
 We are transforming the Museums' estates into public-facing ecological observatories.
+
+![](assets/images/living-labs-pond.png)
 :::
 
 ::: {.living-labs-quote}
 We link collections-based science with real-time monitoring, community participation and nature recovery.
+
+![](assets/images/living-labs-edna-tubes.png)
 :::
 
 ::: {.living-labs-quote}
 We create spaces where NHM staff and collaborators develop new methods to transform how natural history is observed, analysed and understood.
+
+![](assets/images/living-labs-malaise-trap.png)
 :::
